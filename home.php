@@ -13,7 +13,11 @@
     <div class="wrapper">
     <!-- CONTENT -->
 
-    
+        <div id="owl-demo" class="owl-carousel owl-theme">
+            <div class="item"><img src="assets/fullimage1.jpg" alt="The Last of us"></div>
+            <div class="item"><img src="assets/fullimage2.jpg" alt="GTA V"></div>
+            <div class="item"><img src="assets/fullimage3.jpg" alt="Mirror Edge"></div>
+        </div>
     
     <!-- END CONTENT -->
     </div>
