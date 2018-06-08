@@ -13,7 +13,7 @@
     <body>
     <div class="wrapper">
     <!-- CONTENT -->
-        <div class="container-fluid">
+        <div class="container-fluid mb-5">
             <div class="row mt-4 brand-border-bottom brand-ml-mr">
               <div class="brand-font">ช็อปตามแบรนด์</div>
             </div>
