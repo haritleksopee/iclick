@@ -837,10 +837,23 @@ a:hover{
     color:#666;
  }
 
- .profile2-font6{
+.profile2-font6{
     font-size: 18px;
     color :#AEB6BF;
  }
+
+.profile2-font7{
+    font-size: 22px;
+    color:#E74C3C;
+    font-weight: bold;
+ }
+
+.profile2-font8{
+    font-size: 22px;
+    color:#ace600;
+    font-weight: bold;
+ }
+
 
 .profile2-dec{
     background-color: #fff;
@@ -860,7 +873,10 @@ a:hover{
     height: 35px;
  }
 
-  /*--------------------------
+ .profile2-border-bottom{
+    border-bottom: 2px solid #bcbcbb;
+}
+ /*--------------------------
  ------- END PROFILE 2 -------
  ----------------------------*/
 
@@ -1576,5 +1592,17 @@ a:hover{
     }
     /*---------------------------
      --- END PROFILE (1) 320 ----
+     ----------------------------*/
+
+    /*--------------------------
+     ------ PROFILE(2) 320 -----
+     ----------------------------*/
+    .profile2-font{
+        font-size: 18px;
+        color:#b308ea;
+        font-weight: bold;
+     }
+     /*--------------------------
+     ------ END PROFILE 2 -------
      ----------------------------*/
 }
