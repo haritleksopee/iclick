@@ -223,7 +223,7 @@ a:hover{
 }
 .footer-frame {
     overflow: hidden;
-    height: 34px;
+    height: 37px;
 }
 .footer-bottom {
   margin-bottom: 0px;
@@ -242,6 +242,18 @@ a:hover{
 }
 .text-black {
     color: #000;
+}
+.text-blue {
+    color: #190fc7;
+}
+.text-purple {
+    color: #695ff4;
+}
+.text-gray{
+    color: #eee;
+}
+.text-dark-purple {
+    color: #9717e4;    
 }
 .font-weight400 {
     font-weight: 400!important;
@@ -281,6 +293,105 @@ a:hover{
     border-color: #fff!important;
     outline: 0!important;
     box-shadow: none!important;
+}
+/*OVERLAY*/
+.overlay-img {
+  position: relative;
+  overflow:hidden;
+  height: 250px;
+  width: 100%;
+}
+
+.image-full {
+  position:absolute;
+  display: block;
+  width: 100%;
+  top:50%;
+  left:50%;
+  transform:translate(-50% ,-50%);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #76767794;
+  cursor: pointer;
+}
+
+.overlay-img:hover .overlay {
+  opacity: 1;
+}
+.overlay-icon-size {
+    font-size: 50px;
+}
+.text-overlay {
+  color: #000;
+  font-size: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text-overlay:hover {
+  color: #000;
+  font-size: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+/*END OVERLAY*/
+.mt-45px {
+    margin-top: 45px;
+}
+.bnt-purple {
+    width: 100%;
+    background-color: #9718e4;
+    height: 50px;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 0px;
+    border: 3px solid;
+    padding: 0px;
+}
+.bnt-purple:hover {
+    width: 100%;
+    background-color: #fff;
+    height: 50px;
+    font-size: 24px;
+    color: #9718e4;
+    border-radius: 0px;
+    border: 3px solid #9718e4;
+    padding: 0px;
+    transition: all 0.5s;
+}
+.bnt-adjunct {
+    width: 170px;
+    margin-top: 25px;
+}
+.bnt-adjunct:hover {
+    width: 170px!important;
+    margin-top: 25px;
+}
+.col-2-half {
+    max-width: 100%!important;
+    width: 20%!important;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 /*----------- END ALL CLASS ----------------*/
 
@@ -331,6 +442,165 @@ a:hover{
     left:50%;
     transform:translate(-50% ,-50%);
 }
+.flex-icon-banner {
+    position: relative;
+    overflow: hidden;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    top: 45px;
+    padding: 0px;
+}
+.icon-banner {
+    width: 150px;height: 150px;
+    position: absolute;
+    border-radius: 90px;
+    box-shadow: 10px 4px 14px -7px #8c888869;
+}
+.baner-lace {
+    top: 325px;
+    left: 140px;
+}
+.baner-photos {
+    top: 325px;
+    left: 360px;
+}
+.baner-crown {
+    top: 525px;
+    left: 140px;
+}
+.baner-shopnow {
+    position: absolute;
+    top: 580px;
+    left: 360px;
+}
+.font-shop-now {
+    color: #ac33f1;
+    font-size: 35px;
+}
+
+.flex-img-bands {
+    position:relative;
+    overflow:hidden;
+    height: 200px;
+}
+.home-img-bands {
+    position:absolute;
+    width: 100%;
+    top:50%;
+    left:50%;
+    transform:translate(-50% ,-50%);
+}
+.home-size-web {
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 50px;
+}
+.home-line {
+    position:relative;
+    overflow:hidden;
+    height: 100px;
+}
+.flex-line-home {
+    position:relative;
+    overflow:hidden;
+    height: 45px;
+    margin-top: 35px;
+}
+.home-product-card {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    padding: 0px 25px;
+}
+.home-content-product {
+    overflow: hidden;
+    height: 50px;
+}
+.text-star {
+    color: #d6d2d2;
+}
+.text-star:hover {
+    color: #ded805;
+}
+.home-star {
+    background-color: #fff;
+    margin-bottom: 20px;
+    margin-top: -33px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.home-card-footer {
+    padding: 10px 0px;
+    background-color: transparent;
+}
+.home-change-color {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border:1px solid #e9e9e9;
+}
+.change-color {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    margin: auto;
+    top: 4px;
+    left: 4px;
+}
+.home-background-category {
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+.home-background-article {
+    background-position-x: 50%;
+    background-position-y: 50%;
+    height: 870px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 60px;
+}
+.flex-img-category {
+    position:relative;
+    overflow:hidden;
+    height: 290px;
+}
+.home-top-45px {
+    top: 45px;
+}
+.flex-img-article {
+    position: relative;
+    overflow: hidden;
+    height: 290px;
+}
+
+.home-card-article {
+    padding: 0px;
+    border: 3px solid #9718e4;
+}
+.home-text-article {
+    color: #636363;
+    overflow: hidden;
+    height: 105px;
+    letter-spacing: 1px;
+}
+.home-card-footer-article {
+    border: none;
+    background: none;
+}
+.home-card-article-all {
+    width: 100%;
+    background-color: #ffffff8c;
+}
+.home-px-40px-article {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+/*---------------- END HOME ------------------*/
+
 
  /*--------------------------
  -------- BRANDS -------
