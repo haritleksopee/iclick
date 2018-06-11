@@ -493,6 +493,11 @@ a:hover{
     font-weight: bold;
 }
 
+.htp-w-h{
+    width: 65px;
+    height:40px;
+}
+
 .htp-font3{
     color:#bcbcbb; 
     font-size:21px;

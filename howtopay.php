@@ -33,7 +33,7 @@
 
                             <div class="row">
                                 <div class="col-xl-2"></div>
-                                <div class="col-xl-3 col-lg-5">
+                                <div class="col-xl-3 col-lg-4">
                                    <div class="htp-font2">ธนาคาร :</div>
                                 </div>
                                 <div class="col-xl-7 col-lg-7">
@@ -74,13 +74,37 @@
                 <div class="col-xl-1 col-lg-1 col-md-1"></div>
                 <div class="col-xl-5 col-lg-5 col-md-5 mt-4 htp-border-image p-3">             
                      <img width="100%" height="auto" src="https://www.iclickstore.com/wp-content/uploads/2017/03/PayPal-1.png" class="vc_single_image-img attachment-full" alt="" srcset="https://www.iclickstore.com/wp-content/uploads/2017/03/PayPal-1.png 300w, https://www.iclickstore.com/wp-content/uploads/2017/03/PayPal-1-114x30.png 114w, https://www.iclickstore.com/wp-content/uploads/2017/03/PayPal-1-228x60.png 228w">
-                     <div class="mt-3 text-center">
+                     <div class="mt-4 text-center">
                         <div class="htp-font2">ท่านสามารถชำระเงินผ่าน Paypal ได้</div>   
                         <div class="htp-font3">โดยเลือกในขั้นตอนการชำระเงิน</div>     
                      </div>
                      <div class="row">
-                        
-                     </div>
+                          <div class="col-xl-12 col-lg-12 text-center" style="display: inline;">                           
+                                  <a href="#">
+                                    <img  class = "mt-4 htp-w-h" src="/iclick/assets/images/kbank2.jpg" style="display: inline;">
+                                  </a>   
+                              
+                                  <a href="#">
+                                    <img class = "mt-4 htp-w-h" src="/iclick/assets/images/scb.jpg"  style="display: inline;">
+                                  </a>                             
+                              
+                                  <a href="#">
+                                    <img class = "mt-4 htp-w-h" src="/iclick/assets/images/bangkok.png"  style="display: inline;">
+                                  </a>                                               
+                            
+                                  <a href="#">
+                                    <img class = "mt-4 htp-w-h" src="/iclick/assets/images/ktb.jpg"  style="display: inline;">
+                                  </a>            
+                              
+                                  <a href="#">
+                                    <img class = "mt-4 htp-w-h" src="/iclick/assets/images/tmb.png"  style="display: inline;">
+                                  </a>      
+                              
+                                  <a href="#">
+                                    <img class = "mt-4 htp-w-h" src="/iclick/assets/images/ks.png"  style="display: inline;">
+                                  </a>     
+                           </div>           
+                    </div>
                 </div>
             </div>
         </div>
