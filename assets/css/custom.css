@@ -73,18 +73,7 @@ a:hover{
     background: #b308ea;
     background: linear-gradient(#ac33f1, #695ff4);
 }
-.active {
-    display: block;
-    width: 190px;
-    text-align: center;
-    height: 50px;
-    color: #e2dfdf!important;
-    text-shadow: 13px 7px 17px #0000008c;
-    font-size: 27px!important;
-    font-weight: 500;
-    transition: all 0.8s;
-    padding-top: 2px;
-}
+
 .nav-link {
     display: block;
     width: 190px;
@@ -387,7 +376,53 @@ a:hover{
 
 /*----------- END ALL CLASS ----------------*/
 
+/*------------------------ HOME -------------*/
+.carousel-indicators {
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+    left: unset;
+    z-index: 15;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: inherit;
+    -ms-flex-pack: center;
+    justify-content: inherit;
+    padding-left: 0;
+    margin-right: inherit;
+    margin-left: inherit;
+    list-style: none;
+}
+.carousel-indicators li {
+    position: relative;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-indent: -999px;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: #c4c5c5;
+}
+.carousel-indicators .active {
+    background-color: #ac33f1;
+}
 
+.flex-carousel-img {
+    position:relative;
+    overflow:hidden;
+    height: 700px;
+}
+.img-carousel-auto {
+    position:absolute;
+    width: 100%;
+    top:50%;
+    left:50%;
+    transform:translate(-50% ,-50%);
+}
 
  /*--------------------------
  -------- BRANDS -------
@@ -395,6 +430,12 @@ a:hover{
 .brand-font{
     color:#7b63f5; 
     font-size:30px;
+    font-family: 'kanitmedium';
+}
+
+.brand-image-size{
+    width:100%;
+    height:400px;
 }
 
 .brand-mt{
@@ -405,21 +446,17 @@ a:hover{
     border-bottom: 4px solid #bcbcbb;
 }
 
-.brand-border-image{
+.brand-border-box{
     border: 4px solid #b13df3;
 }
 
-.brand-ml-mr{
-    margin-left: 135px;
-    margin-right: 135px;
-}
 
 .brand-button{
     background-color:#b13df3;
-    border: none;
+    border: #b13df3;
     color: white;
-    width: 250px;
-    height: 50px;
+    width:100%;
+    height:50px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -430,8 +467,8 @@ a:hover{
     background-color:#c56ff7;
     border: none;
     color: white;
-    width: 250px;
-    height: 50px;
+    width:100%;
+    height:50px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -440,6 +477,35 @@ a:hover{
 
  /*--------------------------
  -------- END BRANDS -------
+ ----------------------------*/
+
+/*--------------------------
+ -------- HOW TO PAY ---------
+ ----------------------------*/
+.htp-font{
+    color:#7b63f5; 
+    font-size:30px;
+}
+
+.htp-mt{
+    margin-top: 40px;
+}
+
+.htp-border-bottom{
+    border-bottom: 4px solid #bcbcbb;
+}
+
+.htp-border-image{
+    border: 4px solid #b13df3;
+}
+
+.htp-ml-mr{
+    margin-left: 135px;
+    margin-right: 135px;
+}
+
+ /*--------------------------
+ -------- HOW TO PAY --------
  ----------------------------*/
 
 
@@ -481,18 +547,7 @@ a:hover{
         transition: all 0.8s;
         padding-top: 4px;
     }
-    .active {
-        display: block;
-        width: 140px;
-        text-align: center;
-        height: 50px;
-        color: #e2dfdf!important;
-        text-shadow: 13px 7px 17px #0000008c;
-        font-size: 22px!important;
-        font-weight: 500;
-        transition: all 0.8s;
-        padding-top: 4px;
-    }
+
 
     /*---------------------------
     ------- END NAVBAR 1366 -----
@@ -524,9 +579,9 @@ a:hover{
         margin-top: 20px;
     }
 
-    .brand-ml-mr{
-        margin-left: 41px;
-        margin-right: 41px;
+    .brand-image-size{
+        width:100%;
+        height:250px;
     }
      /*--------------------------
      ------ END BRANDS 1366 -----
@@ -639,9 +694,9 @@ a:hover{
         margin-top: 20px;
     }
 
-    .brand-ml-mr{
-        margin-left: 39px;
-        margin-right: 39px;
+    .brand-image-size{
+        width:100%;
+        height:250px;
     }
      /*--------------------------
      ------ END BRANDS 1024 -----
@@ -707,9 +762,9 @@ a:hover{
         margin-top: 0px;
     }
 
-    .brand-ml-mr{
-        margin-left: 60px;
-        margin-right: 60px;
+    .brand-image-size{
+        width:100%;
+        height:250px;
     }
      /*--------------------------
      ------ END BRANDS 768 -----
@@ -820,9 +875,9 @@ a:hover{
         margin-top: 10px;
     }
 
-    .brand-ml-mr{
-        margin-left: 66px;
-        margin-right: 66px;
+    .brand-image-size{
+        width:100%;
+        height:250px;
     }
      /*--------------------------
      ------ END BRANDS 414 -----
@@ -907,9 +962,9 @@ a:hover{
         margin-top: 5px;
     }
 
-    .brand-ml-mr{
-        margin-left: 47px;
-        margin-right: 47px;
+    .brand-image-size{
+        width:100%;
+        height:200px;
     }
      /*--------------------------
      ------ END BRANDS 375 -----
