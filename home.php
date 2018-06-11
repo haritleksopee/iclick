@@ -13,8 +13,62 @@
     <div class="wrapper">
     <!-- CONTENT -->
 
-    
-    
+      <div class="mb-5">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="flex-carousel-img">
+                <img class="d-block img-carousel-auto" src="assets/images/slide/shanghai.jpg" alt="First slide">
+              </div> 
+            </div>
+            <div class="carousel-item">
+              <div class="flex-carousel-img">
+                <img class="d-block img-carousel-auto" src="assets/images/slide/company-slider-01.jpg" alt="First slide">
+              </div> 
+            </div>
+            <div class="carousel-item">
+              <div class="flex-carousel-img">
+                <img class="d-block img-carousel-auto" src="assets/images/slide/tumblr_n9hyqfJavs1st5lhmo1_1280-900x502.jpg" alt="First slide">
+              </div> 
+            </div>
+          </div>
+        </div> 
+
+<!--                 <div class="card icon-banner baner-lace">
+                  <div class="card-body" style="padding: 0px;">
+                    <div class="flex-icon-banner">
+                      <img src="assets/images/slide/lace.png" class="img-carousel-auto mx-auto">
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="card icon-banner baner-photos"">
+                  <div class="card-body" style="padding: 0px;">
+                    <div class="flex-icon-banner">
+                      <img src="assets/images/slide/photos.png" class="img-carousel-auto mx-auto">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card icon-banner baner-crown">
+                  <div class="card-body" style="padding: 0px;">
+                    <div class="flex-icon-banner">
+                      <img src="assets/images/slide/crown.png" class="img-carousel-auto mx-auto">
+                    </div>
+                  </div>
+                </div>
+
+                  <div class="baner-shopnow">
+                    <a href="#" class="font-shop-now">SHOP NOW <i class="fa fa-caret-right" aria-hidden="true" style="color: darkgrey;"></i></a>
+                  </div> -->
+
+      </div>   
     <!-- END CONTENT -->
     </div>
 
