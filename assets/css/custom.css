@@ -519,24 +519,84 @@ a:hover{
  ----------------------------*/
 
  /*--------------------------
- ---------- PROFILE ---------
+ --------- PROFILE 1 --------
  ----------------------------*/
 .profile-font{
-    font-size: 18px;
+    font-size: 19px;
     color:#866df6;
+    text-align: right;
  }
 
  .profile-font2{
-    font-size: 18px;
-    color: #bcbcbb;
+    font-size: 19px;
+    color: gray;
  }
 
+ .profile-add{
+    background-color: #b308ea;
+    color: #fff;
+    font-size: 25px;
+    padding: 2px;
+    border:none;
+    width: 40px;
+    height: 40px;
+ }
+
+  .profile-add:hover{
+    background-color: #866df6;
+    color: #fff;
+    font-size: 25px;
+    padding: 2px;
+    border:none;
+    width: 40px;
+    height: 40px;
+ }
+
+  .profile-btn1{
+    background-color:#fff;
+    color: #866df6;
+    font-size: 20px;
+    padding: 2px;
+    border: 2px solid #b308ea;
+    width: 200px;
+    height: 50px;
+ }
+
+   .profile-btn1:hover{
+    background-color:#fff;
+    color: #866df6;
+    font-size: 20px;
+    padding: 2px;
+    border: 2px solid #866df6;
+    width: 200px;
+    height: 50px;
+ }
+
+  .profile-btn2{
+    background-color: #b308ea;
+    color: #fff;
+    font-size: 20px;
+    padding: 2px;
+    border:none;
+    width: 200px;
+    height: 50px;
+ }
+
+   .profile-btn2:hover{
+    background-color:#866df6;
+    color: #fff;
+    font-size: 20px;
+    padding: 2px;
+    border:none;
+    width: 200px;
+    height: 50px;
+ }
 
  .profile-form{
     border: 2px solid #b308ea;
     color: #333;
     width: 100%;
-    height: 40px;
+    height: 50px;
     border-radius: 5px;
     padding: 7px;
  }
@@ -565,16 +625,73 @@ a:hover{
 }
 
 .profile-border-bottom{
-    border-bottom: 4px solid #bcbcbb;
+    border-bottom: 2px solid #bcbcbb;
 }
 
 .profile-border-bottom2{
     border-bottom: 2px solid #bcbcbb;
 }
 /*--------------------------
- ------- END PROFILE -------
+ ------ END PROFILE 1 ------
  ----------------------------*/
 
+ /*--------------------------
+ --------- PROFILE 2 --------
+ ----------------------------*/
+.profile2-font{
+    font-size: 22px;
+    color:#b308ea;
+    font-weight: bold;
+ }
+
+.profile2-font2{
+    font-size: 18px;
+    color:#866df6;
+ }
+
+.profile2-font3{
+    font-size: 22px;
+    color:#58D68D;
+    font-weight: bold;
+ }
+
+.profile2-font4{
+    font-size: 22px;
+    color:#666;
+    font-weight: bold;
+ }
+
+.profile2-font5{
+    font-size: 18px;
+    color:#666;
+ }
+
+ .profile2-font6{
+    font-size: 18px;
+    color :#AEB6BF;
+ }
+
+.profile2-dec{
+    background-color: #fff;
+    color:gray;
+    font-size: 25px;
+    border:none;
+    width: 35px;
+    height: 35px;
+ }
+
+.profile2-dec:hover{
+    background-color: #866df6;
+    color: #fff;
+    font-size: 25px;
+    border:none;
+    width: 35px;
+    height: 35px;
+ }
+
+  /*--------------------------
+ ------- END PROFILE 2 -------
+ ----------------------------*/
 
 
 @media(max-width: 1366px){
@@ -653,6 +770,23 @@ a:hover{
     }
      /*--------------------------
      ------ END BRANDS 1366 -----
+     ----------------------------*/
+
+     /*--------------------------
+     ------ PROFILE(1) 1366 -----
+     ----------------------------*/
+    .profile-font{
+        font-size: 17px;
+        color:#866df6;
+        text-align: right;
+     }
+
+     .profile-font2{
+        font-size: 17px;
+        color: gray;
+     }
+    /*---------------------------
+     --- END PROFILE (1) 1366 ---
      ----------------------------*/
 
 }
@@ -769,6 +903,24 @@ a:hover{
      /*--------------------------
      ------ END BRANDS 1024 -----
      ----------------------------*/
+
+    /*--------------------------
+     ------ PROFILE(1) 1024 -----
+     ----------------------------*/
+    .profile-font{
+        font-size: 19px;
+        color:#866df6;
+        text-align: right;
+     }
+
+     .profile-font2{
+        font-size: 19px;
+        color: gray;
+     }
+    /*---------------------------
+     --- END PROFILE (1) 1024 ---
+     ----------------------------*/
+
 }
 
 @media(max-width: 768px){
@@ -872,6 +1024,23 @@ a:hover{
     }
      /*--------------------------
      ---- END HOW TO PAY 768 ----
+     ----------------------------*/
+
+     /*--------------------------
+     ------ PROFILE(1) 768 ------
+     ----------------------------*/
+    .profile-font{
+        font-size: 19px;
+        color:#866df6;
+        text-align: right;
+     }
+
+     .profile-font2{
+        font-size: 19px;
+        color: gray;
+     }
+    /*---------------------------
+     --- END PROFILE (1) 768 ----
      ----------------------------*/
 
 }
@@ -1013,8 +1182,50 @@ a:hover{
         margin-bottom: -30px;
     }
     /*---------------------------
-     ------------LOGIN 414 END--------
+     ------ LOGIN 414 END -------
      -----------------------------*/
+
+
+     /*--------------------------
+     ------ PROFILE(1) 414 ------
+     ----------------------------*/
+    .profile-font{
+        font-size: 18px;
+        color:#866df6;
+        text-align: center;
+     }
+
+    .profile-font2{
+        font-size: 18px;
+        color: gray;
+        text-align: center;
+     }
+
+    .nav-pills .nav-item .active{
+        background-color: white;
+        font-size: 18px;
+    }
+
+    .profile-nav-link {
+        text-align: center;
+        font-size: 17px;
+        color:#866df6 !important;
+        border-bottom: 3px solid #bcbcbb;
+        background-color: #bcbcbb;
+        padding: 10px;
+        transition: all 1s;
+    }
+
+    .profile-nav-link:hover {
+        text-align: center;
+        color: #866df6!important;
+        font-size: 17px;
+        transition: all 0.8s;
+        padding: 10px;
+    }
+    /*---------------------------
+     --- END PROFILE (1) 414 ----
+     ----------------------------*/
 
     }
 
@@ -1074,6 +1285,46 @@ a:hover{
      ------ END BRANDS 375 -----
      ----------------------------*/
 
+     /*--------------------------
+     ------ PROFILE(1) 375 ------
+     ----------------------------*/
+    .profile-font{
+        font-size: 17px;
+        color:#866df6;
+        text-align: center;
+     }
+
+    .profile-font2{
+        font-size: 17px;
+        color: gray;
+        text-align: center;
+     }
+    .nav-pills .nav-item .active{
+        background-color: white;
+        font-size: 15px;
+    }
+
+    .profile-nav-link {
+        text-align: center;
+        font-size: 15px;
+        color:#866df6 !important;
+        border-bottom: 3px solid #bcbcbb;
+        background-color: #bcbcbb;
+        padding: 10px;
+        transition: all 1s;
+    }
+
+    .profile-nav-link:hover {
+        text-align: center;
+        color: #866df6!important;
+        font-size: 15px;
+        transition: all 0.8s;
+        padding: 10px;
+    }
+    /*---------------------------
+     --- END PROFILE (1) 375 ----
+     ----------------------------*/
+
 }
 
 @media (max-width: 320px ){
@@ -1102,7 +1353,7 @@ a:hover{
       ----------------------------*/
 
       /*--------------------------
-     -------- BRANDS 375 -------
+     -------- BRANDS 320 -------
      ----------------------------*/
     .brand-mt{
         margin-top: 5px;
@@ -1113,6 +1364,46 @@ a:hover{
         margin-right: 20px;
     }
      /*--------------------------
-     ------ END BRANDS 375 -----
+     ------ END BRANDS 320 -----
+     ----------------------------*/
+
+     /*--------------------------
+     ------ PROFILE(1) 320 ------
+     ----------------------------*/
+    .profile-font{
+        font-size: 16px;
+        color:#866df6;
+        text-align: center;
+     }
+
+    .profile-font2{
+        font-size: 16px;
+        color: gray;
+        text-align: center;
+     }
+    .nav-pills .nav-item .active{
+        background-color: white;
+        font-size: 11px;
+    }
+
+    .profile-nav-link {
+        text-align: center;
+        font-size: 11px;
+        color:#866df6 !important;
+        border-bottom: 3px solid #bcbcbb;
+        background-color: #bcbcbb;
+        padding: 10px;
+        transition: all 1s;
+    }
+
+    .profile-nav-link:hover {
+        text-align: center;
+        color: #866df6!important;
+        font-size: 11px;
+        transition: all 0.8s;
+        padding: 10px;
+    }
+    /*---------------------------
+     --- END PROFILE (1) 320 ----
      ----------------------------*/
 }
