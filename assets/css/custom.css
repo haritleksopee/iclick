@@ -73,18 +73,7 @@ a:hover{
     background: #b308ea;
     background: linear-gradient(#ac33f1, #695ff4);
 }
-.active {
-    display: block;
-    width: 190px;
-    text-align: center;
-    height: 50px;
-    color: #e2dfdf!important;
-    text-shadow: 13px 7px 17px #0000008c;
-    font-size: 27px!important;
-    font-weight: 500;
-    transition: all 0.8s;
-    padding-top: 2px;
-}
+
 .nav-link {
     display: block;
     width: 190px;
@@ -296,11 +285,90 @@ a:hover{
 /*----------- END ALL CLASS ----------------*/
 
 /*------------------------ HOME -------------*/
-  #owl-demo .item img{
-      display: block;
-      width: 100%;
-      height: auto;
-  }
+.carousel-indicators {
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+    left: unset;
+    z-index: 15;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: inherit;
+    -ms-flex-pack: center;
+    justify-content: inherit;
+    padding-left: 0;
+    margin-right: inherit;
+    margin-left: inherit;
+    list-style: none;
+}
+.carousel-indicators li {
+    position: relative;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-indent: -999px;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: #c4c5c5;
+}
+.carousel-indicators .active {
+    background-color: #ac33f1;
+}
+
+.flex-carousel-img {
+    position:relative;
+    overflow:hidden;
+    height: 700px;
+}
+.img-carousel-auto {
+    position:absolute;
+    width: 100%;
+    top:50%;
+    left:50%;
+    transform:translate(-50% ,-50%);
+}
+
+
+.flex-icon-banner {
+    position: relative;
+    overflow: hidden;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    top: 45px;
+    padding: 0px;
+}
+.icon-banner {
+    width: 150px;height: 150px;
+    position: absolute;
+    border-radius: 90px;
+    box-shadow: 10px 4px 14px -7px #8c888869;
+}
+.baner-lace {
+    top: 325px;
+    left: 140px;
+}
+.baner-photos {
+    top: 325px;
+    left: 360px;
+}
+.baner-crown {
+    top: 525px;
+    left: 140px;
+}
+.baner-shopnow {
+    position: absolute;
+    top: 580px;
+    left: 360px;
+}
+.font-shop-now {
+    color: #ac33f1;
+    font-size: 35px;
+}
 /*---------------- END HOME ------------------*/
 
 @media(max-width: 1366px){
@@ -341,18 +409,7 @@ a:hover{
         transition: all 0.8s;
         padding-top: 4px;
     }
-    .active {
-        display: block;
-        width: 140px;
-        text-align: center;
-        height: 50px;
-        color: #e2dfdf!important;
-        text-shadow: 13px 7px 17px #0000008c;
-        font-size: 22px!important;
-        font-weight: 500;
-        transition: all 0.8s;
-        padding-top: 4px;
-    }
+
 
     /*---------------------------
     ------- END NAVBAR 1366 -----
