@@ -223,7 +223,7 @@ a:hover{
 }
 .footer-frame {
     overflow: hidden;
-    height: 34px;
+    height: 37px;
 }
 .footer-bottom {
   margin-bottom: 0px;
@@ -242,6 +242,18 @@ a:hover{
 }
 .text-black {
     color: #000;
+}
+.text-blue {
+    color: #190fc7;
+}
+.text-purple {
+    color: #695ff4;
+}
+.text-gray{
+    color: #eee;
+}
+.text-dark-purple {
+    color: #9717e4;    
 }
 .font-weight400 {
     font-weight: 400!important;
@@ -594,6 +606,165 @@ a:hover{
     left:50%;
     transform:translate(-50% ,-50%);
 }
+.flex-icon-banner {
+    position: relative;
+    overflow: hidden;
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    top: 45px;
+    padding: 0px;
+}
+.icon-banner {
+    width: 150px;height: 150px;
+    position: absolute;
+    border-radius: 90px;
+    box-shadow: 10px 4px 14px -7px #8c888869;
+}
+.baner-lace {
+    top: 325px;
+    left: 140px;
+}
+.baner-photos {
+    top: 325px;
+    left: 360px;
+}
+.baner-crown {
+    top: 525px;
+    left: 140px;
+}
+.baner-shopnow {
+    position: absolute;
+    top: 580px;
+    left: 360px;
+}
+.font-shop-now {
+    color: #ac33f1;
+    font-size: 35px;
+}
+
+.flex-img-bands {
+    position:relative;
+    overflow:hidden;
+    height: 200px;
+}
+.home-img-bands {
+    position:absolute;
+    width: 100%;
+    top:50%;
+    left:50%;
+    transform:translate(-50% ,-50%);
+}
+.home-size-web {
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 50px;
+}
+.home-line {
+    position:relative;
+    overflow:hidden;
+    height: 100px;
+}
+.flex-line-home {
+    position:relative;
+    overflow:hidden;
+    height: 45px;
+    margin-top: 35px;
+}
+.home-product-card {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    padding: 0px 25px;
+}
+.home-content-product {
+    overflow: hidden;
+    height: 50px;
+}
+.text-star {
+    color: #d6d2d2;
+}
+.text-star:hover {
+    color: #ded805;
+}
+.home-star {
+    background-color: #fff;
+    margin-bottom: 20px;
+    margin-top: -33px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.home-card-footer {
+    padding: 10px 0px;
+    background-color: transparent;
+}
+.home-change-color {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border:1px solid #e9e9e9;
+}
+.change-color {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    margin: auto;
+    top: 4px;
+    left: 4px;
+}
+.home-background-category {
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+.home-background-article {
+    background-position-x: 50%;
+    background-position-y: 50%;
+    height: 870px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 60px;
+}
+.flex-img-category {
+    position:relative;
+    overflow:hidden;
+    height: 290px;
+}
+.home-top-45px {
+    top: 45px;
+}
+.flex-img-article {
+    position: relative;
+    overflow: hidden;
+    height: 290px;
+}
+
+.home-card-article {
+    padding: 0px;
+    border: 3px solid #9718e4;
+}
+.home-text-article {
+    color: #636363;
+    overflow: hidden;
+    height: 105px;
+    letter-spacing: 1px;
+}
+.home-card-footer-article {
+    border: none;
+    background: none;
+}
+.home-card-article-all {
+    width: 100%;
+    background-color: #ffffff8c;
+}
+.home-px-40px-article {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+/*---------------- END HOME ------------------*/
+
 
  /*--------------------------
  -------- BRANDS -------
@@ -653,9 +824,25 @@ a:hover{
 /*--------------------------
  -------- HOW TO PAY ---------
  ----------------------------*/
-.htp-font{
+.htp-font1{
     color:#7b63f5; 
     font-size:30px;
+}
+
+.htp-font2{
+    color:#888; 
+    font-size:21px;
+    font-weight: bold;
+}
+
+.htp-w-h{
+    width: 65px;
+    height:40px;
+}
+
+.htp-font3{
+    color:#bcbcbb; 
+    font-size:21px;
 }
 
 .htp-mt{
@@ -669,14 +856,199 @@ a:hover{
 .htp-border-image{
     border: 4px solid #b13df3;
 }
-
-.htp-ml-mr{
-    margin-left: 135px;
-    margin-right: 135px;
-}
+ /*--------------------------
+ ------ END HOW TO PAY ------
+ ----------------------------*/
 
  /*--------------------------
- -------- HOW TO PAY --------
+ --------- PROFILE 1 --------
+ ----------------------------*/
+.profile-font{
+    font-size: 19px;
+    color:#866df6;
+    text-align: right;
+ }
+
+ .profile-font2{
+    font-size: 19px;
+    color: gray;
+ }
+
+ .profile-add{
+    background-color: #b308ea;
+    color: #fff;
+    font-size: 25px;
+    padding: 2px;
+    border:none;
+    width: 40px;
+    height: 40px;
+ }
+
+  .profile-add:hover{
+    background-color: #866df6;
+    color: #fff;
+    font-size: 25px;
+    padding: 2px;
+    border:none;
+    width: 40px;
+    height: 40px;
+ }
+
+  .profile-btn1{
+    background-color:#fff;
+    color: #866df6;
+    font-size: 20px;
+    padding: 2px;
+    border: 2px solid #b308ea;
+    width: 200px;
+    height: 50px;
+ }
+
+   .profile-btn1:hover{
+    background-color:#fff;
+    color: #866df6;
+    font-size: 20px;
+    padding: 2px;
+    border: 2px solid #866df6;
+    width: 200px;
+    height: 50px;
+ }
+
+  .profile-btn2{
+    background-color: #b308ea;
+    color: #fff;
+    font-size: 20px;
+    padding: 2px;
+    border:none;
+    width: 200px;
+    height: 50px;
+ }
+
+   .profile-btn2:hover{
+    background-color:#866df6;
+    color: #fff;
+    font-size: 20px;
+    padding: 2px;
+    border:none;
+    width: 200px;
+    height: 50px;
+ }
+
+ .profile-form{
+    border: 2px solid #b308ea;
+    color: #333;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    padding: 7px;
+ }
+
+.nav-pills .nav-item .active{
+    background-color: white;
+    font-size: 25px;
+}
+
+.profile-nav-link {
+    text-align: center;
+    font-size: 23px;
+    color:#866df6 !important;
+    border-bottom: 3px solid #bcbcbb;
+    background-color: #bcbcbb;
+    padding: 10px;
+    transition: all 1s;
+}
+
+.profile-nav-link:hover {
+    text-align: center;
+    color: #866df6!important;
+    font-size: 23px;
+    transition: all 0.8s;
+    padding: 10px;
+}
+
+.profile-border-bottom{
+    border-bottom: 2px solid #bcbcbb;
+}
+
+.profile-border-bottom2{
+    border-bottom: 2px solid #bcbcbb;
+}
+/*--------------------------
+ ------ END PROFILE 1 ------
+ ----------------------------*/
+
+ /*--------------------------
+ --------- PROFILE 2 --------
+ ----------------------------*/
+.profile2-font{
+    font-size: 22px;
+    color:#b308ea;
+    font-weight: bold;
+ }
+
+.profile2-font2{
+    font-size: 18px;
+    color:#866df6;
+ }
+
+.profile2-font3{
+    font-size: 22px;
+    color:#58D68D;
+    font-weight: bold;
+ }
+
+.profile2-font4{
+    font-size: 22px;
+    color:#666;
+    font-weight: bold;
+ }
+
+.profile2-font5{
+    font-size: 18px;
+    color:#666;
+ }
+
+.profile2-font6{
+    font-size: 18px;
+    color :#AEB6BF;
+ }
+
+.profile2-font7{
+    font-size: 22px;
+    color:#E74C3C;
+    font-weight: bold;
+ }
+
+.profile2-font8{
+    font-size: 22px;
+    color:#ace600;
+    font-weight: bold;
+ }
+
+
+.profile2-dec{
+    background-color: #fff;
+    color:gray;
+    font-size: 25px;
+    border:none;
+    width: 35px;
+    height: 35px;
+ }
+
+.profile2-dec:hover{
+    background-color: #866df6;
+    color: #fff;
+    font-size: 25px;
+    border:none;
+    width: 35px;
+    height: 35px;
+ }
+
+ .profile2-border-bottom{
+    border-bottom: 2px solid #bcbcbb;
+}
+ /*--------------------------
+ ------- END PROFILE 2 -------
  ----------------------------*/
 
 
@@ -756,6 +1128,23 @@ a:hover{
     }
      /*--------------------------
      ------ END BRANDS 1366 -----
+     ----------------------------*/
+
+     /*--------------------------
+     ------ PROFILE(1) 1366 -----
+     ----------------------------*/
+    .profile-font{
+        font-size: 17px;
+        color:#866df6;
+        text-align: right;
+     }
+
+     .profile-font2{
+        font-size: 17px;
+        color: gray;
+     }
+    /*---------------------------
+     --- END PROFILE (1) 1366 ---
      ----------------------------*/
 
 }
@@ -873,31 +1262,23 @@ a:hover{
      ------ END BRANDS 1024 -----
      ----------------------------*/
 
-        
-    /*--------------------------------
-     -------------Pay Confirm 1024----------
-    ----------------------------------*/
-    .pay_l {
-    margin-left: 46px;
-    }
-     .pay_ll {
-    margin-left: 361px;
-    }
-    .pay-from {
-    display: block;
-    width: 109%;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    color: #495057;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #a935f1;
-    border-radius: -0.75rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    border-radius: 0px;
-    border-width: 2px;
-    height: 45px;
+    /*--------------------------
+     ------ PROFILE(1) 1024 -----
+     ----------------------------*/
+    .profile-font{
+        font-size: 19px;
+        color:#866df6;
+        text-align: right;
+     }
+
+     .profile-font2{
+        font-size: 19px;
+        color: gray;
+     }
+    /*---------------------------
+     --- END PROFILE (1) 1024 ---
+     ----------------------------*/
+
 }
     /*--------------------------------
      -------------Pay Confirm END----------
@@ -985,6 +1366,7 @@ a:hover{
      ------ END BRANDS 768 -----
      ----------------------------*/
 
+<<<<<<< .mine
 
       /*--------------------------------
      -------------Pay Confirm 768----------
@@ -1053,6 +1435,76 @@ a:hover{
 
 
 
+=======
+     /*--------------------------
+     ------ HOW TO PAY 768 ------
+     ----------------------------*/
+    .htp-font1{
+        color:#7b63f5; 
+        font-size:30px;
+    }
+
+    .htp-font2{
+        color:#888; 
+        font-size:21px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .htp-font3{
+        color:#bcbcbb; 
+        font-size:21px;
+        text-align: center;
+    }
+
+    .htp-mt{
+        margin-top: 40px;
+    }
+
+    .htp-border-bottom{
+        border-bottom: 4px solid #bcbcbb;
+    }
+
+    .htp-border-image{
+        border: 4px solid #b13df3;
+    }
+     /*--------------------------
+     ---- END HOW TO PAY 768 ----
+     ----------------------------*/
+
+     /*--------------------------
+     ------ PROFILE(1) 768 ------
+     ----------------------------*/
+    .profile-font{
+        font-size: 19px;
+        color:#866df6;
+        text-align: right;
+     }
+
+     .profile-font2{
+        font-size: 19px;
+        color: gray;
+     }
+    /*---------------------------
+     --- END PROFILE (1) 768 ----
+     ----------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> .theirs
 }
 
 @media(max-width: 414px){
@@ -1192,9 +1644,10 @@ a:hover{
         margin-bottom: -30px;
     }
     /*---------------------------
-     ------------LOGIN 414 END--------
+     ------ LOGIN 414 END -------
      -----------------------------*/
 
+<<<<<<< .mine
 
     /*--------------------------------
      -------------Pay Confirm 414----------
@@ -1214,6 +1667,27 @@ a:hover{
     border-radius: 0px;
     border-width: 2px;
     height: 45px;
+=======
+
+     /*--------------------------
+     ------ PROFILE(1) 414 ------
+     ----------------------------*/
+    .profile-font{
+        font-size: 18px;
+        color:#866df6;
+        text-align: center;
+     }
+
+    .profile-font2{
+        font-size: 18px;
+        color: gray;
+        text-align: center;
+     }
+
+    .nav-pills .nav-item .active{
+        background-color: white;
+        font-size: 18px;
+>>>>>>> .theirs
     }
     .pay_l {
      margin-left: 0px; 
@@ -1226,6 +1700,7 @@ a:hover{
     margin-left: 14px;
    }
 
+<<<<<<< .mine
    .pay_bb_2 {
     width: 96%;
     margin-left: 14px;
@@ -1257,6 +1732,39 @@ a:hover{
 
     }
 
+=======
+    .profile-nav-link {
+        text-align: center;
+        font-size: 17px;
+        color:#866df6 !important;
+        border-bottom: 3px solid #bcbcbb;
+        background-color: #bcbcbb;
+        padding: 10px;
+        transition: all 1s;
+    }
+
+    .profile-nav-link:hover {
+        text-align: center;
+        color: #866df6!important;
+        font-size: 17px;
+        transition: all 0.8s;
+        padding: 10px;
+    }
+    /*---------------------------
+     --- END PROFILE (1) 414 ----
+     ----------------------------*/
+
+    }
+
+
+
+
+
+
+
+
+
+>>>>>>> .theirs
 @media(max-width: 375px){
     /*--------------------------
     ------- NAVBAR 375 ---------
@@ -1313,6 +1821,7 @@ a:hover{
      ------ END BRANDS 375 -----
      ----------------------------*/
 
+<<<<<<< .mine
     /*--------------------------------
      -------------Pay Confirm 375----------
     ----------------------------------*/
@@ -1331,6 +1840,70 @@ a:hover{
      -------------Pay Confirm END 375----------
     ----------------------------------*/
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=======
+     /*--------------------------
+     ------ PROFILE(1) 375 ------
+     ----------------------------*/
+    .profile-font{
+        font-size: 17px;
+        color:#866df6;
+        text-align: center;
+     }
+
+    .profile-font2{
+        font-size: 17px;
+        color: gray;
+        text-align: center;
+     }
+    .nav-pills .nav-item .active{
+        background-color: white;
+        font-size: 15px;
+    }
+
+    .profile-nav-link {
+        text-align: center;
+        font-size: 15px;
+        color:#866df6 !important;
+        border-bottom: 3px solid #bcbcbb;
+        background-color: #bcbcbb;
+        padding: 10px;
+        transition: all 1s;
+    }
+
+    .profile-nav-link:hover {
+        text-align: center;
+        color: #866df6!important;
+        font-size: 15px;
+        transition: all 0.8s;
+        padding: 10px;
+    }
+    /*---------------------------
+     --- END PROFILE (1) 375 ----
+     ----------------------------*/
+
+>>>>>>> .theirs
 }
 
 @media (max-width: 320px ){
@@ -1372,6 +1945,7 @@ a:hover{
      /*--------------------------
      ------ END BRANDS 320 -----
      ----------------------------*/
+<<<<<<< .mine
      /*-------------------------
      -----------Pay Confirm  320 ------
      ----------------------------*/
@@ -1398,4 +1972,84 @@ a:hover{
      ----------------------------*/
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=======
+
+     /*--------------------------
+     ------ PROFILE(1) 320 ------
+     ----------------------------*/
+    .profile-font{
+        font-size: 16px;
+        color:#866df6;
+        text-align: center;
+     }
+
+    .profile-font2{
+        font-size: 16px;
+        color: gray;
+        text-align: center;
+     }
+    .nav-pills .nav-item .active{
+        background-color: white;
+        font-size: 11px;
+    }
+
+    .profile-nav-link {
+        text-align: center;
+        font-size: 11px;
+        color:#866df6 !important;
+        border-bottom: 3px solid #bcbcbb;
+        background-color: #bcbcbb;
+        padding: 10px;
+        transition: all 1s;
+    }
+
+    .profile-nav-link:hover {
+        text-align: center;
+        color: #866df6!important;
+        font-size: 11px;
+        transition: all 0.8s;
+        padding: 10px;
+    }
+    /*---------------------------
+     --- END PROFILE (1) 320 ----
+     ----------------------------*/
+
+    /*--------------------------
+     ------ PROFILE(2) 320 -----
+     ----------------------------*/
+    .profile2-font{
+        font-size: 18px;
+        color:#b308ea;
+        font-weight: bold;
+     }
+     /*--------------------------
+     ------ END PROFILE 2 -------
+     ----------------------------*/
+>>>>>>> .theirs
 }
