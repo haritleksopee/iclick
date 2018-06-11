@@ -294,105 +294,98 @@ a:hover{
     outline: 0!important;
     box-shadow: none!important;
 }
-/*OVERLAY*/
-.overlay-img {
-  position: relative;
-  overflow:hidden;
-  height: 250px;
-  width: 100%;
+
+/*-------------------------------------
+-----------------login-----------------
+---------------------------------------*/
+ .login-color{
+    color: #6d5bf3;
+    margin-bottom: 30px;
+    font-weight: 600;
+ }
+ .logic-color-blu{
+    color: #6d5af3;
+ }
+ .login-input{
+    margin-left: 280px;
+ }
+.col-form-label {
+    padding-top: calc(.375rem + 1px);
+    padding-bottom: calc(.375rem + 1px);
+    margin-bottom: 0;
+    font-size: inherit;
+    color: #6d5af3;
 }
 
-.image-full {
-  position:absolute;
-  display: block;
-  width: 100%;
-  top:50%;
-  left:50%;
-  transform:translate(-50% ,-50%);
+.login-input-grob{
+    border-color: #ab34f1;
+    border-radius: 0px;
+    border-width: 2px;
+    padding-right:70px;
+    padding-top: 9px;
 }
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: 1s ease;
-  background-color: #76767794;
-  cursor: pointer;
-}
-
-.overlay-img:hover .overlay {
-  opacity: 1;
-}
-.overlay-icon-size {
-    font-size: 50px;
-}
-.text-overlay {
-  color: #000;
-  font-size: 35px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-.text-overlay:hover {
-  color: #000;
-  font-size: 35px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-/*END OVERLAY*/
-.mt-45px {
-    margin-top: 45px;
-}
-.bnt-purple {
+.login-from{
+    display: block;
     width: 100%;
-    background-color: #9718e4;
-    height: 50px;
-    font-size: 24px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #a935f1;
+    border-radius: -0.75rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border-radius: 0px;
+    border-width: 2px;
+    height: 45px;
+}
+
+.login-lo{
+    width: 100%;
+    height: 45px;
+    background-color: #a935f1;
     color: #fff;
     border-radius: 0px;
-    border: 3px solid;
-    padding: 0px;
 }
-.bnt-purple:hover {
+.login-face-whit{
     width: 100%;
-    background-color: #fff;
-    height: 50px;
-    font-size: 24px;
-    color: #9718e4;
+    height: 45px;
+    background-color: #365899;
+    color: white;
     border-radius: 0px;
-    border: 3px solid #9718e4;
-    padding: 0px;
-    transition: all 0.5s;
 }
-.bnt-adjunct {
-    width: 170px;
-    margin-top: 25px;
+
+.login-goog-whit{
+    width: 100%;
+    height: 45px;
+    background-color: #F44336;
+    color: white;
+    border-radius: 0px;
+    margin-top: -20px;
+    margin-bottom: 70px;
 }
-.bnt-adjunct:hover {
-    width: 170px!important;
-    margin-top: 25px;
+
+.login-top-1{
+   margin-top: -8px;
 }
-.col-2-half {
-    max-width: 100%!important;
-    width: 20%!important;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 20%;
-    flex: 0 0 20%;
-    padding-right: 15px;
-    padding-left: 15px;
-}
+/*-------------------------------------
+-----------------login-----------------
+---------------------------------------*/
+
+
+/*--------------------------------
+ -------------Pay Confirm----------
+----------------------------------*/
+     .pay-{
+          background-color: #ffc107; 
+              color: #007bff;
+     }
+ /*--------------------------------
+ -------------Pay Confirm END----------
+ ----------------------------------*/
+
+
 /*----------- END ALL CLASS ----------------*/
 
 /*------------------------ HOME -------------*/
@@ -660,9 +653,25 @@ a:hover{
 /*--------------------------
  -------- HOW TO PAY ---------
  ----------------------------*/
-.htp-font{
+.htp-font1{
     color:#7b63f5; 
     font-size:30px;
+}
+
+.htp-font2{
+    color:#888; 
+    font-size:21px;
+    font-weight: bold;
+}
+
+.htp-w-h{
+    width: 65px;
+    height:40px;
+}
+
+.htp-font3{
+    color:#bcbcbb; 
+    font-size:21px;
 }
 
 .htp-mt{
@@ -676,15 +685,67 @@ a:hover{
 .htp-border-image{
     border: 4px solid #b13df3;
 }
-
-.htp-ml-mr{
-    margin-left: 135px;
-    margin-right: 135px;
-}
+ /*--------------------------
+ ------ END HOW TO PAY ------
+ ----------------------------*/
 
  /*--------------------------
- -------- HOW TO PAY --------
+ ---------- PROFILE ---------
  ----------------------------*/
+.profile-font{
+    font-size: 18px;
+    color:#866df6;
+ }
+
+ .profile-font2{
+    font-size: 18px;
+    color: #bcbcbb;
+ }
+
+
+ .profile-form{
+    border: 2px solid #b308ea;
+    color: #333;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    padding: 7px;
+ }
+
+.nav-pills .nav-item .active{
+    background-color: white;
+    font-size: 25px;
+}
+
+.profile-nav-link {
+    text-align: center;
+    font-size: 23px;
+    color:#866df6 !important;
+    border-bottom: 3px solid #bcbcbb;
+    background-color: #bcbcbb;
+    padding: 10px;
+    transition: all 1s;
+}
+
+.profile-nav-link:hover {
+    text-align: center;
+    color: #866df6!important;
+    font-size: 23px;
+    transition: all 0.8s;
+    padding: 10px;
+}
+
+.profile-border-bottom{
+    border-bottom: 4px solid #bcbcbb;
+}
+
+.profile-border-bottom2{
+    border-bottom: 2px solid #bcbcbb;
+}
+/*--------------------------
+ ------- END PROFILE -------
+ ----------------------------*/
+
 
 
 @media(max-width: 1366px){
@@ -948,6 +1009,42 @@ a:hover{
      ------ END BRANDS 768 -----
      ----------------------------*/
 
+     /*--------------------------
+     ------ HOW TO PAY 768 ------
+     ----------------------------*/
+    .htp-font1{
+        color:#7b63f5; 
+        font-size:30px;
+    }
+
+    .htp-font2{
+        color:#888; 
+        font-size:21px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .htp-font3{
+        color:#bcbcbb; 
+        font-size:21px;
+        text-align: center;
+    }
+
+    .htp-mt{
+        margin-top: 40px;
+    }
+
+    .htp-border-bottom{
+        border-bottom: 4px solid #bcbcbb;
+    }
+
+    .htp-border-image{
+        border: 4px solid #b13df3;
+    }
+     /*--------------------------
+     ---- END HOW TO PAY 768 ----
+     ----------------------------*/
+
 }
 
 @media(max-width: 414px){
@@ -1061,7 +1158,36 @@ a:hover{
      ------ END BRANDS 414 -----
      ----------------------------*/
 
-}
+     /*---------------------------
+     ------------LOGIN 414--------
+     -----------------------------*/
+     .login-goog-whit {
+        width: 100%;
+        height: 45px;
+        background-color: #F44336;
+        color: white;
+        border-radius: 0px;
+        margin-top: -32px;
+        margin-bottom: 70px;     
+    }
+
+    .login-lo {
+        width: 100%;
+        height: 45px;
+        background-color: #a935f1;
+        color: #fff;
+        border-radius: 0px;
+        margin-bottom: -40px;
+    }
+    .login-414-rep{
+        margin-top: 30px;
+        margin-bottom: -30px;
+    }
+    /*---------------------------
+     ------------LOGIN 414 END--------
+     -----------------------------*/
+
+    }
 
 @media(max-width: 375px){
     /*--------------------------
