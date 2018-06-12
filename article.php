@@ -40,10 +40,10 @@
     <div class="container-fluid">
       <h1 style="font-size: calc(1vmin + 1.8vmax)" class="art_h2_top">บทความ</h1>
       <hr class="art_hr_width">
-      <div class="row ">
+      <div class="row art-99">
 
         <div class="col-lg-4 mt-lg-5">
-          <div class="card art_top_mer" >
+          <div class="art_c_a art_top_mer" >
             <div class="art_fram_img">
               <img class="card-img-top art_img-card" src="http://via.placeholder.com/700x700" alt="Card image cap">
             </div>
@@ -56,7 +56,7 @@
         </div>
 
        <div class="col-lg-4 mt-lg-5">
-          <div class="card art_top_mer" >
+          <div class="art_c_a art_top_mer" >
             <div class="art_fram_img">
               <img class="card-img-top art_img-card" src="http://via.placeholder.com/850x900" alt="Card image cap">
             </div>
@@ -69,7 +69,7 @@
         </div>
 
         <div class="col-lg-4 mt-lg-5">
-          <div class="card art_top_mer" >
+          <div class="art_c_a art_top_mer" >
             <div class="art_fram_img">
               <img class="card-img-top art_img-card" src="http://via.placeholder.com/350x150" alt="Card image cap">
             </div>
@@ -82,7 +82,7 @@
         </div>
 
          <div class="col-lg-4 mt-lg-5">
-          <div class="card art_top_mer" >
+          <div class="art_c_a art_top_mer" >
             <div class="art_fram_img">
               <img class="card-img-top art_img-card" src="http://via.placeholder.com/700x700" alt="Card image cap">
             </div>
@@ -95,7 +95,7 @@
         </div>
 
        <div class="col-lg-4 mt-lg-5">
-          <div class="card art_top_mer" >
+          <div class="art_c_a art_top_mer" >
             <div class="art_fram_img">
               <img class="card-img-top art_img-card" src="http://via.placeholder.com/850x900" alt="Card image cap">
             </div>
@@ -108,7 +108,7 @@
         </div>
 
         <div class="col-lg-4 mt-lg-5">
-          <div class="card art_top_mer" >
+          <div class="art_c_a art_top_mer" >
             <div class="art_fram_img">
               <img class="card-img-top art_img-card" src="http://via.placeholder.com/350x150" alt="Card image cap">
             </div>

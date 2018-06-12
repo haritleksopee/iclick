@@ -623,7 +623,7 @@ a:hover{
 }
 
 
-.card {
+.art_c_a {
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -639,9 +639,7 @@ a:hover{
     border: 0px solid rgba(0,0,0,.125); 
     width: 76%;
 }
-.art_top_mer{
-    margin-left: 75px;
-}
+
 .art-lo {
     width: 20%;
     height: 50px;
@@ -652,12 +650,164 @@ a:hover{
     margin-bottom: 60px;
     margin-top: 20px;
 }
+.art-99{
+    margin-left: 70px;
+}
 
 
  /*-----------------------------------
  -------------ARTICLE END-----------------
  --------------------------------------*/
  
+
+
+
+
+
+
+
+
+
+/*----------------------------------------
+---------------CONTENT--------------------
+------------------------------------------*/
+
+.CON_h2_top {
+    margin: 35px 0px 0px 91px;
+    color: #6d5bf3;
+    font-weight: 700;
+    }
+
+.CON_h2_top_1 {
+    margin: 47px 0px 0px 1300px;
+    color: #6d5bf3;
+}
+    
+.CON_hr_width{
+    border-width: 3px;
+    width: 92%;  
+   } 
+.CON_dis{
+    display: inline-flex;
+}
+.CON_fram_img{
+    position: relative;
+    overflow: hidden;
+    height: 330px;
+    width: 100%;
+    border: 4px solid #a935f1;
+    border-radius: 6px;
+
+}
+.CON_img_1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.CON_t{
+    margin-left: 72px
+}
+.CON_let{
+    padding-right: 160px;
+}
+.CON_hay{
+    line-height: 29px;
+    color: #b4b4b4;
+    font-size: 19px;
+}
+.CON_text_h{
+    color: #6d5af3;
+    
+}
+.CON-fix{
+    max-height:325px;
+    overflow:hidden;
+}
+.CON-lo {
+    width: 20%;
+    height: 50px;
+    background-color: #a935f1;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 0px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.CON_c_a {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0px solid rgba(0,0,0,.125); 
+    width: 76%;
+}
+.CON_top_mer{
+    margin-left: 75px;
+}
+.CON_top_mer-1{
+    color: #a935f1;
+    margin-left: 88px;
+}
+.CON_img-card-l {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.CON_fram_img-l{
+    position: relative;
+    overflow: hidden;
+    height: 330px;
+    width: 100%;
+    border: 4px solid #a935f1;
+    border-radius: 6px;
+}
+.CON_text_h{
+    color: #a935f1;
+    font-size: 25px;
+}
+.CON_color{
+   color: #b4b4b4;
+}
+.CON_color-1{
+    color: #6d5af3;
+}
+.CON_img_11{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.CON_fram_11{
+    position: relative;
+    overflow: hidden;
+    height: 130px;
+    width: 100%;
+}
+
+
+
+/*----------------------------------------
+---------------CONTENT END--------------------
+------------------------------------------*/
+
+
+
+
+
+
+
+
+
 
 /*----------- END ALL CLASS ----------------*/
 
@@ -1310,9 +1460,67 @@ a:hover{
      --- END PROFILE (1) 1366 ---
      ----------------------------*/
 
+
+
+
+
+
+
+
+    /*----------------------------
+    ----------CONTENT 1366------------
+    ----------------------------*/
+    .CON_h2_top_1 {
+        margin: 47px 0px 0px 871px;
+    }
+    .CON_let {
+        padding-right: 55px;
+    }
+    .CON_top_mer {
+        margin-left: 0px;
+    }
+    .CON_c_a{
+        width: 100%;
+    }
+    /*----------------------------
+    ----------CONTENT END 1366------------
+    ----------------------------*/
+
+
+
+     /*-----------------------------------
+     -------------ARTICLE 1366-----------------
+     --------------------------------------*/
+       .flex-carousel-img {
+        position: relative;
+        overflow: hidden;
+        height: 432px;
+       }
+       .art-99 {
+        margin-left: 0px;
+       }
+       .art_c_a{
+        width: 100%;
+       }
+
+     /*-----------------------------------
+     -------------ARTICLE END 1366----------------
+     --------------------------------------*/
 }
 
+<<<<<<< .mine
+
+
+
+
+@media(max-width: 1024px){
+=======
 @media(max-width: 1024px) {
+
+
+
+
+>>>>>>> .theirs
     /*--------------------------
     --------- NAVBAR 1024 ------
     ----------------------------*/
@@ -1586,8 +1794,61 @@ a:hover{
        }
 
      /*-----------------------------------
-     -------------ARTICLE END 1024-------
+     -------------ARTICLE 1024-----------------
      --------------------------------------*/
+       .flex-carousel-img {
+        position: relative;
+        overflow: hidden;
+        height: 432px;
+       }
+       .art-99 {
+        margin-left: 0px;
+       }
+       .art_c_a{
+        width: 100%;
+       }
+
+     /*-----------------------------------
+     -------------ARTICLE END 1024-----------------
+     --------------------------------------*/
+
+
+
+
+
+
+
+
+
+     /*----------------------------------------
+     ---------------CONTENT --------------------
+    ------------------------------------------*/
+    .CON_h2_top_1 {
+       margin: 47px 0px 0px 560px;
+       color: #6d5bf3;
+    }
+    .CON_t {
+       margin-left: 0px; 
+    }
+    .CON_let {
+     padding-right: 0px; *
+    }
+    .CON-fix {
+    max-height: 316px;
+    overflow: hidden;
+    }
+    .CON_top_mer {
+     margin-left: 0px; 
+    }
+    .CON_c_a{
+     width: 100%;
+    }
+
+   /*----------------------------------------
+     ---------------CONTENT END --------------------
+    ------------------------------------------*/
+
+
 }
 
 @media(max-width: 768px){
@@ -1757,7 +2018,7 @@ a:hover{
     -------------Pay Confirm 768----------
     ----------------------------------*/
    .pay_ll {
-    margin-left: 236px;
+    margin-left: 235px;
     }
    .pay_l {
     margin-left: 75px;
@@ -1868,6 +2129,30 @@ a:hover{
         font-size: 18px;
         color: gray;
      }
+    /*---------------------------------
+    -------------CONTENT 768-------------
+    ---------------------------------*/
+    .CON_h2_top {
+        margin: 48px 0px 0px 70px;
+    }
+    .CON_h2_top_1 {
+        margin: 47px 0px 0px 356px;
+    }
+    .CON_top_mer-1 {
+        color: #a935f1;
+        margin-left: 19px;
+        margin-bottom: 40px;
+    }
+    .CON_h2_top_1 {
+    margin: 49px 0px 0px 174px;
+    font-size: 16px;
+    }
+    .CON_h2_top {
+    margin: 48px 0px 0px 28px;
+    }
+    .CON-lo {
+    width: 100%;
+    }
 
     .nav-pills .nav-item .active{
         background-color: white;
@@ -1900,7 +2185,18 @@ a:hover{
 }
 
 
+    /*--------------------------------
+    --------------CONTENT-------------
+    ---------------------------------*/
+    .flex-carousel-img {
+        position: relative;
+        overflow: hidden;
+        height: 360px;
+    }
 
+    /*--------------------------------
+    --------------CONTENT END-------------
+    ---------------------------------*/
 
 
 
@@ -2195,10 +2491,11 @@ a:hover{
      -----------------------------*/
 
 
-    /*--------------------------------
+     /*--------------------------------
      -------------Pay Confirm 414----------
     ----------------------------------*/
     .pay-from {
+        font-size: 18px;
         display: block;
         width: 100%;
         padding: .375rem .75rem;
@@ -2256,19 +2553,30 @@ a:hover{
         margin-top: 24px;
         margin-bottom: 60px;
     }
+   
+=======
 
-    /*--------------------------------
-     -------------Pay Confirm END----------
-    ----------------------------------*/
-    /*-----------------------------------
-    -------------ARTICLE 414-----------------
-    --------------------------------------*/
-    .art-lo {
-        width: 100%;
+     /*--------------------------
+     ------ PROFILE(1) 414 ------
+     ----------------------------*/
+    .profile-font{
+        font-size: 18px;
+        color:#866df6;
+        text-align: center;
+     }
+
+    .profile-font2{
+        font-size: 18px;
+        color: gray;
+        text-align: center;
+     }
+
+    .nav-pills .nav-item .active{
+        background-color: white;
+        font-size: 18px;
+>>>>>>> .theirs
     }
-    /*-----------------------------------
-    -------------ARTICLE 414 END-----------------
-    --------------------------------------*/
+
     .profile-nav-link {
         text-align: center;
         font-size: 17px;
@@ -2290,7 +2598,59 @@ a:hover{
      --- END PROFILE (1) 414 ----
      ----------------------------*/
 
+
+    /*-----------------------------------
+    -------------ARTICLE 414-----------------
+    --------------------------------------*/
+    .art-lo {
+        width: 100%;
+    }
+    /*-----------------------------------
+    -------------ARTICLE 414 END-----------------
+    --------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*--------------------------------
+    --------------CONTENT 414-------------
+    ---------------------------------*/
+    .flex-carousel-img {
+        position: relative;
+        overflow: hidden;
+        height: 170px;
+    }
+
+    /*--------------------------------
+    --------------CONTENT END 414-------------
+    ---------------------------------*/
+
+
+    
 }
+   
+
+    
+
+
+
+
+
+
+
+
 
 @media(max-width: 375px){
     /*--------------------------
@@ -2429,7 +2789,7 @@ a:hover{
      ------ END BRANDS 375 -----
      ----------------------------*/
 
-    /*--------------------------------
+     /*--------------------------------
      -------------Pay Confirm 375----------
     ----------------------------------*/
     .pay_ma_h2_top {
@@ -2652,4 +3012,46 @@ a:hover{
      /*--------------------------
      ------ END PROFILE 2 -------
      ----------------------------*/
+
+
+
+
+   /*---------------------------------
+    -------------CONTENT 768-------------
+    ---------------------------------*/
+    .CON_h2_top_1 {
+        margin: 49px 0px 0px 100px;
+        font-size: 16px;
+    }
+    .CON_h2_top {
+        margin: 52px 0px 0px 28px;
+    }
+    /*---------------------------------
+    -------------CONTENT END 768-------------
+    ---------------------------------*/
+
+
+
+
+
+
+
+
+    /*--------------------------------
+    --------------CONTENT 320-------------
+    ---------------------------------*/
+    .flex-carousel-img {
+        position: relative;
+        overflow: hidden;
+        height: 140px;
+    }
+    .CON_h2_top_1 {
+    margin: 49px 0px 0px 100px;
+    font-size: 16px;
+   }
+
+    /*--------------------------------
+    --------------CONTENT END 320-------------
+    ---------------------------------*/
+
 }
