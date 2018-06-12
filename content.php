@@ -28,7 +28,7 @@
           
           
         </div>
-        <div class="col-lg-8 CON_let">
+        <div class="col-lg-8 CON_let mt-md-4">
           <div class="CON-fix">
             <h2 class="card-title CON_text_h">What is Lorem Ipsum?</h2>
             <p class="CON_hay ">นักธุรกิจที่ประสบความสำเร็จคนหนึ่งเริ่มแก่ตัวลง และต้องการหาคนมาสืบทอดธุรกิจ 
@@ -65,11 +65,11 @@
            <div class="col-lg-4 mt-lg-5">
             <div class="CON_c_a CON_top_mer" >
               <div class="CON_fram_img-l">
-                <img class="card-img-top CON_img-card-l" src="http://via.placeholder.com/350x150" alt="Card image cap">
+                <a href="#"><img class="card-img-top CON_img-card-l" src="http://via.placeholder.com/350x150" alt="Card image cap"></a>
               </div>
               <div class="card-body">
-                <h5 class="card-title CON_text_h">What is Lorem Ipsum?</h5>
-                <p class="card-text CON_color">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's</p>
+                <a href="#"><h5 class="card-title CON_text_h">What is Lorem Ipsum?</h5>
+                <p class="card-text CON_color">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's</p></a>
                 <a href="#" class="CON_color-1">2015-05-20</a>
               </div>
             </div>
@@ -78,24 +78,24 @@
            <div class="col-lg-4 mt-lg-5">
             <div class="CON_c_a CON_top_mer" >
               <div class="CON_fram_img-l">
-                <img class="card-img-top CON_img-card-l" src="http://via.placeholder.com/350x150" alt="Card image cap">
+                <a href="#"><img class="card-img-top CON_img-card-l" src="http://via.placeholder.com/350x150" alt="Card image cap"></a>
               </div>
               <div class="card-body">
-                <h5 class="card-title CON_text_h">What is Lorem Ipsum?</h5>
-                <p class="card-text CON_color">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's</p>
+                <a href="#"><h5 class="card-title CON_text_h">What is Lorem Ipsum?</h5>
+                <p class="card-text CON_color">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's</p></a>
                 <a href="#" class="CON_color-1">2015-05-20</a>
               </div>
             </div>
           </div>  
 
-          <div class="col-lg-4 mt-lg-5">
+         <div class="col-lg-4 mt-lg-5">
             <div class="CON_c_a CON_top_mer" >
               <div class="CON_fram_img-l">
-                <img class="card-img-top CON_img-card-l" src="http://via.placeholder.com/350x150" alt="Card image cap">
+                <a href="#"><img class="card-img-top CON_img-card-l" src="http://via.placeholder.com/350x150" alt="Card image cap"></a>
               </div>
               <div class="card-body">
-                <h5 class="card-title CON_text_h">What is Lorem Ipsum?</h5>
-                <p class="card-text CON_color">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's</p>
+                <a href="#"><h5 class="card-title CON_text_h">What is Lorem Ipsum?</h5>
+                <p class="card-text CON_color">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's</p></a>
                 <a href="#" class="CON_color-1">2015-05-20</a>
               </div>
             </div>
@@ -116,6 +116,10 @@
              </div>
            </div> 
         </div>    
+      </div>
+
+      <div>
+        <img src="https://sites.google.com/site/work01nayathakhwamsaxad/_/rsrc/1487859139460/config/customLogo.gif?revision=8"  width="100%" height="400px">
       </div>
 
 
