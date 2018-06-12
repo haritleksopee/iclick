@@ -560,7 +560,7 @@ a:hover{
   visibility: hidden;
 }
 .pay_file_input::before {
-    content: '·π∫‰ø≈Ï';
+    content: '·π∫??;
     color: #f9f9f9;
     border: 1px solid #6d5af3;
     border-radius: 0px;
@@ -3335,8 +3335,11 @@ a:hover{
     /*-------------------------------
     ----------------article 320------
     ------------------------------------*/
+
     .art_h2_top {
-        margin: 35px 0px 0px 141px;
+        margin: 35px 0px 0px 122px;
+        color: #6d5bf3;
+        font-weight: 700;
     }
     /*-------------------------------
     ----------------article  END 320------
