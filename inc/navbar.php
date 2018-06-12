@@ -47,7 +47,7 @@
     <ul class="navbar-nav">
 
       <li class="nav-item nav-border-right">
-        <a class="nav-link" href="#">หน้าแรก</a>
+        <a class="nav-link" href="home.php">หน้าแรก</a>
       </li>
       <li class="nav-item nav-border-right">
         <a class="nav-link" href="#">รายการสินค้า</a>

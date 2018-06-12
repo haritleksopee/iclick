@@ -13,7 +13,7 @@
     <div class="wrapper">
     <!-- CONTENT -->
           <div class="row mt-4">
-             <div class="col-xl-2"></div>
+            <div class="col-xl-2"></div>
              <div class="col-xl-10">
                   <div class="p-4">
                       <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
@@ -34,13 +34,12 @@
           <div class="tab-content p-4" id="pills-tabContent">
               <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                 <div class="row">
-                  <div class="col-xl-2"></div>
                     <div class="col-xl-5">
                           <div class="row mt-4">
-                              <div class="col-xl-3 col-lg-3 col-md-3 col-12 mt-2">
+                              <div class="col-xl-5 col-lg-3 col-md-3 col-12 mt-2">
                                  <div class="profile-font">คำนำหน้า*</div>
                               </div>
-                              <div class="col-xl-4 col-lg-4 col-md-4 col-12">
+                              <div class="col-xl-7 col-lg-4 col-md-4 col-12">
                                  <select class="profile-form" id="">
                                       <option>นาย</option>
                                       <option>นางสาว</option>
@@ -50,56 +49,56 @@
                           </div>
 
                           <div class="row mt-4">
-                            <div class="col-xl-3 col-md-3 col-lg-3 col-12 mt-2">
+                            <div class="col-xl-5 col-md-3 col-lg-3 col-12 mt-2">
                                  <div class="profile-font">ชื่อ*</div>
                               </div>
-                              <div class="col-xl-6 col-lg-7 col-md-8 col-12 ">
+                              <div class="col-xl-7 col-lg-7 col-md-8 col-12 ">
                                  <input type="text" class="profile-form" id="" placeholder="มานะ">   
                              </div>
                           </div>
 
                            <div class="row mt-4">
-                            <div class="col-xl-3 col-md-3 col-lg-3  col-12  mt-2">
+                            <div class="col-xl-5 col-md-3 col-lg-3  col-12  mt-2">
                                  <div class="profile-font">นามสกุล*</div>
                               </div>
-                              <div class="col-xl-6 col-lg-7 col-md-8 col-12 ">
+                              <div class="col-xl-7 col-lg-7 col-md-8 col-12 ">
                                  <input type="text" class="profile-form" id="" placeholder="ใจดี">   
                              </div>
                           </div>
 
                            <div class="row mt-4">
-                            <div class="col-xl-3 col-md-3 col-lg-3 col-12 mt-2">
+                            <div class="col-xl-5 col-md-3 col-lg-3 col-12 mt-2">
                                  <div class="profile-font">เบอร์โทร*</div>
                               </div>
-                              <div class="col-xl-6 col-lg-7 col-md-8 col-12 ">
+                              <div class="col-xl-7 col-lg-7 col-md-8 col-12 ">
                                  <input type="text" class="profile-form" id="" placeholder="090-0000000">   
                              </div>
                           </div>
 
                           <div class="row mt-4">
-                            <div class="col-xl-3 col-md-3 col-lg-3  col-12  mt-2">
+                            <div class="col-xl-5 col-md-3 col-lg-3  col-12  mt-2">
                                  <div class="profile-font">อีเมลล์</div>
                               </div>
-                              <div class="col-xl-6 col-lg-7 col-md-8 col-12 ">
+                              <div class="col-xl-7 col-lg-7 col-md-8 col-12 ">
                                  <input type="text" class="profile-form" id="" placeholder="manajaidee@gmail.com">   
                              </div>
                           </div>
 
                           <div class="row mt-4">
-                              <div class="col-xl-3 col-md-3 col-lg-3 col-12  mt-2">
+                              <div class="col-xl-5 col-md-3 col-lg-3 col-12  mt-2">
                                  <div class="profile-font">ไลน์ ไอดี</div>
                               </div>
-                              <div class="col-xl-6 col-lg-7 col-md-8 col-12 ">
+                              <div class="col-xl-7 col-lg-7 col-md-8 col-12 ">
                                  <input type="text" class="profile-form" id="" placeholder="manajaidee1234">   
                              </div>
                           </div>
                     </div>
-                    <div class="col-xl-5 mt-4">
+                    <div class="col-xl-7 mt-4">
                         <div class="row">
-                              <div class="col-xl-3 col-md-3 col-lg-3  col-12 ">
+                              <div class="col-xl-4 col-md-3 col-lg-3  col-12 ">
                                  <div class="profile-font">ที่อยู่ *</div>
                               </div>
-                              <div class="col-xl-8 col-12  col-md-8 profile-border-bottom2 pb-3">
+                              <div class="col-xl-5 col-12 col-lg-7 col-md-8 profile-border-bottom2 pb-3">
                                  <div class="profile-font2">
                                     5432/1 แขวง เจริญกรุง เขต เจริญกรุง <br>
                                    กรุงเทพมหานคร 10100<br>
@@ -109,19 +108,19 @@
                         </div>
 
                         <div class="row mt-5">
-                            <div class="col-xl-3 col-md-3 col-lg-3  col-12  mt-2">
+                            <div class="col-xl-4 col-md-3 col-lg-3  col-12  mt-2">
                                  <div class="profile-font">ที่อยู่ 2*</div>
                             </div>
-                            <div class="col-xl-6 col-lg-7 col-md-8 col-12 ">
+                            <div class="col-xl-5 col-lg-7 col-md-8 col-12 ">
                                  <input type="text" class="profile-form" id="" placeholder="1234/5 แขวง บางรัก">   
                             </div>
                         </div>
 
                         <div class="row mt-4">
-                            <div class="col-xl-3 col-md-3 col-lg-3  col-12 mt-2">
+                            <div class="col-xl-4 col-md-3 col-lg-3  col-12 mt-2">
                                  <div class="profile-font">จังหวัด*</div>
                             </div>
-                            <div class="col-xl-6 col-lg-7 col-md-8 col-12 col-9">
+                            <div class="col-xl-5 col-lg-7 col-md-8 col-12 col-9">
                                  <select class="profile-form" id="">
                                       <option>กรุงเทพมหานคร</option>
                                       <option>นนทบุรี</option>
@@ -130,10 +129,10 @@
                         </div>
 
                         <div class="row mt-4">
-                            <div class="col-xl-3 col-md-3 col-lg-3  col-12 mt-2">
+                            <div class="col-xl-4 col-md-3 col-lg-3  col-12 mt-2">
                                  <div class="profile-font">อำเภอ/เขต*</div>
                             </div>
-                            <div class="col-xl-6 col-lg-7 col-md-8 col-12">
+                            <div class="col-xl-5 col-lg-7 col-md-8 col-12">
                                  <select class="profile-form" id="">
                                       <option>บางรัก</option>
                                       <option>บางกะปิ</option>
@@ -142,10 +141,10 @@
                         </div>
 
                         <div class="row mt-4">
-                            <div class="col-xl-3 col-md-3 col-lg-3  col-12 mt-2">
+                            <div class="col-xl-4 col-md-3 col-lg-3  col-12 mt-2">
                                  <div class="profile-font">รหัสไปรษณีย์*</div>
                             </div>
-                            <div class="col-xl-6 col-lg-7 col-md-8 col-12">
+                            <div class="col-xl-5 col-lg-7 col-md-8 col-12">
                                  <input type="text" class="profile-form" id="" placeholder="10100">   
                             </div>
                         </div>
@@ -159,21 +158,20 @@
                   </div>
                 </div>
                 <div class="row mt-4 mb-5">
-                  <div class="col-xl-2"></div>
                     <div class="col-xl-5">
                           <div class="row">
-                              <div class="col-xl-3 col-12 col-md-3 col-4 mt-2">
+                              <div class="col-xl-5 col-12 col-md-3 col-4 mt-2">
                                   <div class="profile-font">ชื่อผู้ใช้งาน</div>
                               </div>
-                              <div class="col-xl-6 col-lg-7 col-md-8 col-12">
+                              <div class="col-xl-7 col-lg-7 col-md-8 col-12">
                                   <input type="text" class="profile-form" id="" placeholder="manajaidee">     
                              </div>
                           </div>
                           <div class="row mt-4">
-                              <div class="col-xl-3 col-lg-3 col-md-3 col-12 mt-2">
+                              <div class="col-xl-5 col-lg-3 col-md-3 col-12 mt-2">
                                   <div class="profile-font">รหัสผ่าน</div>
                               </div>
-                              <div class="col-xl-6 col-lg-7 col-md-8 col-12">
+                              <div class="col-xl-7 col-lg-7 col-md-8 col-12">
                                   <input type="password" class="profile-form" id="" placeholder="....">     
                               </div>
                           </div>
