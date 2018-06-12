@@ -294,7 +294,105 @@ a:hover{
     outline: 0!important;
     box-shadow: none!important;
 }
+/*OVERLAY*/
+.overlay-img {
+  position: relative;
+  overflow:hidden;
+  height: 250px;
+  width: 100%;
+}
 
+.image-full {
+  position:absolute;
+  display: block;
+  width: 100%;
+  top:50%;
+  left:50%;
+  transform:translate(-50% ,-50%);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #76767794;
+  cursor: pointer;
+}
+
+.overlay-img:hover .overlay {
+  opacity: 1;
+}
+.overlay-icon-size {
+    font-size: 50px;
+}
+.text-overlay {
+  color: #000;
+  font-size: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text-overlay:hover {
+  color: #000;
+  font-size: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+/*END OVERLAY*/
+.mt-45px {
+    margin-top: 45px;
+}
+.bnt-purple {
+    width: 100%;
+    background-color: #9718e4;
+    height: 50px;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 0px;
+    border: 3px solid;
+    padding: 0px;
+}
+.bnt-purple:hover {
+    width: 100%;
+    background-color: #fff;
+    height: 50px;
+    font-size: 24px;
+    color: #9718e4;
+    border-radius: 0px;
+    border: 3px solid #9718e4;
+    padding: 0px;
+    transition: all 0.5s;
+}
+.bnt-adjunct {
+    width: 220px;
+    margin-top: 25px;
+}
+.bnt-adjunct:hover {
+    width: 220px!important;
+    margin-top: 25px;
+}
+.col-2-half {
+    max-width: 100%!important;
+    width: 20%!important;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
 /*-------------------------------------
 -----------------login-----------------
 ---------------------------------------*/
@@ -1115,6 +1213,67 @@ a:hover{
     -------- END FOOTER 1366 -----
     ------------------------------*/
 
+    /*----------------------------
+    -------- HOME 1366 -----------
+    ------------------------------*/
+    .flex-carousel-img {
+        position: relative;
+        overflow: hidden;
+        height: 460px;
+    }
+    .home-size-web {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 40px;
+    }
+    .home-product-card {
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        padding: 0px 5px;
+    }
+    .card-body-respon {
+        -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        padding: 1.25rem 10px;
+    }
+    .home-text-article {
+        color: #636363;
+        overflow: hidden;
+        height: 130px;
+        letter-spacing: 1px;
+    }
+    .flex-img-article {
+        position: relative;
+        overflow: hidden;
+        height: 257px;
+    }
+    .home-px-40px-article {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .home-top-45px {
+        top: 60px;
+    }
+    .mt-45px {
+        margin-top: 65px;
+    }
+    .flex-img-bands {
+        position: relative;
+        overflow: hidden;
+        height: 160px;
+    }
+    .flex-img-category {
+        position: relative;
+        overflow: hidden;
+        height: 240px;
+    }
+    /*----------------------------
+    -------- END HOME 1366 -------
+    ------------------------------*/
+
+
     /*---------------------------
      -------- BRANDS 1366 -------
      ----------------------------*/
@@ -1245,6 +1404,68 @@ a:hover{
     }
     /*--------------------------
     ----- END FOOTER 1024 ------
+    ----------------------------*/
+    /*--------------------------
+    --------- HOME 1024 --------
+    ----------------------------*/
+    .flex-img-article {
+        position: relative;
+        overflow: hidden;
+        height: 180px;
+    }
+    .col-2-half {
+        max-width: 100%!important;
+        width: 25%!important;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 25%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .home-top-45px {
+        top: 15px;
+    }
+    .mt-45px {
+        margin-top: 15px;
+        margin-bottom: -30px;
+    }
+    .home-background-category {
+        height: 755px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position-x: 50%;
+        background-position-y: 50%;
+    }
+    .flex-carousel-img {
+        position: relative;
+        overflow: hidden;
+        height: 400px;
+    }
+    .flex-img-bands {
+        position: relative;
+        overflow: hidden;
+        height: 128px;
+    }
+    .overlay-img {
+        position: relative;
+        overflow: hidden;
+        height: 190px;
+        width: 100%;
+    }
+    .home-text-article {
+        color: #636363;
+        overflow: hidden;
+        height: 130px;
+        letter-spacing: 0px;
+        font-size: 14px;
+    }
+    .home-content-product {
+        overflow: hidden;
+        height: 50px;
+        font-size: 16px;
+    }
+    /*--------------------------
+    --------- END HOME 1024 ----
     ----------------------------*/
 
     /*--------------------------

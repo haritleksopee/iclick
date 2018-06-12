@@ -78,7 +78,7 @@
                     </a>
                   </div>
                 </div>
-                <div class="card-body" style="border: 3px solid #695ff4;">
+                <div class="card-body card-body-respon" style="border: 3px solid #695ff4;">
                   <div class="text-center home-star">
                     <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                     <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
@@ -123,7 +123,7 @@
                     </a>
                   </div>
                 </div>
-                <div class="card-body" style="border: 3px solid #695ff4;">
+                <div class="card-body card-body-respon" style="border: 3px solid #695ff4;">
                   <div class="text-center home-star">
                     <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                     <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
@@ -161,7 +161,7 @@
                     </a>
                   </div>
                 </div>
-                <div class="card-body" style="border: 3px solid #695ff4;">
+                <div class="card-body card-body-respon" style="border: 3px solid #695ff4;">
                   <div class="text-center home-star">
                     <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                     <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
@@ -199,7 +199,7 @@
                     </a>
                   </div>
                 </div>
-                <div class="card-body" style="border: 3px solid #695ff4;">
+                <div class="card-body card-body-respon" style="border: 3px solid #695ff4;">
                   <div class="text-center home-star">
                     <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                     <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
@@ -249,7 +249,7 @@
                     </a>
                   </div>
                 </div>
-                <div class="card-body" style="border: 3px solid #695ff4;">
+                <div class="card-body card-body-respon" style="border: 3px solid #695ff4;">
                   <div class="text-center home-star">
                     <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                     <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
@@ -360,7 +360,7 @@
                     </a>
                   </div>
                 </div>
-                <div class="card-body" style="border: 3px solid #695ff4;">
+                <div class="card-body card-body-respon" style="border: 3px solid #695ff4;">
                   <div class="text-center home-star">
                     <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                     <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
@@ -405,7 +405,7 @@
                     </a>
                   </div>
                 </div>
-                <div class="card-body" style="border: 3px solid #695ff4;">
+                <div class="card-body card-body-respon" style="border: 3px solid #695ff4;">
                   <div class="text-center home-star">
                     <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                     <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
@@ -443,7 +443,7 @@
                     </a>
                   </div>
                 </div>
-                <div class="card-body" style="border: 3px solid #695ff4;">
+                <div class="card-body card-body-respon" style="border: 3px solid #695ff4;">
                   <div class="text-center home-star">
                     <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                     <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
@@ -495,7 +495,7 @@
                     </a>
                   </div>
                 </div>
-                <div class="card-body" style="border: 3px solid #695ff4;">
+                <div class="card-body card-body-respon" style="border: 3px solid #695ff4;">
                   <div class="text-center home-star">
                     <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                     <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
@@ -545,7 +545,7 @@
                     </a>
                   </div>
                 </div>
-                <div class="card-body" style="border: 3px solid #695ff4;">
+                <div class="card-body card-body-respon" style="border: 3px solid #695ff4;">
                   <div class="text-center home-star">
                     <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                     <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
@@ -588,7 +588,7 @@
                     </a>
                   </div>
                 </div>
-                <div class="card-body" style="border: 3px solid #695ff4;">
+                <div class="card-body card-body-respon" style="border: 3px solid #695ff4;">
                   <div class="text-center home-star">
                     <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                     <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
@@ -633,7 +633,7 @@
                     </a>
                   </div>
                 </div>
-                <div class="card-body" style="border: 3px solid #695ff4;">
+                <div class="card-body card-body-respon" style="border: 3px solid #695ff4;">
                   <div class="text-center home-star">
                     <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                     <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
@@ -671,7 +671,7 @@
                     </a>
                   </div>
                 </div>
-                <div class="card-body" style="border: 3px solid #695ff4;">
+                <div class="card-body card-body-respon" style="border: 3px solid #695ff4;">
                   <div class="text-center home-star">
                     <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                     <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
@@ -709,7 +709,7 @@
                     </a>
                   </div>
                 </div>
-                <div class="card-body" style="border: 3px solid #695ff4;">
+                <div class="card-body card-body-respon" style="border: 3px solid #695ff4;">
                   <div class="text-center home-star">
                     <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                     <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
@@ -759,7 +759,7 @@
                     </a>
                   </div>
                 </div>
-                <div class="card-body" style="border: 3px solid #695ff4;">
+                <div class="card-body card-body-respon" style="border: 3px solid #695ff4;">
                   <div class="text-center home-star">
                     <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                     <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
@@ -807,7 +807,7 @@
 
               <div class="row" style="margin-top: 40px;">
 
-                <div class="col-sm-4">
+                <div class="col-lg-4 col-md-6">
                   <div class="home-px-40px-article">
                     <div class="card home-card-article-all">
                       <div class="card-header home-card-article">
@@ -830,7 +830,7 @@
                   </div>
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-lg-4 col-md-6">
                   <div class="home-px-40px-article">
                     <div class="card home-card-article-all">
                       <div class="card-header home-card-article">
@@ -853,7 +853,7 @@
                   </div>
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-lg-4 col-md-6">
                   <div class="home-px-40px-article">
                     <div class="card home-card-article-all">
                       <div class="card-header home-card-article">
@@ -877,7 +877,7 @@
                 </div>                
                 <div class="col-12">
                   <div class="text-center mt-3">
-                    <button type="button" class="btn bnt-purple bnt-adjunct" style="border: none;">เพิ่มเติม</button>
+                    <button type="button" class="btn bnt-purple bnt-adjunct" style="border: none;">แสดงเพิ่มเติม</button>
                   </div>
                 </div>
               </div>
