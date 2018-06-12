@@ -480,9 +480,9 @@ a:hover{
  -------------Pay Confirm----------
 ----------------------------------*/
    .pay_ma_h2_top{
-        margin: 35px 0px 0px 78px;
-        color: #6d5bf3;
-        font-weight: 700;
+    margin: 35px 0px 0px 78px;
+    color: #6d5bf3;
+    font-weight: 700;
    }
    .pay_hr_width{
     border-width: 3px;
@@ -581,8 +581,6 @@ a:hover{
     color: #a935f1;
 }
 
-
-
 .art_img-card {
     position: absolute;
     top: 50%;
@@ -676,7 +674,7 @@ a:hover{
     margin: 35px 0px 0px 91px;
     color: #6d5bf3;
     font-weight: 700;
-    }
+}
 
 .CON_h2_top_1 {
     margin: 47px 0px 0px 1300px;
@@ -1508,19 +1506,12 @@ a:hover{
      --------------------------------------*/
 }
 
-<<<<<<< .mine
 
 
 
 
 @media(max-width: 1024px){
-=======
-@media(max-width: 1024px) {
 
-
-
-
->>>>>>> .theirs
     /*--------------------------
     --------- NAVBAR 1024 ------
     ----------------------------*/
@@ -1831,7 +1822,7 @@ a:hover{
        margin-left: 0px; 
     }
     .CON_let {
-     padding-right: 0px; *
+     padding-right: 0px; 
     }
     .CON-fix {
     max-height: 316px;
@@ -2182,7 +2173,7 @@ a:hover{
      ----------------------------*/
 
 
-}
+
 
 
     /*--------------------------------
@@ -2197,7 +2188,7 @@ a:hover{
     /*--------------------------------
     --------------CONTENT END-------------
     ---------------------------------*/
-
+}
 
 
 
@@ -2554,7 +2545,6 @@ a:hover{
         margin-bottom: 60px;
     }
    
-=======
 
      /*--------------------------
      ------ PROFILE(1) 414 ------
@@ -2574,7 +2564,6 @@ a:hover{
     .nav-pills .nav-item .active{
         background-color: white;
         font-size: 18px;
->>>>>>> .theirs
     }
 
     .profile-nav-link {
