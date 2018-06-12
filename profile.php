@@ -150,14 +150,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="row mt-5 mb-5">
+                <div class="row">
                   <div class="col-xl-4"></div>
                   <div class="col-xl-4 profile-border-bottom"></div>
-                  <div class="col-xl-2 pt-4 text-right">
+                  <div class="col-xl-4 pt-4 text-center">
                     <button type="button" class="profile-add"><i class="fa fa-plus" aria-hidden="true"></i></button>
                   </div>
                 </div>
-                <div class="row mt-4 mb-5">
+                <div class="row mt-5 mb-5">
                     <div class="col-xl-5">
                           <div class="row">
                               <div class="col-xl-5 col-12 col-md-3 col-4 mt-2">
@@ -185,207 +185,439 @@
                 </div>
           </div>
 
-             <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                 <div class="row">
-                      <div class="col-xl-2"></div>
-                        <div class="col-xl-6 col-md-8 col-lg-9">
-                              <div class="row mt-4 ml-2">
-                                     <div class="profile2-font">เลขที่ใบสั่งซื้อ : AB-101-0000</div>
-                              </div>
-                               <div class="row ml-2">
-                                     <div class="profile2-font2 mt-4">รายละเอียด</div>
-                                      <button class="profile2-dec mt-3 ml-2" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2"><i class="fa fa-caret-down" aria-hidden="true"></i>
-                                      </button>
-                              </div>
-                              <div class="row pb-2 profile2-border-bottom">
-                                  <div class="col-xl-12">
-                                    <div class="collapse multi-collapse" id="multiCollapseExample1">
-                                      <div class="ml-4 mt-5">
-                                          <div class="profile2-font5">พาวเวอร์แบงค์ ชาร์จเร็ว M2 12000mAh หลากสีสัน</div>
-                                          <div class="form-inline mt-3">
-                                               <div class="profile2-font6">สี :</div>
-                                                <div class="home-change-color mr-1 ml-3">
-                                                  <a href="#" class="change-color" style="background-color: #fff;"></a>
-                                                </div>
-                                                <div class="home-change-color mr-1">
-                                                  <a href="#" class="change-color" style="background-color: #000;"></a>
-                                                </div>
-                                                <div class="home-change-color mr-1">
-                                                  <a href="#" class="change-color" style="background-color: #1d5ed4;"></a>
-                                                </div>
-                                          </div>      
-                                      </div>
-                                    </div>
-                                  </div>
 
-                                  <div class="col-xl-12">
-                                    <div class="collapse multi-collapse" id="multiCollapseExample1">
-                                      <div class="ml-4 pb-5">
-                                          <div class="profile2-font5 pt-4">พาวเวอร์แบงค์ ชาร์จเร็ว M4 30000mAh หลากสีสัน</div>
-                                          <div class="form-inline mt-3">
-                                                <div class="profile2-font6">สี :</div>
-                                                <div class="home-change-color mr-1 ml-3">
-                                                  <a href="#" class="change-color" style="background-color: #1d5ed4;"></a>
-                                                </div>
-                                                <div class="home-change-color mr-1">
-                                                  <a href="#" class="change-color" style="background-color: #fff;"></a>
-                                                </div>
-                                                <div class="home-change-color mr-1">
-                                                  <a href="#" class="change-color" style="background-color: #000;"></a>
-                                                </div>  
-                                          </div>      
-                                      </div>
+
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"> 
+                  <div class="row">
+                         <div class="col-xl-2"></div>
+                         <div class="col-xl-5 col-md-8 col-lg-9">
+                              <div class="row mt-4 ml-2">
+                                       <div class="profile2-font">เลขที่ใบสั่งซื้อ : AB-101-0000</div>
+                              </div>
+                              <div class="row ml-2">
+                                   <div class="profile2-font2 mt-5">รายละเอียด</div>
+                                   <button class="profile2-dec ml-2" type="button" data-toggle="collapse" data-target=".multi-collapse1" aria-expanded="false" aria-controls="multiCollapseExample1">
+                                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                   </button>
+                               </div>
+                          </div>
+                          <div class="col-xl-3 col-md-4 col-lg-3 col-12 text-right">
+                               <div class="mt-4">
+                                   <span class="profile2-font4">สถานะ : </span>
+                                   <span class="profile2-font3 ml-2">กำลังจัดส่ง</span>
+                               </div>
+                               <div class="profile2-font5 mt-2">จำนวนเงิน : 1,680 บาท</div>     
+                               <div class="profile2-font5 mt-2">วันที่ 20 พ.ค. 2561</div>
+                          </div> 
+                          <div class="col-xl-2"></div>              
+                  </div>
+                  <div class="row pt-3">
+                        <div class="col-xl-2"></div>
+                        <div class="col-xl-6 col-md-8 col-lg-9 col-12 pb-2">
+                                <div class="collapse multi-collapse1" id="multiCollapseExample1">
+                                     <div class="ml-4">
+                                         <div class="profile2-font11">พาวเวอร์แบงค์ ชาร์จเร็ว M2 12000mAh หลากสีสัน</div>
+                                         <div class="form-inline mt-2">
+                                              <div class="profile2-font6">สี :</div>
+                                              <div class="home-change-color mr-1 ml-3">
+                                                   <a href="#" class="change-color" style="background-color: #fff;"></a>
+                                              </div>
+                                              <div class="home-change-color mr-1">
+                                                   <a href="#" class="change-color" style="background-color: #000;"></a>
+                                              </div>
+                                               <div class="home-change-color mr-1">
+                                                          <a href="#" class="change-color" style="background-color: #1d5ed4;"></a>
+                                              </div>
+                                         </div>      
                                     </div>
-                                  </div>
-                              </div>  
-                        </div>
-                        <div class="col-xl-4 col-md-4 col-lg-3">
-                              <div class="row mt-4">
-                                     <div class="profile2-font4">สถานะ : </div>
-                                     <div class="profile2-font3 ml-2">กำลังจัดส่ง</div>
-                              </div>
-                              <div class="row mt-1">
-                                     <div class="profile2-font5">จำนวนเงิน : 1,680 บาท</div>
-                              </div>
-                              <div class="row mt-1">
-                                     <div class="profile2-font5">วันที่ 20 พ.ค. 2561</div>
-                              </div>
-                              <div class="row mt-5">
-                                  <div class="collapse multi-collapse" id="multiCollapseExample2">
-                                      <div class="">
-                                          <div class="profile2-font5">810 บาท</div>
-                                          <div class="profile2-font6 mt-2">จำนวน : 1 ชิ้น</div>
-                                      </div>
-                                  </div>
-                              </div>
-                               <div class="row mt-4">
-                                  <div class="collapse multi-collapse" id="multiCollapseExample2">
-                                      <div class="">
-                                          <div class="profile2-font5">1,000 บาท</div>
-                                          <div class="profile2-font6 mt-2">จำนวน : 2 ชิ้น</div>
-                                      </div>
-                                  </div>
-                              </div>
-                        </div>
+                                 </div>
+                          </div>
+                          <div class="col-xl-2 col-md-4 col-lg-3 col-12 text-right">       
+                                   <div class="collapse multi-collapse1" id="multiCollapseExample1">           
+                                        <div class="profile2-font10">810 บาท</div>
+                                        <div class="profile2-font9 mt-2">จำนวน : 1 ชิ้น</div>                    
+                                   </div>        
+                          </div>  
+                          <div class="col-xl-2"></div> 
+                  </div>
+                  <div class="row pt-2 pb-3">
+                        <div class="col-xl-2"></div>
+                        <div class="col-xl-6 col-md-8 col-12 col-lg-9 pb-2">
+                                <div class="collapse multi-collapse1" id="multiCollapseExample1">
+                                     <div class="ml-4">
+                                         <div class="profile2-font11">พาวเวอร์แบงค์ ชาร์จเร็ว M2 12000mAh หลากสีสัน</div>
+                                         <div class="form-inline mt-2">
+                                              <div class="profile2-font6">สี :</div>
+                                              <div class="home-change-color mr-1 ml-3">
+                                                   <a href="#" class="change-color" style="background-color: #fff;"></a>
+                                              </div>
+                                              <div class="home-change-color mr-1">
+                                                   <a href="#" class="change-color" style="background-color: #000;"></a>
+                                              </div>
+                                               <div class="home-change-color mr-1">
+                                                   <a href="#" class="change-color" style="background-color: #1d5ed4;"></a>
+                                              </div>
+                                         </div>      
+                                    </div>
+                                 </div>
+                          </div>
+                          <div class="col-xl-2 col-md-4 col-lg-3 col-12 text-right">       
+                                   <div class="collapse multi-collapse1" id="multiCollapseExample1">           
+                                        <div class="profile2-font10 mt-2">810 บาท</div>
+                                        <div class="profile2-font9">จำนวน : 1 ชิ้น</div>                    
+                                   </div>        
+                          </div>  
+                          <div class="col-xl-2"></div>   
                   </div>
 
+
+        <div class="row profile2-border-bottom"></div>
+
+
                   <div class="row">
-                      <div class="col-xl-2"></div>
-                        <div class="col-xl-6 col-md-8 col-lg-9">
+                         <div class="col-xl-2"></div>
+                         <div class="col-xl-5 col-md-8 col-lg-9">
                               <div class="row mt-4 ml-2">
-                                     <div class="profile2-font">เลขที่ใบสั่งซื้อ : AB-124-0001</div>
+                                       <div class="profile2-font">เลขที่ใบสั่งซื้อ : AB-101-0000</div>
                               </div>
-                               <div class="row ml-2">
-                                     <div class="profile2-font2 mt-4">รายละเอียด</div>
-                                      <button class="profile2-dec mt-3 ml-2" type="button" data-toggle="collapse" data-target=".multi-collapse2" aria-expanded="false" aria-controls="multiCollapseExample2 multiCollapseExample2"><i class="fa fa-caret-down" aria-hidden="true"></i>
-                                      </button>
-                              </div>
-                              <div class="row pb-2 profile2-border-bottom">
-                                  <div class="col-xl-12">
-                                    <div class="collapse multi-collapse2" id="multiCollapseExample2">
-                                      <div class="ml-4 mt-5 pb-5">
-                                          <div class="profile2-font5">พาวเวอร์แบงค์ ชาร์จเร็ว M2 12000mAh หลากสีสัน</div>
-                                          <div class="form-inline mt-3">
-                                               <div class="profile2-font6">สี :</div>
-                                                <div class="home-change-color mr-1 ml-3">
-                                                  <a href="#" class="change-color" style="background-color: #fff;"></a>
-                                                </div>
-                                                <div class="home-change-color mr-1">
-                                                  <a href="#" class="change-color" style="background-color: #000;"></a>
-                                                </div>
-                                                <div class="home-change-color mr-1">
-                                                  <a href="#" class="change-color" style="background-color: #1d5ed4;"></a>
-                                                </div>
-                                          </div>      
-                                      </div>
+                              <div class="row ml-2">
+                                   <div class="profile2-font2 mt-5">รายละเอียด</div>
+                                   <button class="profile2-dec ml-2" type="button" data-toggle="collapse" data-target=".multi-collapse2" aria-expanded="false" aria-controls="multiCollapseExample2">
+                                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                   </button>
+                               </div>
+                          </div>
+                          <div class="col-xl-3 col-md-4 col-lg-3 col-12 text-right">
+                               <div class="mt-4">
+                                   <span class="profile2-font4">สถานะ : </span>
+                                   <span class="profile2-font7 ml-2">ยกเลิก</span>
+                               </div>
+                               <div class="profile2-font5 mt-2">จำนวนเงิน : 890 บาท</div>    
+                               <div class="profile2-font5 mt-2">วันที่ 18 พ.ค. 2561</div>
+                          </div> 
+                          <div class="col-xl-2"></div>               
+                  </div>
+                  <div class="row pt-3 pb-3">
+                        <div class="col-xl-2"></div>
+                        <div class="col-xl-6 col-md-8 col-lg-9 col-12 pb-2">
+                                <div class="collapse multi-collapse2" id="multiCollapseExample2">
+                                     <div class="ml-4">
+                                         <div class="profile2-font11">พาวเวอร์แบงค์ ชาร์จเร็ว M2 12000mAh หลากสีสัน</div>
+                                         <div class="form-inline mt-2">
+                                              <div class="profile2-font6">สี :</div>
+                                              <div class="home-change-color mr-1 ml-3">
+                                                   <a href="#" class="change-color" style="background-color: #fff;"></a>
+                                              </div>
+                                              <div class="home-change-color mr-1">
+                                                   <a href="#" class="change-color" style="background-color: #000;"></a>
+                                              </div>
+                                               <div class="home-change-color mr-1">
+                                                   <a href="#" class="change-color" style="background-color: #1d5ed4;"></a>
+                                              </div>
+                                         </div>      
                                     </div>
-                                  </div>
-                              </div>  
-                        </div>
-                        <div class="col-xl-4 col-md-4 col-lg-3">
-                              <div class="row mt-4">
-                                     <div class="profile2-font4">สถานะ : </div>
-                                     <div class="profile2-font7 ml-2">ยกเลิก</div>
-                              </div>
-                              <div class="row mt-1">
-                                     <div class="profile2-font5">จำนวนเงิน : 890 บาท</div>
-                              </div>
-                              <div class="row mt-1">
-                                     <div class="profile2-font5">วันที่ 18 พ.ค. 2561</div>
-                              </div>
-                              <div class="row mt-5">
-                                  <div class="collapse multi-collapse2" id="multiCollapseExample2">
-                                      <div class="">
-                                          <div class="profile2-font5">810 บาท</div>
-                                          <div class="profile2-font6 mt-2">จำนวน : 1 ชิ้น</div>
-                                      </div>
-                                  </div>
-                              </div>
-                        </div>
+                                 </div>
+                          </div>
+                           <div class="col-xl-2 col-md-4 col-lg-3 col-12 text-right">       
+                                   <div class="collapse multi-collapse2" id="multiCollapseExample2">           
+                                        <div class="profile2-font10 mt-2">810 บาท</div>
+                                        <div class="profile2-font9">จำนวน : 1 ชิ้น</div>                    
+                                   </div>        
+                          </div>  
+                          <div class="col-xl-2"></div>   
                   </div>
 
+
+        <div class="row profile2-border-bottom"></div>
+
+
                   <div class="row">
-                      <div class="col-xl-2"></div>
-                        <div class="col-xl-6 col-md-8 col-lg-9">
+                         <div class="col-xl-2"></div>
+                         <div class="col-xl-5 col-md-8 col-lg-9">
                               <div class="row mt-4 ml-2">
-                                     <div class="profile2-font">เลขที่ใบสั่งซื้อ : AB-002-0002</div>
+                                       <div class="profile2-font">เลขที่ใบสั่งซื้อ : AB-101-0000</div>
                               </div>
-                               <div class="row ml-2">
-                                     <div class="profile2-font2 mt-4">รายละเอียด</div>
-                                      <button class="profile2-dec mt-3 ml-2" type="button" data-toggle="collapse" data-target=".multi-collapse3" aria-expanded="false" aria-controls="multiCollapseExample3 multiCollapseExample3"><i class="fa fa-caret-down" aria-hidden="true"></i>
-                                      </button>
-                              </div>
-                              <div class="row pb-2 profile2-border-bottom">
-                                  <div class="col-xl-12">
-                                    <div class="collapse multi-collapse3" id="multiCollapseExample3">
-                                      <div class="ml-4 mt-5 pb-5">
-                                          <div class="profile2-font5">พาวเวอร์แบงค์ ชาร์จเร็ว M2 12000mAh หลากสีสัน</div>
-                                          <div class="form-inline mt-3">
-                                               <div class="profile2-font6">สี :</div>
-                                                <div class="home-change-color mr-1 ml-3">
-                                                  <a href="#" class="change-color" style="background-color: #fff;"></a>
-                                                </div>
-                                                <div class="home-change-color mr-1">
-                                                  <a href="#" class="change-color" style="background-color: #000;"></a>
-                                                </div>
-                                                <div class="home-change-color mr-1">
-                                                  <a href="#" class="change-color" style="background-color: #1d5ed4;"></a>
-                                                </div>
-                                          </div>      
-                                      </div>
+                              <div class="row ml-2">
+                                   <div class="profile2-font2 mt-5">รายละเอียด</div>
+                                   <button class="profile2-dec ml-2" type="button" data-toggle="collapse" data-target=".multi-collapse3" aria-expanded="false" aria-controls="multiCollapseExample3">
+                                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                   </button>
+                               </div>
+                          </div>
+                          <div class="col-xl-3 col-md-4 col-lg-3 col-12 text-right">
+                               <div class="mt-4">
+                                   <span class="profile2-font4">สถานะ : </span>
+                                   <span class="profile2-font8 ml-2">รอการชำระเงิน</span>
+                               </div>
+                               <div class="profile2-font5 mt-2">จำนวนเงิน : 900 บาท</div>
+                               <div class="profile2-font5 mt-2">วันที่ 05 พ.ค. 2561</div>
+                          </div> 
+                          <div class="col-xl-2"></div>               
+                  </div>
+                  <div class="row pt-3">
+                        <div class="col-xl-2"></div>
+                        <div class="col-xl-6 col-md-8 col-lg-9 col-12 pb-2">
+                                <div class="collapse multi-collapse3" id="multiCollapseExample3">
+                                     <div class="ml-4">
+                                         <div class="profile2-font11">พาวเวอร์แบงค์ ชาร์จเร็ว M2 12000mAh หลากสีสัน</div>
+                                         <div class="form-inline mt-2">
+                                              <div class="profile2-font6">สี :</div>
+                                              <div class="home-change-color mr-1 ml-3">
+                                                   <a href="#" class="change-color" style="background-color: #fff;"></a>
+                                              </div>
+                                              <div class="home-change-color mr-1">
+                                                   <a href="#" class="change-color" style="background-color: #000;"></a>
+                                              </div>
+                                               <div class="home-change-color mr-1">
+                                                   <a href="#" class="change-color" style="background-color: #1d5ed4;"></a>
+                                              </div>
+                                         </div>      
                                     </div>
-                                  </div>
-                              </div>  
-                        </div>
-                        <div class="col-xl-4 col-md-4 col-lg-3">
-                              <div class="row mt-4">
-                                     <div class="profile2-font4">สถานะ : </div>
-                                     <div class="profile2-font8 ml-2">รอการชำระเงิน</div>
-                              </div>
-                              <div class="row mt-1">
-                                     <div class="profile2-font5">จำนวนเงิน : 890 บาท</div>
-                              </div>
-                              <div class="row mt-1">
-                                     <div class="profile2-font5">วันที่ 18 พ.ค. 2561</div>
-                              </div>
-                              <div class="row mt-5">
-                                  <div class="collapse multi-collapse3" id="multiCollapseExample3">
-                                      <div class="">
-                                          <div class="profile2-font5">810 บาท</div>
-                                          <div class="profile2-font6 mt-2">จำนวน : 1 ชิ้น</div>
-                                      </div>
-                                  </div>
-                              </div>
-                        </div>
-                    </div>
-               
-
-
-              </div>
-              <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                dthhftjhfytjdyj
-              </div>
+                                 </div>
+                          </div>
+                           <div class="col-xl-2 col-md-4 col-lg-3 col-12 text-right">       
+                                   <div class="collapse multi-collapse3" id="multiCollapseExample3">           
+                                        <div class="profile2-font10">810 บาท</div>
+                                        <div class="profile2-font9 mt-2">จำนวน : 1 ชิ้น</div>                    
+                                   </div>        
+                          </div>  
+                          <div class="col-xl-2"></div>   
+                  </div>   
             </div>
+
+
+
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                         <div class="row justify-content-center">
+                              <div class="profile3-h">รหัสของฉัน : </div>
+                              <div class="profile3-font2 ml-2">0000000</div>
+                         </div>
+
+                         <div class="row mt-5">
+                             <div class="col-xl-2"></div>
+                             <div class="col-xl-7">
+                                 <div class="row justify-content-center">
+                                      <div class="col-xl-1"></div>
+                                      <div class="col-xl-4 col-7">
+                                         <div class="profile3-font3">คอมมิชชันที่ชำระแล้ว</div>
+                                      </div>             
+                                      <div class="col-xl-2 col-5">
+                                         <div class="profile3-font4">200 บาท</div>
+                                      </div>
+                                  </div>
+                             </div>
+                             <div class="col-xl-2"></div>
+                        </div>
+
+                        <div class="row mt-3">
+                             <div class="col-xl-2"></div>
+                             <div class="col-xl-7 pb-5">
+                                 <div class="row justify-content-center">
+                                      <div class="col-xl-1"></div>
+                                      <div class="col-xl-4 col-7">
+                                         <div class="profile3-font3">คอมมิชชันที่ชำระแล้ว</div>
+                                      </div>            
+                                      <div class="col-xl-2 col-5">
+                                         <div class="profile3-font4">200 บาท</div>
+                                      </div>
+                                  </div>
+                             </div>
+                             <div class="col-xl-2"></div>
+                        </div>
+
+                        <div class="row justify-content-center">
+                          <div class="col-xl-4"></div>
+                          <div class="col-xl-3 profile3-border-bottom"></div>
+                          <div class="col-xl-4"></div>
+                        </div>
+
+                        <div class="row mt-3">
+                             <div class="col-xl-2"></div>
+                             <div class="col-xl-7">
+                                 <div class="row justify-content-center">
+                                      <div class="col-xl-5 col-12">
+                                         <div class="profile3-font1">คอมมิชชันทั้งหมด</div>
+                                      </div>       
+                                      <div class="col-xl-2 col-12">
+                                         <div class="profile3-font5">400 บาท</div>
+                                      </div>
+                                  </div>
+                             </div>
+                             <div class="col-xl-2"></div>
+                        </div>
+
+                  <div class="row">
+                         <div class="col-xl-2"></div>
+                         <div class="col-xl-5 col-md-8 col-lg-9">
+                              <div class="row mt-4 ml-2">
+                                       <div class="profile2-font">เลขที่ใบสั่งซื้อ : AB-101-0000</div>
+                              </div>
+                              <div class="row ml-2">
+                                   <div class="profile2-font2 mar-t">รายละเอียด</div>
+                                   <button class="profile3-dec ml-2" type="button" data-toggle="collapse" data-target=".multi-collapse4" aria-expanded="false" aria-controls="multiCollapseExample4">
+                                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                   </button>
+                               </div>
+                          </div>
+                          <div class="col-xl-3 col-md-4 col-lg-3 col-12 text-right">
+                               <div class="mt-4">
+                                   <span class="profile2-font4">สถานะการจ่าย :</span>
+                                   <span class="profile2-font3 ml-2">จ่ายแล้ว</span>
+                               </div>
+                               <div class="profile2-font5 mt-2">จำนวนเงินรวมค่าคอมมิชชัน : 200 บาท</div>
+                               <div class="profile2-font5 mt-2">วันที่ 20 พ.ค. 2561</div>
+                               <div class="profile2-font5 mt-2">บัญชีที่ได้รับ : ธ.กรุงเทพ สาขา เจริญกรุง เลขที่ 01-2365-1542</div>
+                          </div> 
+                          <div class="col-xl-2"></div>           
+                  </div>
+                  <div class="row pt-4 pb-4">
+                        <div class="col-xl-2"></div>
+                        <div class="col-xl-6 col-md-8 col-lg-9 col-12 pb-2">
+                                <div class="collapse multi-collapse4" id="multiCollapseExample4">
+                                     <div class="ml-4">
+                                         <div class="profile2-font11">พาวเวอร์แบงค์ ชาร์จเร็ว M2 12000mAh หลากสีสัน</div>
+                                         <div class="form-inline mt-2">
+                                              <div class="profile2-font6">สี :</div>
+                                              <div class="home-change-color mr-1 ml-3">
+                                                   <a href="#" class="change-color" style="background-color: #fff;"></a>
+                                              </div>
+                                              <div class="home-change-color mr-1">
+                                                   <a href="#" class="change-color" style="background-color: #000;"></a>
+                                              </div>
+                                               <div class="home-change-color mr-1">
+                                                   <a href="#" class="change-color" style="background-color: #1d5ed4;"></a>
+                                              </div>
+                                         </div>      
+                                    </div>
+                                 </div>
+                          </div>
+                          <div class="col-xl-2 col-md-4 col-lg-3 col-12 text-right">       
+                                   <div class="collapse multi-collapse4" id="multiCollapseExample4">           
+                                        <div class="profile2-font10">ค่าคอมมิชชัน 100 บาท</div>                 
+                                   </div>        
+                          </div>  
+                          <div class="col-xl-2"></div>       
+                  </div>
+                  
+
+          <div class="row profile2-border-bottom"></div>
+
+
+                  <div class="row">
+                         <div class="col-xl-2"></div>
+                         <div class="col-xl-5 col-md-8 col-lg-9">
+                              <div class="row mt-4 ml-2">
+                                       <div class="profile2-font">เลขที่ใบสั่งซื้อ : AB-101-0000</div>
+                              </div>
+                              <div class="row ml-2">
+                                   <div class="profile2-font2 mar-t">รายละเอียด</div>
+                                   <button class="profile3-dec ml-2" type="button" data-toggle="collapse" data-target=".multi-collapse5" aria-expanded="false" aria-controls="multiCollapseExample5">
+                                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                   </button>
+                               </div>
+                          </div>
+                          <div class="col-xl-3 col-md-4 col-lg-3 col-12 text-right">
+                               <div class="mt-4">
+                                   <span class="profile2-font4">สถานะการจ่าย :</span>
+                                   <span class="profile2-font3 ml-2">จ่ายแล้ว</span>
+                               </div>
+                               <div class="profile2-font5 mt-2">จำนวนเงินรวมค่าคอมมิชชัน : 200 บาท</div>
+                               <div class="profile2-font5 mt-2">วันที่ 18 พ.ค. 2561</div>
+                               <div class="profile2-font5 mt-2">บัญชีที่ได้รับ : ธ.กรุงเทพ สาขา เจริญกรุง เลขที่ 01-2365-1542</div>
+                          </div> 
+                          <div class="col-xl-2"></div>              
+                  </div>
+                  <div class="row pt-4 pb-3">
+                        <div class="col-xl-2"></div>
+                        <div class="col-xl-6 col-md-8 col-lg-9 col-12 pb-2">
+                                <div class="collapse multi-collapse5" id="multiCollapseExample5">
+                                     <div class="ml-4">
+                                         <div class="profile2-font11">พาวเวอร์แบงค์ ชาร์จเร็ว M2 12000mAh หลากสีสัน</div>
+                                         <div class="form-inline mt-2">
+                                              <div class="profile2-font6">สี :</div>
+                                              <div class="home-change-color mr-1 ml-3">
+                                                   <a href="#" class="change-color" style="background-color: #fff;"></a>
+                                              </div>
+                                              <div class="home-change-color mr-1">
+                                                   <a href="#" class="change-color" style="background-color: #000;"></a>
+                                              </div>
+                                               <div class="home-change-color mr-1">
+                                                   <a href="#" class="change-color" style="background-color: #1d5ed4;"></a>
+                                              </div>
+                                         </div>      
+                                    </div>
+                                 </div>
+                          </div>
+                          <div class="col-xl-2 col-md-4 col-lg-3 col-12 text-right">       
+                                   <div class="collapse multi-collapse5" id="multiCollapseExample5">           
+                                        <div class="profile2-font10">ค่าคอมมิชชัน 100 บาท</div>                 
+                                   </div>        
+                          </div>  
+                          <div class="col-xl-2"></div>   
+                  </div>
+
+
+        <div class="row profile2-border-bottom"></div>
+
+
+                  <div class="row">
+                         <div class="col-xl-2"></div>
+                         <div class="col-xl-5 col-md-8 col-lg-9">
+                              <div class="row mt-4 ml-2">
+                                       <div class="profile2-font">เลขที่ใบสั่งซื้อ : AB-101-0000</div>
+                              </div>
+                              <div class="row ml-2">
+                                   <div class="profile2-font2 mar-t">รายละเอียด</div>
+                                   <button class="profile3-dec ml-2" type="button" data-toggle="collapse" data-target=".multi-collapse6" aria-expanded="false" aria-controls="multiCollapseExample6">
+                                    <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                   </button>
+                               </div>
+                          </div>
+                          <div class="col-xl-3 col-md-4 col-lg-3 col-12 text-right">
+                               <div class="mt-4">
+                                   <span class="profile2-font4">สถานะการจ่าย :</span>
+                                   <span class="profile2-font7 ml-2">ยังไม่ได้จ่าย</span>
+                               </div>
+                               <div class="profile2-font5 mt-2">จำนวนเงินรวมค่าคอมมิชชัน : 200 บาท</div>
+                               <div class="profile2-font5 mt-2">วันที่ 05 พ.ค. 2561</div>
+                               <div class="profile2-font5 mt-2">บัญชีที่ได้รับ : ธ.กรุงเทพ สาขา เจริญกรุง เลขที่ 01-2365-1542</div>
+                          </div> 
+                          <div class="col-xl-2"></div>              
+                  </div>
+                  <div class="row pt-4">
+                        <div class="col-xl-2"></div>
+                        <div class="col-xl-6 col-md-8 col-lg-9 col-12 pb-2">
+                                <div class="collapse multi-collapse6" id="multiCollapseExample6">
+                                     <div class="ml-4">
+                                         <div class="profile2-font11">พาวเวอร์แบงค์ ชาร์จเร็ว M2 12000mAh หลากสีสัน</div>
+                                         <div class="form-inline mt-2">
+                                              <div class="profile2-font6">สี :</div>
+                                              <div class="home-change-color mr-1 ml-3">
+                                                   <a href="#" class="change-color" style="background-color: #fff;"></a>
+                                              </div>
+                                              <div class="home-change-color mr-1">
+                                                   <a href="#" class="change-color" style="background-color: #000;"></a>
+                                              </div>
+                                               <div class="home-change-color mr-1">
+                                                   <a href="#" class="change-color" style="background-color: #1d5ed4;"></a>
+                                              </div>
+                                         </div>      
+                                    </div>
+                                 </div>
+                          </div>
+                           <div class="col-xl-2 col-md-4 col-lg-3 col-12 text-right">       
+                                   <div class="collapse multi-collapse6" id="multiCollapseExample6">           
+                                        <div class="profile2-font10">ค่าคอมมิชชัน 100 บาท</div>                 
+                                   </div>        
+                          </div>  
+                          <div class="col-xl-2"></div>   
+                  </div> 
+
+
+         </div>
+       </div>
+    </div>
+ </div>
       
 
 
