@@ -70,7 +70,7 @@
             <div class="col-2-half">
               <div class="card home-product-card" style="width: 100%">
                 <div class="mb-3 overlay-img">
-                  <img class="card-img-top" src="assets/images/product/1.jpg" alt="Card image cap"  class="image-full">
+                  <img class="card-img-top image-full" src="assets/images/product/1.jpg" alt="Card image cap">
                   <div class="overlay">
                     <a href="#" class="text-overlay">
                         <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
@@ -115,7 +115,7 @@
             <div class="col-2-half">
               <div class="card home-product-card" style="width: 100%">
                 <div class="mb-3 overlay-img">
-                  <img class="card-img-top" src="assets/images/product/2.jpg" alt="Card image cap"  class="image-full">
+                  <img class="card-img-top image-full" src="assets/images/product/2.jpg" alt="Card image cap">
                   <div class="overlay">
                     <a href="#" class="text-overlay">
                         <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
@@ -153,7 +153,7 @@
             <div class="col-2-half">
               <div class="card home-product-card" style="width: 100%">
                 <div class="mb-3 overlay-img">
-                  <img class="card-img-top" src="assets/images/product/3.jpg" alt="Card image cap"  class="image-full">
+                  <img class="card-img-top image-full" src="assets/images/product/3.jpg" alt="Card image cap">
                   <div class="overlay">
                     <a href="#" class="text-overlay">
                         <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
@@ -191,7 +191,7 @@
             <div class="col-2-half">
               <div class="card home-product-card" style="width: 100%">
                 <div class="mb-3 overlay-img">
-                  <img class="card-img-top" src="assets/images/product/4.jpg" alt="Card image cap"  class="image-full">
+                  <img class="card-img-top image-full" src="assets/images/product/4.jpg" alt="Card image cap">
                   <div class="overlay">
                     <a href="#" class="text-overlay">
                         <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
@@ -241,7 +241,7 @@
             <div class="col-2-half">
               <div class="card home-product-card" style="width: 100%">
                 <div class="mb-3 overlay-img">
-                  <img class="card-img-top" src="assets/images/product/5.jpg" alt="Card image cap"  class="image-full">
+                  <img class="card-img-top image-full" src="assets/images/product/5.jpg" alt="Card image cap">
                   <div class="overlay">
                     <a href="#" class="text-overlay">
                         <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
@@ -352,7 +352,7 @@
             <div class="col-2-half">
               <div class="card home-product-card" style="width: 100%">
                 <div class="mb-3 overlay-img">
-                  <img class="card-img-top" src="assets/images/product/1.jpg" alt="Card image cap"  class="image-full">
+                  <img class="card-img-top image-full" src="assets/images/product/1.jpg" alt="Card image cap">
                   <div class="overlay">
                     <a href="#" class="text-overlay">
                         <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
@@ -397,7 +397,7 @@
             <div class="col-2-half">
               <div class="card home-product-card" style="width: 100%">
                 <div class="mb-3 overlay-img">
-                  <img class="card-img-top" src="assets/images/product/2.jpg" alt="Card image cap"  class="image-full">
+                  <img class="card-img-top image-full" src="assets/images/product/2.jpg" alt="Card image cap">
                   <div class="overlay">
                     <a href="#" class="text-overlay">
                         <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
@@ -435,7 +435,7 @@
             <div class="col-2-half">
               <div class="card home-product-card" style="width: 100%">
                 <div class="mb-3 overlay-img">
-                  <img class="card-img-top" src="assets/images/product/3.jpg" alt="Card image cap"  class="image-full">
+                  <img class="card-img-top image-full" src="assets/images/product/3.jpg" alt="Card image cap">
                   <div class="overlay">
                     <a href="#" class="text-overlay">
                         <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
@@ -487,7 +487,7 @@
             <div class="col-2-half">
               <div class="card home-product-card" style="width: 100%">
                 <div class="mb-3 overlay-img">
-                  <img class="card-img-top" src="assets/images/product/4.jpg" alt="Card image cap"  class="image-full">
+                  <img class="card-img-top image-full" src="assets/images/product/4.jpg" alt="Card image cap">
                   <div class="overlay">
                     <a href="#" class="text-overlay">
                         <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
@@ -537,7 +537,7 @@
             <div class="col-2-half">
               <div class="card home-product-card" style="width: 100%">
                 <div class="mb-3 overlay-img">
-                  <img class="card-img-top" src="assets/images/product/5.jpg" alt="Card image cap"  class="image-full">
+                  <img class="card-img-top image-full" src="assets/images/product/5.jpg" alt="Card image cap">
                   <div class="overlay">
                     <a href="#" class="text-overlay">
                         <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
@@ -580,7 +580,7 @@
             <div class="col-2-half">
               <div class="card home-product-card" style="width: 100%">
                 <div class="mb-3 overlay-img">
-                  <img class="card-img-top" src="assets/images/product/1.jpg" alt="Card image cap"  class="image-full">
+                  <img class="card-img-top image-full" src="assets/images/product/1.jpg" alt="Card image cap">
                   <div class="overlay">
                     <a href="#" class="text-overlay">
                         <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
@@ -625,7 +625,7 @@
             <div class="col-2-half">
               <div class="card home-product-card" style="width: 100%">
                 <div class="mb-3 overlay-img">
-                  <img class="card-img-top" src="assets/images/product/2.jpg" alt="Card image cap"  class="image-full">
+                  <img class="card-img-top image-full" src="assets/images/product/2.jpg" alt="Card image cap">
                   <div class="overlay">
                     <a href="#" class="text-overlay">
                         <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
@@ -663,7 +663,7 @@
             <div class="col-2-half">
               <div class="card home-product-card" style="width: 100%">
                 <div class="mb-3 overlay-img">
-                  <img class="card-img-top" src="assets/images/product/3.jpg" alt="Card image cap"  class="image-full">
+                  <img class="card-img-top image-full" src="assets/images/product/3.jpg" alt="Card image cap">
                   <div class="overlay">
                     <a href="#" class="text-overlay">
                         <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
@@ -701,7 +701,7 @@
             <div class="col-2-half">
               <div class="card home-product-card" style="width: 100%">
                 <div class="mb-3 overlay-img">
-                  <img class="card-img-top" src="assets/images/product/4.jpg" alt="Card image cap"  class="image-full">
+                  <img class="card-img-top image-full" src="assets/images/product/4.jpg" alt="Card image cap">
                   <div class="overlay">
                     <a href="#" class="text-overlay">
                         <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
@@ -751,7 +751,7 @@
             <div class="col-2-half">
               <div class="card home-product-card" style="width: 100%">
                 <div class="mb-3 overlay-img">
-                  <img class="card-img-top" src="assets/images/product/5.jpg" alt="Card image cap"  class="image-full">
+                  <img class="card-img-top image-full" src="assets/images/product/5.jpg" alt="Card image cap">
                   <div class="overlay">
                     <a href="#" class="text-overlay">
                         <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
@@ -906,31 +906,3 @@
 
 
 
-<!--                 <div class="card icon-banner baner-lace">
-                  <div class="card-body" style="padding: 0px;">
-                    <div class="flex-icon-banner">
-                      <img src="assets/images/slide/lace.png" class="img-carousel-auto mx-auto">
-                    </div>
-                  </div>
-                </div>
-
-
-                <div class="card icon-banner baner-photos"">
-                  <div class="card-body" style="padding: 0px;">
-                    <div class="flex-icon-banner">
-                      <img src="assets/images/slide/photos.png" class="img-carousel-auto mx-auto">
-                    </div>
-                  </div>
-                </div>
-
-                <div class="card icon-banner baner-crown">
-                  <div class="card-body" style="padding: 0px;">
-                    <div class="flex-icon-banner">
-                      <img src="assets/images/slide/crown.png" class="img-carousel-auto mx-auto">
-                    </div>
-                  </div>
-                </div>
-
-                  <div class="baner-shopnow">
-                    <a href="#" class="font-shop-now">SHOP NOW <i class="fa fa-caret-right" aria-hidden="true" style="color: darkgrey;"></i></a>
-                  </div> -->
