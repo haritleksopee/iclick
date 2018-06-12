@@ -541,7 +541,7 @@ a:hover{
     height: 45px;
     color: #fff;
     font-size: 17px;
-   }
+}
    .pay_bb_2 {
     width: 190px;
     background-color: #ffffff;
@@ -574,6 +574,32 @@ a:hover{
      margin-left: 418px;
 }
 
+.pay_file_input{
+    color: transparent;
+}
+.pay_file_input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.pay_file_input::before {
+    content: 'Ṻ??;
+    color: #f9f9f9;
+    border: 1px solid #6d5af3;
+    border-radius: 0px;
+    padding: 20px 34px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-size: 13pt;
+    background-color: #6d5af3;
+}
+.pay_file_input:hover::before {
+  border-color: #fff;
+  background-color: #9086d8;
+}
+
+
+
  
  /*--------------------------------
  -------------Pay Confirm END----------
@@ -582,15 +608,11 @@ a:hover{
  /*-----------------------------------
  -------------ARTICLE-----------------
  --------------------------------------*/
- .art_h2_top {
-    margin: 35px 0px 0px 91px;
-    color: #6d5bf3;
-    font-weight: 700;
-    }
+
 .art_hr_width{
     border-width: 3px;
     width: 92%;  
-   } 
+} 
 .art_text_h{
     color: #6d5af3;
     font-size: 25px;
@@ -672,10 +694,25 @@ a:hover{
 .art-99{
     margin-left: 70px;
 }
+.art_h2_top {
+    margin: 35px 0px 0px 152px;
+    color: #6d5bf3;
+    font-weight: 700;
+}
+
+<<<<<<< .mine
+
 
 
  /*-----------------------------------
  -------------ARTICLE END-----------------
+=======
+ /*------------------------------------
+ -------------ARTICLE END--------------
+
+
+
+>>>>>>> .theirs
  --------------------------------------*/
  
 
@@ -705,7 +742,7 @@ a:hover{
 .CON_hr_width{
     border-width: 3px;
     width: 92%;  
-   } 
+} 
 .CON_dis{
     display: inline-flex;
 }
@@ -822,15 +859,11 @@ a:hover{
 
 
 
-
-
-
-
-
-
 /*----------- END ALL CLASS ----------------*/
 
-/*------------------------ HOME -------------*/
+
+
+/*------------- HOME -------------*/
 .carousel-indicators {
     position: absolute;
     right: 30px;
@@ -1140,7 +1173,7 @@ a:hover{
 ------- END SIGNUP ---------
 ----------------------------*/
  /*--------------------------
- -------- BRANDS -------
+ -------- BRANDS ------------
  ----------------------------*/
 .brand-font{
     color:#7b63f5; 
@@ -1189,7 +1222,6 @@ a:hover{
     display: inline-block;
     font-size: 22px;
 }
-
  /*--------------------------
  -------- END BRANDS -------
  ----------------------------*/
@@ -1242,12 +1274,12 @@ a:hover{
     text-align: right;
  }
 
- .profile-font2{
+.profile-font2{
     font-size: 19px;
     color: gray;
  }
 
- .profile-add{
+.profile-add{
     background-color: #b308ea;
     color: #fff;
     font-size: 25px;
@@ -1257,7 +1289,7 @@ a:hover{
     height: 40px;
  }
 
-  .profile-add:hover{
+.profile-add:hover{
     background-color: #866df6;
     color: #fff;
     font-size: 25px;
@@ -1267,7 +1299,7 @@ a:hover{
     height: 40px;
  }
 
-  .profile-btn1{
+.profile-btn1{
     background-color:#fff;
     color: #866df6;
     font-size: 20px;
@@ -1277,7 +1309,7 @@ a:hover{
     height: 50px;
  }
 
-   .profile-btn1:hover{
+.profile-btn1:hover{
     background-color:#fff;
     color: #866df6;
     font-size: 20px;
@@ -1287,7 +1319,7 @@ a:hover{
     height: 50px;
  }
 
-  .profile-btn2{
+.profile-btn2{
     background-color: #b308ea;
     color: #fff;
     font-size: 20px;
@@ -1297,7 +1329,7 @@ a:hover{
     height: 50px;
  }
 
-   .profile-btn2:hover{
+.profile-btn2:hover{
     background-color:#866df6;
     color: #fff;
     font-size: 20px;
@@ -1307,28 +1339,32 @@ a:hover{
     height: 50px;
  }
 
- .profile-form{
+.profile-form{
     border: 2px solid #b308ea;
     color: #333;
     width: 100%;
     height: 50px;
-    border-radius: 5px;
+    border-radius: none;
     padding: 7px;
  }
 
 .nav-pills .nav-item .active{
     background-color: white;
-    font-size: 25px;
+    font-size: 22px;
+    font-family: 'kanitmedium';
 }
 
 .profile-nav-link {
     text-align: center;
     font-size: 22px;
     color:#866df6 !important;
-    border-bottom: 3px solid #bcbcbb;
-    background-color: #bcbcbb;
+    border-bottom: 3px solid #e6e6e6;
+    background-color: #e6e6e6;
     padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
     transition: all 1s;
+    font-family: 'kanitlight';
 }
 
 .profile-nav-link:hover {
@@ -1336,7 +1372,7 @@ a:hover{
     color: #866df6!important;
     font-size: 22px;
     transition: all 0.8s;
-    padding: 10px;
+
 }
 
 .profile-border-bottom{
@@ -1398,6 +1434,20 @@ a:hover{
     font-weight: bold;
  }
 
+.profile2-font9{
+    font-size: 18px;
+    color :#AEB6BF;
+}
+
+.profile2-font10{
+    font-size: 18px;
+    color:#666;
+}
+
+.profile2-font11{
+    font-size: 18px;
+    color:#666;
+}
 
 .profile2-dec{
     background-color: #fff;
@@ -1406,6 +1456,7 @@ a:hover{
     border:none;
     width: 35px;
     height: 40px;
+    margin-top: 42px;
  }
 
 .profile2-dec:hover{
@@ -1415,13 +1466,85 @@ a:hover{
     border:none;
     width: 35px;
     height: 40px;
+    margin-top: 42px;
  }
 
  .profile2-border-bottom{
     border-bottom: 2px solid #bcbcbb;
+    margin-left: 365px;
+    margin-right: 300px;
 }
  /*--------------------------
  ------- END PROFILE 2 -------
+ ----------------------------*/
+
+/*--------------------------
+ --------- PROFILE 3 --------
+ ----------------------------*/
+.profile3-h{
+    font-size:24px;
+    color:#666;
+    text-align: center;
+ }
+
+.profile3-font1{
+    font-size:24px;
+    color:#666;
+    text-align: center;
+    margin-left: 85px;
+ }
+
+.profile3-font2{
+    font-size: 24px;
+    color:#ad3ff3;
+
+ }
+
+.profile3-font3{
+    font-size:20px;
+    color:#666;
+    text-align: center;
+ }
+
+.profile3-font4{
+    font-size:20px;
+    color:#866df6;
+ }
+
+.profile3-font5{
+    font-size: 24px;
+    color:#ad3ff3;
+}
+
+.mar-t{
+    margin-top: 78px;
+}
+
+.profile3-dec{
+    background-color: #fff;
+    color:gray;
+    font-size: 25px;
+    border:none;
+    width: 35px;
+    height: 40px;
+    margin-top: 72px;
+ }
+
+.profile3-dec:hover{
+    background-color: #866df6;
+    color: #fff;
+    font-size: 25px;
+    border:none;
+    width: 35px;
+    height: 40px;
+ }
+
+ .profile3-border-bottom{
+    border-bottom: 2px solid #bcbcbb;
+}
+
+/*--------------------------
+ ------ END PROFILE 3 ------
  ----------------------------*/
 
 
@@ -1463,7 +1586,6 @@ a:hover{
         transition: all 0.8s;
         padding-top: 4px;
     }
-
 
     /*---------------------------
     ------- END NAVBAR 1366 -----
@@ -1573,14 +1695,127 @@ a:hover{
         text-align: right;
      }
 
-     .profile-font2{
+    .profile-font2{
         font-size: 17px;
         color: gray;
      }
+
+    .nav-pills .nav-item .active{
+        background-color: white;
+        font-size: 22px;
+        font-family: 'kanitmedium';
+    }
+
+    .profile-add{
+        background-color: #b308ea;
+        color: #fff;
+        font-size: 25px;
+        padding: 2px;
+        border:none;
+        width: 40px;
+        height: 40px;
+        margin-right: 30px;
+     }
+
+    .profile-add:hover{
+        background-color: #866df6;
+        color: #fff;
+        font-size: 25px;
+        padding: 2px;
+        border:none;
+        width: 40px;
+        height: 40px;
+     }
+
+    .profile-nav-link {
+        text-align: center;
+        font-size: 22px;
+        color:#866df6 !important;
+        border-bottom: 3px solid #bcbcbb;
+        background-color: #bcbcbb;
+        padding: 10px;
+        padding-left: 85px;
+        padding-right: 85px;
+        transition: all 1s;
+        font-family: 'kanitlight';
+    }
+
+    .profile-nav-link:hover {
+        text-align: center;
+        color: #866df6!important;
+        font-size: 22px;
+        transition: all 0.8s;
+    }
     /*---------------------------
      --- END PROFILE (1) 1366 ---
      ----------------------------*/
 
+<<<<<<< HEAD
+     /*--------------------------
+     ------ PROFILE(2) 1366 -----
+     ----------------------------*/
+     .profile2-border-bottom{
+        border-bottom: 2px solid #bcbcbb;
+        margin-left: 240px;
+        margin-right: 240px;
+    }
+    /*---------------------------
+     --- END PROFILE (2) 1366 ---
+     ----------------------------*/
+
+     /*--------------------------
+     ----- PROFILE (3) 1366 -----
+     ----------------------------*/
+    .profile3-font{
+        font-size:24px;
+        color:#666;
+        text-align: center;
+     }
+
+    .profile3-font2{
+        font-size: 24px;
+        color:#ad3ff3;
+
+     }
+
+    .profile3-font3{
+        font-size:20px;
+        color:#666;
+     }
+
+    .profile3-font4{
+        font-size:20px;
+        color:#866df6;
+     }
+
+    .profile3-font5{
+        font-size: 24px;
+        color:#ad3ff3;
+    }
+
+     .profile3-dec{
+        background-color: #fff;
+        color:gray;
+        font-size: 25px;
+        border:none;
+        width: 35px;
+        height: 40px;
+        margin-top: 72px;
+     }
+
+    .profile3-dec:hover{
+        background-color: #866df6;
+        color: #fff;
+        font-size: 25px;
+        border:none;
+        width: 35px;
+        height: 40px;
+     }
+    /*---------------------------
+     --- END PROFILE (3) 1366 ---
+     ----------------------------*/
+
+=======
 
 
 
@@ -1623,10 +1858,14 @@ a:hover{
        .art_c_a{
         width: 100%;
        }
+       .art_h2_top {
+        margin: 35px 0px 0px 77px;
+        }
 
      /*-----------------------------------
      -------------ARTICLE END 1366----------------
      --------------------------------------*/
+>>>>>>> deef11407ce3b35dbbf83bd61906e6334262f22e
 }
 
 
@@ -1733,8 +1972,11 @@ a:hover{
     ----- END FOOTER 1024 ------
     ----------------------------*/
 
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> deef11407ce3b35dbbf83bd61906e6334262f22e
     /*--------------------------
     --------- HOME 1024 --------
     ----------------------------*/
@@ -1959,39 +2201,72 @@ a:hover{
      --- END PROFILE (1) 1024 ---
      ----------------------------*/
 
-     /*-----------------------------------
-     -------------ARTICLE 1024-----------------
-     --------------------------------------*/
-       .art_top_mer {
-            margin-left: 0px;
-       }
-      .card {
-            width: 100%;
-       }
+<<<<<<< HEAD
+    /*--------------------------
+     ------ PROFILE(2) 1024 -----
+     ----------------------------*/
+     .profile2-border-bottom{
+        border-bottom: 2px solid #bcbcbb;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    /*---------------------------
+     --- END PROFILE (2) 1024 ---
+     ----------------------------*/
 
+
+ /*-----------------------------------
+ -------------ARTICLE 1024------------
+ --------------------------------------*/
+   .art_top_mer {
+    margin-left: 0px;
+   }
+  .card {
+    width: 100%;
+   }
+
+ /*-----------------------------------
+ ---------ARTICLE END 1024------------
+ --------------------------------------*/
+=======
      /*-----------------------------------
      -------------ARTICLE 1024-----------------
      --------------------------------------*/
-       .flex-carousel-img {
+    .art_top_mer {
+        margin-left: 0px;
+    }
+    .art_h2_top {
+        margin: 35px 0px 0px 70px;
+    }
+      
+    .flex-carousel-img {
         position: relative;
         overflow: hidden;
         height: 432px;
-       }
-       .art-99 {
+    }
+    .art-99 {
         margin-left: 0px;
-       }
-       .art_c_a{
+    }
+    .art_c_a{
         width: 100%;
-       }
-
+    }
+       
      /*-----------------------------------
      -------------ARTICLE END 1024-----------------
      --------------------------------------*/
 
 
 
+    /*------------------------
+    ---------Pay Confirm------
+    --------------------------*/
 
-
+    .pay_ll {
+    margin-left: 356px;
+    }
+    /*------------------------
+    ---------Pay Confirm END------
+    --------------------------*/
 
 
 
@@ -2025,6 +2300,7 @@ a:hover{
     ------------------------------------------*/
 
 
+>>>>>>> deef11407ce3b35dbbf83bd61906e6334262f22e
 }
 
 @media(max-width: 768px){
@@ -2055,7 +2331,10 @@ a:hover{
     .font-sizelg {
       font-size: 16px;
     }
+<<<<<<< HEAD
+=======
     
+>>>>>>> deef11407ce3b35dbbf83bd61906e6334262f22e
     /*--------------------------
     ------ END NAVBAR 768 ------
     ----------------------------*/
@@ -2093,6 +2372,8 @@ a:hover{
         overflow: hidden;
         height: 275px;
     }
+<<<<<<< HEAD
+=======
     .flex-img-bands {
         position: relative;
         overflow: hidden;
@@ -2215,6 +2496,7 @@ a:hover{
         width:100%;
         height:250px;
     }
+>>>>>>> deef11407ce3b35dbbf83bd61906e6334262f22e
      /*--------------------------
      ------ END BRANDS 768 -----
      ----------------------------*/
@@ -2285,7 +2567,10 @@ a:hover{
     ----------------------------------*/
 
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> deef11407ce3b35dbbf83bd61906e6334262f22e
      /*--------------------------
      ------ HOW TO PAY 768 ------
      ----------------------------*/
@@ -2326,12 +2611,12 @@ a:hover{
      ------ PROFILE(1) 768 ------
      ----------------------------*/
     .profile-font{
-        font-size: 18px;
+        font-size: 16px;
         color:#866df6;
         text-align: right;
      }
 
-     .profile-font2{
+    .profile-font2{
         font-size: 18px;
         color: gray;
      }
@@ -2340,9 +2625,6 @@ a:hover{
     ---------------------------------*/
     .CON_h2_top {
         margin: 48px 0px 0px 70px;
-    }
-    .CON_h2_top_1 {
-        margin: 47px 0px 0px 356px;
     }
     .CON_top_mer-1 {
         color: #a935f1;
@@ -2360,36 +2642,69 @@ a:hover{
     width: 100%;
     }
 
+    .flex-carousel-img {
+        position: relative;
+        overflow: hidden;
+        height: 360px;
+    }
+    .CON_h2_top_1 {
+    margin: 57px 0px 0px 485px;
+    font-size: 16px;
+}
+
+    
+
+    /*--------------------------------
+    --------------CONTENT 768 END-------------
+    ---------------------------------*/
+
+ /*--------------------------
+     ------ PROFILE(1) 768 ------
+     ----------------------------*/
+    .profile-font{
+        font-size: 18px;
+        color:#866df6;
+        text-align: right;
+     }
+
+     .profile-font2{
+        font-size: 18px;
+        color: gray;
+     }
+
+
     .nav-pills .nav-item .active{
         background-color: white;
         font-size: 18px;
+        font-family: 'kanitmedium';
     }
 
     .profile-nav-link {
         text-align: center;
-        font-size: 16px;
+        font-size: 18px;
         color:#866df6 !important;
         border-bottom: 3px solid #bcbcbb;
         background-color: #bcbcbb;
         padding: 10px;
+        padding-left: 65px;
+        padding-right: 65px;
         transition: all 1s;
+        font-family: 'kanitlight';
     }
 
     .profile-nav-link:hover {
         text-align: center;
         color: #866df6!important;
-        font-size: 16px;
+        font-size: 18px;
         transition: all 0.8s;
-        padding: 10px;
-    }
 
+    }
     /*---------------------------
      --- END PROFILE (1) 768 ----
      ----------------------------*/
 
 
-
-
+ 
 
     /*--------------------------------
     --------------CONTENT-------------
@@ -2411,11 +2726,11 @@ a:hover{
 
 
 
+>>>>>>> deef11407ce3b35dbbf83bd61906e6334262f22e
 @media(max-width: 414px){
     /*--------------------------
     ------ NAVBAR 414 ----------
-    ----------------------------*/
-
+    ----------------------------*/ 
     .logo-frame {
         width: 150px;
         height: 70px;
@@ -2481,6 +2796,7 @@ a:hover{
     /*--------------------------
     ------ END NAVBAR 414 ------
     ----------------------------*/
+
     /*--------------------------
     ------- FOOTER 414 ---------
     ----------------------------*/
@@ -2776,6 +3092,26 @@ a:hover{
      -----------------------------*/
 
 
+<<<<<<< HEAD
+    /*--------------------------------
+     --------Pay Confirm 414----------
+    ----------------------------------*/
+    .pay-from {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #a935f1;
+    border-radius: -0.75rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border-radius: 0px;
+    border-width: 2px;
+    height: 45px;
+=======
      /*--------------------------------
      -------------Pay Confirm 414----------
     ----------------------------------*/
@@ -2796,6 +3132,72 @@ a:hover{
         border-width: 2px;
         height: 45px;
     }
+   
+    .Pay_with_414{
+        width: 100%;
+        height: auto;
+>>>>>>> deef11407ce3b35dbbf83bd61906e6334262f22e
+    }
+
+    .pay_l {
+        margin-left: 0px; 
+    }
+   .pay_ll {
+        margin-left: 116px; 
+    }
+   .pay-buttom {
+<<<<<<< HEAD
+    width: 92%;
+    margin-left: 14px;
+   }
+=======
+        width: 92%;
+        margin-left: 14px;
+    }
+
+>>>>>>> deef11407ce3b35dbbf83bd61906e6334262f22e
+   .pay_bb_2 {
+        width: 96%;
+        margin-left: 14px;
+    }
+   .pay_bb_3 {
+        width: 96%;
+        margin-left: -9px;
+    }
+   .pay_top_but {
+<<<<<<< HEAD
+    margin-top: 24px;
+    margin-bottom: 60px;
+   }
+    /*--------------------------------
+     ----------Pay Confirm END------
+    ----------------------------------*/
+
+
+    /*-----------------------------------
+    -------------ARTICLE 414-----------------
+    --------------------------------------*/
+    .art-lo {
+        width: 100%;
+    }
+    /*-----------------------------------
+    -----------ARTICLE 414 END-----------
+    --------------------------------------*/
+=======
+        margin-top: 24px;
+        margin-bottom: 60px;
+    }
+   
+<<<<<<< .mine
+    /*--------------------------
+     ------ Pay Confirm END414 ------
+     ----------------------------*/
+=======
+>>>>>>> deef11407ce3b35dbbf83bd61906e6334262f22e
+
+
+>>>>>>> .theirs
+
      /*--------------------------
      ------ PROFILE(1) 414 ------
      ----------------------------*/
@@ -2815,30 +3217,7 @@ a:hover{
         background-color: white;
         font-size: 18px;
     }
-    .pay_l {
-        margin-left: 0px; 
-    }
-   .pay_ll {
-        margin-left: 0px; 
-    }
-   .pay-buttom {
-        width: 92%;
-        margin-left: 14px;
-    }
-
-   .pay_bb_2 {
-        width: 96%;
-        margin-left: 14px;
-    }
-   .pay_bb_3 {
-        width: 96%;
-        margin-left: -9px;
-    }
-   .pay_top_but {
-        margin-top: 24px;
-        margin-bottom: 60px;
-    }
-   
+    
 
      /*--------------------------
      ------ PROFILE(1) 414 ------
@@ -2849,6 +3228,19 @@ a:hover{
         text-align: center;
      }
 
+<<<<<<< HEAD
+
+   /*--------------------------
+     ------ PROFILE(1) 414 ------
+     ----------------------------*/
+    .profile-font{
+        font-size: 18px;
+        color:#866df6;
+        text-align: center;
+     }
+
+=======
+>>>>>>> deef11407ce3b35dbbf83bd61906e6334262f22e
     .profile-font2{
         font-size: 18px;
         color: gray;
@@ -2857,7 +3249,12 @@ a:hover{
 
     .nav-pills .nav-item .active{
         background-color: white;
+<<<<<<< HEAD
+        font-size: 17px;
+        font-family: 'kanitmedium';
+=======
         font-size: 18px;
+>>>>>>> deef11407ce3b35dbbf83bd61906e6334262f22e
     }
 
     .profile-nav-link {
@@ -2867,7 +3264,10 @@ a:hover{
         border-bottom: 3px solid #bcbcbb;
         background-color: #bcbcbb;
         padding: 10px;
+        padding-left: 11px;
+        padding-right: 11px;
         transition: all 1s;
+        font-family: 'kanitlight';
     }
 
     .profile-nav-link:hover {
@@ -2875,12 +3275,32 @@ a:hover{
         color: #866df6!important;
         font-size: 17px;
         transition: all 0.8s;
-        padding: 10px;
     }
     /*---------------------------
      --- END PROFILE (1) 414 ----
      ----------------------------*/
 
+<<<<<<< HEAD
+    /*--------------------------
+     ----- PROFILE (2) 414 -----
+     ----------------------------*/
+    .profile2-font{
+        font-size: 22px;
+        color:#b308ea;
+        font-weight: bold;
+     }
+
+    .profile2-font2{
+        font-size: 18px;
+        color:#866df6;
+     }
+
+    .profile2-font3{
+        font-size: 22px;
+        color:#58D68D;
+        font-weight: bold;
+     }
+=======
 
     /*-----------------------------------
     -------------ARTICLE 414-----------------
@@ -2888,22 +3308,12 @@ a:hover{
     .art-lo {
         width: 100%;
     }
+    .art_h2_top {
+    margin: 35px 0px 0px 156px;
+    }
     /*-----------------------------------
     -------------ARTICLE 414 END-----------------
     --------------------------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -2916,6 +3326,11 @@ a:hover{
         height: 170px;
     }
 
+    .CON_h2_top_1 {
+    margin: 50px 0px 0px 187px;
+    font-size: 16px;
+   }
+
     /*--------------------------------
     --------------CONTENT END 414-------------
     ---------------------------------*/
@@ -2926,13 +3341,59 @@ a:hover{
    
 
     
+>>>>>>> deef11407ce3b35dbbf83bd61906e6334262f22e
 
+    .profile2-font4{
+        font-size: 22px;
+        color:#666;
+        font-weight: bold;
+        margin-left: 10px;
+     }
 
+    .profile2-font5{
+        font-size: 18px;
+        color:#666;
+        margin-left: 10px;
+     }
 
+    .profile2-font6{
+        font-size: 18px;
+        color :#AEB6BF;
+     }
 
+    .profile2-font7{
+        font-size: 22px;
+        color:#E74C3C;
+        font-weight: bold;
+     }
 
+    .profile2-font8{
+        font-size: 22px;
+        color:#ace600;
+        font-weight: bold;
+     }
 
+     .profile2-font9{
+        font-size: 18px;
+        color :#AEB6BF;
+        margin-left: 25px;
+     }
 
+     .profile2-font10{
+        font-size: 18px;
+        color:#666;
+        margin-left: 24px;
+     }
+
+     .profile2-font11{
+        font-size: 18px;
+        color:#666;
+     }
+     /*--------------------------
+     ---- END PROFILE (2) 414 ---
+     ----------------------------*/
+
+}
 
 
 @media(max-width: 375px){
@@ -2964,6 +3425,7 @@ a:hover{
     /*--------------------------
     ------- END NAVBAR 375 -----
     ----------------------------*/
+
     /*--------------------------
     ------ FOOTER 375 ----------
     ----------------------------*/
@@ -3072,8 +3534,13 @@ a:hover{
      ------ END BRANDS 375 -----
      ----------------------------*/
 
+<<<<<<< HEAD
+    /*--------------------------------
+     --------Pay Confirm 375----------
+=======
      /*--------------------------------
      -------------Pay Confirm 375----------
+>>>>>>> deef11407ce3b35dbbf83bd61906e6334262f22e
     ----------------------------------*/
     .pay_ma_h2_top {
         margin: 35px 0px 0px 91px;
@@ -3084,11 +3551,27 @@ a:hover{
     width: 90%;
     margin-left: 15px;
     }
+<<<<<<< .mine
+    .pay_ll {
+    margin-left: 94px;
+    }
 
 
+=======
+
+
+
+
+
+>>>>>>> .theirs
     /*--------------------------------
+<<<<<<< HEAD
+     ------Pay Confirm END 375--------
+    ----------------------------------
+=======
      -------------Pay Confirm END 375----------
     ----------------------------------*/
+>>>>>>> deef11407ce3b35dbbf83bd61906e6334262f22e
 
      /*--------------------------
      ------ PROFILE(1) 375 ------
@@ -3104,9 +3587,11 @@ a:hover{
         color: gray;
         text-align: center;
      }
+
     .nav-pills .nav-item .active{
         background-color: white;
         font-size: 15px;
+        font-family: 'kanitmedium';
     }
 
     .profile-nav-link {
@@ -3116,7 +3601,10 @@ a:hover{
         border-bottom: 3px solid #bcbcbb;
         background-color: #bcbcbb;
         padding: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
         transition: all 1s;
+        font-family: 'kanitlight';
     }
 
     .profile-nav-link:hover {
@@ -3124,11 +3612,32 @@ a:hover{
         color: #866df6!important;
         font-size: 15px;
         transition: all 0.8s;
-        padding: 10px;
     }
     /*---------------------------
      --- END PROFILE (1) 375 ----
      ----------------------------*/
+
+     /*--------------------------
+     -------------CONTENT 375-----*/
+     .CON_h2_top_1 {
+        margin: 50px 0px 0px 160px;
+        font-size: 16px;
+   }
+    /*--------------------------
+     -------------CONTENT 375-----*/
+
+    /*-------------------------------
+    ----------------article 320------
+    ------------------------------------*/
+
+    .art_h2_top {
+        margin: 35px 0px 0px 122px;
+        color: #6d5bf3;
+        font-weight: 700;
+    }
+    /*-------------------------------
+    ----------------article  END 320------
+    ------------------------------------*/  
 }
 
 @media (max-width: 320px ){
@@ -3203,7 +3712,7 @@ a:hover{
       -----------------------------*/
 
 
-      /*--------------------------
+    /*--------------------------
      -------- BRANDS 320 -------
      ----------------------------*/
     .brand-mt{
@@ -3217,33 +3726,44 @@ a:hover{
      /*--------------------------
      ------ END BRANDS 320 -----
      ----------------------------*/
+<<<<<<< HEAD
+
+=======
+>>>>>>> deef11407ce3b35dbbf83bd61906e6334262f22e
      /*-------------------------
-     -----------Pay Confirm  320 ------
+     -----Pay Confirm  320 -----
      ----------------------------*/
     .pay_ma_h2_top {
-    margin: 35px 0px 0px 66px;
-    color: #6d5bf3;
-    font-weight: 700;
+        margin: 35px 0px 0px 66px;
+        color: #6d5bf3;
+        font-weight: 700;
     }
     .pay-buttom {
-    width: 88%;
-    margin-left: 15px;
+        width: 88%;
+        margin-left: 15px;
     }
     .pay_bb_2 {
-    width: 97%;
-    margin-left: 14px;
+        width: 97%;
+        margin-left: 14px;
     }
     .pay_bb_3 {
-    width: 97%;
-    margin-left: -12px;
+        width: 97%;
+        margin-left: -12px;
     }
+    .pay_ll {
+        margin-left: 72px;
+    }
+    
 
      /*-------------------------
-     -----------Pay Confirm END 320------
+     ----Pay Confirm END 320----
      ----------------------------*/
 
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> deef11407ce3b35dbbf83bd61906e6334262f22e
      /*--------------------------
      ------ PROFILE(1) 320 ------
      ----------------------------*/
@@ -3258,27 +3778,31 @@ a:hover{
         color: gray;
         text-align: center;
      }
+
     .nav-pills .nav-item .active{
         background-color: white;
-        font-size: 11px;
+        font-size: 12px;
+        font-family: 'kanitmedium';
     }
 
     .profile-nav-link {
         text-align: center;
-        font-size: 11px;
+        font-size: 12px;
         color:#866df6 !important;
         border-bottom: 3px solid #bcbcbb;
         background-color: #bcbcbb;
         padding: 10px;
+        padding-left: 9px;
+        padding-right: 9px;
         transition: all 1s;
+        font-family: 'kanitlight';
     }
 
     .profile-nav-link:hover {
         text-align: center;
         color: #866df6!important;
-        font-size: 11px;
+        font-size: 12px;
         transition: all 0.8s;
-        padding: 10px;
     }
     /*---------------------------
      --- END PROFILE (1) 320 ----
@@ -3293,9 +3817,45 @@ a:hover{
         font-weight: bold;
      }
      /*--------------------------
-     ------ END PROFILE 2 -------
+     ---- END PROFILE (2) 320 -----
      ----------------------------*/
 
+<<<<<<< HEAD
+    /*--------------------------
+     ----- PROFILE (3) 320 -----
+     ----------------------------*/
+     .profile3-font{
+        font-size:20px;
+        color:#666;
+        text-align: center;
+     }
+
+    .profile3-font2{
+        font-size: 20px;
+        color:#ad3ff3;
+     }
+
+    .profile3-font3{
+        font-size:13px;
+        color:#666;
+        text-align: center;
+     }
+
+    .profile3-font4{
+        font-size:13px;
+        color:#866df6;
+     }
+
+     .profile3-font5{
+        font-size: 20px;
+        color:#ad3ff3;
+        text-align: center;
+     }
+
+    /*--------------------------
+     --- END PROFILE (3) 320 ----
+     ----------------------------*/
+=======
 
 
 
@@ -3306,12 +3866,9 @@ a:hover{
         margin: 49px 0px 0px 100px;
         font-size: 16px;
     }
-    .CON_h2_top {
-        margin: 52px 0px 0px 28px;
-    }
-    /*---------------------------------
-    -------------CONTENT END 768-------------
-    ---------------------------------*/
+    /*-------------------------------
+    ----------------article  END 320------
+    ------------------------------------*/
 
 
 
@@ -3338,3 +3895,4 @@ a:hover{
     ---------------------------------*/
 
 }
+>>>>>>> deef11407ce3b35dbbf83bd61906e6334262f22e

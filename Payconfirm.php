@@ -38,7 +38,7 @@
           </div>
           <div class="col-lg-12 col-12">
             <div class="pay_ll ">
-              <input type="file" name="" >
+              <input type="file" class="pay_file_input Pay_with_414" >
             </div>
             
           </div>
