@@ -37,9 +37,10 @@
              </div> 
           </div>
           <div class="col-lg-12 col-12">
-            <div class="pay_ll">
-              <button type="button" class="btn btn-blue pay-buttom ">แนบไพล์</button>
+            <div class="pay_ll ">
+              <input type="file" name="" >
             </div>
+            
           </div>
 
           <div class="col-lg-6 col-md-6 col-6 pay_top_but">
