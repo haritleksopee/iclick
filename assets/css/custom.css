@@ -284,6 +284,28 @@ a:hover{
     font-size: 20px;
     font-weight: 300;
 }
+.bnt-white {
+    width: 100%;
+    background-color: #fff;
+    height: 45px;
+    font-size: 24px;
+    color: #9718e4;
+    border-radius: 0px;
+    border: 3px solid #9718e4;
+    padding: 0px;
+    transition: all 0.5s;
+}
+.bnt-white:hover {
+    width: 100%;
+    background-color: #9718e4;
+    height: 45px;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 0px;
+    border: 3px solid #9718e4;
+    padding: 0px;
+    transition: all 0.5s;
+}
 .input-iclick {
     border-radius: 0px!important;
     height: 45px!important;
@@ -550,7 +572,6 @@ a:hover{
 }
 .pay_ll{
      margin-left: 418px;
-
 }
 
  
@@ -1014,8 +1035,110 @@ a:hover{
     padding-right: 40px;
 }
 /*---------------- END HOME ------------------*/
+/*---------------------------
+------------ SIGNUP ----------
+-----------------------------*/
+.signup-bnt {
+    border: none;
+    width: 300px;
+    height: 60px;
+    margin-top: -95px;
+    font-size: 20px;
+    margin-right: 15px;
+}
+.signup-bnt:hover {
+    width: 300px;
+    height: 60px;
+    margin-top: -95px;
+    font-size: 20px;
+    margin-right: 15px;
+}
+.signup-hr {
+    width: 275px;
+    border-top: 2px solid rgba(0,0,0,.1);
+}
+.signup-from-select {
+    width: 50%!important;
+    border-radius: 0px!important;
+}
+.signup-select {
+    border: 2px solid #21a4c0;
+    border-radius: 0px;
+    background: #fff url(../../assets/images/select.png) no-repeat right 15px center;
+    background-size: 30px;
+    -webkit-appearance: none!important;
+    padding: 7px 25px!important;
+}
+.signup-from-input {
+    width: 100%!important;
+    border-radius: 0px!important;
+}
+.signup-distance-y {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.signup-font-sizt-16 {
+     font-size: 17px;
+}
+.signup-btn-size-300 {
+    width: 300px;
+}
+.signup-btn-size-300:hover {
+    width: 300px;
+}
+.signup-btn-border-none {
+   border: none;
+}
+.signup-mb-5 {
+    margin-bottom: 75px;
+    margin-top: 60px;
+}
+.signup-mb-3 {
+    margin-bottom: 30px;
+}
+.signup-mb-8 {
+    margin-bottom: 80px;
+}
+.signup-btn-facebook {
+    overflow: hidden;
+    width: 606px;
+    height: 58px;
+    color: #fff;
+    border-radius: 0px;
+    background-color: #133783;
+    font-size: 20px;
+}
+.signup-facebook-icon {
+    margin-right: 50px;
+    font-size: 28px;
+}
+.signup-facebook-text {
+    margin-right: 0px;
+    font-size: 28px;
+}
 
 
+.signup-btn-gmail {
+    overflow: hidden;
+    width: 606px;
+    height: 58px;
+    color: #fff;
+    border-radius: 0px;
+    background-color: #ce352a;
+    font-size: 20px;
+}
+.signup-gmail-icon {
+    margin-right: 50px;
+    font-size: 28px;
+}
+.signup-gmail-text {
+    margin-right: 35px;
+    font-size: 28px;
+}
+
+/*--------------------------
+------- END SIGNUP ---------
+----------------------------*/
  /*--------------------------
  -------- BRANDS -------
  ----------------------------*/
@@ -1429,7 +1552,7 @@ a:hover{
     /*---------------------------
      -------- BRANDS 1366 -------
      ----------------------------*/
-    .brand-mt{
+    .brand-mt {
         margin-top: 20px;
     }
 
@@ -1742,6 +1865,68 @@ a:hover{
     --------- END HOME 1024 ----
     ----------------------------*/
 
+    /*---------------------------
+    -------- SIGNUP 1024 --------
+    -----------------------------*/
+    .signup-btn-border-none {
+        border: none;
+    }
+    .signup-btn-size-300 {
+        width: 225px;
+    }
+    .signup-btn-size-300:hover {
+        width: 225px;
+    }
+    .signup-btn-facebook {
+        overflow: hidden;
+        width: 455px;
+        height: 58px;
+        color: #fff;
+        border-radius: 0px;
+        background-color: #133783;
+        font-size: 20px;
+    }
+    .signup-btn-gmail {
+        overflow: hidden;
+        width: 455px;
+        height: 58px;
+        color: #fff;
+        border-radius: 0px;
+        background-color: #ce352a;
+        font-size: 20px;
+    }
+    .signup-facebook-text {
+        margin-right: 0px;
+        font-size: 23px;
+    }
+    .signup-facebook-icon {
+        margin-right: 35px;
+        font-size: 23px;
+    }
+    .signup-gmail-icon {
+        margin-right: 35px;
+        font-size: 23px;
+    }
+    .signup-gmail-text {
+        margin-right: 35px;
+        font-size: 23px;
+    }
+    .signup-select {
+
+        border-radius: 0px;
+        background: #fff url(../../assets/images/select.png) no-repeat right 6px center;
+        background-size: 25px;
+        -webkit-appearance: none!important;
+        padding: 7px 25px!important;
+    }
+    .signup-from-select {
+        width: 60%!important;
+        border-radius: 0px!important;
+    }
+    /*---------------------------
+    ------ END SIGNUP 1024 ------
+    -----------------------------*/
+
     /*--------------------------
      -------- BRANDS 1024-------
      ----------------------------*/
@@ -1982,8 +2167,38 @@ a:hover{
     ----- END HOME 768 ---------
     ----------------------------*/
 
+    /*--------------------------
+    --------- SIGNUP 768 -------
+    ----------------------------*/
+    .signup-bnt {
+        border: none;
+        width: 200px;
+        height: 45px;
+        margin-top: -95px;
+        font-size: 20px;
+        margin-right: 15px;
+    }
+    .signup-bnt:hover {
+        width: 200px;
+        height: 45px;
+        margin-top: -95px;
+        font-size: 20px;
+        margin-right: 15px;
+    }
+    .signup-btn-size-300 {
+        width: 225px;
+    }
+    .signup-btn-size-300:hover {
+        width: 225px;
+    }
+    .signup-from-select {
+        width: 50%!important;
+        border-radius: 0px!important;
+    }
 
-
+    /*--------------------------
+    ----- END SIGNUP 768 -------
+    ----------------------------*/
 
 
 
@@ -2431,7 +2646,86 @@ a:hover{
     ------ END HOME 414 --------
     ----------------------------*/
 
+    /*--------------------------
+    ------ SIGNUP 414 ----------
+    ----------------------------*/
+    .signup-from-select {
+        width: 100%!important;
+        border-radius: 0px!important;
+    }
+    .signup-bnt {
+        border: none;
+        width: 200px;
+        height: 45px;
+        margin-top: 20px;
+        font-size: 20px;
+        margin-right: 0px;
+    }
+    .signup-bnt:hover {
 
+        width: 200px;
+        height: 45px;
+        margin-top: 20px;
+        font-size: 20px;
+        margin-right: 0px;
+    }
+    .signup-btn-facebook {
+        overflow: hidden;
+        width: 100%;
+        height: 58px;
+        color: #fff;
+        border-radius: 0px;
+        background-color: #133783;
+        font-size: 20px;
+    }
+    .signup-btn-facebook {
+        overflow: hidden;
+        width: 100%;
+        height: 45px;
+        color: #fff;
+        border-radius: 0px;
+        background-color: #133783;
+        font-size: 20px;
+    }
+    .signup-btn-gmail {
+        overflow: hidden;
+        width: 100%;
+        height: 45px;
+        color: #fff;
+        border-radius: 0px;
+        background-color: #ce352a;
+        font-size: 20px;
+    }
+    .signup-btn-size-300 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .signup-btn-size-300:hover {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .signup-font-sizt-16 {
+        font-size: 18px;
+    }
+    .signup-facebook-icon {
+        margin-right: 35px;
+        font-size: 18px;
+    }
+    .signup-facebook-text {
+        margin-right: 0px;
+        font-size: 18px;
+    }
+    .signup-gmail-icon {
+        margin-right: 35px;
+        font-size: 18px;
+    }
+    .signup-gmail-text {
+        margin-right: 20px;
+        font-size: 18px;
+    }
+    /*--------------------------
+    ------ END SIGNUP 414 ------
+    ----------------------------*/
 
 
 
