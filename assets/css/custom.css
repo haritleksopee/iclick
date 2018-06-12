@@ -1052,7 +1052,7 @@ a:hover{
 
 .profile-nav-link {
     text-align: center;
-    font-size: 23px;
+    font-size: 22px;
     color:#866df6 !important;
     border-bottom: 3px solid #bcbcbb;
     background-color: #bcbcbb;
@@ -1063,7 +1063,7 @@ a:hover{
 .profile-nav-link:hover {
     text-align: center;
     color: #866df6!important;
-    font-size: 23px;
+    font-size: 22px;
     transition: all 0.8s;
     padding: 10px;
 }
@@ -1753,8 +1753,8 @@ a:hover{
      ----------------------------*/
 
 
-      /*--------------------------------
-     -------------Pay Confirm 768----------
+    /*--------------------------------
+    -------------Pay Confirm 768----------
     ----------------------------------*/
    .pay_ll {
     margin-left: 236px;
@@ -1814,7 +1814,7 @@ a:hover{
     font-weight: 700;
    }
     /*--------------------------------
-     -------------Pay Confirm END----------
+     --------Pay Confirm END----------
     ----------------------------------*/
 
 
@@ -1859,15 +1859,39 @@ a:hover{
      ------ PROFILE(1) 768 ------
      ----------------------------*/
     .profile-font{
-        font-size: 19px;
+        font-size: 18px;
         color:#866df6;
         text-align: right;
      }
 
      .profile-font2{
-        font-size: 19px;
+        font-size: 18px;
         color: gray;
      }
+
+    .nav-pills .nav-item .active{
+        background-color: white;
+        font-size: 18px;
+    }
+
+    .profile-nav-link {
+        text-align: center;
+        font-size: 16px;
+        color:#866df6 !important;
+        border-bottom: 3px solid #bcbcbb;
+        background-color: #bcbcbb;
+        padding: 10px;
+        transition: all 1s;
+    }
+
+    .profile-nav-link:hover {
+        text-align: center;
+        color: #866df6!important;
+        font-size: 16px;
+        transition: all 0.8s;
+        padding: 10px;
+    }
+
     /*---------------------------
      --- END PROFILE (1) 768 ----
      ----------------------------*/
