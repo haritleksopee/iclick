@@ -475,14 +475,185 @@ a:hover{
 /*--------------------------------
  -------------Pay Confirm----------
 ----------------------------------*/
-     .pay-{
-          background-color: #ffc107; 
-              color: #007bff;
-     }
+   .pay_ma_h2_top{
+        margin: 35px 0px 0px 78px;
+        color: #6d5bf3;
+        font-weight: 700;
+   }
+   .pay_hr_width{
+    border-width: 3px;
+    width: 92%;  
+   } 
+   .pay-from{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #a935f1;
+    border-radius: -0.75rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border-radius: 0px;
+    border-width: 2px;
+    height: 45px;
+}
+   .pay-form-label {
+    padding-top: calc(.375rem + 1px);
+    padding-bottom: calc(.375rem + 1px);
+    margin-bottom: 0;
+    font-size: inherit;
+    color: #b4b4b4;
+}
+   .pay-buttom{
+    width: 160px;
+    margin-right: 168px;
+    background-color: #6d5af3;
+    border-radius: 0px;
+    height: 45px;
+    color: #fff;
+    font-size: 17px;
+   }
+   .pay_bb_2 {
+    width: 190px;
+    background-color: #ffffff;
+    border-radius: 0px;
+    height: 45px;
+    color: #6d5af3;
+    border-color: #a935f1;
+    border-width: 2px;
+    font-weight: 700;
+    
+}
+.pay_bb_3 {
+    width: 190px;
+    background-color: #a935f1;
+    border-radius: 0px;
+    height: 45px;
+    color: #f9f9f9;
+    border-color: #a935f1;
+    border-width: 2px;
+    font-weight: 700;
+}
+.pay_top_but{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.pay_l{
+    margin-left: 42px;
+}
+.pay_ll{
+     margin-left: 418px;
+
+}
+
+ 
  /*--------------------------------
  -------------Pay Confirm END----------
  ----------------------------------*/
 
+ /*-----------------------------------
+ -------------ARTICLE-----------------
+ --------------------------------------*/
+ .art_h2_top {
+    margin: 35px 0px 0px 91px;
+    color: #6d5bf3;
+    font-weight: 700;
+    }
+.art_hr_width{
+    border-width: 3px;
+    width: 92%;  
+   } 
+.art_text_h{
+    color: #6d5af3;
+    font-size: 25px;
+}
+.art_color{
+   color: #b4b4b4;
+}
+.art_color-1{
+    color: #a935f1;
+}
+
+
+
+.art_img-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.art_fram_img{
+    position: relative;
+    overflow: hidden;
+    height: 330px;
+    width: 100%;
+    border: 4px solid #a935f1;
+    border-radius: 6px;
+}
+.art_img_1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.art_fram_1{
+    position: relative;
+    overflow: hidden;
+    height: 130px;
+    width: 100%;
+}
+.art_fram_2{
+    position: relative;
+    overflow: hidden;
+    height: 350px;
+    width: 100%;
+}
+.art_img_2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0px solid rgba(0,0,0,.125); 
+    width: 76%;
+}
+.art_top_mer{
+    margin-left: 75px;
+}
+.art-lo {
+    width: 20%;
+    height: 50px;
+    background-color: #a935f1;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 0px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
+
+ /*-----------------------------------
+ -------------ARTICLE END-----------------
+ --------------------------------------*/
+ 
 
 /*----------- END ALL CLASS ----------------*/
 
@@ -788,24 +959,84 @@ a:hover{
  ----------------------------*/
 
  /*--------------------------
- ---------- PROFILE ---------
+ --------- PROFILE 1 --------
  ----------------------------*/
 .profile-font{
-    font-size: 18px;
+    font-size: 19px;
     color:#866df6;
+    text-align: right;
  }
 
  .profile-font2{
-    font-size: 18px;
-    color: #bcbcbb;
+    font-size: 19px;
+    color: gray;
  }
 
+ .profile-add{
+    background-color: #b308ea;
+    color: #fff;
+    font-size: 25px;
+    padding: 2px;
+    border:none;
+    width: 40px;
+    height: 40px;
+ }
+
+  .profile-add:hover{
+    background-color: #866df6;
+    color: #fff;
+    font-size: 25px;
+    padding: 2px;
+    border:none;
+    width: 40px;
+    height: 40px;
+ }
+
+  .profile-btn1{
+    background-color:#fff;
+    color: #866df6;
+    font-size: 20px;
+    padding: 2px;
+    border: 2px solid #b308ea;
+    width: 200px;
+    height: 50px;
+ }
+
+   .profile-btn1:hover{
+    background-color:#fff;
+    color: #866df6;
+    font-size: 20px;
+    padding: 2px;
+    border: 2px solid #866df6;
+    width: 200px;
+    height: 50px;
+ }
+
+  .profile-btn2{
+    background-color: #b308ea;
+    color: #fff;
+    font-size: 20px;
+    padding: 2px;
+    border:none;
+    width: 200px;
+    height: 50px;
+ }
+
+   .profile-btn2:hover{
+    background-color:#866df6;
+    color: #fff;
+    font-size: 20px;
+    padding: 2px;
+    border:none;
+    width: 200px;
+    height: 50px;
+ }
 
  .profile-form{
     border: 2px solid #b308ea;
     color: #333;
     width: 100%;
-    height: 40px;
+    height: 50px;
     border-radius: 5px;
     padding: 7px;
  }
@@ -834,16 +1065,89 @@ a:hover{
 }
 
 .profile-border-bottom{
-    border-bottom: 4px solid #bcbcbb;
+    border-bottom: 2px solid #bcbcbb;
 }
 
 .profile-border-bottom2{
     border-bottom: 2px solid #bcbcbb;
 }
 /*--------------------------
- ------- END PROFILE -------
+ ------ END PROFILE 1 ------
  ----------------------------*/
 
+ /*--------------------------
+ --------- PROFILE 2 --------
+ ----------------------------*/
+.profile2-font{
+    font-size: 22px;
+    color:#b308ea;
+    font-weight: bold;
+ }
+
+.profile2-font2{
+    font-size: 18px;
+    color:#866df6;
+ }
+
+.profile2-font3{
+    font-size: 22px;
+    color:#58D68D;
+    font-weight: bold;
+ }
+
+.profile2-font4{
+    font-size: 22px;
+    color:#666;
+    font-weight: bold;
+ }
+
+.profile2-font5{
+    font-size: 18px;
+    color:#666;
+ }
+
+.profile2-font6{
+    font-size: 18px;
+    color :#AEB6BF;
+ }
+
+.profile2-font7{
+    font-size: 22px;
+    color:#E74C3C;
+    font-weight: bold;
+ }
+
+.profile2-font8{
+    font-size: 22px;
+    color:#ace600;
+    font-weight: bold;
+ }
+
+
+.profile2-dec{
+    background-color: #fff;
+    color:gray;
+    font-size: 25px;
+    border:none;
+    width: 35px;
+    height: 40px;
+ }
+
+.profile2-dec:hover{
+    background-color: #866df6;
+    color: #fff;
+    font-size: 25px;
+    border:none;
+    width: 35px;
+    height: 40px;
+ }
+
+ .profile2-border-bottom{
+    border-bottom: 2px solid #bcbcbb;
+}
+ /*--------------------------
+ ------- END PROFILE 2 -------
+ ----------------------------*/
 
 
 @media(max-width: 1366px){
@@ -983,6 +1287,23 @@ a:hover{
     }
      /*--------------------------
      ------ END BRANDS 1366 -----
+     ----------------------------*/
+
+     /*--------------------------
+     ------ PROFILE(1) 1366 -----
+     ----------------------------*/
+    .profile-font{
+        font-size: 17px;
+        color:#866df6;
+        text-align: right;
+     }
+
+     .profile-font2{
+        font-size: 17px;
+        color: gray;
+     }
+    /*---------------------------
+     --- END PROFILE (1) 1366 ---
      ----------------------------*/
 
 }
@@ -1161,6 +1482,42 @@ a:hover{
      /*--------------------------
      ------ END BRANDS 1024 -----
      ----------------------------*/
+
+    /*--------------------------
+     ------ PROFILE(1) 1024 -----
+     ----------------------------*/
+    .profile-font{
+        font-size: 19px;
+        color:#866df6;
+        text-align: right;
+     }
+
+     .profile-font2{
+        font-size: 19px;
+        color: gray;
+     }
+    /*---------------------------
+     --- END PROFILE (1) 1024 ---
+     ----------------------------*/
+
+}
+    /*--------------------------------
+     -------------Pay Confirm END----------
+    ----------------------------------*/
+
+ /*-----------------------------------
+ -------------ARTICLE 1024-----------------
+ --------------------------------------*/
+   .art_top_mer {
+    margin-left: 0px;
+   }
+  .card {
+    width: 100%;
+   }
+
+ /*-----------------------------------
+ -------------ARTICLE END 1024-----------------
+ --------------------------------------*/
 }
 
 @media(max-width: 768px){
@@ -1230,6 +1587,76 @@ a:hover{
      ------ END BRANDS 768 -----
      ----------------------------*/
 
+<<<<<<< .mine
+
+      /*--------------------------------
+     -------------Pay Confirm 768----------
+    ----------------------------------*/
+   .pay_ll {
+    margin-left: 236px;
+    }
+   .pay_l {
+    margin-left: 75px;
+   }
+   .pay-from {
+    display: block;
+    width: 119%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #a935f1;
+    border-radius: -0.75rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border-radius: 0px;
+    border-width: 2px;
+    height: 45px;
+   }
+   .pay_ma_h2_top {
+    margin: 35px 0px 0px 111px;
+    color: #6d5bf3;
+    font-weight: 700;
+    }
+
+    .pay-buttom {
+    background-color: #6d5af3;
+    border-radius: 0px;
+    height: 45px;
+    color: #fff;
+    font-size: 17px;
+    margin-top: 5px;
+    width: 32%;
+    margin-right: 0px;
+    }
+    .pay_bb_2 {
+    width: 65%;
+    background-color: #ffffff;
+    border-radius: 0px;
+    height: 45px;
+    color: #6d5af3;
+    border-color: #a935f1;
+    border-width: 2px;
+    font-weight: 700;
+   }
+   .pay_bb_3 {
+    width: 65%;
+    background-color: #a935f1;
+    border-radius: 0px;
+    height: 45px;
+    color: #f9f9f9;
+    border-color: #a935f1;
+    border-width: 2px;
+    font-weight: 700;
+   }
+    /*--------------------------------
+     -------------Pay Confirm END----------
+    ----------------------------------*/
+
+
+
+=======
      /*--------------------------
      ------ HOW TO PAY 768 ------
      ----------------------------*/
@@ -1266,6 +1693,39 @@ a:hover{
      ---- END HOW TO PAY 768 ----
      ----------------------------*/
 
+     /*--------------------------
+     ------ PROFILE(1) 768 ------
+     ----------------------------*/
+    .profile-font{
+        font-size: 19px;
+        color:#866df6;
+        text-align: right;
+     }
+
+     .profile-font2{
+        font-size: 19px;
+        color: gray;
+     }
+    /*---------------------------
+     --- END PROFILE (1) 768 ----
+     ----------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> .theirs
 }
 
 @media(max-width: 414px){
@@ -1405,11 +1865,127 @@ a:hover{
         margin-bottom: -30px;
     }
     /*---------------------------
-     ------------LOGIN 414 END--------
+     ------ LOGIN 414 END -------
      -----------------------------*/
+
+<<<<<<< .mine
+
+    /*--------------------------------
+     -------------Pay Confirm 414----------
+    ----------------------------------*/
+    .pay-from {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #a935f1;
+    border-radius: -0.75rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border-radius: 0px;
+    border-width: 2px;
+    height: 45px;
+=======
+
+     /*--------------------------
+     ------ PROFILE(1) 414 ------
+     ----------------------------*/
+    .profile-font{
+        font-size: 18px;
+        color:#866df6;
+        text-align: center;
+     }
+
+    .profile-font2{
+        font-size: 18px;
+        color: gray;
+        text-align: center;
+     }
+
+    .nav-pills .nav-item .active{
+        background-color: white;
+        font-size: 18px;
+>>>>>>> .theirs
+    }
+    .pay_l {
+     margin-left: 0px; 
+   }
+   .pay_ll {
+     margin-left: 0px; 
+   }
+   .pay-buttom {
+    width: 92%;
+    margin-left: 14px;
+   }
+
+<<<<<<< .mine
+   .pay_bb_2 {
+    width: 96%;
+    margin-left: 14px;
+   }
+   .pay_bb_3 {
+    width: 96%;
+    margin-left: -9px;
+   }
+   .pay_top_but {
+    margin-top: 24px;
+    margin-bottom: 60px;
+   }
+
+
+
+    /*--------------------------------
+     -------------Pay Confirm END----------
+    ----------------------------------*/
+    /*-----------------------------------
+    -------------ARTICLE 414-----------------
+    --------------------------------------*/
+    .art-lo {
+        width: 100%;
+    }
+    /*-----------------------------------
+    -------------ARTICLE 414 END-----------------
+    --------------------------------------*/
+
 
     }
 
+=======
+    .profile-nav-link {
+        text-align: center;
+        font-size: 17px;
+        color:#866df6 !important;
+        border-bottom: 3px solid #bcbcbb;
+        background-color: #bcbcbb;
+        padding: 10px;
+        transition: all 1s;
+    }
+
+    .profile-nav-link:hover {
+        text-align: center;
+        color: #866df6!important;
+        font-size: 17px;
+        transition: all 0.8s;
+        padding: 10px;
+    }
+    /*---------------------------
+     --- END PROFILE (1) 414 ----
+     ----------------------------*/
+
+    }
+
+
+
+
+
+
+
+
+
+>>>>>>> .theirs
 @media(max-width: 375px){
     /*--------------------------
     ------- NAVBAR 375 ---------
@@ -1466,6 +2042,89 @@ a:hover{
      ------ END BRANDS 375 -----
      ----------------------------*/
 
+<<<<<<< .mine
+    /*--------------------------------
+     -------------Pay Confirm 375----------
+    ----------------------------------*/
+    .pay_ma_h2_top {
+        margin: 35px 0px 0px 91px;
+        color: #6d5bf3;
+        font-weight: 700;
+    }
+    .pay-buttom {
+    width: 90%;
+    margin-left: 15px;
+    }
+
+
+    /*--------------------------------
+     -------------Pay Confirm END 375----------
+    ----------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=======
+     /*--------------------------
+     ------ PROFILE(1) 375 ------
+     ----------------------------*/
+    .profile-font{
+        font-size: 17px;
+        color:#866df6;
+        text-align: center;
+     }
+
+    .profile-font2{
+        font-size: 17px;
+        color: gray;
+        text-align: center;
+     }
+    .nav-pills .nav-item .active{
+        background-color: white;
+        font-size: 15px;
+    }
+
+    .profile-nav-link {
+        text-align: center;
+        font-size: 15px;
+        color:#866df6 !important;
+        border-bottom: 3px solid #bcbcbb;
+        background-color: #bcbcbb;
+        padding: 10px;
+        transition: all 1s;
+    }
+
+    .profile-nav-link:hover {
+        text-align: center;
+        color: #866df6!important;
+        font-size: 15px;
+        transition: all 0.8s;
+        padding: 10px;
+    }
+    /*---------------------------
+     --- END PROFILE (1) 375 ----
+     ----------------------------*/
+
+>>>>>>> .theirs
 }
 
 @media (max-width: 320px ){
@@ -1494,7 +2153,7 @@ a:hover{
       ----------------------------*/
 
       /*--------------------------
-     -------- BRANDS 375 -------
+     -------- BRANDS 320 -------
      ----------------------------*/
     .brand-mt{
         margin-top: 5px;
@@ -1505,6 +2164,113 @@ a:hover{
         margin-right: 20px;
     }
      /*--------------------------
-     ------ END BRANDS 375 -----
+     ------ END BRANDS 320 -----
      ----------------------------*/
+<<<<<<< .mine
+     /*-------------------------
+     -----------Pay Confirm  320 ------
+     ----------------------------*/
+    .pay_ma_h2_top {
+    margin: 35px 0px 0px 66px;
+    color: #6d5bf3;
+    font-weight: 700;
+    }
+    .pay-buttom {
+    width: 88%;
+    margin-left: 15px;
+    }
+    .pay_bb_2 {
+    width: 97%;
+    margin-left: 14px;
+    }
+    .pay_bb_3 {
+    width: 97%;
+    margin-left: -12px;
+    }
+
+     /*-------------------------
+     -----------Pay Confirm END 320------
+     ----------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=======
+
+     /*--------------------------
+     ------ PROFILE(1) 320 ------
+     ----------------------------*/
+    .profile-font{
+        font-size: 16px;
+        color:#866df6;
+        text-align: center;
+     }
+
+    .profile-font2{
+        font-size: 16px;
+        color: gray;
+        text-align: center;
+     }
+    .nav-pills .nav-item .active{
+        background-color: white;
+        font-size: 11px;
+    }
+
+    .profile-nav-link {
+        text-align: center;
+        font-size: 11px;
+        color:#866df6 !important;
+        border-bottom: 3px solid #bcbcbb;
+        background-color: #bcbcbb;
+        padding: 10px;
+        transition: all 1s;
+    }
+
+    .profile-nav-link:hover {
+        text-align: center;
+        color: #866df6!important;
+        font-size: 11px;
+        transition: all 0.8s;
+        padding: 10px;
+    }
+    /*---------------------------
+     --- END PROFILE (1) 320 ----
+     ----------------------------*/
+
+    /*--------------------------
+     ------ PROFILE(2) 320 -----
+     ----------------------------*/
+    .profile2-font{
+        font-size: 18px;
+        color:#b308ea;
+        font-weight: bold;
+     }
+     /*--------------------------
+     ------ END PROFILE 2 -------
+     ----------------------------*/
+>>>>>>> .theirs
 }
