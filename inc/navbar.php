@@ -50,7 +50,7 @@
         <a class="nav-link" href="home.php">หน้าแรก</a>
       </li>
       <li class="nav-item nav-border-right">
-        <a class="nav-link" href="#">รายการสินค้า</a>
+        <a class="nav-link" href="product-list.php">รายการสินค้า</a>
       </li>
       <li class="nav-item nav-border-right">
         <a class="nav-link" href="#">แจ้งชำระเงิน</a>

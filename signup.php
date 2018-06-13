@@ -139,7 +139,7 @@
 
                 <div class="form-group row signup-distance-y">
                   <div class="col-xl-12 text-md-right text-center">
-                    <button type="button" class="profile-add"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    <button type="button" class="profile-add" style="margin-right: 0px;"><i class="fa fa-plus" aria-hidden="true"></i></button>
                   </div>
                 </div>
 

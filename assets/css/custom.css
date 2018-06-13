@@ -45,7 +45,7 @@ body {
 }
 
 h1 {
-        font-size: calc(1.5vw + 18px);
+    font-size: calc(1.5vw + 18px);
 }
 
 /*----------- NAVBAR 1 ------------------*/
@@ -54,9 +54,11 @@ h1 {
     margin-left: 0px;
     margin-right: 0px;
 }
+
 a:hover{
     text-decoration: none;
 }
+
 .nav-right-auto {
     margin-left: auto;
 }
@@ -180,11 +182,11 @@ a:hover{
     border: 1px solid rgba(0,0,0,.15);
     border-radius: .25rem;
 }
-    .nav-dropdown-color {
-        margin-left: 5px;
-        margin-right: 5px;
-        background-color: #2f0079;
-        border-width: 0px;
+.nav-dropdown-color {
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #2f0079;
+    border-width: 0px;
 }
 /*----------- END NAVBAR 2 -----------------*/
 
@@ -199,7 +201,7 @@ a:hover{
 
 }
 .footer-font-social {
-    font-size: 55px;
+    font-size: 50px;
     padding-left: 0px;
     padding-right: 6px;
 }
@@ -1015,9 +1017,8 @@ a:hover{
 .flex-img-article {
     position: relative;
     overflow: hidden;
-    height: 290px;
+    height: 250px;
 }
-
 .home-card-article {
     padding: 0px;
     border: 3px solid #9718e4;
@@ -1834,7 +1835,7 @@ a:hover{
      /*------------------------------------
      -------------ARTICLE END 1366---------
      --------------------------------------*/
-
+}
 
 
 
@@ -2117,7 +2118,6 @@ a:hover{
         font-size: 23px;
     }
     .signup-select {
-
         border-radius: 0px;
         background: #fff url(../../assets/images/select.png) no-repeat right 6px center;
         background-size: 25px;
@@ -2217,7 +2217,7 @@ a:hover{
     ---------Pay Confirm------
     --------------------------*/
     .pay_ll {
-    margin-left: 356px;
+         margin-left: 356px;
     }
     /*------------------------
     -------Pay Confirm END-----
@@ -2249,7 +2249,7 @@ a:hover{
     .CON_c_a{
      width: 100%;
     }
-
+}
    /*----------------------------------------
      ---------------CONTENT END --------------------
     ------------------------------------------*/
@@ -2565,14 +2565,14 @@ a:hover{
         margin-bottom: 40px;
     }
     .CON_h2_top_1 {
-    margin: 49px 0px 0px 174px;
-    font-size: 16px;
+        margin: 49px 0px 0px 174px;
+        font-size: 16px;
     }
     .CON_h2_top {
-    margin: 48px 0px 0px 28px;
+        margin: 48px 0px 0px 28px;
     }
     .CON-lo {
-    width: 100%;
+        width: 100%;
     }
 
     .flex-carousel-img {
@@ -2581,9 +2581,9 @@ a:hover{
         height: 360px;
     }
     .CON_h2_top_1 {
-    margin: 57px 0px 0px 485px;
-    font-size: 16px;
-}
+        margin: 57px 0px 0px 485px;
+        font-size: 16px;
+    }
     /*--------------------------------
     --------CONTENT 768 END----------
     ---------------------------------*/
@@ -3052,9 +3052,6 @@ a:hover{
         width: 92%;
         margin-left: 14px;
    }
-        width: 92%;
-        margin-left: 14px;
-    }
    .pay_bb_2 {
         width: 96%;
         margin-left: 14px;
@@ -3707,3 +3704,4 @@ a:hover{
     -------CONTENT END 320------------
     ---------------------------------*/
 
+}
