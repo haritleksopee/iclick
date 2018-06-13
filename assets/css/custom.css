@@ -459,7 +459,7 @@ a:hover{
     color: #495057;
     background-color: #fff;
     background-clip: padding-box;
-    border: 1px solid #a935f1;
+    border: 1px solid #9718e4;
     border-radius: -0.75rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     border-radius: 0px;
@@ -470,7 +470,7 @@ a:hover{
 .login-lo{
     width: 100%;
     height: 45px;
-    background-color: #a935f1;
+    background-color: #9718e4;
     color: #fff;
     border-radius: 0px;
 }
@@ -503,16 +503,16 @@ a:hover{
 /*--------------------------------
  -------------Pay Confirm----------
 ----------------------------------*/
-   .pay_ma_h2_top{
+.pay_ma_h2_top{
     margin: 35px 0px 0px 78px;
     color: #6d5bf3;
     font-weight: 700;
-   }
-   .pay_hr_width{
+}
+.pay_hr_width{
     border-width: 3px;
     width: 92%;  
-   } 
-   .pay-from{
+} 
+.pay-from{
     display: block;
     width: 100%;
     padding: .375rem .75rem;
@@ -521,21 +521,21 @@ a:hover{
     color: #495057;
     background-color: #fff;
     background-clip: padding-box;
-    border: 1px solid #a935f1;
+    border: 1px solid #9718e4;
     border-radius: -0.75rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     border-radius: 0px;
     border-width: 2px;
     height: 45px;
 }
-   .pay-form-label {
+.pay-form-label {
     padding-top: calc(.375rem + 1px);
     padding-bottom: calc(.375rem + 1px);
     margin-bottom: 0;
     font-size: inherit;
     color: #b4b4b4;
 }
-   .pay-buttom{
+.pay-buttom{
     width: 160px;
     margin-right: 168px;
     background-color: #6d5af3;
@@ -544,24 +544,24 @@ a:hover{
     color: #fff;
     font-size: 17px;
 }
-   .pay_bb_2 {
+.pay_bb_2 {
     width: 190px;
     background-color: #ffffff;
     border-radius: 0px;
     height: 45px;
     color: #6d5af3;
-    border-color: #a935f1;
+    border-color: #9718e4;
     border-width: 2px;
     font-weight: 700;
     
 }
 .pay_bb_3 {
     width: 190px;
-    background-color: #a935f1;
+    background-color: #9718e4;
     border-radius: 0px;
     height: 45px;
     color: #f9f9f9;
-    border-color: #a935f1;
+    border-color: #9718e4;
     border-width: 2px;
     font-weight: 700;
 }
@@ -572,32 +572,42 @@ a:hover{
 .pay_l{
     margin-left: 42px;
 }
-.pay_ll{
-     margin-left: 418px;
+
+
+
+.pay_btn-tertiary {
+    color: #fff;
+    border: 3px solid;
+    padding: 0;
+    border-color: #6d5af3;
+    line-height: 40px;
+    width: 160px;
+    display: block;
+    background-color: #6d5af3;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 0px;
+}
+.pay_btn-tertiary:hover {
+    color: #6d5af3;
+    line-height: 40px;
+    width: 160px;
+    background-color: #ffffff;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 0px;
+    border: 3px solid;
+    transition: all 0.55s;
 }
 
-.pay_file_input{
-    color: transparent;
-}
-.pay_file_input::-webkit-file-upload-button {
-  visibility: hidden;
-}
-.pay_file_input::before {
-    content:;
-    color: #f9f9f9;
-    border: 1px solid #6d5af3;
-    border-radius: 0px;
-    padding: 20px 34px;
-    outline: none;
-    white-space: nowrap;
-    -webkit-user-select: none;
-    cursor: pointer;
-    font-size: 13pt;
-    background-color: #6d5af3;
-}
-.pay_file_input:hover::before {
-  border-color: #fff;
-  background-color: #9086d8;
+
+.pay_input-file {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
 }
  /*--------------------------------
  -------------Pay Confirm END----------
@@ -619,7 +629,7 @@ a:hover{
    color: #b4b4b4;
 }
 .art_color-1{
-    color: #a935f1;
+    color: #9718e4;
 }
 
 .art_img-card {
@@ -633,9 +643,14 @@ a:hover{
     overflow: hidden;
     height: 330px;
     width: 100%;
-    border: 4px solid #a935f1;
+    border: 4px solid #9718e4;
     border-radius: 6px;
 }
+
+.art_fram_img:hover{
+    border: 4px solid #ddd;
+}
+
 .art_img_1{
     position: absolute;
     top: 50%;
@@ -676,24 +691,35 @@ a:hover{
     background-color: #fff;
     background-clip: border-box;
     border: 0px solid rgba(0,0,0,.125); 
-    width: 76%;
+    width: 90%;
 }
 
 .art-lo {
-    width: 20%;
-    height: 50px;
-    background-color: #a935f1;
+    width: 30%;
+    height: 55px;
+    background-color: #9718e4;
     color: #fff;
-    font-size: 20px;
+    font-size: 24px;
     border-radius: 0px;
     margin-bottom: 60px;
     margin-top: 20px;
 }
-.art-99{
-    margin-left: 70px;
+.art-lo:hover {
+    width: 30%;
+    height: 55px;
+    background-color: #ffffff;
+    color: #9718e4;
+    border: 3px solid;
+    font-size: 24px;
+    border-radius: 0px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    transition: all 0.55s;
 }
+
+
 .art_h2_top {
-    margin: 35px 0px 0px 152px;
+   
     color: #6d5bf3;
     font-weight: 700;
 }
@@ -706,32 +732,23 @@ a:hover{
 /*----------------------------------------
 ---------------CONTENT--------------------
 ------------------------------------------*/
-.CON_h2_top {
-    margin: 35px 0px 0px 91px;
-    color: #6d5bf3;
-    font-weight: 700;
-}
 
-.CON_h2_top_1 {
-    margin: 47px 0px 0px 1300px;
-    color: #6d5bf3;
-}
-    
+
 .CON_hr_width{
     border-width: 3px;
     width: 92%;  
 } 
-.CON_dis{
-    display: inline-flex;
-}
+
 .CON_fram_img{
     position: relative;
     overflow: hidden;
     height: 330px;
     width: 100%;
-    border: 4px solid #a935f1;
+    border: 4px solid #9718e4;
     border-radius: 6px;
-
+}
+.CON_fram_img:hover{
+    border: 4px solid #ddd;
 }
 .CON_img_1{
     position: absolute;
@@ -759,14 +776,23 @@ a:hover{
     overflow:hidden;
 }
 .CON-lo {
-    width: 20%;
-    height: 50px;
-    background-color: #a935f1;
+    width: 25%;
+    height: 55px;
+    background-color:#9718e4;
     color: #fff;
-    font-size: 20px;
+    font-size: 24px;
     border-radius: 0px;
     margin-bottom: 100px;
     margin-top: 100px;
+}
+.CON-lo:hover {
+    width: 25%;
+    height: 55px;
+    background-color: #ffffff;
+    color: #9718e4;
+    font-size: 24px;
+    border: 3px solid;
+    transition: all 0.55s;
 }
 .CON_c_a {
     position: relative;
@@ -788,8 +814,7 @@ a:hover{
     margin-left: 75px;
 }
 .CON_top_mer-1{
-    color: #a935f1;
-    margin-left: 88px;
+     color: #9718e4;
 }
 .CON_img-card-l {
     position: absolute;
@@ -802,11 +827,16 @@ a:hover{
     overflow: hidden;
     height: 330px;
     width: 100%;
-    border: 4px solid #a935f1;
+    border: 4px solid #9718e4;
     border-radius: 6px;
 }
+.CON_fram_img-l:hover{
+    border: 4px solid #ddd;
+}
+
+
 .CON_text_h{
-    color: #a935f1;
+    color: #9718e4;
     font-size: 25px;
 }
 .CON_color{
@@ -827,10 +857,37 @@ a:hover{
     height: 130px;
     width: 100%;
 }
+.con_text_haed{
+    color: #6d5bf3;
+    font-weight: 700; 
+}
+.con_text_haed_1{
+    color: #6d5bf3;
+}
+   
 
 /*----------------------------------------
 ---------------CONTENT END--------------------
 ------------------------------------------*/
+
+/*-----------------------------------------
+---------------about---------------------
+-----------------------------------------*/
+
+.about_fram_img{
+    position: relative;
+    overflow: hidden;
+    height: 330px;
+    width: 100%;
+    
+
+}
+.about_img_ig{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 
 
 
@@ -1796,9 +1853,7 @@ a:hover{
     /*----------------------------
     ----------CONTENT 1366------------
     ----------------------------*/
-    .CON_h2_top_1 {
-        margin: 47px 0px 0px 871px;
-    }
+    
     .CON_let {
         padding-right: 55px;
     }
@@ -1822,15 +1877,11 @@ a:hover{
         overflow: hidden;
         height: 432px;
        }
-       .art-99 {
-        margin-left: 0px;
-       }
+       
        .art_c_a{
         width: 100%;
        }
-       .art_h2_top {
-        margin: 35px 0px 0px 77px;
-        }
+      
 
      /*------------------------------------
      -------------ARTICLE END 1366---------
@@ -2184,24 +2235,11 @@ a:hover{
     .art_top_mer {
         margin-left: 0px;
     }
-    .card {
-        width: 100%;
-    }
-
-    .art_top_mer {
-        margin-left: 0px;
-    }
-    .art_h2_top {
-        margin: 35px 0px 0px 70px;
-    }
       
     .flex-carousel-img {
         position: relative;
         overflow: hidden;
         height: 432px;
-    }
-    .art-99 {
-        margin-left: 0px;
     }
     .art_c_a{
         width: 100%;
@@ -2213,26 +2251,15 @@ a:hover{
 
 
 
-    /*------------------------
-    ---------Pay Confirm------
-    --------------------------*/
-    .pay_ll {
-         margin-left: 356px;
-    }
-    /*------------------------
-    -------Pay Confirm END-----
-    --------------------------*/
+  
 
 
 
 
     /*----------------------------------------
-     ---------------CONTENT --------------------
+     ---------------CONTENT 1024 --------------------
     ------------------------------------------*/
-    .CON_h2_top_1 {
-       margin: 47px 0px 0px 560px;
-       color: #6d5bf3;
-    }
+    
     .CON_t {
        margin-left: 0px; 
     }
@@ -2251,7 +2278,7 @@ a:hover{
     }
 }
    /*----------------------------------------
-     ---------------CONTENT END --------------------
+     ---------------CONTENT END 1024 --------------------
     ------------------------------------------*/
 
 
@@ -2453,9 +2480,7 @@ a:hover{
     /*--------------------------------
     ----------Pay Confirm 768-------
     ----------------------------------*/
-   .pay_ll {
-    margin-left: 235px;
-    }
+   
    .pay_l {
     margin-left: 75px;
    }
@@ -2468,7 +2493,7 @@ a:hover{
     color: #495057;
     background-color: #fff;
     background-clip: padding-box;
-    border: 1px solid #a935f1;
+    border: 1px solid #9718e4;
     border-radius: -0.75rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     border-radius: 0px;
@@ -2496,17 +2521,17 @@ a:hover{
     border-radius: 0px;
     height: 45px;
     color: #6d5af3;
-    border-color: #a935f1;
+    border-color: #9718e4;
     border-width: 2px;
     font-weight: 700;
    }
    .pay_bb_3 {
     width: 65%;
-    background-color: #a935f1;
+    background-color: #9718e4;
     border-radius: 0px;
     height: 45px;
     color: #f9f9f9;
-    border-color: #a935f1;
+    border-color: #9718e4;
     border-width: 2px;
     font-weight: 700;
    }
@@ -2556,23 +2581,14 @@ a:hover{
     /*---------------------------------
     -----------CONTENT 768-------------
     ---------------------------------*/
-    .CON_h2_top {
-        margin: 48px 0px 0px 70px;
-    }
-    .CON_top_mer-1 {
-        color: #a935f1;
-        margin-left: 19px;
-        margin-bottom: 40px;
-    }
-    .CON_h2_top_1 {
-        margin: 49px 0px 0px 174px;
-        font-size: 16px;
-    }
-    .CON_h2_top {
-        margin: 48px 0px 0px 28px;
-    }
+   
+    
     .CON-lo {
         width: 100%;
+    }
+    .CON-lo:hover{
+        width: 100%;
+
     }
 
     .flex-carousel-img {
@@ -2580,10 +2596,7 @@ a:hover{
         overflow: hidden;
         height: 360px;
     }
-    .CON_h2_top_1 {
-        margin: 57px 0px 0px 485px;
-        font-size: 16px;
-    }
+
     /*--------------------------------
     --------CONTENT 768 END----------
     ---------------------------------*/
@@ -2632,10 +2645,27 @@ a:hover{
      --- END PROFILE (1) 768 ----
      ----------------------------*/
 
+
+     /*--------------------------
+     ---------ARTICLE 768--------
+     --------------------------*/
+
+     .art-lo {
+        width: 100%;
+    }
+    .art-lo:hover {
+        width: 100%;
+    }
+
+
+     /*-------------------------
+     -----------ARTICLE END 768--
+     ----------------------------*/
+
  
 
     /*--------------------------------
-    --------------CONTENT-------------
+    --------------CONTENT 768-------------
     ---------------------------------*/
     .flex-carousel-img {
         position: relative;
@@ -2643,7 +2673,7 @@ a:hover{
         height: 360px;
     }
     /*--------------------------------
-    --------------CONTENT END-------------
+    --------------CONTENT END 768-------------
     ---------------------------------*/
 }
 
@@ -3001,7 +3031,7 @@ a:hover{
     .login-lo {
         width: 100%;
         height: 45px;
-        background-color: #a935f1;
+        background-color: #9718e4;
         color: #fff;
         border-radius: 0px;
         margin-bottom: -40px;
@@ -3023,31 +3053,18 @@ a:hover{
         font-size: 18px;
         display: block;
         width: 100%;
-        padding: .375rem .75rem;
-        font-size: 1rem;
-        line-height: 1.5;
-        color: #495057;
-        background-color: #fff;
-        background-clip: padding-box;
-        border: 1px solid #a935f1;
-        border-radius: -0.75rem;
-        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-        border-radius: 0px;
-        border-width: 2px;
         height: 45px;
     }
    
-    .Pay_with_414{
-        width: 100%;
+    .pay_with{
+        width: 52%;
         height: auto;
     }
 
     .pay_l {
         margin-left: 0px; 
     }
-   .pay_ll {
-        margin-left: 116px; 
-    }
+   
    .pay-buttom {
         width: 92%;
         margin-left: 14px;
@@ -3064,22 +3081,17 @@ a:hover{
         margin-top: 24px;
         margin-bottom: 60px;
    }
+   .pay_con_mar{
+        margin: 20px 0px 0px 25px;
+   }
     /*--------------------------------
-     ----------Pay Confirm END------
+     ----------Pay Confirm END 414-----
     ----------------------------------*/
 
 
-    /*-----------------------------------
-    -------------ARTICLE 414-----------------
-    --------------------------------------*/
-    .art-lo {
-        width: 100%;
-        margin-top: 24px;
-        margin-bottom: 60px;
-    }
-    /*-----------------------------------
-    -----------ARTICLE 414 END-----------
-    --------------------------------------*/
+
+   
+
 
 
      /*--------------------------
@@ -3139,9 +3151,7 @@ a:hover{
     .art-lo {
         width: 100%;
     }
-    .art_h2_top {
-    margin: 35px 0px 0px 156px;
-    }
+   
     /*-----------------------------------
     -------------ARTICLE 414 END-----------
     --------------------------------------*/
@@ -3157,10 +3167,7 @@ a:hover{
         height: 170px;
     }
 
-    .CON_h2_top_1 {
-    margin: 50px 0px 0px 187px;
-    font-size: 16px;
-   }
+    
     /*--------------------------------
     ---------CONTENT END 414----------
     ---------------------------------*/
@@ -3388,13 +3395,14 @@ a:hover{
         font-weight: 700;
     }
     .pay-buttom {
-    width: 90%;
-    margin-left: 15px;
+        width: 100%;
+        margin-left: 15px;
+    }
+    .pay_con_mar {
+        margin: 20px 0px 0px 10px;
     }
 
-    .pay_ll {
-    margin-left: 94px;
-    }
+    
     /*--------------------------------
      ------Pay Confirm END 375--------
     ----------------------------------*/
@@ -3444,37 +3452,17 @@ a:hover{
      --- END PROFILE (1) 375 ----
      ----------------------------*/
 
-     /*--------------------------
-     -------------CONTENT 375-----*/
+   
 
-     .CON_h2_top_1 {
-        margin: 50px 0px 0px 160px;
-        font-size: 16px;
-    }
-    /*--------------------------
-     -------------CONTENT 375-----*/
-
-
-    /*---------------------------------
-    -------------article 320-----------
-    ------------------------------------*/
-    .art_h2_top {
-        margin: 35px 0px 0px 122px;
-        color: #6d5bf3;
-        font-weight: 700;
-    }
-    /*-------------------------------
-    ----------------article  END 320------
-    ------------------------------------*/  
 }
 
 
 
 @media (max-width: 320px ){
 
-  .wrapper {
-      min-height: calc(100vh - 400px);
-  }
+        .wrapper {
+          min-height: calc(100vh - 400px);
+        }
 
       /*-------------------------
       -------- FOOTER 320 -------
@@ -3499,7 +3487,7 @@ a:hover{
       /*--------------------------
       ------------ HOME 320 -------
       -----------------------------*/
-      .flex-img-article {
+        .flex-img-article {
             position: relative;
             overflow: hidden;
             height: 160px;
@@ -3569,7 +3557,7 @@ a:hover{
         font-weight: 700;
     }
     .pay-buttom {
-        width: 88%;
+        width: 100%;
         margin-left: 15px;
     }
     .pay_bb_2 {
@@ -3580,10 +3568,11 @@ a:hover{
         width: 97%;
         margin-left: -12px;
     }
-    .pay_ll {
-        margin-left: 72px;
+    .pay_con_mar {
+        margin: 20px 0px 0px -8px;
     }
     
+
      /*-------------------------
      ----Pay Confirm END 320----
      ----------------------------*/
@@ -3684,10 +3673,7 @@ a:hover{
     /*--------------------------------
     ------------CONTENT 320----------
     ---------------------------------*/
-    .CON_h2_top_1 {
-        margin: 49px 0px 0px 100px;
-        font-size: 16px;
-    }
+
 
     .flex-carousel-img {
         position: relative;
@@ -3695,13 +3681,12 @@ a:hover{
         height: 140px;
     }
 
-    .CON_h2_top_1 {
-    margin: 49px 0px 0px 100px;
-    font-size: 16px;
-   }
 
     /*--------------------------------
     -------CONTENT END 320------------
     ---------------------------------*/
+
+
+    
 
 }
