@@ -1638,7 +1638,6 @@ a:hover{
     margin-top: 30px;
 }
 
-<<<<<<< HEAD
  /*--------------------------
  --------- HOW TO QA --------
  ----------------------------*/
@@ -1687,7 +1686,6 @@ a:hover{
  -----------------------------*/
 
 
-=======
 .productlist-img-footer {
     position:relative;
     overflow:hidden;
@@ -2216,6 +2214,44 @@ figure.zoom img {
      /*---------------------------
      ---- END HOW TO QA 1366 -----
      -----------------------------*/
+   /*------------------------------------
+     --------- PRODUCT LIST 1336 ----------
+     --------------------------------------*/
+     .productlist-search {
+        font-size: 37px;
+        position: absolute;
+        top: 52px;
+        left: 210px;
+    }
+    .product-list-img-circle {
+        width: 80px;
+    }
+    .product-list-circle {
+        text-align: center;
+        width: 140px;
+        height: 140px;
+        padding-top: 9px;
+        border-radius: 96px;
+        border: none;
+        box-shadow: 2px 2px 13px 0px #cecece;
+    }
+    .productlist-mt-auto {
+        margin: 15px 19px;
+    }
+    .productlist-img-footer {
+        position: relative;
+        overflow: hidden;
+        height: 575px;
+    }
+    .productlist-img-bands {
+        position: relative;
+        overflow: hidden;
+        height: 215px;
+    }
+     /*------------------------------------
+     ------- END PRODUCT LIST 1336 --------
+     --------------------------------------*/
+
 }
 
 
@@ -2786,9 +2822,9 @@ figure.zoom img {
      -------------------------------*/
 
 
- /*-----------------------------------
- -------------ARTICLE 1024------------
- --------------------------------------*/
+     /*-----------------------------------
+     -------------ARTICLE 1024------------
+     --------------------------------------*/
     .art_top_mer {
         margin-left: 0px;
     }
@@ -2828,13 +2864,9 @@ figure.zoom img {
     .CON_c_a{
      width: 100%;
     }
-
-<<<<<<< HEAD
-=======
    /*----------------------------------------
-     ---------------CONTENT END 1024 --------------------
+     ---------------CONTENT END 1024 --------
     ------------------------------------------*/
->>>>>>> 464a37f5f8e4481a746f3ae58682becc6c55e803
 
     /*-----------------------------
     ----- PRODUCT LIST 1024 -------
@@ -3237,7 +3269,7 @@ figure.zoom img {
     }
     .CON-lo:hover{
         width: 100%;
-
+    }
 
     /*--------------------------------
     --------CONTENT 768 END----------
@@ -3308,7 +3340,6 @@ figure.zoom img {
      --- END PROFILE (1) 768 ----
      ----------------------------*/
 
-<<<<<<< HEAD
     /*------------------------------
      ------- PROFILE (2) 768 -------
      ------------------------------*/
@@ -3322,8 +3353,6 @@ figure.zoom img {
         font-size: 17px;
         color:#866df6;
      }
-=======
-
      /*--------------------------
      ---------ARTICLE 768--------
      --------------------------*/
@@ -3345,16 +3374,10 @@ figure.zoom img {
     /*--------------------------------
     --------------CONTENT 768-------------
     ---------------------------------*/
-    .flex-carousel-img {
-        position: relative;
-        overflow: hidden;
-        height: 360px;
-    }
     /*--------------------------------
     --------------CONTENT END 768-------------
     ---------------------------------*/
-}
->>>>>>> 464a37f5f8e4481a746f3ae58682becc6c55e803
+
 
     .profile2-font3{
         font-size: 20px;
@@ -4128,7 +4151,6 @@ figure.zoom img {
         margin-left: 300px;
      }
 
-<<<<<<< HEAD
     .profile-add:hover{
         background-color: #866df6;
         color: #fff;
@@ -4142,35 +4164,18 @@ figure.zoom img {
      --- END PROFILE (1) 414 ----
      ----------------------------*/
 
-=======
->>>>>>> 464a37f5f8e4481a746f3ae58682becc6c55e803
     /*-----------------------------------
     -------------ARTICLE 414---------------
     --------------------------------------*/
     .art-lo {
         width: 100%;
     }
-<<<<<<< HEAD
     .art_h2_top {
     margin: 35px 0px 0px 156px;
     }
-=======
-   
->>>>>>> 464a37f5f8e4481a746f3ae58682becc6c55e803
     /*-----------------------------------
     -------------ARTICLE 414 END-----------
     --------------------------------------*/
-
-
-
-    /*--------------------------------
-    --------------CONTENT 414-------------
-    ---------------------------------*/
-
-    
-    /*--------------------------------
-    ---------CONTENT END 414----------
-    ---------------------------------*/
 
 
     /*--------------------------
@@ -4679,8 +4684,6 @@ figure.zoom img {
      --- END PROFILE (1) 375 ----
      ----------------------------*/
 
-<<<<<<< HEAD
-
     /*---------------------------
      -----  PROFILE (2) 375 ------
      ----------------------------*/
@@ -4706,11 +4709,6 @@ figure.zoom img {
         color:#666;
         font-weight: bold;
      }
-=======
-   
-
-}
->>>>>>> 464a37f5f8e4481a746f3ae58682becc6c55e803
 
     .profile2-font5{
         font-size: 16px;
@@ -4729,17 +4727,17 @@ figure.zoom img {
         font-weight: bold;
      }
 
-<<<<<<< HEAD
+
     .profile2-font8{
         font-size: 16px;
         color:#ace600;
         font-weight: bold;
      }
-=======
+
         .wrapper {
           min-height: calc(100vh - 400px);
         }
->>>>>>> 464a37f5f8e4481a746f3ae58682becc6c55e803
+
 
      .profile2-font9{
         font-size: 16px;
@@ -4907,7 +4905,41 @@ figure.zoom img {
      /*---------------------------
      ----- END HOW TO QA 414 -----
      -----------------------------*/
-
+  /*-----------------------------
+    ------- PRODUCT LIST 375 ------
+    -------------------------------*/
+    .product-collum {
+        max-width: 100%!important;
+        width: 100%!important;
+        -webkit-box-flex: 0!important;
+        -ms-flex: 0 0 100%!important;
+        flex: 0 0 100%!important;
+        padding-right: 25px!important;
+        padding-left: 25px!important;
+        padding-top: 20px!important;
+        padding-bottom: 20px!important;
+    }
+    .product-list-img-circle {
+        width: 45px;
+    }
+    .product-list-circle {
+        text-align: center;
+        width: 90px;
+        height: 90px;
+        padding-top: 0px;
+        border-radius: 96px;
+        border: none;
+        box-shadow: 2px 2px 13px 0px #cecece;
+        margin: auto;
+    }
+    .productlist-img-footer {
+        position: relative;
+        overflow: hidden;
+        height: 235px;
+    }
+    /*-----------------------------
+    ---- END PRODUCT LIST 375 -----
+    -------------------------------*/
 }
 
 
@@ -5334,7 +5366,6 @@ figure.zoom img {
     ---------------------------------*/
 
 
-<<<<<<< HEAD
      /*--------------------------
      ------ HOW TO QA 414 -------
      ----------------------------*/
@@ -5383,8 +5414,39 @@ figure.zoom img {
      /*---------------------------
      ----- END HOW TO QA 414 -----
      -----------------------------*/
-=======
-    
->>>>>>> 464a37f5f8e4481a746f3ae58682becc6c55e803
-
+   /*-------------------------------
+    ---- PRODUCT LIST 320 -----------
+    ---------------------------------*/
+    .product-list-img-circle {
+        width: 30px;
+    }
+    .product-list-circle {
+        text-align: center;
+        width: 70px;
+        height: 70px;
+        padding-top: 0px;
+        border-radius: 96px;
+        border: none;
+        box-shadow: 2px 2px 13px 0px #cecece;
+        margin: auto;
+    }
+    .product-collum {
+        max-width: 100%!important;
+        width: 100%!important;
+        -webkit-box-flex: 0!important;
+        -ms-flex: 0 0 100%!important;
+        flex: 0 0 100%!important;
+        padding-right: 10px!important;
+        padding-left: 10px!important;
+        padding-top: 20px!important;
+        padding-bottom: 20px!important;
+    }
+    .productlist-img-footer {
+        position: relative;
+        overflow: hidden;
+        height: 200px;
+    }
+    /*----------------------------------
+    ------ END PRODUCT LIST 320 --------
+    ------------------------------------*/
 }

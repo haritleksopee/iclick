@@ -748,7 +748,7 @@
         </div>
 
 
-        <div class="productlist-img-footer ">
+        <div class="productlist-img-footer">
           <img src="assets/images/slide/Slider-02.png" class="home-img-bands">
         </div>
 
