@@ -15,10 +15,16 @@
     <!-- CONTENT -->
     
     <div class="container-fluid">
-      <div class="CON_dis">
-        <h1 style="font-size: calc(1vmin + 1.8vmax)" class="CON_h2_top">บทความ</h1>
-        <h3 class="CON_h2_top_1 text-right">2018-05-20</h3>
+      <div class="row">
+          <div class="col-lg-2 mt-4">
+            <h2 class="text-center con_text_haed">บทความ</h2>
+          </div>
+        <div class="col-lg-8 mt-4"></div>
+          <div class="col-lg-2 mt-4">
+            <h4 class="text-center con_text_haed_1">2018-05-20</h4>
+          </div>
       </div>
+   
         <hr class="CON_hr_width">
       <div class="row CON_t">
         <div class="col-lg-4">
@@ -60,7 +66,12 @@
       </div> 
 
       <div class="container-fluid">
-        <h2 class="CON_top_mer-1">เรื่องที่คุณอาจสนใจ</h2>
+        <div class="row">
+          <div class="col-lg-3">
+            <h3 class=" text-center CON_top_mer-1">เรื่องที่คุณอาจสนใจ</h3>
+          </div>
+          <div class="col-lg-9"></div>
+        </div>
          <div class="row ">
            <div class="col-lg-4 mt-lg-5">
             <div class="CON_c_a CON_top_mer" >
