@@ -1560,7 +1560,7 @@ a:hover{
 .productlist-img-footer {
     position:relative;
     overflow:hidden;
-    height: 250px;
+    height: 800px;
 }
 .productlist-my-5 {
     margin-bottom: 30px;
@@ -1569,6 +1569,73 @@ a:hover{
 /*--------------------------
 ------- PRODUCT-LIST -------
 ----------------------------*/
+/*--------------------------
+-------- PRODUCT DETAIL ----
+----------------------------*/
+.prodetail-link {
+    word-spacing: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.prodetail-link-color {
+    color: #8a8a8a;
+}
+.prodetail-link-color:hover {
+    color: #6d5af3;
+}
+.prodetail-link-active {
+    color: #6d5af3;
+}
+/*ZOOM*/
+
+
+figure.zoom {
+  background-position: 50% 50%;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  cursor: zoom-in;
+}
+figure.zoom img:hover {
+  opacity: 0;
+}
+figure.zoom img {
+  transition: opacity .5s;
+  display: block;
+  width: 100%;
+}
+
+
+.prodetail-img-bands {
+    position:relative;
+    overflow:hidden;
+    height: 500px;
+}
+.prodetail-text-head {
+    font-weight: 600;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.prodetail-mx-55 {
+    margin-left: 55px;
+    margin-right: 55px;
+}
+.prodetail-mt-20 {
+    margin-top: 20px;
+}
+.prodetail-mb-0 {
+    margin-bottom: 0px;
+}
+.prodetail-logo-barnd {
+    width: 85px;
+    margin-left: 25px;
+}
+
+/*----------------------------
+---- END PRODUCT DETAIL ------
+------------------------------*/
+
 
 @media(max-width: 1366px){
     /*---------------------------
@@ -1865,11 +1932,6 @@ a:hover{
      /*------------------------------------
      -------------ARTICLE 1366-------------
      --------------------------------------*/
-       .flex-carousel-img {
-        position: relative;
-        overflow: hidden;
-        height: 432px;
-       }
        .art-99 {
         margin-left: 0px;
        }
@@ -1882,6 +1944,44 @@ a:hover{
 
      /*------------------------------------
      -------------ARTICLE END 1366---------
+     --------------------------------------*/
+
+     /*------------------------------------
+     --------- PRODUCT LIST 1336 ----------
+     --------------------------------------*/
+     .productlist-search {
+        font-size: 37px;
+        position: absolute;
+        top: 52px;
+        left: 210px;
+    }
+    .product-list-img-circle {
+        width: 80px;
+    }
+    .product-list-circle {
+        text-align: center;
+        width: 140px;
+        height: 140px;
+        padding-top: 9px;
+        border-radius: 96px;
+        border: none;
+        box-shadow: 2px 2px 13px 0px #cecece;
+    }
+    .productlist-mt-auto {
+        margin: 15px 19px;
+    }
+    .productlist-img-footer {
+        position: relative;
+        overflow: hidden;
+        height: 575px;
+    }
+    .productlist-img-bands {
+        position: relative;
+        overflow: hidden;
+        height: 215px;
+    }
+     /*------------------------------------
+     ------- END PRODUCT LIST 1336 --------
      --------------------------------------*/
 }
 
@@ -2243,11 +2343,6 @@ a:hover{
         margin: 35px 0px 0px 70px;
     }
       
-    .flex-carousel-img {
-        position: relative;
-        overflow: hidden;
-        height: 432px;
-    }
     .art-99 {
         margin-left: 0px;
     }
@@ -2297,10 +2392,67 @@ a:hover{
     .CON_c_a{
      width: 100%;
     }
-}
+
    /*----------------------------------------
      ---------------CONTENT END --------------------
     ------------------------------------------*/
+
+    /*-----------------------------
+    ----- PRODUCT LIST 1024 -------
+    -------------------------------*/
+    .product-list-circle {
+        text-align: center;
+        width: 170px;
+        height: 170px;
+        padding-top: 15px;
+        border-radius: 96px;
+        border: none;
+        box-shadow: 2px 2px 13px 0px #cecece;
+        margin: auto;
+    }
+    .product-list-img-circle {
+        width: 100px;
+    }
+    .signup-from-select {
+        width: 85%!important;
+        border-radius: 0px!important;
+    }
+    .productlist-search {
+        font-size: 37px;
+        position: absolute;
+        top: 52px;
+        left: 285px;
+    }
+    .productlist-img-footer {
+        position: relative;
+        overflow: hidden;
+        height: 425px;
+    }
+    .product-collum {
+        max-width: 100%!important;
+        width: 33.33%!important;
+        -webkit-box-flex: 0!important;
+        -ms-flex: 0 0 20%!important;
+        flex: 0 0 33.33%!important;
+        padding-right: 50px!important;
+        padding-left: 50px!important;
+        padding-top: 20px!important;
+        padding-bottom: 20px!important;
+    }
+    .productlist-img-bands {
+        position: relative;
+        overflow: hidden;
+        height: 190px;
+    }
+    .productlist-mt-auto {
+        margin: 15px 19px;
+        text-align: left;
+    }
+    /*-----------------------------
+    ----- END PRODUCT LIST 1024 ---
+    -------------------------------*/
+
+}
 
 
 @media(max-width: 768px){
@@ -2623,11 +2775,6 @@ a:hover{
         width: 100%;
     }
 
-    .flex-carousel-img {
-        position: relative;
-        overflow: hidden;
-        height: 360px;
-    }
     .CON_h2_top_1 {
         margin: 57px 0px 0px 485px;
         font-size: 16px;
@@ -2685,13 +2832,49 @@ a:hover{
     /*--------------------------------
     --------------CONTENT-------------
     ---------------------------------*/
-    .flex-carousel-img {
-        position: relative;
-        overflow: hidden;
-        height: 360px;
-    }
     /*--------------------------------
     --------------CONTENT END-------------
+    ---------------------------------*/
+    /*-------------------------------
+    ------- PRODUCT LIST 768 ---------
+    ---------------------------------*/
+    .productlist-w-90 {
+        width: 95%!important;
+    }
+    .productlist-search {
+        font-size: 37px;
+        position: absolute;
+        top: 55px;
+        left: unset;
+        right: 30px;
+    }
+    .product-collum {
+        max-width: 100%!important;
+        width: 33.33%!important;
+        -webkit-box-flex: 0!important;
+        -ms-flex: 0 0 20%!important;
+        flex: 0 0 33.33%!important;
+        padding-right: 15px!important;
+        padding-left: 15px!important;
+        padding-top: 20px!important;
+        padding-bottom: 20px!important;
+    }
+    .productlist-img-bands {
+        position: relative;
+        overflow: hidden;
+        height: 145px;
+    }
+    .productlist-img-footer {
+        position: relative;
+        overflow: hidden;
+        height: 370px;
+    }
+    .productlist-px-15 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    /*-------------------------------
+    ---- END PRODUCT LIST 768 ------
     ---------------------------------*/
 }
 
@@ -3199,11 +3382,7 @@ a:hover{
     /*--------------------------------
     --------------CONTENT 414-------------
     ---------------------------------*/
-    .flex-carousel-img {
-        position: relative;
-        overflow: hidden;
-        height: 170px;
-    }
+
 
     .CON_h2_top_1 {
     margin: 50px 0px 0px 187px;
@@ -3282,6 +3461,58 @@ a:hover{
      }
      /*--------------------------
      ---- END PROFILE (2) 414 ---
+     ----------------------------*/
+     /*--------------------------
+     ----- PRODUCT LIST 414 -----
+     ----------------------------*/
+     .product-list-img-circle {
+        width: 65px;
+     }
+     .product-list-circle {
+        text-align: center;
+        width: 110px;
+        height: 110px;
+        padding-top: 0px;
+        border-radius: 96px;
+        border: none;
+        box-shadow: 2px 2px 13px 0px #cecece;
+        margin: auto;
+    }
+    .productlist-search {
+        font-size: 37px;
+        position: inherit;
+        margin: 30px auto 0px auto;
+        top: 0px;
+        left: unset;
+        right: 0px;
+    }
+    .product-collum {
+        max-width: 100%!important;
+        width: 50%!important;
+        -webkit-box-flex: 0!important;
+        -ms-flex: 0 0 20%!important;
+        flex: 0 0 50%!important;
+        padding-right: 10px!important;
+        padding-left: 10px!important;
+        padding-top: 20px!important;
+        padding-bottom: 20px!important;
+    }
+    .productlist-img-bands {
+        position: relative;
+        overflow: hidden;
+        height: 125px;
+    }
+    .productlist-img-footer {
+        position: relative;
+        overflow: hidden;
+        height: 270px;
+    }
+    .productlist-mt-auto {
+        margin: 15px 0px;
+        text-align: left;
+    }
+     /*--------------------------
+     --- END PRODUCT LIST 414 ---
      ----------------------------*/
 
 }
@@ -3514,6 +3745,42 @@ a:hover{
     /*-------------------------------
     ----------------article  END 320------
     ------------------------------------*/  
+
+    /*-----------------------------
+    ------- PRODUCT LIST 375 ------
+    -------------------------------*/
+    .product-collum {
+        max-width: 100%!important;
+        width: 100%!important;
+        -webkit-box-flex: 0!important;
+        -ms-flex: 0 0 100%!important;
+        flex: 0 0 100%!important;
+        padding-right: 25px!important;
+        padding-left: 25px!important;
+        padding-top: 20px!important;
+        padding-bottom: 20px!important;
+    }
+    .product-list-img-circle {
+        width: 45px;
+    }
+    .product-list-circle {
+        text-align: center;
+        width: 90px;
+        height: 90px;
+        padding-top: 0px;
+        border-radius: 96px;
+        border: none;
+        box-shadow: 2px 2px 13px 0px #cecece;
+        margin: auto;
+    }
+    .productlist-img-footer {
+        position: relative;
+        overflow: hidden;
+        height: 235px;
+    }
+    /*-----------------------------
+    ---- END PRODUCT LIST 375 -----
+    -------------------------------*/
 }
 
 
@@ -3754,4 +4021,39 @@ a:hover{
     -------CONTENT END 320------------
     ---------------------------------*/
 
+    /*-------------------------------
+    ---- PRODUCT LIST 320 -----------
+    ---------------------------------*/
+    .product-list-img-circle {
+        width: 30px;
+    }
+    .product-list-circle {
+        text-align: center;
+        width: 70px;
+        height: 70px;
+        padding-top: 0px;
+        border-radius: 96px;
+        border: none;
+        box-shadow: 2px 2px 13px 0px #cecece;
+        margin: auto;
+    }
+    .product-collum {
+        max-width: 100%!important;
+        width: 100%!important;
+        -webkit-box-flex: 0!important;
+        -ms-flex: 0 0 100%!important;
+        flex: 0 0 100%!important;
+        padding-right: 10px!important;
+        padding-left: 10px!important;
+        padding-top: 20px!important;
+        padding-bottom: 20px!important;
+    }
+    .productlist-img-footer {
+        position: relative;
+        overflow: hidden;
+        height: 200px;
+    }
+    /*----------------------------------
+    ------ END PRODUCT LIST 320 --------
+    ------------------------------------*/
 }
