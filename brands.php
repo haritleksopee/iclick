@@ -14,7 +14,7 @@
     <body>
     <div class="wrapper">
     <!-- CONTENT -->
-        <div class="p-5 mb-5">
+        <div class="brand-margin mb-5">
             <div class="row mt-4 brand-border-bottom">
               <div class="brand-font">ช็อปตามแบรนด์</div>
             </div>

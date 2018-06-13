@@ -13,7 +13,7 @@
     <div class="wrapper">
     <!-- CONTENT -->
         <div class="row">
-           <div class="p-5 mb-5">
+           <div class="htp-margin mb-5">
                 <div class="row mt-4 htp-border-bottom">
                   <div class="htp-font1">วิธีการชำระเงิน</div>
                 </div>
