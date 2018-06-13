@@ -1577,7 +1577,55 @@ a:hover{
  ------ END PROFILE 3 ------
  ----------------------------*/
 
+/*--------------------------
+------ PRODUCT-LIST --------
+----------------------------*/
+.product-list-circle {
+    text-align: center;
+    width: 160px;
+    height: 160px;
+    padding-top: 15px;
+    border-radius: 96px;
+    border: none;
+    box-shadow: 2px 2px 13px 0px #cecece;
+}
+.product-list-img-circle {
+    width: 100px;
+}
+.productlist-mt-auto {
+    margin: 30px 19px;
+}
+.productlist-w-90 {
+    width: 90%!important;
+}
+.productlist-search {
+    font-size: 37px;
+    position: absolute;
+    top: 69px;
+    left: 270px;
+}
+.productlist-img-bands {
+    position:relative;
+    overflow:hidden;
+    height: 250px;
+}
+.productlist-my-5 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
 
+.productlist-img-footer {
+    position:relative;
+    overflow:hidden;
+    height: 250px;
+}
+.productlist-my-5 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+/*--------------------------
+------- PRODUCT-LIST -------
+----------------------------*/
 
 @media(max-width: 1366px){
     /*---------------------------
@@ -3495,6 +3543,8 @@ a:hover{
         .font-respon {
             font-size: 20px;
         }
+
+
         .home-text-article {
             color: #636363;
             overflow: hidden;
