@@ -11,6 +11,7 @@
     <!-- ICON -->
 <!--     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/logofav.png" >
     <link rel="apple-touch-icon" sizes="76x76" href="assets/images/logofav.png"> -->
+    <link rel="shortcut icon" href="assets/images/favicon-1.png" type="image/x-icon" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
