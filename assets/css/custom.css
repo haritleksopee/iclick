@@ -2106,6 +2106,61 @@ figure.zoom img {
  /*---------------------------
  ---------- END PAY ------------
  -----------------------------*/
+/*----------------------------
+------ ORDER SUBMIT ----------
+------------------------------*/
+.order-search {
+    font-size: 37px;
+    color: #b307ea;
+}
+.order-text-position {
+    font-size: 18px;
+    margin-top: 13px;
+}
+.order-text-set-h {
+    font-size: 24px;
+    font-weight: 600;
+    word-spacing :10px;
+}
+.order-text-set-b {
+    font-size: 20px;
+    font-weight: 500;
+}
+.order-my-40 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.order-pt-50 {
+    padding-top: 50px;
+}
+/*----------------------------
+------ END ORDER SUBMIT ------
+------------------------------*/
+
+
+
+
+
+/*-----------------------------
+------ ORDER CONFIRM ----------
+-------------------------------*/
+.orderconfirm-font-weight500 {
+    font-weight: 500;
+}
+.orderconfirm-edit {
+    border-radius: 0px;
+    width: 110px;
+    height: 50px;
+    padding-top: 8px;
+    padding-left: 13px;
+    background-color: #705bf4;
+    color: #fff;
+    font-size: 20px;
+}
+
+/*-----------------------------
+---- END ORDER CONFIRM --------
+-------------------------------*/
 
 
 @media(max-width: 1366px){
@@ -3100,7 +3155,55 @@ figure.zoom img {
      /*---------------------------
      ------ END PAY 1024 ---------
      -----------------------------*/
-
+  /*------------------------------
+    ------ PRODUCT DETAIL 1024 -----
+    --------------------------------*/
+    .prodetail-h2-respon {
+        font-size: 22px;
+    }
+    .prodetail-font20 {
+        font-size: 18px;
+        letter-spacing: 0px;
+    }
+    .prodetail-link {
+        word-spacing: 10px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .prodetail-mx-55 {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .prodetail-text-head {
+        font-weight: 600;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .prodetail-logo-barnd {
+        width: 80px;
+        margin-left: 25px;
+    }
+    .prodetail-menu {
+        background-color: #cecece;
+        font-size: 23px!important;
+        color: #695ff4!important;
+        border-radius: 0px!important;
+        width: 240px;
+        text-align: center;
+    }
+    .prodetail-menu:hover {
+        background-color: #c3bfbf;
+        font-size: 23px!important;
+        color: #695ff4!important;
+        border-radius: 0px!important;
+        text-shadow:none;
+        text-align: center;
+        width: 240px;
+        padding: .5rem 1rem!important;
+    }
+    /*-----------------------------
+    --- END PRODUCT DETAIL 1024----
+    -------------------------------*/
 
 
 }
@@ -4766,7 +4869,61 @@ figure.zoom img {
      --- END PROFILE (1) 375 ----
      ----------------------------*/
 
-   
+ 
+
+    /*-----------------------------
+    ----- PRODUCT DETAIL 375 ------
+    -------------------------------*/
+    .prodetail-inline-text {
+        display: -webkit-inline-box;
+        margin: 35px 50px;
+    }
+    .prodetail-menu {
+        background-color: #cecece;
+        font-size: 20px!important;
+        color: #695ff4!important;
+        border-radius: 0px!important;
+        width: 340px;
+        text-align: center;
+    }
+    .prodetail-menu:hover {
+        background-color: #cecece;
+        font-size: 20px!important;
+        color: #695ff4!important;
+        border-radius: 0px!important;
+        width: 340px;
+        text-align: center;
+    }
+    .prodetail-number {
+        width: 70px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .prodetail-font20 {
+        font-size: 18px;
+        letter-spacing: 0px;
+        text-align: center;
+        line-height: 2;
+    }
+    /*-----------------------------
+    --- END PRODUCT DETAIL 375 ------
+    -------------------------------*/
+
+    /*------------------------------
+    ------ ORDER SUBMIT 375 --------
+    --------------------------------*/
+    .order-text-set-h {
+        font-size: 18px;
+        font-weight: 600;
+        word-spacing: 5px;
+    }
+    .order-text-set-b {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    /*------------------------------
+    --- END ORDER SUBMIT 375 --------
+    --------------------------------*/  
 
 }
 
