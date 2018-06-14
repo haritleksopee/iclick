@@ -14,7 +14,7 @@
     <div class="wrapper">
     <!-- CONTENT -->
     <div class="container">
-      <h2 class="text-center login-color mt-4">สวัสดี!</h2>
+      <h1 class="text-center login-color mt-4">สวัสดี!</h1>
         <div class="row ">  
           <div class="col-lg-12">
                 <form>

@@ -4,6 +4,7 @@
     <script type="text/javascript" src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
+
     <script type="text/javascript">
 	    function zoom(e) {
 	        var zoomer = e.currentTarget;
@@ -13,4 +14,15 @@
 	        y = offsetY / zoomer.offsetHeight * 100;
 	        zoomer.style.backgroundPosition = x + "% " + y + "%";
 	    }
+
+		    $('.input-daterange').datepicker({
+				    format: 'dd.mm.yyyy',
+				    language: 'ru',
+				    autoclose: true,
+				    startDate: new Date(),
+				    setDate: new Date(),
+				    todayHighlight: true,
+				    orientation: "bottom auto"
+				});
     </script>
+
