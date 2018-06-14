@@ -44,7 +44,7 @@
           <div class="row mb-5">
             
               
-              <div class="col-md-5">
+              <div class="col-xl-5 col-12">
                 <div class="row">
                   <div class="col-4">
                     <div class="card product-list-circle">
@@ -72,48 +72,54 @@
 
 
 
-              <div class="col-md-7">
+              <div class="col-xl-7 col-12">
                 <div class="row">
-                  <div class="col-4">
-                    <div class="form-group productlist-mt-auto">
-                      <label class="col-form-label">หมวดหลักสินค้า</label>
-                      <select class="profile-form signup-from-select signup-select productlist-w-90">
-                          <option></option>
-                          <option>หูฟัง</option>
-                          <option>ลำโพง</option>
-                      </select>
+                  <div class="col-lg-4 col-12">
+                    <div class="form-group row productlist-mt-auto">
+                      <div class="col-12 text-lg-left text-center">
+                        <label class="col-form-label">หมวดหลักสินค้า</label>
+                      </div>
+                      <div class="col-12">
+                        <select class="profile-form signup-from-select signup-select productlist-w-90">
+                            <option></option>
+                            <option>หูฟัง</option>
+                            <option>ลำโพง</option>
+                        </select>
+                      </div>
                     </div>
                   </div>
-                  <div class="col-4">
-                    <div class="form-group productlist-mt-auto">
-                      <label class="col-form-label">หมวดย่อยสินค้า</label>
-                      <select class="profile-form signup-from-select signup-select productlist-w-90">
-                          <option></option>
-                          <option>หูฟัง</option>
-                          <option>ลำโพง</option>
-                      </select>
+                  <div class="col-lg-4 col-12">
+                    <div class="form-group row productlist-mt-auto">
+                      <div class="col-12 text-lg-left text-center">
+                        <label class="col-form-label">หมวดย่อยสินค้า</label>
+                      </div>
+                      <div class="col-12">
+                        <select class="profile-form signup-from-select signup-select productlist-w-90">
+                            <option></option>
+                            <option>หูฟัง</option>
+                            <option>ลำโพง</option>
+                        </select>
+                      </div>
                     </div>
                   </div>
-                  <div class="col-4">
-                    <div class="form-group productlist-mt-auto">
-                      <label class="col-form-label">แบรนด์</label>
-                      <select class="profile-form signup-from-select signup-select productlist-w-90">
-                          <option></option>
-                          <option>หูฟัง</option>
-                          <option>ลำโพง</option>
-                      </select>
+                  <div class="col-lg-4 col-12">
+                    <div class="form-group row productlist-mt-auto">
+                      <div class="col-12 text-lg-left text-center">
+                        <label class="col-form-label">แบรนด์</label>
+                      </div>
+                      <div class="col-12">
+                        <select class="profile-form signup-from-select signup-select productlist-w-90">
+                            <option></option>
+                            <option>หูฟัง</option>
+                            <option>ลำโพง</option>
+                        </select>
+                      </div>
 
                       <a href="#" class="productlist-search" style="color: #b307ea;"><i class="fa fa-search" aria-hidden="true"></i></a>
 
                     </div>
                   </div>
-<!--                   <div class="col-3">
-                    <div class="form-group productlist-mt-auto">
-                      <div class="productlist-search">
-                        <a href="#" style="color: #b307ea;"><i class="fa fa-search" aria-hidden="true"></i></a>
-                      </div>
-                    </div> 
-                  </div> -->
+
 
                 </div>
               </div>
@@ -122,10 +128,10 @@
 
           <div class="row">
             <div class="col-12">
-              <div class="text-purple">
+              <div class="text-purple text-md-left text-center">
                 <h1>สินค้าทั้งหมด</h1>
               </div>
-              <div><hr style="border: 3px solid #d6d6d6;"></div>
+              <div><hr style="border: 2px solid #d6d6d6;"></div>
             </div>
           </div>
 
@@ -133,7 +139,7 @@
 
           <!-- PRODUCT LIST -->
             <div class="row productlist-my-5 ">
-              <div class="col-2-half">
+              <div class="col-2-half product-collum">
                 <div class="card home-product-card" style="width: 100%">
                   <div class="mb-3 overlay-img">
                     <img class="card-img-top image-full" src="assets/images/product/1.jpg" alt="Card image cap">
@@ -152,7 +158,7 @@
                       <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                       <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                     </div>
-                    <div class="text-center home-content-product">
+                    <div class="text-center home-content-product productlist-px-15">
                       <p class="card-text">พาวเวอร์แบงค์ ชาร์จเร็ว M2 12000mAh หลากสีสัน</p>
                     </div>
                     <div class="text-center text-dark-purple mt-3">
@@ -174,7 +180,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-2-half">
+              <div class="col-2-half product-collum">
                 <div class="card home-product-card" style="width: 100%">
                   <div class="mb-3 overlay-img">
                     <img class="card-img-top image-full" src="assets/images/product/2.jpg" alt="Card image cap">
@@ -193,7 +199,7 @@
                       <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                       <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                     </div>
-                    <div class="text-center home-content-product">
+                    <div class="text-center home-content-product productlist-px-15">
                       <p class="card-text">ฟิล์มกระจกกันรอย 2.5D ไอโฟน X สีดำ</p>
                     </div>
                     <div class="text-center text-dark-purple mt-3">
@@ -207,7 +213,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-2-half">
+              <div class="col-2-half product-collum">
                 <div class="card home-product-card" style="width: 100%">
                   <div class="mb-3 overlay-img">
                     <img class="card-img-top image-full" src="assets/images/product/3.jpg" alt="Card image cap">
@@ -226,7 +232,7 @@
                       <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                       <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                     </div>
-                    <div class="text-center home-content-product">
+                    <div class="text-center home-content-product productlist-px-15">
                       <p class="card-text">ฟิล์มกระจกกันรอย 2.5D ไอโฟน 7 สีขาวและสีดำ</p>
                     </div>
                     <div class="text-center text-dark-purple mt-3">
@@ -240,7 +246,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-2-half">
+              <div class="col-2-half product-collum">
                 <div class="card home-product-card" style="width: 100%">
                   <div class="mb-3 overlay-img">
                     <img class="card-img-top image-full" src="assets/images/product/4.jpg" alt="Card image cap">
@@ -259,7 +265,7 @@
                       <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                       <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                     </div>
-                    <div class="text-center home-content-product">
+                    <div class="text-center home-content-product productlist-px-15">
                       <p class="card-text">พาวเวอร์แบงค์ ชาร์จเร็จ K1 12000mAh หลากสีสัน</p>
                     </div>
                     <div class="text-center text-dark-purple mt-3">
@@ -287,7 +293,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-2-half">
+              <div class="col-2-half product-collum">
                 <div class="card home-product-card" style="width: 100%">
                   <div class="mb-3 overlay-img">
                     <img class="card-img-top image-full" src="assets/images/product/5.jpg" alt="Card image cap">
@@ -306,7 +312,7 @@
                       <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                       <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                     </div>
-                    <div class="text-center home-content-product">
+                    <div class="text-center home-content-product productlist-px-15">
                       <p class="card-text">ฟิล์มกระจกกันรอย สำหรับไอโฟน X สีดำ</p>
                     </div>
                     <div class="text-center text-dark-purple mt-3">
@@ -320,7 +326,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-2-half">
+              <div class="col-2-half product-collum">
                 <div class="card home-product-card" style="width: 100%">
                   <div class="mb-3 overlay-img">
                     <img class="card-img-top image-full" src="assets/images/product/1.jpg" alt="Card image cap">
@@ -339,7 +345,7 @@
                       <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                       <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                     </div>
-                    <div class="text-center home-content-product">
+                    <div class="text-center home-content-product productlist-px-15">
                       <p class="card-text">พาวเวอร์แบงค์ ชาร์จเร็ว M2 12000mAh หลากสีสัน</p>
                     </div>
                     <div class="text-center text-dark-purple mt-3">
@@ -361,7 +367,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-2-half">
+              <div class="col-2-half product-collum">
                 <div class="card home-product-card" style="width: 100%">
                   <div class="mb-3 overlay-img">
                     <img class="card-img-top image-full" src="assets/images/product/2.jpg" alt="Card image cap">
@@ -380,7 +386,7 @@
                       <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                       <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                     </div>
-                    <div class="text-center home-content-product">
+                    <div class="text-center home-content-product productlist-px-15">
                       <p class="card-text">ฟิล์มกระจกกันรอย 2.5D ไอโฟน X สีดำ</p>
                     </div>
                     <div class="text-center text-dark-purple mt-3">
@@ -394,7 +400,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-2-half">
+              <div class="col-2-half product-collum">
                 <div class="card home-product-card" style="width: 100%">
                   <div class="mb-3 overlay-img">
                     <img class="card-img-top image-full" src="assets/images/product/3.jpg" alt="Card image cap">
@@ -413,7 +419,7 @@
                       <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                       <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                     </div>
-                    <div class="text-center home-content-product">
+                    <div class="text-center home-content-product productlist-px-15">
                       <p class="card-text">ฟิล์มกระจกกันรอย 2.5D ไอโฟน 7 สีขาวและสีดำ</p>
                     </div>
                     <div class="text-center text-dark-purple mt-3">
@@ -441,7 +447,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-2-half">
+              <div class="col-2-half product-collum">
                 <div class="card home-product-card" style="width: 100%">
                   <div class="mb-3 overlay-img">
                     <img class="card-img-top image-full" src="assets/images/product/4.jpg" alt="Card image cap">
@@ -460,7 +466,7 @@
                       <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                       <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                     </div>
-                    <div class="text-center home-content-product">
+                    <div class="text-center home-content-product productlist-px-15">
                       <p class="card-text">พาวเวอร์แบงค์ ชาร์จเร็จ K1 12000mAh หลากสีสัน</p>
                     </div>
                     <div class="text-center text-dark-purple mt-3">
@@ -488,7 +494,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-2-half">
+              <div class="col-2-half product-collum">
                 <div class="card home-product-card" style="width: 100%">
                   <div class="mb-3 overlay-img">
                     <img class="card-img-top image-full" src="assets/images/product/5.jpg" alt="Card image cap">
@@ -507,7 +513,7 @@
                       <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                       <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                     </div>
-                    <div class="text-center home-content-product">
+                    <div class="text-center home-content-product productlist-px-15">
                       <p class="card-text">ฟิล์มกระจกกันรอย สำหรับไอโฟน X สีดำ</p>
                     </div>
                     <div class="text-center text-dark-purple mt-3">
@@ -529,7 +535,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-2-half">
+              <div class="col-2-half product-collum">
                 <div class="card home-product-card" style="width: 100%">
                   <div class="mb-3 overlay-img">
                     <img class="card-img-top image-full" src="assets/images/product/1.jpg" alt="Card image cap">
@@ -548,7 +554,7 @@
                       <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                       <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                     </div>
-                    <div class="text-center home-content-product">
+                    <div class="text-center home-content-product productlist-px-15">
                       <p class="card-text">พาวเวอร์แบงค์ ชาร์จเร็ว M2 12000mAh หลากสีสัน</p>
                     </div>
                     <div class="text-center text-dark-purple mt-3">
@@ -570,7 +576,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-2-half">
+              <div class="col-2-half product-collum">
                 <div class="card home-product-card" style="width: 100%">
                   <div class="mb-3 overlay-img">
                     <img class="card-img-top image-full" src="assets/images/product/2.jpg" alt="Card image cap">
@@ -589,7 +595,7 @@
                       <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                       <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                     </div>
-                    <div class="text-center home-content-product">
+                    <div class="text-center home-content-product productlist-px-15">
                       <p class="card-text">ฟิล์มกระจกกันรอย 2.5D ไอโฟน X สีดำ</p>
                     </div>
                     <div class="text-center text-dark-purple mt-3">
@@ -603,7 +609,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-2-half">
+              <div class="col-2-half product-collum">
                 <div class="card home-product-card" style="width: 100%">
                   <div class="mb-3 overlay-img">
                     <img class="card-img-top image-full" src="assets/images/product/3.jpg" alt="Card image cap">
@@ -622,7 +628,7 @@
                       <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                       <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                     </div>
-                    <div class="text-center home-content-product">
+                    <div class="text-center home-content-product productlist-px-15">
                       <p class="card-text">ฟิล์มกระจกกันรอย 2.5D ไอโฟน 7 สีขาวและสีดำ</p>
                     </div>
                     <div class="text-center text-dark-purple mt-3">
@@ -636,7 +642,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-2-half">
+              <div class="col-2-half product-collum">
                 <div class="card home-product-card" style="width: 100%">
                   <div class="mb-3 overlay-img">
                     <img class="card-img-top image-full" src="assets/images/product/4.jpg" alt="Card image cap">
@@ -655,7 +661,7 @@
                       <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                       <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                     </div>
-                    <div class="text-center home-content-product">
+                    <div class="text-center home-content-product productlist-px-15">
                       <p class="card-text">พาวเวอร์แบงค์ ชาร์จเร็จ K1 12000mAh หลากสีสัน</p>
                     </div>
                     <div class="text-center text-dark-purple mt-3">
@@ -683,7 +689,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-2-half">
+              <div class="col-2-half product-collum">
                 <div class="card home-product-card" style="width: 100%">
                   <div class="mb-3 overlay-img">
                     <img class="card-img-top image-full" src="assets/images/product/5.jpg" alt="Card image cap">
@@ -702,7 +708,7 @@
                       <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                       <a href="#" class="text-star"><i class="fa fa-star" aria-hidden="true"></i></a>
                     </div>
-                    <div class="text-center home-content-product">
+                    <div class="text-center home-content-product productlist-px-15">
                       <p class="card-text">ฟิล์มกระจกกันรอย สำหรับไอโฟน X สีดำ</p>
                     </div>
                     <div class="text-center text-dark-purple mt-3">
@@ -725,28 +731,31 @@
 
 
             <div class="row productlist-my-5 ">
-              <div class="col-6">
+              <div class="col-md-6 col-12 mb-3">
                 <div class="productlist-img-bands">
                   <img src="assets/images/product/HTB1.jpg" class="home-img-bands">
                 </div>
               </div>
-              <div class="col-6">
+              <div class="col-md-6 col-12 mb-3">
                 <div class="productlist-img-bands">
                   <img src="assets/images/product/HTB1.jpg" class="home-img-bands">
                 </div>
               </div>
             </div>
-          </div>
 
 
-          <div>
-            <img src="assets/images/slide/Slider.02.png">
-          </div>
+
+        </div>
+
+
+        <div class="productlist-img-footer">
+          <img src="assets/images/slide/Slider-02.png" class="home-img-bands">
+        </div>
 
           <!-- END PRODUCT LIST -->
 
 
-        </div>
+        
         <!-- END PRODUCT -->
 
 

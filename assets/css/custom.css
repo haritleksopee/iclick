@@ -867,7 +867,7 @@ a:hover{
    
 
 /*----------------------------------------
----------------CONTENT END--------------------
+---------------CONTENT END----------------
 ------------------------------------------*/
 
 /*-----------------------------------------
@@ -1638,7 +1638,6 @@ a:hover{
     margin-top: 30px;
 }
 
-<<<<<<< HEAD
  /*--------------------------
  --------- HOW TO QA --------
  ----------------------------*/
@@ -1687,11 +1686,10 @@ a:hover{
  -----------------------------*/
 
 
-=======
 .productlist-img-footer {
     position:relative;
     overflow:hidden;
-    height: 250px;
+    height: 800px;
 }
 .productlist-my-5 {
     margin-bottom: 30px;
@@ -1700,7 +1698,73 @@ a:hover{
 /*--------------------------
 ------- PRODUCT-LIST -------
 ----------------------------*/
->>>>>>> 464a37f5f8e4481a746f3ae58682becc6c55e803
+/*--------------------------
+-------- PRODUCT DETAIL ----
+----------------------------*/
+.prodetail-link {
+    word-spacing: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.prodetail-link-color {
+    color: #8a8a8a;
+}
+.prodetail-link-color:hover {
+    color: #6d5af3;
+}
+.prodetail-link-active {
+    color: #6d5af3;
+}
+/*ZOOM*/
+
+
+figure.zoom {
+  background-position: 50% 50%;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  cursor: zoom-in;
+}
+figure.zoom img:hover {
+  opacity: 0;
+}
+figure.zoom img {
+  transition: opacity .5s;
+  display: block;
+  width: 100%;
+}
+
+
+.prodetail-img-bands {
+    position:relative;
+    overflow:hidden;
+    height: 500px;
+}
+.prodetail-text-head {
+    font-weight: 600;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.prodetail-mx-55 {
+    margin-left: 55px;
+    margin-right: 55px;
+}
+.prodetail-mt-20 {
+    margin-top: 20px;
+}
+.prodetail-mb-0 {
+    margin-bottom: 0px;
+}
+.prodetail-logo-barnd {
+    width: 85px;
+    margin-left: 25px;
+}
+
+/*----------------------------
+---- END PRODUCT DETAIL ------
+------------------------------*/
+
 
 @media(max-width: 1366px){
     /*---------------------------
@@ -2094,11 +2158,6 @@ a:hover{
      /*------------------------------------
      -------------ARTICLE 1366-------------
      --------------------------------------*/
-       .flex-carousel-img {
-        position: relative;
-        overflow: hidden;
-        height: 432px;
-       }
        
        .art_c_a{
         width: 100%;
@@ -2155,6 +2214,44 @@ a:hover{
      /*---------------------------
      ---- END HOW TO QA 1366 -----
      -----------------------------*/
+   /*------------------------------------
+     --------- PRODUCT LIST 1336 ----------
+     --------------------------------------*/
+     .productlist-search {
+        font-size: 37px;
+        position: absolute;
+        top: 52px;
+        left: 210px;
+    }
+    .product-list-img-circle {
+        width: 80px;
+    }
+    .product-list-circle {
+        text-align: center;
+        width: 140px;
+        height: 140px;
+        padding-top: 9px;
+        border-radius: 96px;
+        border: none;
+        box-shadow: 2px 2px 13px 0px #cecece;
+    }
+    .productlist-mt-auto {
+        margin: 15px 19px;
+    }
+    .productlist-img-footer {
+        position: relative;
+        overflow: hidden;
+        height: 575px;
+    }
+    .productlist-img-bands {
+        position: relative;
+        overflow: hidden;
+        height: 215px;
+    }
+     /*------------------------------------
+     ------- END PRODUCT LIST 1336 --------
+     --------------------------------------*/
+
 }
 
 
@@ -2501,7 +2598,7 @@ a:hover{
      /*--------------------------
      ----- END BRANDS 1366 ------
      ----------------------------*/
-     ----------------------------*/
+
 
      /*--------------------------
      ----- HOW TO PAY 1024 ------
@@ -2725,18 +2822,13 @@ a:hover{
      -------------------------------*/
 
 
- /*-----------------------------------
- -------------ARTICLE 1024------------
- --------------------------------------*/
+     /*-----------------------------------
+     -------------ARTICLE 1024------------
+     --------------------------------------*/
     .art_top_mer {
         margin-left: 0px;
     }
       
-    .flex-carousel-img {
-        position: relative;
-        overflow: hidden;
-        height: 432px;
-    }
     .art_c_a{
         width: 100%;
     }
@@ -2772,17 +2864,66 @@ a:hover{
     .CON_c_a{
      width: 100%;
     }
-   /*-------------------------------------
-     ----------CONTENT END ----------------
-    --------------------------------------*/
+   /*----------------------------------------
+     ---------------CONTENT END 1024 --------
+    ------------------------------------------*/
+
+    /*-----------------------------
+    ----- PRODUCT LIST 1024 -------
+    -------------------------------*/
+    .product-list-circle {
+        text-align: center;
+        width: 170px;
+        height: 170px;
+        padding-top: 15px;
+        border-radius: 96px;
+        border: none;
+        box-shadow: 2px 2px 13px 0px #cecece;
+        margin: auto;
+    }
+    .product-list-img-circle {
+        width: 100px;
+    }
+    .signup-from-select {
+        width: 85%!important;
+        border-radius: 0px!important;
+    }
+    .productlist-search {
+        font-size: 37px;
+        position: absolute;
+        top: 52px;
+        left: 285px;
+    }
+    .productlist-img-footer {
+        position: relative;
+        overflow: hidden;
+        height: 425px;
+    }
+    .product-collum {
+        max-width: 100%!important;
+        width: 33.33%!important;
+        -webkit-box-flex: 0!important;
+        -ms-flex: 0 0 20%!important;
+        flex: 0 0 33.33%!important;
+        padding-right: 50px!important;
+        padding-left: 50px!important;
+        padding-top: 20px!important;
+        padding-bottom: 20px!important;
+    }
+    .productlist-img-bands {
+        position: relative;
+        overflow: hidden;
+        height: 190px;
+    }
+    .productlist-mt-auto {
+        margin: 15px 19px;
+        text-align: left;
+    }
+    /*-----------------------------
+    ----- END PRODUCT LIST 1024 ---
+    -------------------------------*/
 
 }
-<<<<<<< HEAD
-=======
-   /*----------------------------------------
-     ---------------CONTENT END 1024 --------------------
-    ------------------------------------------*/
->>>>>>> 464a37f5f8e4481a746f3ae58682becc6c55e803
 
 
 @media(max-width: 768px){
@@ -3128,13 +3269,6 @@ a:hover{
     }
     .CON-lo:hover{
         width: 100%;
-
-    }
-
-    .flex-carousel-img {
-        position: relative;
-        overflow: hidden;
-        height: 360px;
     }
 
     /*--------------------------------
@@ -3206,7 +3340,6 @@ a:hover{
      --- END PROFILE (1) 768 ----
      ----------------------------*/
 
-<<<<<<< HEAD
     /*------------------------------
      ------- PROFILE (2) 768 -------
      ------------------------------*/
@@ -3220,8 +3353,6 @@ a:hover{
         font-size: 17px;
         color:#866df6;
      }
-=======
-
      /*--------------------------
      ---------ARTICLE 768--------
      --------------------------*/
@@ -3243,16 +3374,10 @@ a:hover{
     /*--------------------------------
     --------------CONTENT 768-------------
     ---------------------------------*/
-    .flex-carousel-img {
-        position: relative;
-        overflow: hidden;
-        height: 360px;
-    }
     /*--------------------------------
     --------------CONTENT END 768-------------
     ---------------------------------*/
-}
->>>>>>> 464a37f5f8e4481a746f3ae58682becc6c55e803
+
 
     .profile2-font3{
         font-size: 20px;
@@ -3383,13 +3508,49 @@ a:hover{
     /*--------------------------------
     --------------CONTENT-------------
     ---------------------------------*/
-    .flex-carousel-img {
-        position: relative;
-        overflow: hidden;
-        height: 360px;
-    }
     /*--------------------------------
     --------------CONTENT END-------------
+    ---------------------------------*/
+    /*-------------------------------
+    ------- PRODUCT LIST 768 ---------
+    ---------------------------------*/
+    .productlist-w-90 {
+        width: 95%!important;
+    }
+    .productlist-search {
+        font-size: 37px;
+        position: absolute;
+        top: 55px;
+        left: unset;
+        right: 30px;
+    }
+    .product-collum {
+        max-width: 100%!important;
+        width: 33.33%!important;
+        -webkit-box-flex: 0!important;
+        -ms-flex: 0 0 20%!important;
+        flex: 0 0 33.33%!important;
+        padding-right: 15px!important;
+        padding-left: 15px!important;
+        padding-top: 20px!important;
+        padding-bottom: 20px!important;
+    }
+    .productlist-img-bands {
+        position: relative;
+        overflow: hidden;
+        height: 145px;
+    }
+    .productlist-img-footer {
+        position: relative;
+        overflow: hidden;
+        height: 370px;
+    }
+    .productlist-px-15 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    /*-------------------------------
+    ---- END PRODUCT LIST 768 ------
     ---------------------------------*/
 
 
@@ -3990,7 +4151,6 @@ a:hover{
         margin-left: 300px;
      }
 
-<<<<<<< HEAD
     .profile-add:hover{
         background-color: #866df6;
         color: #fff;
@@ -4004,40 +4164,18 @@ a:hover{
      --- END PROFILE (1) 414 ----
      ----------------------------*/
 
-=======
->>>>>>> 464a37f5f8e4481a746f3ae58682becc6c55e803
     /*-----------------------------------
     -------------ARTICLE 414---------------
     --------------------------------------*/
     .art-lo {
         width: 100%;
     }
-<<<<<<< HEAD
     .art_h2_top {
     margin: 35px 0px 0px 156px;
     }
-=======
-   
->>>>>>> 464a37f5f8e4481a746f3ae58682becc6c55e803
     /*-----------------------------------
     -------------ARTICLE 414 END-----------
     --------------------------------------*/
-
-
-
-    /*--------------------------------
-    --------------CONTENT 414-------------
-    ---------------------------------*/
-    .flex-carousel-img {
-        position: relative;
-        overflow: hidden;
-        height: 170px;
-    }
-
-    
-    /*--------------------------------
-    ---------CONTENT END 414----------
-    ---------------------------------*/
 
 
     /*--------------------------
@@ -4109,6 +4247,58 @@ a:hover{
      }
      /*--------------------------
      ---- END PROFILE (2) 414 ---
+     ----------------------------*/
+     /*--------------------------
+     ----- PRODUCT LIST 414 -----
+     ----------------------------*/
+     .product-list-img-circle {
+        width: 65px;
+     }
+     .product-list-circle {
+        text-align: center;
+        width: 110px;
+        height: 110px;
+        padding-top: 0px;
+        border-radius: 96px;
+        border: none;
+        box-shadow: 2px 2px 13px 0px #cecece;
+        margin: auto;
+    }
+    .productlist-search {
+        font-size: 37px;
+        position: inherit;
+        margin: 30px auto 0px auto;
+        top: 0px;
+        left: unset;
+        right: 0px;
+    }
+    .product-collum {
+        max-width: 100%!important;
+        width: 50%!important;
+        -webkit-box-flex: 0!important;
+        -ms-flex: 0 0 20%!important;
+        flex: 0 0 50%!important;
+        padding-right: 10px!important;
+        padding-left: 10px!important;
+        padding-top: 20px!important;
+        padding-bottom: 20px!important;
+    }
+    .productlist-img-bands {
+        position: relative;
+        overflow: hidden;
+        height: 125px;
+    }
+    .productlist-img-footer {
+        position: relative;
+        overflow: hidden;
+        height: 270px;
+    }
+    .productlist-mt-auto {
+        margin: 15px 0px;
+        text-align: left;
+    }
+     /*--------------------------
+     --- END PRODUCT LIST 414 ---
      ----------------------------*/
 
      /*--------------------------
@@ -4494,8 +4684,6 @@ a:hover{
      --- END PROFILE (1) 375 ----
      ----------------------------*/
 
-<<<<<<< HEAD
-
     /*---------------------------
      -----  PROFILE (2) 375 ------
      ----------------------------*/
@@ -4521,11 +4709,6 @@ a:hover{
         color:#666;
         font-weight: bold;
      }
-=======
-   
-
-}
->>>>>>> 464a37f5f8e4481a746f3ae58682becc6c55e803
 
     .profile2-font5{
         font-size: 16px;
@@ -4544,17 +4727,17 @@ a:hover{
         font-weight: bold;
      }
 
-<<<<<<< HEAD
+
     .profile2-font8{
         font-size: 16px;
         color:#ace600;
         font-weight: bold;
      }
-=======
+
         .wrapper {
           min-height: calc(100vh - 400px);
         }
->>>>>>> 464a37f5f8e4481a746f3ae58682becc6c55e803
+
 
      .profile2-font9{
         font-size: 16px;
@@ -4722,7 +4905,41 @@ a:hover{
      /*---------------------------
      ----- END HOW TO QA 414 -----
      -----------------------------*/
-
+  /*-----------------------------
+    ------- PRODUCT LIST 375 ------
+    -------------------------------*/
+    .product-collum {
+        max-width: 100%!important;
+        width: 100%!important;
+        -webkit-box-flex: 0!important;
+        -ms-flex: 0 0 100%!important;
+        flex: 0 0 100%!important;
+        padding-right: 25px!important;
+        padding-left: 25px!important;
+        padding-top: 20px!important;
+        padding-bottom: 20px!important;
+    }
+    .product-list-img-circle {
+        width: 45px;
+    }
+    .product-list-circle {
+        text-align: center;
+        width: 90px;
+        height: 90px;
+        padding-top: 0px;
+        border-radius: 96px;
+        border: none;
+        box-shadow: 2px 2px 13px 0px #cecece;
+        margin: auto;
+    }
+    .productlist-img-footer {
+        position: relative;
+        overflow: hidden;
+        height: 235px;
+    }
+    /*-----------------------------
+    ---- END PRODUCT LIST 375 -----
+    -------------------------------*/
 }
 
 
@@ -5148,6 +5365,10 @@ a:hover{
     -------CONTENT END 320------------
     ---------------------------------*/
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2cca49637cd7bda032500f637792e045184a7728
      /*--------------------------
      ------ HOW TO QA 414 -------
      ----------------------------*/
@@ -5195,4 +5416,44 @@ a:hover{
     }
      /*---------------------------
      ----- END HOW TO QA 414 -----
+<<<<<<< HEAD
      -----------------------------*/
+=======
+     -----------------------------*/
+   /*-------------------------------
+    ---- PRODUCT LIST 320 -----------
+    ---------------------------------*/
+    .product-list-img-circle {
+        width: 30px;
+    }
+    .product-list-circle {
+        text-align: center;
+        width: 70px;
+        height: 70px;
+        padding-top: 0px;
+        border-radius: 96px;
+        border: none;
+        box-shadow: 2px 2px 13px 0px #cecece;
+        margin: auto;
+    }
+    .product-collum {
+        max-width: 100%!important;
+        width: 100%!important;
+        -webkit-box-flex: 0!important;
+        -ms-flex: 0 0 100%!important;
+        flex: 0 0 100%!important;
+        padding-right: 10px!important;
+        padding-left: 10px!important;
+        padding-top: 20px!important;
+        padding-bottom: 20px!important;
+    }
+    .productlist-img-footer {
+        position: relative;
+        overflow: hidden;
+        height: 200px;
+    }
+    /*----------------------------------
+    ------ END PRODUCT LIST 320 --------
+    ------------------------------------*/
+}
+>>>>>>> 2cca49637cd7bda032500f637792e045184a7728
