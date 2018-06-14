@@ -425,12 +425,12 @@ a:hover{
 -----------------login-----------------
 ---------------------------------------*/
  .login-color{
-    color: #6d5bf3;
+    color: #695ff4;
     margin-bottom: 30px;
-    font-weight: 600;
+    font-weight: 700;
  }
  .logic-color-blu{
-    color: #6d5af3;
+    color: #695ff4;
  }
  .login-input{
     margin-left: 280px;
@@ -440,11 +440,11 @@ a:hover{
     padding-bottom: calc(.375rem + 1px);
     margin-bottom: 0;
     font-size: inherit;
-    color: #6d5af3;
+    color: #695ff4;
 }
 
 .login-input-grob{
-    border-color: #ab34f1;
+    border-color: #9718e4;
     border-radius: 0px;
     border-width: 2px;
     padding-right:70px;
@@ -501,18 +501,16 @@ a:hover{
 
 
 /*--------------------------------
- -------------Pay Confirm----------
+ -------------Pay confirm----------
 ----------------------------------*/
-.pay_ma_h2_top{
-    margin: 35px 0px 0px 78px;
-    color: #6d5bf3;
-    font-weight: 700;
-}
-.pay_hr_width{
-    border-width: 3px;
-    width: 92%;  
+.pay-confirm_ma_h2_top {
+    color: #695ff4;
+    font-weight: 600;
+ }
+.pay-confirm_hr_width{
+    border: 2px solid #d6d6d6;  
 } 
-.pay-from{
+.pay-confirm-from{
     display: block;
     width: 100%;
     padding: .375rem .75rem;
@@ -528,14 +526,14 @@ a:hover{
     border-width: 2px;
     height: 45px;
 }
-.pay-form-label {
+.pay-confirm-form-label {
     padding-top: calc(.375rem + 1px);
     padding-bottom: calc(.375rem + 1px);
     margin-bottom: 0;
     font-size: inherit;
     color: #b4b4b4;
 }
-.pay-buttom{
+.pay-confirm-buttom{
     width: 160px;
     margin-right: 168px;
     background-color: #6d5af3;
@@ -544,38 +542,42 @@ a:hover{
     color: #fff;
     font-size: 17px;
 }
-.pay_bb_2 {
+.pay-confirm_bb_2 {
     width: 190px;
     background-color: #ffffff;
     border-radius: 0px;
-    height: 45px;
+    height: 50px;
+    font-size: 20px;
     color: #6d5af3;
     border-color: #9718e4;
-    border-width: 2px;
-    font-weight: 700;
+    border-width:3px;
+   
     
 }
-.pay_bb_3 {
+
+.pay-confirm_bb_3 {
     width: 190px;
     background-color: #9718e4;
     border-radius: 0px;
-    height: 45px;
+    height: 50px;
+    font-size: 20px;
     color: #f9f9f9;
     border-color: #9718e4;
-    border-width: 2px;
-    font-weight: 700;
+    border-width: 3px;
+    
 }
-.pay_top_but{
+
+.pay-confirm_top_but{
     margin-top: 60px;
     margin-bottom: 60px;
 }
-.pay_l{
+.pay-confirm_l{
     margin-left: 42px;
 }
 
 
 
-.pay_btn-tertiary {
+.pay-confirm_btn-tertiary {
     color: #fff;
     border: 3px solid;
     padding: 0;
@@ -588,7 +590,7 @@ a:hover{
     font-weight: 700;
     border-radius: 0px;
 }
-.pay_btn-tertiary:hover {
+.pay-confirm_btn-tertiary:hover {
     color: #6d5af3;
     line-height: 40px;
     width: 160px;
@@ -601,7 +603,7 @@ a:hover{
 }
 
 
-.pay_input-file {
+.pay-confirm_input-file {
     width: 0.1px;
     height: 0.1px;
     opacity: 0;
@@ -609,8 +611,15 @@ a:hover{
     position: absolute;
     z-index: -1;
 }
+
+
+.pay-confirm-size-web {
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 50px;
+}
  /*--------------------------------
- -------------Pay Confirm END----------
+ -------------Pay confirm END----------
  ----------------------------------*/
 
 
@@ -618,8 +627,9 @@ a:hover{
  -------------ARTICLE-----------------
  --------------------------------------*/
 .art_hr_width{
-    border-width: 3px;
-    width: 92%;  
+   border: 2px solid #d6d6d6; 
+   width: 100%; 
+     
 } 
 .art_text_h{
     color: #6d5af3;
@@ -660,22 +670,8 @@ a:hover{
 .art_fram_1{
     position: relative;
     overflow: hidden;
-    height: 130px;
-    width: 100%;
+    height: 250px
 }
-.art_fram_2{
-    position: relative;
-    overflow: hidden;
-    height: 350px;
-    width: 100%;
-}
-.art_img_2{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-
 
 .art_c_a {
     position: relative;
@@ -719,9 +715,30 @@ a:hover{
 
 
 .art_h2_top {
-   
-    color: #6d5bf3;
-    font-weight: 700;
+   color: #695ff4;
+    font-weight: 600;
+}
+.art-size-web {
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 50px;
+}
+
+.art-my-5 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.art_img_last-9{
+    position: relative;
+    overflow: hidden;
+    height: 250px;
+}
+.art-img-last {
+    position:absolute;
+    width: 100%;
+    top:50%;
+    left:50%;
+    transform:translate(-50% ,-50%);
 }
  /*-----------------------------------
  -------------ARTICLE END-------------
@@ -730,16 +747,16 @@ a:hover{
 
 
 /*----------------------------------------
----------------CONTENT--------------------
+---------------content--------------------
 ------------------------------------------*/
 
 
-.CON_hr_width{
-    border-width: 3px;
-    width: 92%;  
+.con_hr_width{
+    border: 2px solid #d6d6d6; 
+    width: 100%;  
 } 
 
-.CON_fram_img{
+.con_fram_img{
     position: relative;
     overflow: hidden;
     height: 330px;
@@ -747,35 +764,31 @@ a:hover{
     border: 4px solid #9718e4;
     border-radius: 6px;
 }
-.CON_fram_img:hover{
+.con_fram_img:hover{
     border: 4px solid #ddd;
 }
-.CON_img_1{
+.con_img_1{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
-.CON_t{
-    margin-left: 72px
-}
-.CON_let{
-    padding-right: 160px;
-}
-.CON_hay{
+
+
+.con_hay{
     line-height: 29px;
     color: #b4b4b4;
     font-size: 19px;
 }
-.CON_text_h{
+.con_text_h{
     color: #6d5af3;
     
 }
-.CON-fix{
-    max-height:325px;
+.con-fix{
+    max-height:430px;
     overflow:hidden;
 }
-.CON-lo {
+.con-lo {
     width: 25%;
     height: 55px;
     background-color:#9718e4;
@@ -785,7 +798,7 @@ a:hover{
     margin-bottom: 100px;
     margin-top: 100px;
 }
-.CON-lo:hover {
+.con-lo:hover {
     width: 25%;
     height: 55px;
     background-color: #ffffff;
@@ -794,7 +807,7 @@ a:hover{
     border: 3px solid;
     transition: all 0.55s;
 }
-.CON_c_a {
+.con_c_a {
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -808,21 +821,19 @@ a:hover{
     background-color: #fff;
     background-clip: border-box;
     border: 0px solid rgba(0,0,0,.125); 
-    width: 76%;
+    width: 90%;
 }
-.CON_top_mer{
-    margin-left: 75px;
-}
-.CON_top_mer-1{
+
+.con_top_mer-1{
      color: #9718e4;
 }
-.CON_img-card-l {
+.con_img-card-l {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
-.CON_fram_img-l{
+.con_fram_img-l{
     position: relative;
     overflow: hidden;
     height: 330px;
@@ -830,44 +841,65 @@ a:hover{
     border: 4px solid #9718e4;
     border-radius: 6px;
 }
-.CON_fram_img-l:hover{
+.com_fram_img-l:hover{
     border: 4px solid #ddd;
 }
 
 
-.CON_text_h{
+.con_text_h{
     color: #9718e4;
     font-size: 25px;
 }
-.CON_color{
+.con_color{
    color: #b4b4b4;
 }
-.CON_color-1{
+.con_color-1{
     color: #6d5af3;
 }
-.CON_img_11{
+.con_img_11{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
-.CON_fram_11{
+.con_fram_11{
     position: relative;
     overflow: hidden;
-    height: 130px;
-    width: 100%;
+    height: 250px
 }
 .con_text_haed{
-    color: #6d5bf3;
+    color: #695ff4;
     font-weight: 700; 
 }
 .con_text_haed_1{
     color: #6d5bf3;
 }
-   
+ 
+.con-size-web {
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 50px;
+}
+
+.con-img-last {
+    position:absolute;
+    width: 100%;
+    top:50%;
+    left:50%;
+    transform:translate(-50% ,-50%);
+}   
+.con_img_last-9{
+    position: relative;
+    overflow: hidden;
+    height: 250px;
+}
+.con-my-5{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
 
 /*----------------------------------------
----------------CONTENT END----------------
+---------------content END--------------------
 ------------------------------------------*/
 
 /*-----------------------------------------
@@ -888,6 +920,37 @@ a:hover{
     left: 50%;
     transform: translate(-50%,-50%);
 }
+.about-size-web {
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 50px;
+}
+
+.about_h2_top {
+   color: #695ff4;
+    font-weight: 600;
+}
+.about_hr_width{
+   border: 2px solid #d6d6d6; 
+   width: 100%;   
+} 
+
+.about_text_h{
+    color: #9718e4;
+}
+.about_hay{
+
+    color: #b4b4b4;
+    margin-bottom: 100px;
+
+}
+
+
+/*-----------------------------------------
+---------------about END---------------------
+-----------------------------------------*/
+
+
 
 
 
@@ -1254,11 +1317,6 @@ a:hover{
     display: inline-block;
     font-size: 22px;
 }
-
-.brand-margin{
-    margin: 50px;
-    margin-top: 75px;
-}
  /*--------------------------
  -------- END BRANDS -------
  ----------------------------*/
@@ -1269,7 +1327,6 @@ a:hover{
 .htp-font1{
     color:#7b63f5; 
     font-size:30px;
-    font-family: 'kanitmedium';
 }
 
 .htp-font2{
@@ -1299,10 +1356,6 @@ a:hover{
 .htp-border-image{
     border: 4px solid #b13df3;
 }
-
-.htp-margin{
-    margin: 50px;
-}
  /*--------------------------
  ------ END HOW TO PAY ------
  ----------------------------*/
@@ -1329,7 +1382,6 @@ a:hover{
     border:none;
     width: 40px;
     height: 40px;
-    margin-left: 310px;
  }
 
 .profile-add:hover{
@@ -1393,7 +1445,7 @@ a:hover{
 
 .nav-pills .nav-item .active{
     background-color: white;
-    font-size: 23px;
+    font-size: 22px;
     font-family: 'kanitmedium';
 }
 
@@ -1438,7 +1490,7 @@ a:hover{
  }
 
 .profile2-font2{
-    font-size: 20px;
+    font-size: 18px;
     color:#866df6;
  }
 
@@ -1455,14 +1507,13 @@ a:hover{
  }
 
 .profile2-font5{
-    font-size: 20px;
+    font-size: 18px;
     color:#666;
  }
 
 .profile2-font6{
-    font-size: 20px;
+    font-size: 18px;
     color :#AEB6BF;
-    margin-left: 40px;
  }
 
 .profile2-font7{
@@ -1478,19 +1529,18 @@ a:hover{
  }
 
 .profile2-font9{
-    font-size: 20px;
+    font-size: 18px;
     color :#AEB6BF;
 }
 
 .profile2-font10{
-    font-size: 20px;
+    font-size: 18px;
     color:#666;
 }
 
 .profile2-font11{
-    font-size: 20px;
+    font-size: 18px;
     color:#666;
-    margin-left: 40px;
 }
 
 .profile2-dec{
@@ -1500,7 +1550,7 @@ a:hover{
     border:none;
     width: 35px;
     height: 40px;
-    margin-top: 30px;
+    margin-top: 42px;
  }
 
 .profile2-dec:hover{
@@ -1510,13 +1560,13 @@ a:hover{
     border:none;
     width: 35px;
     height: 40px;
-    margin-top: 30px;
+    margin-top: 42px;
  }
 
  .profile2-border-bottom{
     border-bottom: 2px solid #bcbcbb;
     margin-left: 365px;
-    margin-right: 365px;
+    margin-right: 300px;
 }
  /*--------------------------
  ------- END PROFILE 2 -------
@@ -1560,19 +1610,8 @@ a:hover{
     color:#ad3ff3;
 }
 
-.profile3-font6{
-    font-size: 20px;
-    color:#666;
-}
-
-.profile3-font7{
-    font-size: 20px;
-    color :#AEB6BF;
-    margin-left: 40px;
-}
-
 .mar-t{
-    margin-top: 40px;
+    margin-top: 78px;
 }
 
 .profile3-dec{
@@ -1582,7 +1621,7 @@ a:hover{
     border:none;
     width: 35px;
     height: 40px;
-    margin-top: 60px;
+    margin-top: 72px;
  }
 
 .profile3-dec:hover{
@@ -1638,58 +1677,10 @@ a:hover{
     margin-top: 30px;
 }
 
- /*--------------------------
- --------- HOW TO QA --------
- ----------------------------*/
-.qa-font1{
-    color:#7b63f5; 
-    font-size:30px;
-    font-family: 'kanitmedium';
-}
-
-.qa-font2{
-    color:#b308ea; 
-    font-size:30px;
-    font-family: 'kanitmedium';
-    margin-left: 100px;
-}
-
-.qa-font3{
-    color:#7b63f5; 
-    font-size:30px;
-    font-family: 'kanitlight';
-}
-
-.qa-font4{
-    color:#999; 
-    font-size:22px;
-    font-family: 'kanitlight';
-}
-
-.qa-border-bottom{
-    border-bottom: 4px solid #bcbcbb;
-}
-
-.qa-border-bottom2{
-    border-bottom: 2px solid #bcbcbb;
-}
-
-.qa-margin{
-    margin: 50px;
-}
-
-.qa-margin2{
-    margin: 30px;
-}
- /*---------------------------
- ------- END HOW TO QA -------
- -----------------------------*/
-
-
 .productlist-img-footer {
     position:relative;
     overflow:hidden;
-    height: 800px;
+    height: 250px;
 }
 .productlist-my-5 {
     margin-bottom: 30px;
@@ -1698,73 +1689,6 @@ a:hover{
 /*--------------------------
 ------- PRODUCT-LIST -------
 ----------------------------*/
-/*--------------------------
--------- PRODUCT DETAIL ----
-----------------------------*/
-.prodetail-link {
-    word-spacing: 10px;
-    font-size: 20px;
-    font-weight: 600;
-}
-
-.prodetail-link-color {
-    color: #8a8a8a;
-}
-.prodetail-link-color:hover {
-    color: #6d5af3;
-}
-.prodetail-link-active {
-    color: #6d5af3;
-}
-/*ZOOM*/
-
-
-figure.zoom {
-  background-position: 50% 50%;
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  cursor: zoom-in;
-}
-figure.zoom img:hover {
-  opacity: 0;
-}
-figure.zoom img {
-  transition: opacity .5s;
-  display: block;
-  width: 100%;
-}
-
-
-.prodetail-img-bands {
-    position:relative;
-    overflow:hidden;
-    height: 500px;
-}
-.prodetail-text-head {
-    font-weight: 600;
-    margin-left: 40px;
-    margin-right: 40px;
-}
-.prodetail-mx-55 {
-    margin-left: 55px;
-    margin-right: 55px;
-}
-.prodetail-mt-20 {
-    margin-top: 20px;
-}
-.prodetail-mb-0 {
-    margin-bottom: 0px;
-}
-.prodetail-logo-barnd {
-    width: 85px;
-    margin-left: 25px;
-}
-
-/*----------------------------
----- END PRODUCT DETAIL ------
-------------------------------*/
-
 
 @media(max-width: 1366px){
     /*---------------------------
@@ -1889,90 +1813,19 @@ figure.zoom img {
     ------------------------------*/
 
 
-     /*--------------------------
-     ------- BRANDS 1366 --------
+    /*---------------------------
+     -------- BRANDS 1366 -------
      ----------------------------*/
-    .brand-font{
-        color:#7b63f5; 
-        font-size:26px;
-        font-family: 'kanitmedium';
+    .brand-mt {
+        margin-top: 20px;
     }
 
     .brand-image-size{
         width:100%;
         height:250px;
     }
-
-    .brand-mt{
-        margin-top: 20px;
-    }
-
-    .brand-button{
-        background-color:#b13df3;
-        border: #b13df3;
-        color: white;
-        width:100%;
-        height:40px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-    }
-
-    .brand-button:hover{
-        background-color:#c56ff7;
-        border: none;
-        color: white;
-        width:100%;
-        height:40px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-    }
-
-    .brand-margin{
-        margin: 50px;
-        margin-top: 75px;
-    }
      /*--------------------------
-     ----- END BRANDS 1366 ------
-     ----------------------------*/
-
-     /*--------------------------
-     ----- HOW TO PAY 1366 ------
-     ----------------------------*/
-    .htp-font1{
-        color:#7b63f5; 
-        font-size:26px;
-        font-family: 'kanitmedium';
-    }
-
-    .htp-font2{
-        color:#888; 
-        font-size:19px;
-        font-weight: bold;
-    }
-
-    .htp-font3{
-        color:#bcbcbb; 
-        font-size:19px;
-    }
-
-    .htp-w-h{
-        width: 65px;
-        height:40px;
-    }
-
-    .htp-mt{
-        margin-top: 30px;
-    }
-
-    .htp-margin{
-        margin: 50px;
-    }
-     /*--------------------------
-     ---- END HOW TO PAY 1366 ----
+     ------ END BRANDS 1366 -----
      ----------------------------*/
 
      /*--------------------------
@@ -1988,6 +1841,12 @@ figure.zoom img {
         font-size: 17px;
         color: gray;
      }
+
+    .nav-pills .nav-item .active{
+        background-color: white;
+        font-size: 22px;
+        font-family: 'kanitmedium';
+    }
 
     .profile-add{
         background-color: #b308ea;
@@ -2010,18 +1869,12 @@ figure.zoom img {
         height: 40px;
      }
 
-    .nav-pills .nav-item .active{
-        background-color: white;
-        font-size: 23px;
-        font-family: 'kanitmedium';
-    }
-
     .profile-nav-link {
         text-align: center;
         font-size: 22px;
         color:#866df6 !important;
-        border-bottom: 3px solid #e6e6e6;
-        background-color: #e6e6e6;
+        border-bottom: 3px solid #bcbcbb;
+        background-color: #bcbcbb;
         padding: 10px;
         padding-left: 85px;
         padding-right: 85px;
@@ -2035,27 +1888,6 @@ figure.zoom img {
         font-size: 22px;
         transition: all 0.8s;
     }
-
-    .profile-add{
-        background-color: #b308ea;
-        color: #fff;
-        font-size: 25px;
-        padding: 2px;
-        border:none;
-        width: 40px;
-        height: 40px;
-        margin-left: 170px;
-     }
-
-    .profile-add:hover{
-        background-color: #866df6;
-        color: #fff;
-        font-size: 25px;
-        padding: 2px;
-        border:none;
-        width: 40px;
-        height: 40px;
-     }
     /*---------------------------
      --- END PROFILE (1) 1366 ---
      ----------------------------*/
@@ -2092,7 +1924,6 @@ figure.zoom img {
     .profile3-font3{
         font-size:20px;
         color:#666;
-        margin-left: 24px;
      }
 
     .profile3-font4{
@@ -2103,12 +1934,6 @@ figure.zoom img {
     .profile3-font5{
         font-size: 24px;
         color:#ad3ff3;
-    }
-
-    .profile3-font7{
-        font-size: 18px;
-        color :#AEB6BF;
-        margin-left: 40px;
     }
 
      .profile3-dec{
@@ -2137,20 +1962,14 @@ figure.zoom img {
 
 
     /*----------------------------
-    ----------CONTENT 1366------------
+    ----------conTENT 1366------------
     ----------------------------*/
-    
-    .CON_let {
-        padding-right: 55px;
-    }
-    .CON_top_mer {
-        margin-left: 0px;
-    }
-    .CON_c_a{
+  
+    .con_c_a{
         width: 100%;
     }
     /*----------------------------
-    ----------CONTENT END 1366------------
+    ----------conTENT END 1366------------
     ----------------------------*/
 
 
@@ -2158,6 +1977,11 @@ figure.zoom img {
      /*------------------------------------
      -------------ARTICLE 1366-------------
      --------------------------------------*/
+       .flex-carousel-img {
+        position: relative;
+        overflow: hidden;
+        height: 432px;
+       }
        
        .art_c_a{
         width: 100%;
@@ -2167,91 +1991,6 @@ figure.zoom img {
      /*------------------------------------
      -------------ARTICLE END 1366---------
      --------------------------------------*/
-
-     /*--------------------------
-     ------ HOW TO QA 1366 -------
-     ----------------------------*/
-    .qa-font1{
-        color:#7b63f5; 
-        font-size:26px;
-        font-family: 'kanitmedium';
-    }
-
-    .qa-font2{
-        color:#b308ea; 
-        font-size:26px;
-        font-family: 'kanitmedium';
-        margin-left: 80px;
-    }
-
-    .qa-font3{
-        color:#7b63f5; 
-        font-size:26px;
-        font-family: 'kanitlight';
-    }
-
-    .qa-font4{
-        color:#999; 
-        font-size:20px;
-        font-family: 'kanitlight';
-    }
-
-    .qa-border-bottom{
-        border-bottom: 4px solid #bcbcbb;
-    }
-
-    .qa-border-bottom2{
-        border-bottom: 2px solid #bcbcbb;
-    }
-
-    .qa-margin{
-        margin: 50px;
-    }
-
-    .qa-margin2{
-        margin: 30px;
-    }
-     /*---------------------------
-     ---- END HOW TO QA 1366 -----
-     -----------------------------*/
-   /*------------------------------------
-     --------- PRODUCT LIST 1336 ----------
-     --------------------------------------*/
-     .productlist-search {
-        font-size: 37px;
-        position: absolute;
-        top: 52px;
-        left: 210px;
-    }
-    .product-list-img-circle {
-        width: 80px;
-    }
-    .product-list-circle {
-        text-align: center;
-        width: 140px;
-        height: 140px;
-        padding-top: 9px;
-        border-radius: 96px;
-        border: none;
-        box-shadow: 2px 2px 13px 0px #cecece;
-    }
-    .productlist-mt-auto {
-        margin: 15px 19px;
-    }
-    .productlist-img-footer {
-        position: relative;
-        overflow: hidden;
-        height: 575px;
-    }
-    .productlist-img-bands {
-        position: relative;
-        overflow: hidden;
-        height: 215px;
-    }
-     /*------------------------------------
-     ------- END PRODUCT LIST 1336 --------
-     --------------------------------------*/
-
 }
 
 
@@ -2549,91 +2288,19 @@ figure.zoom img {
     ------ END SIGNUP 1024 ------
     -----------------------------*/
 
-     /*--------------------------
-     ------- BRANDS 1024 --------
+    /*--------------------------
+     -------- BRANDS 1024-------
      ----------------------------*/
-    .brand-font{
-        color:#7b63f5; 
-        font-size:26px;
-        font-family: 'kanitmedium';
+    .brand-mt{
+        margin-top: 20px;
     }
 
     .brand-image-size{
         width:100%;
         height:250px;
     }
-
-    .brand-mt{
-        margin-top: 20px;
-    }
-
-    .brand-button{
-        background-color:#b13df3;
-        border: #b13df3;
-        color: white;
-        width:100%;
-        height:40px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-    }
-
-    .brand-button:hover{
-        background-color:#c56ff7;
-        border: none;
-        color: white;
-        width:100%;
-        height:40px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-    }
-
-    .brand-margin{
-        margin: 50px;
-        margin-top: 75px;
-    }
      /*--------------------------
-     ----- END BRANDS 1366 ------
-     ----------------------------*/
-
-
-     /*--------------------------
-     ----- HOW TO PAY 1024 ------
-     ----------------------------*/
-    .htp-font1{
-        color:#7b63f5; 
-        font-size:22px;
-        font-family: 'kanitmedium';
-    }
-
-    .htp-font2{
-        color:#888; 
-        font-size:16px;
-        font-weight: bold;
-    }
-
-    .htp-font3{
-        color:#bcbcbb; 
-        font-size:16px;
-    }
-
-    .htp-w-h{
-        width: 65px;
-        height:40px;
-    }
-
-    .htp-mt{
-        margin-top: 30px;
-    }
-
-    .htp-margin{
-        margin: 50px;
-    }
-     /*--------------------------
-     ---- END HOW TO PAY 1024 ----
+     ------ END BRANDS 1024 -----
      ----------------------------*/
 
     /*--------------------------
@@ -2649,53 +2316,6 @@ figure.zoom img {
         font-size: 19px;
         color: gray;
      }
-
-    .nav-pills .nav-item .active{
-        background-color: white;
-        font-size: 22px;
-        font-family: 'kanitmedium';
-    }
-
-    .profile-nav-link {
-        text-align: center;
-        font-size: 21px;
-        color:#866df6 !important;
-        border-bottom: 3px solid #e6e6e6;
-        background-color: #e6e6e6;
-        padding: 10px;
-        padding-left: 100px;
-        padding-right: 100px;
-        transition: all 1s;
-        font-family: 'kanitlight';
-    }
-
-    .profile-nav-link:hover {
-        text-align: center;
-        color: #866df6!important;
-        font-size: 21px;
-        transition: all 0.8s;
-    }
-
-    .profile-add{
-        background-color: #b308ea;
-        color: #fff;
-        font-size: 25px;
-        padding: 2px;
-        border:none;
-        width: 40px;
-        height: 40px;
-        margin-left: 1px;
-     }
-
-    .profile-add:hover{
-        background-color: #866df6;
-        color: #fff;
-        font-size: 25px;
-        padding: 2px;
-        border:none;
-        width: 40px;
-        height: 40px;
-     }
     /*---------------------------
      --- END PROFILE (1) 1024 ---
      ----------------------------*/
@@ -2704,69 +2324,6 @@ figure.zoom img {
     /*--------------------------
      ------ PROFILE(2) 1024 -----
      ----------------------------*/
-    .profile2-font{
-        font-size: 22px;
-        color:#b308ea;
-        font-weight: bold;
-     }
-
-    .profile2-font2{
-        font-size: 20px;
-        color:#866df6;
-     }
-
-    .profile2-font3{
-        font-size: 22px;
-        color:#58D68D;
-        font-weight: bold;
-     }
-   
-    .profile2-font4{
-        font-size: 22px;
-        color:#666;
-        font-weight: bold;
-        margin-left: 10px;
-     }
-
-    .profile2-font5{
-        font-size: 20px;
-        color:#666;
-        margin-left: 0px;
-     }
-
-    .profile2-font6{
-        font-size: 20px;
-        color :#AEB6BF;
-        margin-left: 30px;
-     }
-
-    .profile2-font7{
-        font-size: 22px;
-        color:#E74C3C;
-        font-weight: bold;
-     }
-
-    .profile2-font8{
-        font-size: 22px;
-        color:#ace600;
-        font-weight: bold;
-     }
-
-     .profile2-font9{
-        font-size: 20px;
-        color :#AEB6BF;
-     }
-
-     .profile2-font10{
-        font-size: 20px;
-        color:#666;
-     }
-
-     .profile2-font11{
-        font-size: 20px;
-        color:#666;
-        margin-left: 30px;
-     }
      .profile2-border-bottom{
         border-bottom: 2px solid #bcbcbb;
         margin-left: 20px;
@@ -2776,51 +2333,6 @@ figure.zoom img {
      --- END PROFILE (2) 1024 ---
      ----------------------------*/
 
-    /*--------------------------
-     ------ PROFILE (3) 1024 -----
-     ----------------------------*/
-    .profile3-font1{
-        font-size:24px;
-        color:#666;
-        text-align: center;
-        margin-left: 85px;
-     }
-
-    .profile3-font2{
-        font-size: 24px;
-        color:#ad3ff3;
-
-     }
-
-    .profile3-font3{
-        font-size:20px;
-        color:#666;
-        margin-left: 86px;
-     }
-
-    .profile3-font4{
-        font-size:20px;
-        color:#866df6;
-     }
-
-    .profile3-font5{
-        font-size: 24px;
-        color:#ad3ff3;
-    }
-
-    .profile3-font7{
-        font-size: 20px;
-        color :#AEB6BF;
-        margin-left: 30px;
-     }
-
-    .mar-t{
-        margin-top: 78px;
-    }
-    /*------------------------------
-     ---- END PROFILE (3) 1024 -----
-     -------------------------------*/
-
 
      /*-----------------------------------
      -------------ARTICLE 1024------------
@@ -2829,102 +2341,76 @@ figure.zoom img {
         margin-left: 0px;
     }
       
+    .flex-carousel-img {
+        position: relative;
+        overflow: hidden;
+        height: 432px;
+    }
     .art_c_a{
         width: 100%;
+    }
+    .art-size-web {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 40px;
     }
        
      /*------------------------------------
      -----------ARTICLE END 1024---------
      --------------------------------------*/
 
+    /*----------------------------
+    -----------Pay confirm  1024---
+    -------------------------------*/
 
-
-  
-
-
+    .pay-confirm-size-web {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 40px;
+    }
+    /*----------------------------
+    -----------Pay confirm END  1024---
+    -------------------------------*/
 
 
     /*----------------------------------------
-     ---------------CONTENT 1024 --------------------
+     ---------------content 1024 --------------------
     ------------------------------------------*/
+    .con-size-web {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 40px;
+    }
     
-    .CON_t {
-       margin-left: 0px; 
-    }
-    .CON_let {
-     padding-right: 0px; 
-    }
-    .CON-fix {
-    max-height: 316px;
+    .con-fix {
+    max-height: 320px;
     overflow: hidden;
     }
-    .CON_top_mer {
-     margin-left: 0px; 
-    }
-    .CON_c_a{
+    .con_c_a{
      width: 100%;
     }
-   /*----------------------------------------
-     ---------------CONTENT END 1024 --------
+/*----------------------------------------
+     ---------------content END 1024 --------------------
     ------------------------------------------*/
+   
 
-    /*-----------------------------
-    ----- PRODUCT LIST 1024 -------
-    -------------------------------*/
-    .product-list-circle {
-        text-align: center;
-        width: 170px;
-        height: 170px;
-        padding-top: 15px;
-        border-radius: 96px;
-        border: none;
-        box-shadow: 2px 2px 13px 0px #cecece;
-        margin: auto;
-    }
-    .product-list-img-circle {
-        width: 100px;
-    }
-    .signup-from-select {
-        width: 85%!important;
-        border-radius: 0px!important;
-    }
-    .productlist-search {
-        font-size: 37px;
-        position: absolute;
-        top: 52px;
-        left: 285px;
-    }
-    .productlist-img-footer {
-        position: relative;
-        overflow: hidden;
-        height: 425px;
-    }
-    .product-collum {
-        max-width: 100%!important;
-        width: 33.33%!important;
-        -webkit-box-flex: 0!important;
-        -ms-flex: 0 0 20%!important;
-        flex: 0 0 33.33%!important;
-        padding-right: 50px!important;
-        padding-left: 50px!important;
-        padding-top: 20px!important;
-        padding-bottom: 20px!important;
-    }
-    .productlist-img-bands {
-        position: relative;
-        overflow: hidden;
-        height: 190px;
-    }
-    .productlist-mt-auto {
-        margin: 15px 19px;
-        text-align: left;
-    }
-    /*-----------------------------
-    ----- END PRODUCT LIST 1024 ---
-    -------------------------------*/
+/*--------------------------------
+--------------about--------------
+---------------------------------*/
 
+.about-size-web {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 40px;
 }
 
+/*--------------------------------
+--------------about END--------------
+---------------------------------*/
+
+
+
+}
 
 @media(max-width: 768px){
     /*--------------------------
@@ -3105,65 +2591,30 @@ figure.zoom img {
 
 
 
-     /*--------------------------
-     ------- BRANDS 768 --------
+    /*--------------------------
+     -------- BRANDS 768 -------
      ----------------------------*/
-    .brand-font{
-        color:#7b63f5; 
-        font-size:20px;
-        font-family: 'kanitmedium';
+    .brand-mt{
+        margin-top: 0px;
     }
 
     .brand-image-size{
         width:100%;
         height:250px;
     }
-
-    .brand-mt{
-        margin-top: 10px;
-    }
-
-    .brand-button{
-        background-color:#b13df3;
-        border: #b13df3;
-        color: white;
-        width:100%;
-        height:40px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 17px;
-    }
-
-    .brand-button:hover{
-        background-color:#c56ff7;
-        border: none;
-        color: white;
-        width:100%;
-        height:40px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 17px;
-    }
-
-    .brand-margin{
-        margin: 50px;
-        margin-top: 75px;
-    }
      /*--------------------------
-     ----- END BRANDS 768 -------
+     ------ END BRANDS 768 -----
      ----------------------------*/
 
 
     /*--------------------------------
-    ----------Pay Confirm 768-------
+    ----------Pay confirm 768-------
     ----------------------------------*/
    
-   .pay_l {
+   .pay-confirm_l {
     margin-left: 75px;
    }
-   .pay-from {
+   .pay-confirm-from {
     display: block;
     width: 119%;
     padding: .375rem .75rem;
@@ -3179,12 +2630,11 @@ figure.zoom img {
     border-width: 2px;
     height: 45px;
    }
-   .pay_ma_h2_top {
-    margin: 35px 0px 0px 111px;
-    color: #6d5bf3;
-    font-weight: 700;
+   .pay-confirm_ma_h2_top {
+    color: #695ff4;
+    font-weight: 600;
     }
-    .pay-buttom {
+    .pay-confirm-buttom {
     background-color: #6d5af3;
     border-radius: 0px;
     height: 45px;
@@ -3194,65 +2644,66 @@ figure.zoom img {
     width: 32%;
     margin-right: 0px;
     }
-    .pay_bb_2 {
+    .pay-confirm_bb_2 {
     width: 65%;
     background-color: #ffffff;
     border-radius: 0px;
     height: 45px;
     color: #6d5af3;
     border-color: #9718e4;
-    border-width: 2px;
-    font-weight: 700;
+    border-width: 3px;
    }
-   .pay_bb_3 {
+   .pay-confirm_bb_3 {
     width: 65%;
     background-color: #9718e4;
     border-radius: 0px;
     height: 45px;
     color: #f9f9f9;
     border-color: #9718e4;
-    border-width: 2px;
-    font-weight: 700;
+    border-width: 3px;
    }
+   .pay-confirm-size-web {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 40px;
+    }
     /*--------------------------------
-     --------Pay Confirm END----------
+     --------pay confirm END 768----------
     ----------------------------------*/
 
 
 
-    /*--------------------------
-     ----- HOW TO PAY 768 ------
+     /*--------------------------
+     ------ HOW TO PAY 768 ------
      ----------------------------*/
     .htp-font1{
         color:#7b63f5; 
-        font-size:20px;
-        font-family: 'kanitmedium';
+        font-size:30px;
     }
 
     .htp-font2{
         color:#888; 
-        font-size:16px;
+        font-size:21px;
         font-weight: bold;
         text-align: center;
     }
 
     .htp-font3{
         color:#bcbcbb; 
-        font-size:16px;
+        font-size:21px;
         text-align: center;
     }
 
-    .htp-w-h{
-        width: 65px;
-        height:40px;
-    }
-
     .htp-mt{
-        margin-top: 30px;
+        margin-top: 40px;
     }
 
-    .htp-margin{
-        margin: 50px;
+    .htp-border-bottom{
+        border-bottom: 4px solid #bcbcbb;
+    }
+
+    .htp-border-image{
+        border: 4px solid #b13df3;
     }
      /*--------------------------
      ---- END HOW TO PAY 768 ----
@@ -3260,19 +2711,26 @@ figure.zoom img {
 
 
     /*---------------------------------
-    -----------CONTENT 768-------------
+    -----------conTENT 768-------------
     ---------------------------------*/
    
     
-    .CON-lo {
+    .con-lo {
         width: 100%;
     }
-    .CON-lo:hover{
+    .con-lo:hover{
         width: 100%;
+
+    }
+
+    .flex-carousel-img {
+        position: relative;
+        overflow: hidden;
+        height: 360px;
     }
 
     /*--------------------------------
-    --------CONTENT 768 END----------
+    --------conTENT 768 END----------
     ---------------------------------*/
 
     /*---------------------------
@@ -3291,7 +2749,7 @@ figure.zoom img {
 
     .nav-pills .nav-item .active{
         background-color: white;
-        font-size: 19px;
+        font-size: 18px;
         font-family: 'kanitmedium';
     }
 
@@ -3299,8 +2757,8 @@ figure.zoom img {
         text-align: center;
         font-size: 18px;
         color:#866df6 !important;
-        border-bottom: 3px solid #e6e6e6;
-        background-color: #e6e6e6;
+        border-bottom: 3px solid #bcbcbb;
+        background-color: #bcbcbb;
         padding: 10px;
         padding-left: 65px;
         padding-right: 65px;
@@ -3315,44 +2773,11 @@ figure.zoom img {
         transition: all 0.8s;
 
     }
-
-    .profile-add{
-        background-color: #b308ea;
-        color: #fff;
-        font-size: 25px;
-        padding: 2px;
-        border:none;
-        width: 40px;
-        height: 40px;
-        margin-left: 40px;
-     }
-
-    .profile-add:hover{
-        background-color: #866df6;
-        color: #fff;
-        font-size: 25px;
-        padding: 2px;
-        border:none;
-        width: 40px;
-        height: 40px;
-     }
     /*---------------------------
      --- END PROFILE (1) 768 ----
      ----------------------------*/
 
-    /*------------------------------
-     ------- PROFILE (2) 768 -------
-     ------------------------------*/
-    .profile2-font{
-        font-size: 20px;
-        color:#b308ea;
-        font-weight: bold;
-     }
 
-    .profile2-font2{
-        font-size: 17px;
-        color:#866df6;
-     }
      /*--------------------------
      ---------ARTICLE 768--------
      --------------------------*/
@@ -3372,236 +2797,16 @@ figure.zoom img {
  
 
     /*--------------------------------
-    --------------CONTENT 768-------------
+    --------------conTENT 768-------------
     ---------------------------------*/
-    /*--------------------------------
-    --------------CONTENT END 768-------------
-    ---------------------------------*/
-
-
-    .profile2-font3{
-        font-size: 20px;
-        color:#58D68D;
-        font-weight: bold;
-     }
-
-    .profile2-font4{
-        font-size: 20px;
-        color:#666;
-        font-weight: bold;
-     }
-
-    .profile2-font5{
-        font-size: 17px;
-        color:#666;
-     }
-
-    .profile2-font6{
-        font-size: 17px;
-        color :#AEB6BF;
-        margin-left: 40px;
-     }
-
-    .profile2-font7{
-        font-size: 22px;
-        color:#E74C3C;
-        font-weight: bold;
-     }
-
-    .profile2-font8{
-        font-size: 22px;
-        color:#ace600;
-        font-weight: bold;
-     }
-
-    .profile2-font9{
-        font-size: 17px;
-        color :#AEB6BF;
-    }
-
-    .profile2-font10{
-        font-size: 17px;
-        color:#666;
-    }
-
-    .profile2-font11{
-        font-size: 17px;
-        color:#666;
-        margin-left: 40px;
-    }
-    /*--------------------------------
-     -------END PROFILE (2) 768 -------
-     ---------------------------------*/
-
-
-     /*--------------------------
-     ------ PROFILE (3) 768 -----
-     ----------------------------*/
-    .profile3-font1{
-        font-size:24px;
-        color:#666;
-        text-align: center;
-        margin-left: 85px;
-     }
-
-    .profile3-font2{
-        font-size: 24px;
-        color:#ad3ff3;
-
-     }
-
-    .profile3-font3{
-        font-size:20px;
-        color:#666;
-        margin-left: 90px;
-     }
-
-    .profile3-font4{
-        font-size:20px;
-        color:#866df6;
-     }
-
-    .profile3-font5{
-        font-size: 24px;
-        color:#ad3ff3;
-    }
-
-    .profile3-font6{
-        font-size: 18px;
-        color:#666;
-     }
-
-    .profile3-font7{
-        font-size: 18px;
-        color :#AEB6BF;
-        margin-left: 40px;
-     }
-
-    .mar-t{
-        margin-top: 50px;
-    }
-
-    .profile3-dec{
-        background-color: #fff;
-        color:gray;
-        font-size: 25px;
-        border:none;
-        width: 35px;
-        height: 40px;
-        margin-top: 45px;
-     }
-
-    .profile3-dec:hover{
-        background-color: #866df6;
-        color: #fff;
-        font-size: 25px;
-        border:none;
-        width: 35px;
-        height: 40px;
-     }
-    /*------------------------------
-     ------ END PROFILE (3) 768------
-     -------------------------------*/
-
- 
-
-    /*--------------------------------
-    --------------CONTENT-------------
-    ---------------------------------*/
-    /*--------------------------------
-    --------------CONTENT END-------------
-    ---------------------------------*/
-    /*-------------------------------
-    ------- PRODUCT LIST 768 ---------
-    ---------------------------------*/
-    .productlist-w-90 {
-        width: 95%!important;
-    }
-    .productlist-search {
-        font-size: 37px;
-        position: absolute;
-        top: 55px;
-        left: unset;
-        right: 30px;
-    }
-    .product-collum {
-        max-width: 100%!important;
-        width: 33.33%!important;
-        -webkit-box-flex: 0!important;
-        -ms-flex: 0 0 20%!important;
-        flex: 0 0 33.33%!important;
-        padding-right: 15px!important;
-        padding-left: 15px!important;
-        padding-top: 20px!important;
-        padding-bottom: 20px!important;
-    }
-    .productlist-img-bands {
+    .flex-carousel-img {
         position: relative;
         overflow: hidden;
-        height: 145px;
+        height: 360px;
     }
-    .productlist-img-footer {
-        position: relative;
-        overflow: hidden;
-        height: 370px;
-    }
-    .productlist-px-15 {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    /*-------------------------------
-    ---- END PRODUCT LIST 768 ------
+    /*--------------------------------
+    --------------conTENT END 768-------------
     ---------------------------------*/
-
-
-     /*--------------------------
-     ------ HOW TO QA 768 -------
-     ----------------------------*/
-    .qa-font1{
-        color:#7b63f5; 
-        font-size:20px;
-        font-family: 'kanitmedium';
-    }
-
-    .qa-font2{
-        color:#b308ea; 
-        font-size:20px;
-        font-family: 'kanitmedium';
-        margin-left: 100px;
-
-    }
-
-    .qa-font3{
-        color:#7b63f5; 
-        font-size:20px;
-        font-family: 'kanitlight';
-    }
-
-    .qa-font4{
-        color:#999; 
-        font-size:18px;
-        font-family: 'kanitlight';
-    }
-
-    .qa-border-bottom{
-        border-bottom: 4px solid #bcbcbb;
-    }
-
-    .qa-border-bottom2{
-        border-bottom: 2px solid #bcbcbb;
-    }
-
-    .qa-margin{
-        margin: 50px;
-    }
-
-    .qa-margin2{
-        margin: 20px;
-        margin-top: 40px;
-    }
-     /*---------------------------
-     ----- END HOW TO QA 768 -----
-     -----------------------------*/
 }
 
 
@@ -3924,94 +3129,22 @@ figure.zoom img {
     ----------------------------*/
 
 
-     /*--------------------------
-     ------- BRANDS 414 --------
-     ----------------------------*/
-    .brand-font{
-        color:#7b63f5; 
-        font-size:18px;
-        font-family: 'kanitmedium';
-    }
 
+
+    /*--------------------------
+     -------- BRANDS 414 -------
+     ----------------------------*/
+    .brand-mt{
+        margin-top: 10px;
+    }
     .brand-image-size{
         width:100%;
         height:250px;
     }
-
-    .brand-mt{
-        margin-top: 10px;
-    }
-
-    .brand-button{
-        background-color:#b13df3;
-        border: #b13df3;
-        color: white;
-        width:100%;
-        height:35px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 14px;
-    }
-
-    .brand-button:hover{
-        background-color:#c56ff7;
-        border: none;
-        color: white;
-        width:100%;
-        height:35px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 14px;
-    }
-
-    .brand-margin{
-        margin: 20px;
-        margin-top: 45px;
-    }
      /*--------------------------
-     ----- END BRANDS 414 -------
+     ------ END BRANDS 414 -----
      ----------------------------*/
 
-
-    /*--------------------------
-     ----- HOW TO PAY 414 ------
-     ----------------------------*/
-    .htp-font1{
-        color:#7b63f5; 
-        font-size:18px;
-        font-family: 'kanitmedium';
-    }
-
-    .htp-font2{
-        color:#888; 
-        font-size:16px;
-        font-weight: bold;
-        text-align: center;
-    }
-
-    .htp-font3{
-        color:#bcbcbb; 
-        font-size:16px;
-        text-align: center;
-    }
-
-    .htp-w-h{
-        width: 65px;
-        height:40px;
-    }
-
-    .htp-mt{
-        margin-top: 30px;
-    }
-
-    .htp-margin{
-        margin: 20px;
-    }
-     /*--------------------------
-     ---- END HOW TO PAY 414 ----
-     ----------------------------*/
 
 
      /*---------------------------
@@ -4046,45 +3179,45 @@ figure.zoom img {
 
 
      /*--------------------------------
-     --------Pay Confirm 414----------
+     --------Pay confirm 414----------
      ----------------------------------*/
-    .pay-from {
+    .pay-confirm-from {
         font-size: 18px;
         display: block;
         width: 100%;
         height: 45px;
     }
    
-    .pay_with{
+    .pay-confirm_with{
         width: 52%;
         height: auto;
     }
 
-    .pay_l {
+    .pay-confirm_l {
         margin-left: 0px; 
     }
    
-   .pay-buttom {
+   .pay-confirm-buttom {
         width: 92%;
         margin-left: 14px;
    }
-   .pay_bb_2 {
+   .pay-confirm_bb_2 {
         width: 96%;
         margin-left: 14px;
     }
-   .pay_bb_3 {
+   .pay-confirm_bb_3 {
         width: 96%;
         margin-left: -9px;
     }
-   .pay_top_but {
+   .pay-confirm_top_but {
         margin-top: 24px;
         margin-bottom: 60px;
    }
-   .pay_con_mar{
+   .pay-confirm_con_mar{
         margin: 20px 0px 0px 25px;
    }
     /*--------------------------------
-     ----------Pay Confirm END 414-----
+     ----------Pay confirm END 414-----
     ----------------------------------*/
 
 
@@ -4110,7 +3243,7 @@ figure.zoom img {
 
     .nav-pills .nav-item .active{
         background-color: white;
-        font-size: 17px;
+        font-size: 18px;
     }
 
     .nav-pills .nav-item .active{
@@ -4124,11 +3257,11 @@ figure.zoom img {
         text-align: center;
         font-size: 17px;
         color:#866df6 !important;
-        border-bottom: 3px solid #e6e6e6;
-        background-color: #e6e6e6;
+        border-bottom: 3px solid #bcbcbb;
+        background-color: #bcbcbb;
         padding: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 11px;
+        padding-right: 11px;
         transition: all 1s;
         font-family: 'kanitlight';
     }
@@ -4139,30 +3272,10 @@ figure.zoom img {
         font-size: 17px;
         transition: all 0.8s;
     }
-
-    .profile-add{
-        background-color: #b308ea;
-        color: #fff;
-        font-size: 25px;
-        padding: 2px;
-        border:none;
-        width: 40px;
-        height: 40px;
-        margin-left: 300px;
-     }
-
-    .profile-add:hover{
-        background-color: #866df6;
-        color: #fff;
-        font-size: 25px;
-        padding: 2px;
-        border:none;
-        width: 40px;
-        height: 40px;
-     }
     /*---------------------------
      --- END PROFILE (1) 414 ----
      ----------------------------*/
+
 
     /*-----------------------------------
     -------------ARTICLE 414---------------
@@ -4170,19 +3283,33 @@ figure.zoom img {
     .art-lo {
         width: 100%;
     }
-    .art_h2_top {
-    margin: 35px 0px 0px 156px;
-    }
+   
     /*-----------------------------------
     -------------ARTICLE 414 END-----------
     --------------------------------------*/
+
+
+
+    /*--------------------------------
+    --------------conTENT 414-------------
+    ---------------------------------*/
+    .flex-carousel-img {
+        position: relative;
+        overflow: hidden;
+        height: 170px;
+    }
+
+    
+    /*--------------------------------
+    ---------conTENT END 414----------
+    ---------------------------------*/
 
 
     /*--------------------------
      ----- PROFILE (2) 414 -----
      ----------------------------*/
     .profile2-font{
-        font-size: 18px;
+        font-size: 22px;
         color:#b308ea;
         font-weight: bold;
      }
@@ -4193,13 +3320,13 @@ figure.zoom img {
      }
 
     .profile2-font3{
-        font-size: 20px;
+        font-size: 22px;
         color:#58D68D;
         font-weight: bold;
      }
    
     .profile2-font4{
-        font-size: 20px;
+        font-size: 22px;
         color:#666;
         font-weight: bold;
         margin-left: 10px;
@@ -4208,23 +3335,22 @@ figure.zoom img {
     .profile2-font5{
         font-size: 18px;
         color:#666;
-        margin-left: 0px;
+        margin-left: 10px;
      }
 
     .profile2-font6{
         font-size: 18px;
         color :#AEB6BF;
-        margin-left: 110px;
      }
 
     .profile2-font7{
-        font-size: 20px;
+        font-size: 22px;
         color:#E74C3C;
         font-weight: bold;
      }
 
     .profile2-font8{
-        font-size: 20px;
+        font-size: 22px;
         color:#ace600;
         font-weight: bold;
      }
@@ -4232,192 +3358,22 @@ figure.zoom img {
      .profile2-font9{
         font-size: 18px;
         color :#AEB6BF;
+        margin-left: 25px;
      }
 
      .profile2-font10{
         font-size: 18px;
         color:#666;
+        margin-left: 24px;
      }
 
      .profile2-font11{
         font-size: 18px;
         color:#666;
-        text-align: center;
-        margin-left: 0px;
      }
      /*--------------------------
      ---- END PROFILE (2) 414 ---
      ----------------------------*/
-     /*--------------------------
-     ----- PRODUCT LIST 414 -----
-     ----------------------------*/
-     .product-list-img-circle {
-        width: 65px;
-     }
-     .product-list-circle {
-        text-align: center;
-        width: 110px;
-        height: 110px;
-        padding-top: 0px;
-        border-radius: 96px;
-        border: none;
-        box-shadow: 2px 2px 13px 0px #cecece;
-        margin: auto;
-    }
-    .productlist-search {
-        font-size: 37px;
-        position: inherit;
-        margin: 30px auto 0px auto;
-        top: 0px;
-        left: unset;
-        right: 0px;
-    }
-    .product-collum {
-        max-width: 100%!important;
-        width: 50%!important;
-        -webkit-box-flex: 0!important;
-        -ms-flex: 0 0 20%!important;
-        flex: 0 0 50%!important;
-        padding-right: 10px!important;
-        padding-left: 10px!important;
-        padding-top: 20px!important;
-        padding-bottom: 20px!important;
-    }
-    .productlist-img-bands {
-        position: relative;
-        overflow: hidden;
-        height: 125px;
-    }
-    .productlist-img-footer {
-        position: relative;
-        overflow: hidden;
-        height: 270px;
-    }
-    .productlist-mt-auto {
-        margin: 15px 0px;
-        text-align: left;
-    }
-     /*--------------------------
-     --- END PRODUCT LIST 414 ---
-     ----------------------------*/
-
-     /*--------------------------
-     ------ PROFILE (3) 414 ------
-     ----------------------------*/
-    .profile3-h{
-        font-size:20px;
-        color:#666;
-        text-align: center;
-     }
-
-    .profile3-font1{
-        font-size:20px;
-        color:#666;
-        margin-left: 0px;
-     }
-
-    .profile3-font2{
-        font-size: 20px;
-        color:#ad3ff3;
-     }
-
-    .profile3-font3{
-        font-size:18px;
-        color:#666;
-        text-align: center;
-        margin-left: 0px;
-     }
-
-    .profile3-font4{
-        font-size:20px;
-        color:#866df6;
-        text-align: center;
-     }
-
-    .profile3-font7{
-        font-size: 18px;
-        color :#AEB6BF;
-        margin-left: 105px;
-     }
-
-    .profile3-font5{
-        font-size: 24px;
-        color:#ad3ff3;
-        text-align: center;
-        margin-left: 0px;
-    }
-
-    .profile3-dec{
-        background-color: #fff;
-        color:gray;
-        font-size: 25px;
-        border:none;
-        width: 35px;
-        height: 40px;
-        margin-top: 10px;
-     }
-
-    .profile3-dec:hover{
-        background-color: #866df6;
-        color: #fff;
-        font-size: 25px;
-        border:none;
-        width: 35px;
-        height: 40px;
-     }
-    /*----------------------------
-     ---- END PROFILE (3) 414 ----
-     ----------------------------*/
-
-
-     /*--------------------------
-     ------ HOW TO QA 414 -------
-     ----------------------------*/
-    .qa-font1{
-        color:#7b63f5; 
-        font-size:18px;
-        font-family: 'kanitmedium';
-    }
-
-    .qa-font2{
-        color:#b308ea; 
-        font-size:18px;
-        font-family: 'kanitmedium';
-        margin-left: 15px;
-
-    }
-
-    .qa-font3{
-        color:#7b63f5; 
-        font-size:18px;
-        font-family: 'kanitlight';
-    }
-
-    .qa-font4{
-        color:#999; 
-        font-size:14px;
-        font-family: 'kanitlight';
-    }
-
-    .qa-border-bottom{
-        border-bottom: 4px solid #bcbcbb;
-    }
-
-    .qa-border-bottom2{
-        border-bottom: 2px solid #bcbcbb;
-    }
-
-    .qa-margin{
-        margin: 20px;
-    }
-
-    .qa-margin2{
-        margin: 10px;
-        margin-top: 30px;
-    }
-     /*---------------------------
-     ----- END HOW TO QA 414 -----
-     -----------------------------*/
 
 }
 
@@ -4546,76 +3502,40 @@ figure.zoom img {
 
 
 
-     /*--------------------------
-     ------- BRANDS 375 --------
+    /*--------------------------
+     -------- BRANDS 375 -------
      ----------------------------*/
-    .brand-font{
-        color:#7b63f5; 
-        font-size:16px;
-        font-family: 'kanitmedium';
-    }
-
-    .brand-image-size{
-        width:100%;
-        height:250px;
-    }
-
     .brand-mt{
         margin-top: 5px;
     }
 
-    .brand-button{
-        background-color:#b13df3;
-        border: #b13df3;
-        color: white;
+    .brand-image-size{
         width:100%;
-        height:35px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 14px;
-    }
-
-    .brand-button:hover{
-        background-color:#c56ff7;
-        border: none;
-        color: white;
-        width:100%;
-        height:35px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 14px;
-    }
-
-    .brand-margin{
-        margin: 20px;
-        margin-top: 45px;
+        height:200px;
     }
      /*--------------------------
-     ----- END BRANDS 414 -------
+     ------ END BRANDS 375 -----
      ----------------------------*/
 
 
     /*--------------------------------
-    ----------Pay Confirm 375----------
+    ----------Pay confirm 375----------
     ----------------------------------*/
-    .pay_ma_h2_top {
-        margin: 35px 0px 0px 91px;
-        color: #6d5bf3;
-        font-weight: 700;
+    .pay-confirm_ma_h2_top {
+        color: #695ff4;
+        font-weight: 600;
     }
-    .pay-buttom {
+    .pay-confirm-buttom {
         width: 100%;
         margin-left: 15px;
     }
-    .pay_con_mar {
+    .pay-confirm_con_mar {
         margin: 20px 0px 0px 10px;
     }
 
     
     /*--------------------------------
-     ------Pay Confirm END 375--------
+     ------Pay confirm END 375--------
     ----------------------------------*/
 
 
@@ -4636,19 +3556,19 @@ figure.zoom img {
 
     .nav-pills .nav-item .active{
         background-color: white;
-        font-size: 17px;
+        font-size: 15px;
         font-family: 'kanitmedium';
     }
 
     .profile-nav-link {
         text-align: center;
-        font-size: 17px;
+        font-size: 15px;
         color:#866df6 !important;
-        border-bottom: 3px solid #e6e6e6;
-        background-color: #e6e6e6;
+        border-bottom: 3px solid #bcbcbb;
+        background-color: #bcbcbb;
         padding: 10px;
-        padding-left: 4px;
-        padding-right: 4px;
+        padding-left: 10px;
+        padding-right: 10px;
         transition: all 1s;
         font-family: 'kanitlight';
     }
@@ -4656,299 +3576,24 @@ figure.zoom img {
     .profile-nav-link:hover {
         text-align: center;
         color: #866df6!important;
-        font-size: 17px;
+        font-size: 15px;
         transition: all 0.8s;
     }
-
-    .profile-add{
-        background-color: #b308ea;
-        color: #fff;
-        font-size: 25px;
-        padding: 2px;
-        border:none;
-        width: 40px;
-        height: 40px;
-        margin-left: 270px;
-     }
-
-    .profile-add:hover{
-        background-color: #866df6;
-        color: #fff;
-        font-size: 25px;
-        padding: 2px;
-        border:none;
-        width: 40px;
-        height: 40px;
-     }
     /*---------------------------
      --- END PROFILE (1) 375 ----
      ----------------------------*/
 
-    /*---------------------------
-     -----  PROFILE (2) 375 ------
-     ----------------------------*/
-    .profile2-font{
-        font-size: 18px;
-        color:#b308ea;
-        font-weight: bold;
-     }
-
-    .profile2-font2{
-        font-size: 18px;
-        color:#866df6;
-     }
-
-    .profile2-font3{
-        font-size: 18px;
-        color:#58D68D;
-        font-weight: bold;
-     }
    
-    .profile2-font4{
-        font-size: 18px;
-        color:#666;
-        font-weight: bold;
-     }
 
-    .profile2-font5{
-        font-size: 16px;
-        color:#666;
-     }
-
-    .profile2-font6{
-        font-size: 18px;
-        color :#AEB6BF;
-        margin-left: 80px;
-     }
-
-    .profile2-font7{
-        font-size: 18px;
-        color:#E74C3C;
-        font-weight: bold;
-     }
-
-
-    .profile2-font8{
-        font-size: 16px;
-        color:#ace600;
-        font-weight: bold;
-     }
-
-        .wrapper {
-          min-height: calc(100vh - 400px);
-        }
-
-
-     .profile2-font9{
-        font-size: 16px;
-        color :#AEB6BF;
-     }
-
-     .profile2-font10{
-        font-size: 16px;
-        color:#666;
-     }
-
-     .profile2-font11{
-        font-size: 16px;
-        color:#666;
-        text-align: center;
-        margin-left: 0px;
-     }
-    /*---------------------------
-     --- END PROFILE (2) 375 ----
-     ----------------------------*/
-
-    /*--------------------------
-     ------ PROFILE (3) 375 ------
-     ----------------------------*/
-    .profile3-h{
-        font-size:18px;
-        color:#666;
-        text-align: center;
-     }
-
-    .profile3-font1{
-        font-size:18px;
-        color:#666;
-        margin-left: 0px;
-     }
-
-    .profile3-font2{
-        font-size: 20px;
-        color:#ad3ff3;
-     }
-
-    .profile3-font3{
-        font-size:16px;
-        color:#666;
-        text-align: center;
-        margin-left: 0px;
-     }
-
-    .profile3-font4{
-        font-size:20px;
-        color:#866df6;
-        text-align: center;
-     }
-
-    .profile3-font5{
-        font-size: 18px;
-        color:#ad3ff3;
-        text-align: center;
-        margin-left: 0px;
-    }
-
-    .profile3-font6{
-        font-size: 16px;
-        color:#666;
-     }
-
-    .profile3-font7{
-        font-size: 16px;
-        color :#AEB6BF;
-        margin-left: 90px;
-     }
-
-    .profile3-dec{
-        background-color: #fff;
-        color:gray;
-        font-size: 25px;
-        border:none;
-        width: 35px;
-        height: 40px;
-        margin-top: 10px;
-     }
-
-    .profile3-dec:hover{
-        background-color: #866df6;
-        color: #fff;
-        font-size: 25px;
-        border:none;
-        width: 35px;
-        height: 40px;
-     }
-    /*----------------------------
-     ---- END PROFILE (3) 375 ----
-     ----------------------------*/
-
-
-
-     /*----------------------------
-     -------------CONTENT 375-----*/
-     .CON_h2_top_1 {
-        margin: 50px 0px 0px 160px;
-        font-size: 16px;
-    }
-    /*--------------------------
-     -------------CONTENT 375-----*/
-
-
-    /*---------------------------------
-    -------------article 320-----------
-    ------------------------------------*/
-    .art_h2_top {
-        margin: 35px 0px 0px 122px;
-        color: #6d5bf3;
-        font-weight: 700;
-    }
-    /*-------------------------------
-    ----------------article  END 320------
-    ------------------------------------*/  
-
-
-     /*--------------------------
-     ------ HOW TO QA 414 -------
-     ----------------------------*/
-    .qa-font1{
-        color:#7b63f5; 
-        font-size:16px;
-        font-family: 'kanitmedium';
-    }
-
-    .qa-font2{
-        color:#b308ea; 
-        font-size:16px;
-        font-family: 'kanitmedium';
-        margin-left: 15px;
-
-    }
-
-    .qa-font3{
-        color:#7b63f5; 
-        font-size:16px;
-        font-family: 'kanitlight';
-    }
-
-    .qa-font4{
-        color:#999; 
-        font-size:14px;
-        font-family: 'kanitlight';
-    }
-
-    .qa-border-bottom{
-        border-bottom: 4px solid #bcbcbb;
-    }
-
-    .qa-border-bottom2{
-        border-bottom: 2px solid #bcbcbb;
-    }
-
-    .qa-margin{
-        margin: 20px;
-    }
-
-    .qa-margin2{
-        margin: 10px;
-        margin-top: 30px;
-    }
-     /*---------------------------
-     ----- END HOW TO QA 414 -----
-     -----------------------------*/
-  /*-----------------------------
-    ------- PRODUCT LIST 375 ------
-    -------------------------------*/
-    .product-collum {
-        max-width: 100%!important;
-        width: 100%!important;
-        -webkit-box-flex: 0!important;
-        -ms-flex: 0 0 100%!important;
-        flex: 0 0 100%!important;
-        padding-right: 25px!important;
-        padding-left: 25px!important;
-        padding-top: 20px!important;
-        padding-bottom: 20px!important;
-    }
-    .product-list-img-circle {
-        width: 45px;
-    }
-    .product-list-circle {
-        text-align: center;
-        width: 90px;
-        height: 90px;
-        padding-top: 0px;
-        border-radius: 96px;
-        border: none;
-        box-shadow: 2px 2px 13px 0px #cecece;
-        margin: auto;
-    }
-    .productlist-img-footer {
-        position: relative;
-        overflow: hidden;
-        height: 235px;
-    }
-    /*-----------------------------
-    ---- END PRODUCT LIST 375 -----
-    -------------------------------*/
 }
 
 
 
 @media (max-width: 320px ){
 
-  .wrapper {
-      min-height: calc(100vh - 400px);
-  }
+        .wrapper {
+          min-height: calc(100vh - 400px);
+        }
 
       /*-------------------------
       -------- FOOTER 320 -------
@@ -5020,84 +3665,48 @@ figure.zoom img {
       -----------------------------*/
 
 
-     /*--------------------------
-     ------- BRANDS 320 --------
+    /*--------------------------
+     -------- BRANDS 320 -------
      ----------------------------*/
-    .brand-font{
-        color:#7b63f5; 
-        font-size:18px;
-        font-family: 'kanitmedium';
-    }
-
-    .brand-image-size{
-        width:100%;
-        height:250px;
-    }
-
     .brand-mt{
-        margin-top: 10px;
+        margin-top: 5px;
     }
 
-    .brand-button{
-        background-color:#b13df3;
-        border: #b13df3;
-        color: white;
-        width:100%;
-        height:35px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 14px;
-    }
-
-    .brand-button:hover{
-        background-color:#c56ff7;
-        border: none;
-        color: white;
-        width:100%;
-        height:35px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 14px;
-    }
-
-    .brand-margin{
-        margin: 20px;
-        margin-top: 45px;
+    .brand-ml-mr{
+        margin-left: 20px;
+        margin-right: 20px;
     }
      /*--------------------------
-     ----- END BRANDS 320 -------
+     ------ END BRANDS 320 -----
      ----------------------------*/
 
 
      /*-------------------------
-     -----Pay Confirm  320 -----
+     -----Pay confirm  320 -----
      ----------------------------*/
-    .pay_ma_h2_top {
-        margin: 35px 0px 0px 66px;
-        color: #6d5bf3;
-        font-weight: 700;
+    .pay-confirm_ma_h2_top {
+        color: #695ff4;
+        font-weight: 600;
     }
-    .pay-buttom {
+    .pay-confirm-buttom {
         width: 100%;
         margin-left: 15px;
     }
-    .pay_bb_2 {
+    .pay-confirm_bb_2 {
         width: 97%;
         margin-left: 14px;
     }
-    .pay_bb_3 {
+    .pay-confirm_bb_3 {
         width: 97%;
         margin-left: -12px;
     }
-    .pay_con_mar {
+    .pay-confirm_con_mar {
         margin: 20px 0px 0px -8px;
     }
     
 
      /*-------------------------
-     ----Pay Confirm END 320----
+     ----Pay confirm END 320----
      ----------------------------*/
 
 
@@ -5105,33 +3714,32 @@ figure.zoom img {
      ------ PROFILE(1) 320 ------
      ----------------------------*/
     .profile-font{
-        font-size: 14px;
+        font-size: 16px;
         color:#866df6;
         text-align: center;
      }
 
     .profile-font2{
-        font-size: 14px;
+        font-size: 16px;
         color: gray;
         text-align: center;
      }
 
     .nav-pills .nav-item .active{
         background-color: white;
-        font-size: 14px;
+        font-size: 12px;
         font-family: 'kanitmedium';
     }
 
     .profile-nav-link {
         text-align: center;
-        font-size: 14px;
+        font-size: 12px;
         color:#866df6 !important;
-        border-bottom: 3px solid #e6e6e6;
-        background-color: #e6e6e6;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 3px;
-        padding-right: 3px;
+        border-bottom: 3px solid #bcbcbb;
+        background-color: #bcbcbb;
+        padding: 10px;
+        padding-left: 9px;
+        padding-right: 9px;
         transition: all 1s;
         font-family: 'kanitlight';
     }
@@ -5139,41 +3747,9 @@ figure.zoom img {
     .profile-nav-link:hover {
         text-align: center;
         color: #866df6!important;
-        font-size: 14px;
+        font-size: 12px;
         transition: all 0.8s;
     }
-
-    .profile-add{
-        background-color: #b308ea;
-        color: #fff;
-        font-size: 20px;
-        padding: 2px;
-        border:none;
-        width: 30px;
-        height: 30px;
-        margin-left: 227px;
-     }
-
-    .profile-add:hover{
-        background-color: #866df6;
-        color: #fff;
-        font-size: 20px;
-        padding: 2px;
-        border:none;
-        width: 30px;
-        height: 30px;
-     }
-
-     .profile-form{
-        border: 2px solid #b308ea;
-        color: #333;
-        width: 100%;
-        height: 40px;
-        border-radius: none;
-        padding: 7px;
-        font-size: 14px;
-     }
-
     /*---------------------------
      --- END PROFILE (1) 320 ----
      ----------------------------*/
@@ -5181,88 +3757,10 @@ figure.zoom img {
     /*--------------------------
      ------ PROFILE(2) 320 -----
      ----------------------------*/
-     .profile2-font{
-        font-size: 15px;
+    .profile2-font{
+        font-size: 18px;
         color:#b308ea;
         font-weight: bold;
-     }
-
-    .profile2-font2{
-        font-size: 14px;
-        color:#866df6;
-     }
-
-    .profile2-font3{
-        font-size: 15px;
-        color:#58D68D;
-        font-weight: bold;
-     }
-   
-    .profile2-font4{
-        font-size: 15px;
-        color:#666;
-        font-weight: bold;
-     }
-
-    .profile2-font5{
-        font-size: 14px;
-        color:#666;
-        margin-left: 10px;
-     }
-
-    .profile2-font6{
-        font-size: 14px;
-        color :#AEB6BF;
-        margin-left: 60px;
-     }
-
-    .profile2-font7{
-        font-size: 15px;
-        color:#E74C3C;
-        font-weight: bold;
-     }
-
-    .profile2-font8{
-        font-size: 15px;
-        color:#ace600;
-        font-weight: bold;
-     }
-
-     .profile2-font9{
-        font-size: 14px;
-        color :#AEB6BF;
-     }
-
-     .profile2-font10{
-        font-size: 14px;
-        color:#666;
-     }
-
-     .profile2-font11{
-        font-size: 14px;
-        color:#666;
-        text-align: center;
-        margin-left: 0px;
-     }
-
-     .profile2-dec{
-        background-color: #fff;
-        color:gray;
-        font-size: 15px;
-        border:none;
-        width: 25px;
-        height: 25px;
-        margin-top: 30px;
-     }
-
-    .profile2-dec:hover{
-        background-color: #866df6;
-        color: #fff;
-        font-size: 15px;
-        border:none;
-        width: 25px;
-        height: 25px;
-        margin-top: 30px;
      }
      /*--------------------------
      ---- END PROFILE (2) 320 -----
@@ -5271,86 +3769,41 @@ figure.zoom img {
     /*--------------------------
      ----- PROFILE (3) 320 -----
      ----------------------------*/
-     .profile3-h{
-        font-size:16px;
+     .profile3-font{
+        font-size:20px;
         color:#666;
         text-align: center;
-     }
-
-    .profile3-font{
-        font-size:16px;
-        color:#666;
-        text-align: center;
-     }
-
-
-    .profile3-font1{
-        font-size:16px;
-        color:#666;
-        text-align: center;
-        margin-left: 0px;
      }
 
     .profile3-font2{
-        font-size: 16px;
+        font-size: 20px;
         color:#ad3ff3;
      }
 
     .profile3-font3{
-        font-size:14px;
+        font-size:13px;
         color:#666;
         text-align: center;
      }
 
     .profile3-font4{
-        font-size:14px;
+        font-size:13px;
         color:#866df6;
      }
 
-    .profile3-font5{
-        font-size: 16px;
+     .profile3-font5{
+        font-size: 20px;
         color:#ad3ff3;
         text-align: center;
      }
 
-    .profile3-font6{
-        font-size: 14px;
-        color:#666;
-     }
-
-    .profile3-font7{
-        font-size: 14px;
-        color :#AEB6BF;
-        margin-left: 55px;
-     }
-
-
-     .profile3-dec{
-        background-color: #fff;
-        color:gray;
-        font-size: 15px;
-        border:none;
-        width: 25px;
-        height: 25px;
-        margin-top: 30px;
-     }
-
-    .profile3-dec:hover{
-        background-color: #866df6;
-        color: #fff;
-        font-size: 15px;
-        border:none;
-        width: 25px;
-        height: 25px;
-        margin-top: 30px;
-     }
     /*---------------------------
      --- END PROFILE (3) 320 ----
      ----------------------------*/
 
 
     /*--------------------------------
-    ------------CONTENT 320----------
+    ------------conTENT 320----------
     ---------------------------------*/
 
 
@@ -5362,98 +3815,7 @@ figure.zoom img {
 
 
     /*--------------------------------
-    -------CONTENT END 320------------
+    -------conTENT END 320------------
     ---------------------------------*/
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 2cca49637cd7bda032500f637792e045184a7728
-     /*--------------------------
-     ------ HOW TO QA 414 -------
-     ----------------------------*/
-    .qa-font1{
-        color:#7b63f5; 
-        font-size:18px;
-        font-family: 'kanitmedium';
-    }
-
-    .qa-font2{
-        color:#b308ea; 
-        font-size:18px;
-        font-family: 'kanitmedium';
-        margin-left: 15px;
-
-    }
-
-    .qa-font3{
-        color:#7b63f5; 
-        font-size:18px;
-        font-family: 'kanitlight';
-    }
-
-    .qa-font4{
-        color:#999; 
-        font-size:14px;
-        font-family: 'kanitlight';
-    }
-
-    .qa-border-bottom{
-        border-bottom: 4px solid #bcbcbb;
-    }
-
-    .qa-border-bottom2{
-        border-bottom: 2px solid #bcbcbb;
-    }
-
-    .qa-margin{
-        margin: 20px;
-    }
-
-    .qa-margin2{
-        margin: 10px;
-        margin-top: 30px;
-    }
-     /*---------------------------
-     ----- END HOW TO QA 414 -----
-<<<<<<< HEAD
-     -----------------------------*/
-=======
-     -----------------------------*/
-   /*-------------------------------
-    ---- PRODUCT LIST 320 -----------
-    ---------------------------------*/
-    .product-list-img-circle {
-        width: 30px;
-    }
-    .product-list-circle {
-        text-align: center;
-        width: 70px;
-        height: 70px;
-        padding-top: 0px;
-        border-radius: 96px;
-        border: none;
-        box-shadow: 2px 2px 13px 0px #cecece;
-        margin: auto;
-    }
-    .product-collum {
-        max-width: 100%!important;
-        width: 100%!important;
-        -webkit-box-flex: 0!important;
-        -ms-flex: 0 0 100%!important;
-        flex: 0 0 100%!important;
-        padding-right: 10px!important;
-        padding-left: 10px!important;
-        padding-top: 20px!important;
-        padding-bottom: 20px!important;
-    }
-    .productlist-img-footer {
-        position: relative;
-        overflow: hidden;
-        height: 200px;
-    }
-    /*----------------------------------
-    ------ END PRODUCT LIST 320 --------
-    ------------------------------------*/
 }
->>>>>>> 2cca49637cd7bda032500f637792e045184a7728
