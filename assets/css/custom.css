@@ -4908,6 +4908,46 @@ figure.zoom img {
         padding: 5px 25px!important;
         width: 100%;
     }
+
+    .profile-btn1{
+        background-color:#fff;
+        color: #866df6;
+        font-size: 16px;
+        padding: 2px;
+        border: 2px solid #b308ea;
+        width: 200px;
+        height: 50px;
+     }
+
+    .profile-btn1:hover{
+        background-color:#fff;
+        color: #866df6;
+        font-size: 16px;
+        padding: 2px;
+        border: 2px solid #866df6;
+        width: 200px;
+        height: 50px;
+     }
+
+    .profile-btn2{
+        background-color: #b308ea;
+        color: #fff;
+        font-size: 16px;
+        padding: 2px;
+        border:none;
+        width: 200px;
+        height: 50px;
+     }
+
+    .profile-btn2:hover{
+        background-color:#866df6;
+        color: #fff;
+        font-size: 16px;
+        padding: 2px;
+        border:none;
+        width: 200px;
+        height: 50px;
+     }
     /*---------------------------
      --- END PROFILE (1) 414 ----
      ----------------------------*/
