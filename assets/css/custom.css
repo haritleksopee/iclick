@@ -58,7 +58,11 @@ h1 {
 a:hover{
     text-decoration: none;
 }
-
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #300078!important;
+    text-decoration: none;
+    background-color: #f8f9fa;
+}
 .nav-right-auto {
     margin-left: auto;
 }
@@ -244,7 +248,7 @@ a:hover{
 
 /*------------ ALL CLASS -------------------*/
 .width100 {
-    width: 100%;
+    width: 100%!important;
 }
 .text-black {
     color: #000;
@@ -292,7 +296,7 @@ a:hover{
 .bnt-white {
     width: 100%;
     background-color: #fff;
-    height: 45px;
+    height: 50px;
     font-size: 24px;
     color: #9718e4;
     border-radius: 0px;
@@ -303,7 +307,7 @@ a:hover{
 .bnt-white:hover {
     width: 100%;
     background-color: #9718e4;
-    height: 45px;
+    height: 50px;
     font-size: 24px;
     color: #fff;
     border-radius: 0px;
@@ -1106,6 +1110,12 @@ a:hover{
     width: 30px;
     border:1px solid #e9e9e9;
 }
+.home-change-color-active {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border: 2px solid #15cc2c;
+}
 .change-color {
     position: absolute;
     height: 20px;
@@ -1113,6 +1123,14 @@ a:hover{
     margin: auto;
     top: 4px;
     left: 4px;
+}
+.change-color-active {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    margin: auto;
+    top: 3px;
+    left: 3px;
 }
 .home-background-category {
     height: 600px;
@@ -2157,11 +2175,103 @@ figure.zoom img {
     color: #fff;
     font-size: 20px;
 }
-
+.order-con-ml-40 {
+    margin-left: 40px;
+}
+.ordercon-form-inline {
+    display: -webkit-inline-box;
+}
+.order-total-price {
+    font-size: 35px;
+}
+.order-con-float-right {
+    float: right;
+}
+.order-con-set-check {
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.order-btn-my-auto {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.order-mt-35px-1024 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 /*-----------------------------
 ---- END ORDER CONFIRM --------
 -------------------------------*/
 
+/*-----------------------------
+----------- CART --------------
+-------------------------------*/
+.flex-img-cart {
+    position: relative;
+    overflow: hidden;
+    height: 360px;
+}
+.cart-img {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+.cart-my-60 {
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+.cart-icon-color {
+    font-size: 50px;
+    color: #9718e4;
+}
+.cart-shipping {
+    font-size: 20px;
+    margin-top: 23px;
+    margin-left: 25px;
+    font-weight: 500;
+}
+.cart-set-line {
+    line-height: 2;
+    padding-top: 20px;
+}
+.cart-mt-input {
+    margin-top: 20px;
+}
+.cart-mr-45 {
+    margin-right: 45px;
+}
+.cart-ml-45 {
+    margin-left: 45px;
+}
+.cart-pl-25 {
+    padding-left: 25px;
+}
+.cart-circle {
+    font-size: 30px;
+    position: absolute;
+    top: -50px;
+    right: 15px;
+}
+.cart-circle-color {
+    color: #d6d6d6;
+}
+.cart-circle-color:hover {
+    color: #d6d6d6;
+}
+.cart-size-web {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+.cart-coupon {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+/*-----------------------------
+--------- END CART ------------
+-------------------------------*/
 
 @media(max-width: 1366px){
     /*---------------------------
@@ -2514,7 +2624,7 @@ figure.zoom img {
    /*------------------------------------
      --------- PRODUCT LIST 1336 ----------
      --------------------------------------*/
-     .productlist-search {
+  .productlist-search {
         font-size: 37px;
         position: absolute;
         top: 52px;
@@ -2567,9 +2677,60 @@ figure.zoom img {
         width: 320px;
         padding: .5rem 1rem!important;
     }
+     /*------------------------------------
+     ------- END PRODUCT LIST 1336 --------
+     --------------------------------------*/
+     /*------------------------------------
+     ------- PRODUCT DETAIL 1366 ----------
+     --------------------------------------*/
+     .prodetail-menu {
+        background-color: #cecece;
+        font-size: 23px;
+        color: #695ff4!important;
+        border-radius: 0px!important;
+        width: 320px;
+    }
+    .prodetail-menu:hover {
+        background-color: #c3bfbf;
+        font-size: 23px;
+        color: #695ff4!important;
+        border-radius: 0px!important;
+        text-shadow:none;
+        width: 320px;
+        padding: .5rem 1rem!important;
+    }
     /*------------------------------------
      ----- END PRODUCT DETAIL 1366 -------
      --------------------------------------*/
+     /*-----------------------------------
+     ------------ CART  1366 -------------
+     -------------------------------------*/
+    .cart-pl-25 {
+        padding-left: 0px;
+    }
+    .cart-mr-45 {
+        margin-right: 15px;
+    }
+    .cart-ml-45 {
+        margin-left: 22px;
+    }
+    .flex-img-cart {
+        position: relative;
+        overflow: hidden;
+        height: 330px;
+    }
+    .cart-set-line {
+        line-height: 2;
+        padding-top: 60px;
+    }
+    .cart-size-web {
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-top: 50px;
+    }
+     /*-----------------------------------
+     -------- END CART  1366 -------------
+     -------------------------------------*/
 }
 
 
@@ -2763,9 +2924,8 @@ figure.zoom img {
         margin-top: 3px;
     }
     .bnt-purple {
-
         background-color: #9718e4;
-        height: 45px;
+        height: 50px;
         font-size: 20px;
         color: #fff;
         border-radius: 0px;
@@ -2773,9 +2933,8 @@ figure.zoom img {
         padding: 0px;
     }
     .bnt-purple:hover {
-
         background-color: #fff;
-        height: 45px;
+        height: 50px;
         font-size: 20px;
         color: #9718e4;
         border-radius: 0px;
@@ -3204,8 +3363,98 @@ figure.zoom img {
     /*-----------------------------
     --- END PRODUCT DETAIL 1024----
     -------------------------------*/
+   /*-----------------------------
+    ----- PRODUCT LIST 1024 -------
+    -------------------------------*/
+    .product-list-circle {
+        text-align: center;
+        width: 170px;
+        height: 170px;
+        padding-top: 15px;
+        border-radius: 96px;
+        border: none;
+        box-shadow: 2px 2px 13px 0px #cecece;
+        margin: auto;
+    }
+    .product-list-img-circle {
+        width: 100px;
+    }
+    .signup-from-select {
+        width: 85%!important;
+        border-radius: 0px!important;
+    }
+    .productlist-search {
+        font-size: 37px;
+        position: absolute;
+        top: 52px;
+        left: 285px;
+    }
+    .productlist-img-footer {
+        position: relative;
+        overflow: hidden;
+        height: 425px;
+    }
+    .product-collum {
+        max-width: 100%!important;
+        width: 33.33%!important;
+        -webkit-box-flex: 0!important;
+        -ms-flex: 0 0 20%!important;
+        flex: 0 0 33.33%!important;
+        padding-right: 50px!important;
+        padding-left: 50px!important;
+        padding-top: 20px!important;
+        padding-bottom: 20px!important;
+    }
+    .productlist-img-bands {
+        position: relative;
+        overflow: hidden;
+        height: 190px;
+    }
+    .productlist-mt-auto {
+        margin: 15px 19px;
+        text-align: left;
+    }
+    /*-----------------------------
+    ----- END PRODUCT LIST 1024 ---
+    -------------------------------*/    
+    /*-----------------------------
+    ---- ORDER CONFIRM 1024 -------
+    -------------------------------*/
+    .order-text-set-h {
+        font-size: 20px;
+        font-weight: 600;
+        word-spacing: 0px;
+    }
+    .order-layout-respon {
+        padding-left: 35px!important;
+        padding-right: 35px!important;
+    }
+    .order-mt-1024 {
+        margin-top: 15px;
+    }
+    .order-mt-35px-1024 {
+        margin-top: 35px;
+    }
+    /*-----------------------------
+    -- END ORDER CONFIRM 1024 ----
+    -------------------------------*/
 
-
+    /*-----------------------------
+    --------- CART 1024 -----------
+    -------------------------------*/
+    .cart-set-line {
+        line-height: 1.5;
+        padding-top: 35px;
+    }
+    .flex-img-cart {
+        position: relative;
+        overflow: hidden;
+        height: 150px;
+        margin-top: 45px;
+    }
+    /*-----------------------------
+    ------ END CART 1024 ----------
+    -------------------------------*/
 }
 
 @media(max-width: 768px){
@@ -3814,6 +4063,61 @@ figure.zoom img {
      /*---------------------------
      --- END PRODUCT DETAIL 768 ---
      -----------------------------*/
+     /*--------------------------
+     ----- PRODUCT LIST 768 -----
+     ----------------------------*/
+     .product-list-img-circle {
+        width: 65px;
+     }
+     .product-list-circle {
+        text-align: center;
+        width: 110px;
+        height: 110px;
+        padding-top: 0px;
+        border-radius: 96px;
+        border: none;
+        box-shadow: 2px 2px 13px 0px #cecece;
+        margin: auto;
+    }
+    .productlist-search {
+        font-size: 37px;
+        position: inherit;
+        margin: 30px auto 0px auto;
+        top: 0px;
+        left: unset;
+        right: 0px;
+    }
+    .product-collum {
+        max-width: 100%!important;
+        width: 33.333%!important;
+        -webkit-box-flex: 0!important;
+        -ms-flex: 0 0 20%!important;
+        flex: 0 0 33.333%!important;
+        padding-right: 10px!important;
+        padding-left: 10px!important;
+        padding-top: 20px!important;
+        padding-bottom: 20px!important;
+    }
+    .productlist-img-bands {
+        position: relative;
+        overflow: hidden;
+        height: 125px;
+    }
+    .productlist-img-footer {
+        position: relative;
+        overflow: hidden;
+        height: 270px;
+    }
+    .productlist-mt-auto {
+        margin: 15px 0px;
+        text-align: left;
+    }
+    .productlist-w-90 {
+        width: 100%!important;
+    }
+     /*--------------------------
+     --- END PRODUCT LIST 768 ---
+     ----------------------------*/
 
      /*----------------------------
      ------ ORDER SUBMIT 768 ------
@@ -3825,6 +4129,46 @@ figure.zoom img {
      /*----------------------------
      ---- END ORDER SUBMIT 768 ----
      ------------------------------*/
+
+     /*----------------------------
+     ----- ORDER CONFIRM 768 -----
+     ------------------------------*/
+    .order-mt-35px-1024 {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .order-top-form-respon {
+        margin-top: 35px;
+    }
+    .order-total-price {
+        font-size: 25px;
+    }
+     /*----------------------------
+     ---- END ORDER CONFIRM 768 ----
+     ------------------------------*/
+
+     /*-----------------------------
+     -------- CART 1024 ------------
+     -------------------------------*/
+    .flex-img-cart {
+        position: relative;
+        overflow: hidden;
+        height: 320px;
+        width: 350px;
+        margin: 0px auto 0px auto;
+    }
+    .cart-pl-25 {
+        padding-left: 0px;
+        margin-left: -45px;
+    }
+    .cart-size-web {
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-top: 50px;
+    }
+     /*-----------------------------
+     -------- END CART 1024 --------
+     -------------------------------*/
 }
 
 
@@ -4055,6 +4399,12 @@ figure.zoom img {
         width: 30px;
         margin-bottom: 10px;
         border: 1px solid #e9e9e9;
+    }
+    .home-change-color-active {
+        position: relative;
+        height: 30px;
+        width: 30px;
+        border: 2px solid #15cc2c;
     }
     .flex-img-article {
         position: relative;
@@ -4636,6 +4986,58 @@ figure.zoom img {
     /*----------------------------
     --- END PRODUCT DETAIL 414 ----
     ------------------------------*/
+     /*--------------------------
+     ----- PRODUCT LIST 414 -----
+     ----------------------------*/
+     .product-list-img-circle {
+        width: 65px;
+     }
+     .product-list-circle {
+        text-align: center;
+        width: 110px;
+        height: 110px;
+        padding-top: 0px;
+        border-radius: 96px;
+        border: none;
+        box-shadow: 2px 2px 13px 0px #cecece;
+        margin: auto;
+    }
+    .productlist-search {
+        font-size: 37px;
+        position: inherit;
+        margin: 30px auto 0px auto;
+        top: 0px;
+        left: unset;
+        right: 0px;
+    }
+    .product-collum {
+        max-width: 100%!important;
+        width: 50%!important;
+        -webkit-box-flex: 0!important;
+        -ms-flex: 0 0 20%!important;
+        flex: 0 0 50%!important;
+        padding-right: 10px!important;
+        padding-left: 10px!important;
+        padding-top: 20px!important;
+        padding-bottom: 20px!important;
+    }
+    .productlist-img-bands {
+        position: relative;
+        overflow: hidden;
+        height: 125px;
+    }
+    .productlist-img-footer {
+        position: relative;
+        overflow: hidden;
+        height: 270px;
+    }
+    .productlist-mt-auto {
+        margin: 15px 0px;
+        text-align: left;
+    }
+     /*--------------------------
+     --- END PRODUCT LIST 414 ---
+     ----------------------------*/
 
     /*----------------------------
     ------ ORDER SUBMIT 414 ------
@@ -4654,12 +5056,74 @@ figure.zoom img {
         padding-top: 0px;
     }
     .order-text-set-h {
-        font-size: 24px;
+        font-size: 18px;
         font-weight: 600;
-        word-spacing: 5px;
+        word-spacing: 0px;
     }
+    .order-layout-respon {
+        padding-left: 10px!important;
+        padding-right: 10px!important;
+    }
+    .ordercon-form-inline {
+        display: block;
+        margin-top: 35px;
+    }
+    .order-con-ml-40 {
+        margin-left: 0px;
+    }
+    .order-total-price {
+        font-size: 20px;
+    }
+    .order-setfont-h2 {
+        font-size: 24px;
+        margin-bottom: 35px;
+    }
+    .order-con-float-right {
+        float: unset;
+        margin: 25px 70px;
+    }   
     /*----------------------------
     ---- END ORDER SUBMIT 414 ----
+    ------------------------------*/
+
+    /*----------------------------
+    ---------- CART 414 ----------
+    ------------------------------*/
+    .cart-pl-25 {
+        padding-left: 0px;
+        margin-left: 10px;
+    }
+    .cart-size-web {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 50px;
+    }
+    .cart-set-line {
+        line-height: 1.5;
+        padding-top: 0px;
+    }
+    .flex-img-cart {
+        position: relative;
+        overflow: hidden;
+        height: 360px;
+        width: 100%;
+        margin: 0px auto 0px auto;
+    }
+    .cart-inline-text414 {
+        display: -webkit-box;
+        margin: 0px 70px;
+    }
+    .cart-ml-50 {
+        margin-left: 50px;
+    }
+    .cart-mr-45 {
+        margin-right: 10px;
+    }
+    .cart-ml-45 {
+        margin-right: 10px;
+    }
+    /*----------------------------
+    ------- END CART 414 ---------
     ------------------------------*/
 }
 
@@ -4908,200 +5372,6 @@ figure.zoom img {
     /*-----------------------------
     --- END PRODUCT DETAIL 375 ------
     -------------------------------*/
-
-    /*------------------------------
-    ------ ORDER SUBMIT 375 --------
-    --------------------------------*/
-    .order-text-set-h {
-        font-size: 18px;
-        font-weight: 600;
-        word-spacing: 5px;
-    }
-    .order-text-set-b {
-        font-size: 16px;
-        font-weight: 500;
-    }
-    /*------------------------------
-    --- END ORDER SUBMIT 375 --------
-    --------------------------------*/  
-
-}
-
-
-
-@media (max-width: 320px ){
-
-        .wrapper {
-          min-height: calc(100vh - 400px);
-        }
-
-
-     .profile2-font9{
-        font-size: 16px;
-        color :#AEB6BF;
-     }
-
-     .profile2-font10{
-        font-size: 16px;
-        color:#666;
-     }
-
-     .profile2-font11{
-        font-size: 16px;
-        color:#666;
-        text-align: center;
-        margin-left: 0px;
-     }
-    /*---------------------------
-     --- END PROFILE (2) 375 ----
-     ----------------------------*/
-
-    /*--------------------------
-     ------ PROFILE (3) 375 ------
-     ----------------------------*/
-    .profile3-h{
-        font-size:18px;
-        color:#666;
-        text-align: center;
-     }
-
-    .profile3-font1{
-        font-size:18px;
-        color:#666;
-        margin-left: 0px;
-     }
-
-    .profile3-font2{
-        font-size: 20px;
-        color:#ad3ff3;
-     }
-
-    .profile3-font3{
-        font-size:16px;
-        color:#666;
-        text-align: center;
-        margin-left: 0px;
-     }
-
-    .profile3-font4{
-        font-size:20px;
-        color:#866df6;
-        text-align: center;
-     }
-
-    .profile3-font5{
-        font-size: 18px;
-        color:#ad3ff3;
-        text-align: center;
-        margin-left: 0px;
-    }
-
-    .profile3-font6{
-        font-size: 16px;
-        color:#666;
-     }
-
-    .profile3-font7{
-        font-size: 16px;
-        color :#AEB6BF;
-        margin-left: 90px;
-     }
-
-    .profile3-dec{
-        background-color: #fff;
-        color:gray;
-        font-size: 25px;
-        border:none;
-        width: 35px;
-        height: 40px;
-        margin-top: 10px;
-     }
-
-    .profile3-dec:hover{
-        background-color: #866df6;
-        color: #fff;
-        font-size: 25px;
-        border:none;
-        width: 35px;
-        height: 40px;
-     }
-    /*----------------------------
-     ---- END PROFILE (3) 375 ----
-     ----------------------------*/
-
-
-
-     /*----------------------------
-     -------------CONTENT 375-----*/
-     .CON_h2_top_1 {
-        margin: 50px 0px 0px 160px;
-        font-size: 16px;
-    }
-    /*--------------------------
-     -------------CONTENT 375-----*/
-
-
-    /*---------------------------------
-    -------------article 320-----------
-    ------------------------------------*/
-    .art_h2_top {
-        margin: 35px 0px 0px 122px;
-        color: #6d5bf3;
-        font-weight: 700;
-    }
-    /*-------------------------------
-    ----------------article  END 320------
-    ------------------------------------*/  
-
-
-     /*--------------------------
-     ------ HOW TO QA 414 -------
-     ----------------------------*/
-    .qa-font1{
-        color:#7b63f5; 
-        font-size:16px;
-        font-family: 'kanitmedium';
-    }
-
-    .qa-font2{
-        color:#b308ea; 
-        font-size:16px;
-        font-family: 'kanitmedium';
-        margin-left: 15px;
-
-    }
-
-    .qa-font3{
-        color:#7b63f5; 
-        font-size:16px;
-        font-family: 'kanitlight';
-    }
-
-    .qa-font4{
-        color:#999; 
-        font-size:14px;
-        font-family: 'kanitlight';
-    }
-
-    .qa-border-bottom{
-        border-bottom: 4px solid #bcbcbb;
-    }
-
-    .qa-border-bottom2{
-        border-bottom: 2px solid #bcbcbb;
-    }
-
-    .qa-margin{
-        margin: 20px;
-    }
-
-    .qa-margin2{
-        margin: 10px;
-        margin-top: 30px;
-    }
-     /*---------------------------
-     ----- END HOW TO QA 414 -----
-     -----------------------------*/
   /*-----------------------------
     ------- PRODUCT LIST 375 ------
     -------------------------------*/
@@ -5137,87 +5407,59 @@ figure.zoom img {
     /*-----------------------------
     ---- END PRODUCT LIST 375 -----
     -------------------------------*/
+    /*------------------------------
+    ------ ORDER SUBMIT 375 --------
+    --------------------------------*/
+    .order-text-set-h {
+        font-size: 16px;
+        font-weight: 600;
+        word-spacing: 5px;
+    }
+    .order-text-set-b {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .order-con-ml-40 {
+        margin-left: 0px;
+        font-size: 20px;
+    }
 
-
-    /*--------------------------
-     --------- PAY 414 ---------
-     ----------------------------*/
-
-    .pay-btn{
+    /*------------------------------
+    --- END ORDER SUBMIT 375 --------
+    --------------------------------*/  
+    /*------------------------------
+    ------------ CART 375 ----------
+    --------------------------------*/
+    .flex-img-cart {
+        position: relative;
+        overflow: hidden;
+        height: 360px;
         width: 100%;
-        height: 40px;
-        background-color: #b308ea;
-        color: white;
-        border-radius: 7px;
-        font-size: 16px;
+        margin: 0px auto 0px auto;
     }
-
-    .pay-btn:hover{
-        width: 100%;
-        height: 40px;
-        background-color: #7b63f5;
-        color: white;
-        border-radius: 7px;
-        font-size: 16px;
+    .cart-inline-text414 {
+        display: -webkit-box;
+        margin: 0px 70px;
     }
-
-    .pay-btn2{
-        width: 200px;
-        height: 40px;
-        background-color:#7b63f5;
-        color: white;
-        font-size: 16px;
-        margin-top: 16px;
+    .cart-ml-50 {
+        margin-left: 50px;
     }
-
-    .pay-btn2:hover{
-        width: 100%;
-        height: 40px;
-        background-color: #b308ea;
-        color: white;
-        font-size: 16px;
-        margin-top: 20px;
+    .cart-mr-45 {
+        margin-right: 10px;
     }
-
-    .pay-btn3{
-        width: 170px;
-        height: 50px;
-        background-color: #b308ea;
-        color: white;
-        font-size: 16px;
-        margin-top:20px;
+    .cart-ml-45 {
+        margin-right: 10px;
     }
-
-    .pay-btn3:hover{
-        width: 170px;
-        height: 50px;
-        background-color: #7b63f5;
-        color: white;
-        font-size: 16px;
+    .cart-ml-50 {
+        margin-left: 30px;
     }
+    /*------------------------------
+    ---------- END CART 375 --------
+    --------------------------------*/
 
-    .pay-btn4{
-        width: 170px;
-        height: 50px;
-        background-color: #fff;
-        color:  #7b63f5;
-        border :2px solid #b308ea;
-        font-size: 16px;
-    }
-
-    .pay-btn4:hover{
-        width: 170px;
-        height: 50px;
-        background-color: #fff;
-        color: #b308ea;
-        border :2px solid #7b63f5;
-        font-size: 16px;
-    }
-
-     /*---------------------------
-     -------- END PAY 414 --------
-     -----------------------------*/
 }
+
+
 
 
 
@@ -5488,4 +5730,99 @@ figure.zoom img {
     /*---------------------------------
     ------ END PRODUCT DETAIL 320 ------
     -----------------------------------*/
+ /*-------------------------------
+    ---- PRODUCT LIST 320 -----------
+    ---------------------------------*/
+    .product-list-img-circle {
+        width: 30px;
+    }
+    .product-list-circle {
+        text-align: center;
+        width: 70px;
+        height: 70px;
+        padding-top: 0px;
+        border-radius: 96px;
+        border: none;
+        box-shadow: 2px 2px 13px 0px #cecece;
+        margin: auto;
+    }
+    .product-collum {
+        max-width: 100%!important;
+        width: 100%!important;
+        -webkit-box-flex: 0!important;
+        -ms-flex: 0 0 100%!important;
+        flex: 0 0 100%!important;
+        padding-right: 10px!important;
+        padding-left: 10px!important;
+        padding-top: 20px!important;
+        padding-bottom: 20px!important;
+    }
+    .productlist-img-footer {
+        position: relative;
+        overflow: hidden;
+        height: 200px;
+    }
+    /*----------------------------------
+    ------ END PRODUCT LIST 320 --------
+    ------------------------------------*/
+    /*---------------------------------
+    ------- ORDER CONFIRM 320 ---------
+    -----------------------------------*/
+    .order-con-set-check {
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .order-con-ml-40 {
+        margin-left: 40px;
+        font-size: 20px;
+    }
+    .order-setfont-h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .order-text-set-h {
+        font-size: 16px;
+        font-weight: 600;
+        word-spacing: 0px;
+    }
+    .orderconfirm-edit {
+        border-radius: 0px;
+        width: 100px;
+        height: 40px;
+        padding-top: 8px;
+        padding-left: 13px;
+        background-color: #705bf4;
+        color: #fff;
+        font-size: 16px;
+    }
+    /*--------------------------------------
+    ---------- END ORDER CONFIRM 320 -------
+    ----------------------------------------*/
+
+    /*--------------------------------------
+    -------------- CART 320 ----------------
+    ----------------------------------------*/
+    .cart-inline-text414 {
+        display: -webkit-box;
+        margin: 0px 70px;
+    }
+    .cart-shipping {
+        font-size: 20px;
+        margin-top: 23px;
+        margin-left: 8px;
+        font-weight: 500;
+    }
+    .cart-ml-50 {
+        margin-left: 0px;
+    }
+    .flex-img-cart {
+        position: relative;
+        overflow: hidden;
+        height: 290px;
+        width: 100%;
+        margin: 0px auto 0px auto;
+    }
+    /*--------------------------------------
+    ----------- END CART 320 ---------------
+    ----------------------------------------*/
 }
