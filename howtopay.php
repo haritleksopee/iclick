@@ -13,11 +13,13 @@
     <div class="wrapper">
     <!-- CONTENT -->
         <div class="row">
-           <div class="htp-margin mb-5">
-                <div class="row mt-4 htp-border-bottom">
-                  <div class="htp-font1">วิธีการชำระเงิน</div>
+           <div class="home-size-web mb-5">
+            <div class="col-12">
+                <div class="text-purple text-md-left htp-border-bottom">
+                    <h1>วิธีการชำระเงิน</h1>
                 </div>
-            <div class="row  htp-mt justify-content-center">
+            </div>
+            <div class="row col-12 htp-mt justify-content-center">
                 <div class="col-xl-5 col-lg-5 col-md-5 mt-4 htp-border-image p-3">
                      <img width="100%" height="auto" src="https://www.iclickstore.com/wp-content/uploads/2017/03/1-1.png" class="vc_single_image-img attachment-full" alt="" srcset="https://www.iclickstore.com/wp-content/uploads/2017/03/1-1.png 700w, https://www.iclickstoreiv.com/wp-content/uploads/2017/03/1-1-300x86.png 300w, https://www.iclickstore.com/wp-content/uploads/2017/03/1-1-600x171.png 600w" sizes="(max-width: 700px) 100vw, 700px">
 

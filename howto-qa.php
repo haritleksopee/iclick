@@ -12,12 +12,13 @@
     <!-- END NAVBAR -->
     <div class="wrapper">
      <!-- CONTENT -->
-         <div class="row qa-margin qa-border-bottom">
-             <div class="row mt-4">
-                  <div class="qa-font1">ช่วยเหลือ</div>
+     <div class="home-size-web">
+         <div class="col-12">
+             <div class="text-purple text-md-left qa-border-bottom">
+                    <h1>ช่วยเหลือ</h1>
              </div>
          </div>
-         <div class="row qa-margin2">
+         <div class="row qa-margin">
              <div class="row">
                 <div class="qa-font2">Q : What is Lorem Ipsum?</div>
              </div>
@@ -31,7 +32,7 @@
              </div>
          </div>
 
-          <div class="row qa-margin2">
+          <div class="row qa-margin">
              <div class="row">
                 <div class="qa-font2">Q : What is Lorem Ipsum?</div>
              </div>
@@ -45,7 +46,7 @@
              </div>
          </div>
 
-          <div class="row qa-margin2">
+          <div class="row qa-margin">
              <div class="row">
                 <div class="qa-font2">Q : What is Lorem Ipsum?</div>
              </div>
@@ -59,7 +60,7 @@
              </div>
          </div>
 
-          <div class="row qa-margin2">
+          <div class="row qa-margin">
              <div class="row">
                 <div class="qa-font2">Q : What is Lorem Ipsum?</div>
              </div>
@@ -72,6 +73,7 @@
                  <div class="col-xl-2 col-lg-2 col-md-2"></div>
              </div>
          </div>
+      </div>
 
 
 

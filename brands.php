@@ -14,10 +14,12 @@
     <body>
     <div class="wrapper">
     <!-- CONTENT -->
-        <div class="brand-margin mb-5">
-            <div class="row mt-4 brand-border-bottom">
-              <div class="brand-font">ช็อปตามแบรนด์</div>
-            </div>
+        <div class="home-size-web pb-5">
+           <div class="col-12">
+             <div class="text-purple text-md-left brand-border-bottom">
+                <h1>ช็อปตามแบรนด์</h1>
+             </div>
+           </div>
             <div class="row brand-mt"> 
                 <div class="col-xl-3 col-lg-4 col-md-6 mt-4">       
                       <img class = "brand-image-size brand-border-box" src="https://www.iclickstore.com/wp-content/uploads/2017/04/energy-146x60.png">
