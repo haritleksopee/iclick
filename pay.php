@@ -12,9 +12,11 @@
     <!-- END NAVBAR -->
     <div class="wrapper">
      <!-- CONTENT -->
-       <div class="row pay-margin pay-border-bottom">
-            <div class="row mt-4">
-                   <div class="pay-font1">ชำระเงิน</div>
+
+  <div class="home-size-web">
+       <div class="col-12">
+            <div class="text-purple text-md-left pay-border-bottom">
+                <h1>ชำระเงิน</h1>
             </div>
        </div>
        <div class="row mt-5">
@@ -81,7 +83,7 @@
                      
               </div>
               <div class="col-xl-2 col-lg-2 col-md-2"></div>
-        </div>
+      </div>
 
 
         <div class="col-xl-12 mt-3 mb-3 text-center">
@@ -175,7 +177,7 @@
                     </div>
                 </div>
                 <div class="col-xl-2 col-lg-2 "></div>
-          </div>
+        </div>
 
           <div class="row mt-5 mb-5">
               <div class="col-xl-2 col-lg-2 col-md-2"></div>
@@ -239,6 +241,7 @@
                 </div>
                 <div class="col-xl-3"></div>
           </div>
+     </div>
 
     
      <!-- CONTENT END-->

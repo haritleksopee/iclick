@@ -13,7 +13,7 @@
     <div class="wrapper">
     <!-- CONTENT -->
           <div class="row mt-4">
-            <div class="col-xl-2"></div>
+             <div class="col-xl-2"></div>
              <div class="col-xl-10 col-md-12 col-lg-12 col-12">
                   <div class="p-4">
                       <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
@@ -40,7 +40,7 @@
                                  <div class="profile-font">คำนำหน้า*</div>
                               </div>
                               <div class="col-xl-7 col-lg-4 col-md-4 col-12">
-                                 <select class="profile-form" id="">
+                                 <select class="profile-form profile-selected " id="">
                                       <option>นาย</option>
                                       <option>นางสาว</option>
                                       <option>นาง</option>
@@ -121,7 +121,7 @@
                                  <div class="profile-font">จังหวัด*</div>
                             </div>
                             <div class="col-xl-5 col-lg-7 col-md-8 col-12 col-9">
-                                 <select class="profile-form" id="">
+                                 <select class="profile-form profile-selected " id="">
                                       <option>กรุงเทพมหานคร</option>
                                       <option>นนทบุรี</option>
                                  </select>   
@@ -133,7 +133,7 @@
                                  <div class="profile-font">อำเภอ/เขต*</div>
                             </div>
                             <div class="col-xl-5 col-lg-7 col-md-8 col-12">
-                                 <select class="profile-form" id="">
+                                 <select class="profile-form profile-selected " id="">
                                       <option>บางรัก</option>
                                       <option>บางกะปิ</option>
                                  </select>   
