@@ -53,29 +53,29 @@
         <a class="nav-link" href="product-list.php">รายการสินค้า</a>
       </li>
       <li class="nav-item nav-border-right">
-        <a class="nav-link" href="#">แจ้งชำระเงิน</a>
+        <a class="nav-link" href="pay.php">แจ้งชำระเงิน</a>
       </li> 
       <li class="nav-item dropdown nav-border-right">
         <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
           ช่วยเหลือ
         </a>
         <div class="dropdown-menu navbar-dropdown nav-dropdown-color">
-          <a class="dropdown-item text-white font-sizelg" href="#">Link 1</a>
-          <a class="dropdown-item text-white font-sizelg" href="#">Link 2</a>
-          <a class="dropdown-item text-white font-sizelg" href="#">Link 3</a>
+          <a class="dropdown-item text-white font-sizelg" href="howto-qa.php">ช่วยเหลือ 1</a>
+          <a class="dropdown-item text-white font-sizelg" href="howto-qa.php">ช่วยเหลือ 2</a>
+          <a class="dropdown-item text-white font-sizelg" href="howto-qa.php">ช่วยเหลือ 3</a>
         </div>
       </li>
       <li class="nav-item nav-border-right">
-        <a class="nav-link" href="#">บทความ</a>
+        <a class="nav-link" href="article.php">บทความ</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
           เกี่ยวกับเรา
         </a>
         <div class="dropdown-menu navbar-dropdown nav-dropdown-color">
-          <a class="dropdown-item text-white font-sizelg" href="#">Link 1</a>
-          <a class="dropdown-item text-white font-sizelg" href="#">Link 2</a>
-          <a class="dropdown-item text-white font-sizelg" href="#">Link 3</a>
+          <a class="dropdown-item text-white font-sizelg" href="about.php">เกี่ยวกับเรา 1</a>
+          <a class="dropdown-item text-white font-sizelg" href="about.php">เกี่ยวกับเรา 2</a>
+          <a class="dropdown-item text-white font-sizelg" href="about.php">เกี่ยวกับเรา 3</a>
         </div>
       </li>     
     </ul>
@@ -83,10 +83,10 @@
     <!-- TEXT RIGHT -->
     <ul class="navbar-nav nav-right-auto">
       <li class="nav-item">
-        <a class="nav-link nav-link-right" href="#">เข้าสู่ระบบ</a>
+        <a class="nav-link nav-link-right" href="login.php">เข้าสู่ระบบ</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link nav-link-right" href="#">สมัครสมาชิก</a>
+        <a class="nav-link nav-link-right" href="signup.php">สมัครสมาชิก</a>
       </li>     
     </ul>
     <!-- END TEXT RIGHT -->
