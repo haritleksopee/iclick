@@ -1427,13 +1427,13 @@ a:hover{
 ------- END SIGNUP ---------
 ----------------------------*/
 
-
  /*--------------------------
  -------- BRANDS ------------
  ----------------------------*/
-.brand-image-size{
+.brand-blog-img{
     width:100%;
-    height:400px;
+    height:380px;
+    border: 4px solid #b13df3;
 }
 
 .brand-mt{
@@ -1443,40 +1443,12 @@ a:hover{
 .brand-border-bottom{
     border-bottom: 4px solid #bcbcbb;
 }
-
-.brand-border-box{
-    border: 4px solid #b13df3;
-}
-
-.brand-button{
-    background-color:#b13df3;
-    border: #b13df3;
-    color: white;
-    width:100%;
-    height:50px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 22px;
-}
-
-.brand-button:hover{
-    background-color:#c56ff7;
-    border: none;
-    color: white;
-    width:100%;
-    height:50px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 22px;
-}
  /*--------------------------
  -------- END BRANDS -------
  ----------------------------*/
 
 
-/*--------------------------
+/*---------------------------
  -------- HOW TO PAY ---------
  ----------------------------*/
 .htp-font2{
@@ -1506,6 +1478,20 @@ a:hover{
 .htp-border-image{
     border: 4px solid #b13df3;
 }
+
+.htp-blog-img{
+    width:100%;
+    height:auto;
+}
+
+.htp-height{
+  height:400px;
+}
+
+.htp-padding-top{
+    padding-top: 20px;
+}
+
  /*--------------------------
  ------ END HOW TO PAY ------
  ----------------------------*/
@@ -1547,46 +1533,6 @@ a:hover{
     height: 40px;
  }
 
-.profile-btn1{
-    background-color:#fff;
-    color: #866df6;
-    font-size: 20px;
-    padding: 2px;
-    border: 2px solid #b308ea;
-    width: 200px;
-    height: 50px;
- }
-
-.profile-btn1:hover{
-    background-color:#fff;
-    color: #866df6;
-    font-size: 20px;
-    padding: 2px;
-    border: 2px solid #866df6;
-    width: 200px;
-    height: 50px;
- }
-
-.profile-btn2{
-    background-color: #b308ea;
-    color: #fff;
-    font-size: 20px;
-    padding: 2px;
-    border:none;
-    width: 200px;
-    height: 50px;
- }
-
-.profile-btn2:hover{
-    background-color:#866df6;
-    color: #fff;
-    font-size: 20px;
-    padding: 2px;
-    border:none;
-    width: 200px;
-    height: 50px;
- }
-
 .profile-form{
     border: 2px solid #b308ea;
     color: #333;
@@ -1611,7 +1557,6 @@ a:hover{
     padding: 10px;
     padding-left: 50px;
     padding-right: 50px;
-    transition: all 1s;
     font-family: 'kanitlight';
 }
 
@@ -1619,7 +1564,7 @@ a:hover{
     text-align: center;
     color: #866df6!important;
     font-size: 22px;
-    transition: all 0.8s;
+    transition: all 0.2s;
 }
 
 .profile-selected {
@@ -1639,6 +1584,51 @@ a:hover{
 .profile-border-bottom2{
     border-bottom: 2px solid #bcbcbb;
 }
+
+.bnt-white {
+     width: 100%;
+     background-color: #fff;
+    height: 50px;
+    font-size: 24px;
+    color: #9718e4;
+    border-radius: 0px;
+    border: 3px solid #9718e4;
+    padding: 0px;
+    transition: all 0.5s;
+}
+.bnt-white:hover {
+    width: 100%;
+    background-color: #9718e4;
+    height: 50px;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 0px;
+    border: 3px solid #9718e4;
+    padding: 0px;
+    transition: all 0.5s;
+}
+
+.bnt-purple {
+    width: 100%;
+    background-color: #9718e4;
+    height: 50px;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 0px;
+    border: 3px solid #9718e4;
+    padding: 0px;
+    }
+.bnt-purple:hover {
+    width: 100%;
+    background-color: #fff;
+    height: 50px;
+    font-size: 24px;
+    color: #9718e4;
+    border-radius: 0px;
+    border: 3px solid #9718e4;
+    padding: 0px;
+    transition: all 0.5s;
+}
 /*--------------------------
  ------ END PROFILE 1 ------
  ----------------------------*/
@@ -1651,7 +1641,7 @@ a:hover{
     font-size: 24px;
     color:#b308ea;
     font-weight: bold;
- }
+}
 
 .profile2-font2{
     font-size: 22px;
@@ -1716,7 +1706,7 @@ a:hover{
     border:none;
     width: 35px;
     height: 40px;
-    margin-top: 30px;
+    margin-top: 36px;
  }
 
 .profile2-dec:hover{
@@ -1726,7 +1716,7 @@ a:hover{
     border:none;
     width: 35px;
     height: 40px;
-    margin-top: 30px;
+    margin-top: 35px;
  }
 
  .profile2-border-bottom{
@@ -1798,7 +1788,7 @@ a:hover{
     border:none;
     width: 35px;
     height: 40px;
-    margin-top: 60px;
+    margin-top: 74px;
  }
 
 .profile3-dec:hover{
@@ -1806,7 +1796,7 @@ a:hover{
     color: #fff;
     font-size: 25px;
     border:none;
-    width: 35px;s
+    width: 35px;
     height: 40px;
  }
 
@@ -2050,7 +2040,7 @@ figure.zoom img {
 ---- END PRODUCT DETAIL ------
 ------------------------------*/
 
-  /*--------------------------
+/*--------------------------
  ----------- PAY -------------
  ----------------------------*/
 .pay-font2{
@@ -2149,20 +2139,72 @@ figure.zoom img {
   display: block;
 }
 
-.pay-btn{
+.bnt-purple{
     width: 100%;
+    background-color: #9718e4;
     height: 40px;
-    background-color: #b308ea;
-    color: white;
-    border-radius: 7px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 0px;
+    border: 3px solid #9718e4;
+    padding: 0px;
+    }
+.bnt-purple:hover {
+    width: 100%;
+    background-color: #fff;
+    height: 40px;
+    font-size: 18px;
+    color: #9718e4;
+    border-radius: 0px;
+    border: 3px solid #9718e4;
+    padding: 0px;
+    transition: all 0.5s;
 }
 
-.pay-btn:hover{
+.bnt-purple2{
     width: 100%;
-    height: 40px;
-    background-color: #7b63f5;
-    color: white;
-    border-radius: 7px;
+    background-color: #9718e4;
+    height: 50px;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 0px;
+    border: 3px solid #9718e4;
+    padding: 0px;
+}
+
+.bnt-purple2:hover {
+    width: 100%;
+    background-color: #fff;
+    height: 50px;
+    font-size: 24px;
+    color: #9718e4;
+    border-radius: 0px;
+    border: 3px solid #9718e4;
+    padding: 0px;
+    transition: all 0.5s;
+}
+
+.bnt-white {
+     width: 100%;
+     background-color: #fff;
+    height: 50px;
+    font-size: 24px;
+    color: #9718e4;
+    border-radius: 0px;
+    border: 3px solid #9718e4;
+    padding: 0px;
+    transition: all 0.5s;
+}
+.bnt-white:hover {
+    width: 100%;
+    background-color: #9718e4;
+    height: 50px;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 0px;
+    border: 3px solid #9718e4;
+    padding: 0px;
+    transition: all 0.5s;
 }
 
 .pay-btn2{
@@ -2581,41 +2623,17 @@ figure.zoom img {
     ------------------------------*/
 
 
-
      /*--------------------------
      ------- BRANDS 1366 --------
      ----------------------------*/
-    .brand-image-size{
-        width:100%;
-        height:250px;
+    .brand-blog-img{
+            width:100%;
+            height:270px;
+            border: 4px solid #b13df3;
     }
 
     .brand-mt{
-        margin-top: 20px;
-    }
-
-    .brand-button{
-        background-color:#b13df3;
-        border: #b13df3;
-        color: white;
-        width:100%;
-        height:40px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-    }
-
-    .brand-button:hover{
-        background-color:#c56ff7;
-        border: none;
-        color: white;
-        width:100%;
-        height:40px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
+            margin-top: 40px;
     }
      /*--------------------------
      ----- END BRANDS 1366 ------
@@ -2642,6 +2660,14 @@ figure.zoom img {
 
     .htp-mt{
         margin-top: 30px;
+    }
+
+     .htp-height{
+        height:380px;
+    }
+
+    .htp-padding-top{
+        padding-top: 40px;
     }
      /*--------------------------
      ---- END HOW TO PAY 1366 ----
@@ -2697,7 +2723,6 @@ figure.zoom img {
         padding: 10px;
         padding-left: 85px;
         padding-right: 85px;
-        transition: all 1s;
         font-family: 'kanitlight';
     }
 
@@ -2705,7 +2730,7 @@ figure.zoom img {
         text-align: center;
         color: #866df6!important;
         font-size: 22px;
-        transition: all 0.8s;
+        transition: all 0.2s;
     }
 
     .profile-add{
@@ -2728,6 +2753,51 @@ figure.zoom img {
         width: 40px;
         height: 40px;
      }
+
+    .bnt-white {
+        width: 100%;
+        background-color: #fff;
+        height: 50px;
+        font-size: 18px;
+        color: #9718e4;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
+    }
+    .bnt-white:hover {
+        width: 100%;
+        background-color: #9718e4;
+        height: 50px;
+        font-size: 18px;
+        color: #fff;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
+    }
+
+    .bnt-purple {
+        width: 100%;
+        background-color: #9718e4;
+        height: 50px;
+        font-size: 18px;
+        color: #fff;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+    }
+    .bnt-purple:hover {
+        width: 100%;
+        background-color: #fff;
+        height: 50px;
+        font-size: 18px;
+        color: #9718e4;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
+    }
     /*---------------------------
      --- END PROFILE (1) 1366 ---
      ----------------------------*/
@@ -2790,7 +2860,7 @@ figure.zoom img {
         border:none;
         width: 35px;
         height: 40px;
-        margin-top: 72px;
+        margin-top: 77px;
      }
 
     .profile3-dec:hover{
@@ -2891,6 +2961,317 @@ figure.zoom img {
      ---- END HOW TO QA 1366 -----
      -----------------------------*/
 
+     /*--------------------------
+     ----------- PAY -------------
+     ----------------------------*/
+    .pay-font2{
+        color:#999; 
+        font-size:30px;
+        font-family: 'kanitmedium';
+    }
+
+    .pay-font3{
+        color:#999; 
+        font-size:21px;
+        font-family: 'kanitlight';
+        text-align: left;
+    }
+
+    .pay-font4{
+        color:#b308ea; 
+        font-size:21px;
+        font-family: 'kanitlight';
+        text-align: right;
+    }
+
+    .pay-font5{
+        color:#999; 
+        font-size:35px;
+        font-family: 'kanitmedium';
+        text-align: left;
+    }
+
+    .pay-font6{
+        color:#b308ea; 
+        font-size:35px;
+        font-family: 'kanitmedium';
+        text-align: right;
+    }
+
+    .pay-font7{
+        color:#666; 
+        font-size:21px;
+        font-family: 'kanitlight';
+        text-align:center;
+    }
+
+    .pay-font8{
+        color:#7b63f5; 
+        font-size:20px;
+        font-family: 'kanitlight';
+        text-align: right;
+    }
+
+    .pay-font9{
+        color:#666; 
+        font-size:16px;
+        font-family: 'kanitlight';
+        text-align:center;
+    }
+
+    .pay-font9:hover{
+        color:#999; 
+        font-size:16px;
+        font-family: 'kanitlight';
+        text-align:center;
+    }
+
+    .pay-font10{
+        color:#666; 
+        font-size:21px;
+        font-family: 'kanitlight';
+        margin-left: 50px;
+    }
+
+    .pay-form{
+        width: 100%;
+        height: 40px;
+        border:2px solid #b308ea;
+    }
+
+    .btn-file {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .btn-file input[type=file] {
+      position: absolute;
+      top: 0;
+      right: 0;
+      min-width: 100%;
+      min-height: 100%;
+      font-size: 100px;
+      text-align: right;
+      filter: alpha(opacity=0);
+      opacity: 0;
+      outline: none;
+      background: white;
+      cursor: inherit;
+      display: block;
+    }
+
+    .bnt-purple{
+        width: 100%;
+        background-color: #9718e4;
+        height: 40px;
+        font-size: 18px;
+        color: #fff;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        }
+    .bnt-purple:hover {
+        width: 100%;
+        background-color: #fff;
+        height: 40px;
+        font-size: 18px;
+        color: #9718e4;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
+    }
+
+    .bnt-purple2{
+        width: 100%;
+        background-color: #9718e4;
+        height: 50px;
+        font-size: 24px;
+        color: #fff;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+    }
+
+    .bnt-purple2:hover {
+        width: 100%;
+        background-color: #fff;
+        height: 50px;
+        font-size: 24px;
+        color: #9718e4;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
+    }
+
+    .bnt-white {
+         width: 100%;
+         background-color: #fff;
+        height: 50px;
+        font-size: 24px;
+        color: #9718e4;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
+    }
+    .bnt-white:hover {
+        width: 100%;
+        background-color: #9718e4;
+        height: 50px;
+        font-size: 24px;
+        color: #fff;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
+    }
+
+    .pay-btn2{
+        width: 100%;
+        height: 40px;
+        background-color:#7b63f5;
+        color: white;
+        font-size: 18px;
+    }
+
+    .pay-btn2:hover{
+        width: 100%;
+        height: 40px;
+        background-color: #b308ea;
+        color: white;
+    }
+
+    .pay-btn3{
+        width: 200px;
+        height: 50px;
+        background-color: #b308ea;
+        color: white;
+    }
+
+    .pay-btn3:hover{
+        width: 200px;
+        height: 50px;
+        background-color: #7b63f5;
+        color: white;
+    }
+
+    .pay-btn4{
+        width: 200px;
+        height: 50px;
+        background-color: #fff;
+        color:  #7b63f5;
+        border :2px solid #b308ea;
+    }
+
+    .pay-btn4:hover{
+        width: 200px;
+        height: 50px;
+        background-color: #fff;
+        color: #b308ea;
+        border :2px solid #7b63f5;
+    }
+
+    .pay-box{
+        border: 3px solid #bcbcbb;
+        border-radius: 10px;
+    }
+
+    .pay-box2{
+        border: 3px solid #bcbcbb;
+        border-radius: 10px;
+    }
+
+    .pay-box-height{
+        height: 360px;
+    }
+
+    .pay-border-bottom{
+        border-bottom: 4px solid #bcbcbb;
+    }
+
+    .pay-border-bottom2{
+        border-bottom: 2px solid #bcbcbb;
+    }
+
+    .pay-selected {
+        border: 2px solid #b308ea;
+        border-radius: 0px;
+        background: #fff url(../../assets/images/select.png) no-repeat right 15px center;
+        background-size: 30px;
+        -webkit-appearance: none!important;
+        padding: 5px 25px!important;
+        width: 100%;
+    }
+
+    .pay-img{
+        width: 80px;
+        height: 20px;
+    }
+
+    .pay-img2{
+        width: 43px;
+        height: 26px;
+    }
+
+    .pay-img3{
+        width: 43px;
+        height: 33px;
+    }
+
+    .pay-select{
+        display: block;
+        position: relative;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .pay-select input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 12px;
+        background-color: #fff;
+        border-radius: 50%;
+        border:2px solid #b308ea;
+    }
+
+    .pay-select input:checked ~ .checkmark {
+        background-color: #fff;
+        border :2px solid #b308ea;
+    }
+
+    .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+
+    .pay-select input:checked ~ .checkmark:after {
+        display: block;
+    }
+
+    .pay-select .checkmark:after {
+        top: 5px;
+        left: 5px;
+        padding: 7px;
+        border-radius: 50%;
+        background-color: #b308ea;
+    }
+     /*---------------------------
+     ---------- END PAY ------------
+     -----------------------------*/
+
 
    /*------------------------------------
     --------- PRODUCT LIST 1336 ----------
@@ -2975,6 +3356,8 @@ figure.zoom img {
     /*------------------------------------
      ----- END PRODUCT DETAIL 1366 -------
      --------------------------------------*/
+
+
      /*-----------------------------------
      ------------ CART  1366 -------------
      -------------------------------------*/
@@ -3361,6 +3744,10 @@ figure.zoom img {
     .htp-mt{
         margin-top: 30px;
     }
+
+    .htp-height{
+        height:360px;
+    }
      /*--------------------------
      ---- END HOW TO PAY 1024 ----
      ----------------------------*/
@@ -3395,7 +3782,6 @@ figure.zoom img {
         padding: 10px;
         padding-left: 100px;
         padding-right: 100px;
-        transition: all 1s;
         font-family: 'kanitlight';
     }
 
@@ -3403,7 +3789,7 @@ figure.zoom img {
         text-align: center;
         color: #866df6!important;
         font-size: 21px;
-        transition: all 0.8s;
+        transition: all 0.2s;
     }
 
     .profile-add{
@@ -3426,6 +3812,51 @@ figure.zoom img {
         width: 40px;
         height: 40px;
      }
+
+      .bnt-white {
+        width: 100%;
+        background-color: #fff;
+        height: 50px;
+        font-size: 20px;
+        color: #9718e4;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
+    }
+    .bnt-white:hover {
+        width: 100%;
+        background-color: #9718e4;
+        height: 50px;
+        font-size: 20px;
+        color: #fff;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
+    }
+
+    .bnt-purple {
+        width: 100%;
+        background-color: #9718e4;
+        height: 50px;
+        font-size: 20px;
+        color: #fff;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+    }
+    .bnt-purple:hover {
+        width: 100%;
+        background-color: #fff;
+        height: 50px;
+        font-size: 20px;
+        color: #9718e4;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
+    }
     /*---------------------------
      --- END PROFILE (1) 1024 ---
      ----------------------------*/
@@ -3711,22 +4142,73 @@ figure.zoom img {
         border:2px solid #b308ea;
     }
 
-    .pay-btn{
+    .bnt-purple{
         width: 100%;
+        background-color: #9718e4;
         height: 40px;
-        background-color: #b308ea;
-        color: white;
-        border-radius: 7px;
-        font-size: 16px;
+        font-size: 18px;
+        color: #fff;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        }
+    .bnt-purple:hover {
+        width: 100%;
+        background-color: #fff;
+        height: 40px;
+        font-size: 18px;
+        color: #9718e4;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
     }
 
-    .pay-btn:hover{
+    .bnt-purple2{
         width: 100%;
-        height: 40px;
-        background-color: #7b63f5;
-        color: white;
-        border-radius: 7px;
-        font-size: 16px;
+        background-color: #9718e4;
+        height: 50px;
+        font-size: 22px;
+        color: #fff;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+    }
+
+    .bnt-purple2:hover {
+        width: 100%;
+        background-color: #fff;
+        height: 50px;
+        font-size: 22px;
+        color: #9718e4;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
+    }
+
+    .bnt-white {
+         width: 100%;
+         background-color: #fff;
+        height: 50px;
+        font-size: 22px;
+        color: #9718e4;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
+    }
+
+    .bnt-white:hover {
+        width: 100%;
+        background-color: #9718e4;
+        height: 50px;
+        font-size: 22px;
+        color: #fff;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
     }
 
     .pay-btn2{
@@ -4141,37 +4623,14 @@ figure.zoom img {
      /*--------------------------
      ------- BRANDS 768 --------
      ----------------------------*/
-    .brand-image-size{
+    .brand-blog-img{
         width:100%;
-        height:250px;
+        height:300px;
+        border: 4px solid #b13df3;
     }
 
     .brand-mt{
-        margin-top: 10px;
-    }
-
-    .brand-button{
-        background-color:#b13df3;
-        border: #b13df3;
-        color: white;
-        width:100%;
-        height:40px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 17px;
-    }
-
-    .brand-button:hover{
-        background-color:#c56ff7;
-        border: none;
-        color: white;
-        width:100%;
-        height:40px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 17px;
+        margin-top: 40px;
     }
      /*--------------------------
      ----- END BRANDS 768 -------
@@ -4267,6 +4726,10 @@ figure.zoom img {
 
     .htp-mt{
         margin-top: 30px;
+    }
+
+    .htp-padding-top{
+        padding-top: 20px;
     }
      /*--------------------------
      ---- END HOW TO PAY 768 ----
@@ -4377,7 +4840,6 @@ figure.zoom img {
         padding: 10px;
         padding-left: 65px;
         padding-right: 65px;
-        transition: all 1s;
         font-family: 'kanitlight';
     }
 
@@ -4385,7 +4847,7 @@ figure.zoom img {
         text-align: center;
         color: #866df6!important;
         font-size: 18px;
-        transition: all 0.8s;
+        transition: all 0.2s;
 
     }
 
@@ -4418,6 +4880,51 @@ figure.zoom img {
         -webkit-appearance: none!important;
         padding: 5px 25px!important;
         width: 100%;
+    }
+
+     .bnt-white {
+        width: 100%;
+        background-color: #fff;
+        height: 50px;
+        font-size: 18px;
+        color: #9718e4;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
+    }
+    .bnt-white:hover {
+        width: 100%;
+        background-color: #9718e4;
+        height: 50px;
+        font-size: 18px;
+        color: #fff;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
+    }
+
+    .bnt-purple {
+        width: 100%;
+        background-color: #9718e4;
+        height: 50px;
+        font-size: 18px;
+        color: #fff;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+    }
+    .bnt-purple:hover {
+        width: 100%;
+        background-color: #fff;
+        height: 50px;
+        font-size: 18px;
+        color: #9718e4;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
     }
     /*---------------------------
      --- END PROFILE (1) 768 ----
@@ -4545,7 +5052,7 @@ figure.zoom img {
         border:none;
         width: 35px;
         height: 40px;
-        margin-top: 45px;
+        margin-top: 70px;
      }
 
     .profile3-dec:hover{
@@ -4701,22 +5208,74 @@ figure.zoom img {
         border:2px solid #b308ea;
     }
 
-    .pay-btn{
+  .bnt-purple{
         width: 100%;
+        background-color: #9718e4;
         height: 40px;
-        background-color: #b308ea;
-        color: white;
-        border-radius: 7px;
-        font-size: 16px;
+        font-size: 18px;
+        color: #fff;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
     }
 
-    .pay-btn:hover{
+    .bnt-purple:hover {
         width: 100%;
+        background-color: #fff;
         height: 40px;
-        background-color: #7b63f5;
-        color: white;
-        border-radius: 7px;
-        font-size: 16px;
+        font-size: 18px;
+        color: #9718e4;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
+    }
+
+    .bnt-purple2{
+        width: 100%;
+        background-color: #9718e4;
+        height: 50px;
+        font-size: 20px;
+        color: #fff;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+    }
+
+    .bnt-purple2:hover {
+        width: 100%;
+        background-color: #fff;
+        height: 50px;
+        font-size: 20px;
+        color: #9718e4;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
+    }
+
+    .bnt-white {
+         width: 100%;
+         background-color: #fff;
+        height: 50px;
+        font-size: 20px;
+        color: #9718e4;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
+    }
+
+    .bnt-white:hover {
+        width: 100%;
+        background-color: #9718e4;
+        height: 50px;
+        font-size: 20px;
+        color: #fff;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
     }
 
     .pay-btn2{
@@ -4821,6 +5380,9 @@ figure.zoom img {
      /*---------------------------
      --- END PRODUCT DETAIL 768 ---
      -----------------------------*/
+
+
+
      /*--------------------------
      ----- PRODUCT LIST 768 -----
      ----------------------------*/
@@ -5260,37 +5822,14 @@ figure.zoom img {
     /*--------------------------
      ------- BRANDS 414 --------
      ----------------------------*/
-    .brand-image-size{
+    .brand-blog-img{
         width:100%;
-        height:250px;
+        height:330px;
+        border: 4px solid #b13df3;
     }
 
     .brand-mt{
-        margin-top: 10px;
-    }
-
-    .brand-button{
-        background-color:#b13df3;
-        border: #b13df3;
-        color: white;
-        width:100%;
-        height:35px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 14px;
-    }
-
-    .brand-button:hover{
-        background-color:#c56ff7;
-        border: none;
-        color: white;
-        width:100%;
-        height:35px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 14px;
+        margin-top: 20px;
     }
      /*--------------------------
      ----- END BRANDS 414 -------
@@ -5472,7 +6011,6 @@ figure.zoom img {
         padding: 10px;
         padding-left: 10px;
         padding-right: 10px;
-        transition: all 1s;
         font-family: 'kanitlight';
     }
 
@@ -5480,7 +6018,7 @@ figure.zoom img {
         text-align: center;
         color: #866df6!important;
         font-size: 17px;
-        transition: all 0.8s;
+        transition: all 0.2s;
     }
 
     .profile-add{
@@ -5512,6 +6050,92 @@ figure.zoom img {
         -webkit-appearance: none!important;
         padding: 5px 25px!important;
         width: 100%;
+    }
+
+    .profile-btn1{
+        background-color:#fff;
+        color: #866df6;
+        font-size: 16px;
+        padding: 2px;
+        border: 2px solid #b308ea;
+        width: 200px;
+        height: 50px;
+     }
+
+    .profile-btn1:hover{
+        background-color:#fff;
+        color: #866df6;
+        font-size: 16px;
+        padding: 2px;
+        border: 2px solid #866df6;
+        width: 200px;
+        height: 50px;
+     }
+
+    .profile-btn2{
+        background-color: #b308ea;
+        color: #fff;
+        font-size: 16px;
+        padding: 2px;
+        border:none;
+        width: 200px;
+        height: 50px;
+     }
+
+    .profile-btn2:hover{
+        background-color:#866df6;
+        color: #fff;
+        font-size: 16px;
+        padding: 2px;
+        border:none;
+        width: 200px;
+        height: 50px;
+     }
+
+
+    .bnt-white {
+        width: 100%;
+        background-color: #fff;
+        height: 50px;
+        font-size: 18px;
+        color: #9718e4;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
+    }
+    .bnt-white:hover {
+        width: 100%;
+        background-color: #9718e4;
+        height: 50px;
+        font-size: 18px;
+        color: #fff;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
+    }
+
+    .bnt-purple {
+        width: 100%;
+        background-color: #9718e4;
+        height: 50px;
+        font-size: 18px;
+        color: #fff;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+    }
+    .bnt-purple:hover {
+        width: 100%;
+        background-color: #fff;
+        height: 50px;
+        font-size: 18px;
+        color: #9718e4;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
     }
     /*---------------------------
      --- END PROFILE (1) 414 ----
@@ -5807,22 +6431,73 @@ figure.zoom img {
         border:2px solid #b308ea;
     }
 
-    .pay-btn{
+  .bnt-purple{
         width: 100%;
+        background-color: #9718e4;
         height: 40px;
-        background-color: #b308ea;
-        color: white;
-        border-radius: 7px;
-        font-size: 16px;
+        font-size: 18px;
+        color: #fff;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        }
+    .bnt-purple:hover {
+        width: 100%;
+        background-color: #fff;
+        height: 40px;
+        font-size: 18px;
+        color: #9718e4;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
     }
 
-    .pay-btn:hover{
+    .bnt-purple2{
         width: 100%;
-        height: 40px;
-        background-color: #7b63f5;
-        color: white;
-        border-radius: 7px;
-        font-size: 16px;
+        background-color: #9718e4;
+        height: 50px;
+        font-size: 22px;
+        color: #fff;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+    }
+
+    .bnt-purple2:hover {
+        width: 100%;
+        background-color: #fff;
+        height: 50px;
+        font-size: 22px;
+        color: #9718e4;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
+    }
+
+    .bnt-white {
+         width: 100%;
+         background-color: #fff;
+        height: 50px;
+        font-size: 22px;
+        color: #9718e4;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
+    }
+
+    .bnt-white:hover {
+        width: 100%;
+        background-color: #9718e4;
+        height: 50px;
+        font-size: 22px;
+        color: #fff;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
     }
 
     .pay-btn2{
@@ -5830,7 +6505,7 @@ figure.zoom img {
         height: 40px;
         background-color:#7b63f5;
         color: white;
-        font-size: 16px;
+        font-size: 18px;
         margin-top: 20px;
     }
 
@@ -6227,7 +6902,7 @@ figure.zoom img {
         overflow: hidden;
         height: 195px;
     }
-    .font-respon {
+    .font-respon {v
         font-size: 23px;
     }
     .bnt-adjunct {
@@ -6245,37 +6920,14 @@ figure.zoom img {
      /*--------------------------
      ------- BRANDS 375 --------
      ----------------------------*/
-    .brand-image-size{
+    .brand-blog-img{
         width:100%;
-        height:250px;
+        height:300px;
+        border: 4px solid #b13df3;
     }
 
     .brand-mt{
-        margin-top: 5px;
-    }
-
-    .brand-button{
-        background-color:#b13df3;
-        border: #b13df3;
-        color: white;
-        width:100%;
-        height:35px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 14px;
-    }
-
-    .brand-button:hover{
-        background-color:#c56ff7;
-        border: none;
-        color: white;
-        width:100%;
-        height:35px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 14px;
+        margin-top: 20px;
     }
      /*--------------------------
      ----- END BRANDS 375 -------
@@ -6338,6 +6990,52 @@ figure.zoom img {
         font-family: 'kanitmedium';
     }
 
+
+     .bnt-white {
+        width: 100%;
+        background-color: #fff;
+        height: 50px;
+        font-size: 16px;
+        color: #9718e4;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
+    }
+    .bnt-white:hover {
+        width: 100%;
+        background-color: #9718e4;
+        height: 50px;
+        font-size: 16px;
+        color: #fff;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
+    }
+
+    .bnt-purple {
+        width: 100%;
+        background-color: #9718e4;
+        height: 50px;
+        font-size: 16px;
+        color: #fff;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+    }
+    .bnt-purple:hover {
+        width: 100%;
+        background-color: #fff;
+        height: 50px;
+        font-size: 16px;
+        color: #9718e4;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
+    }
+
     .profile-nav-link {
         text-align: center;
         font-size: 17px;
@@ -6347,7 +7045,7 @@ figure.zoom img {
         padding: 10px;
         padding-left: 4px;
         padding-right: 4px;
-        transition: all 1s;
+ 
         font-family: 'kanitlight';
     }
 
@@ -6355,7 +7053,7 @@ figure.zoom img {
         text-align: center;
         color: #866df6!important;
         font-size: 17px;
-        transition: all 0.8s;
+        transition: all 0.2s;
     }
 
     .profile-add{
@@ -6383,7 +7081,7 @@ figure.zoom img {
      ----------------------------*/
 
 
-       /*---------------------------
+    /*---------------------------
      -----  PROFILE (2) 375 ------
      ----------------------------*/
     .profile2-font{
@@ -6668,23 +7366,73 @@ figure.zoom img {
     /*--------------------------
      --------- PAY 375 ---------
      ----------------------------*/
-
-    .pay-btn{
+    .bnt-purple{
         width: 100%;
+        background-color: #9718e4;
         height: 40px;
-        background-color: #b308ea;
-        color: white;
-        border-radius: 7px;
-        font-size: 16px;
+        font-size: 18px;
+        color: #fff;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        }
+    .bnt-purple:hover {
+        width: 100%;
+        background-color: #fff;
+        height: 40px;
+        font-size: 18px;
+        color: #9718e4;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
     }
 
-    .pay-btn:hover{
+    .bnt-purple2{
         width: 100%;
-        height: 40px;
-        background-color: #7b63f5;
-        color: white;
-        border-radius: 7px;
-        font-size: 16px;
+        background-color: #9718e4;
+        height: 50px;
+        font-size: 18px;
+        color: #fff;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+    }
+
+    .bnt-purple2:hover {
+        width: 100%;
+        background-color: #fff;
+        height: 50px;
+        font-size: 18px;
+        color: #9718e4;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
+    }
+
+    .bnt-white {
+         width: 100%;
+         background-color: #fff;
+        height: 50px;
+        font-size: 18px;
+        color: #9718e4;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
+    }
+
+    .bnt-white:hover {
+        width: 100%;
+        background-color: #9718e4;
+        height: 50px;
+        font-size: 18px;
+        color: #fff;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
     }
 
     .pay-btn2{
@@ -6739,7 +7487,6 @@ figure.zoom img {
         border :2px solid #7b63f5;
         font-size: 16px;
     }
-
      /*---------------------------
      -------- END PAY 375 --------
      -----------------------------*/
@@ -6757,37 +7504,14 @@ figure.zoom img {
      /*--------------------------
      ------- BRANDS 320 --------
      ----------------------------*/
-    .brand-image-size{
+    .brand-blog-img{
         width:100%;
         height:250px;
+        border: 4px solid #b13df3;
     }
 
     .brand-mt{
         margin-top: 10px;
-    }
-
-    .brand-button{
-        background-color:#b13df3;
-        border: #b13df3;
-        color: white;
-        width:100%;
-        height:35px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 14px;
-    }
-
-    .brand-button:hover{
-        background-color:#c56ff7;
-        border: none;
-        color: white;
-        width:100%;
-        height:35px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 14px;
     }
      /*--------------------------
      ----- END BRANDS 320 -------
@@ -6825,7 +7549,6 @@ figure.zoom img {
         padding-bottom: 10px;
         padding-left: 3px;
         padding-right: 3px;
-        transition: all 1s;
         font-family: 'kanitlight';
     }
 
@@ -6833,7 +7556,7 @@ figure.zoom img {
         text-align: center;
         color: #866df6!important;
         font-size: 14px;
-        transition: all 0.8s;
+        transition: all 0.2s;
     }
 
     .profile-add{
@@ -6856,6 +7579,51 @@ figure.zoom img {
         width: 30px;
         height: 30px;
      }
+
+     .bnt-white {
+        width: 100%;
+        background-color: #fff;
+        height: 50px;
+        font-size: 16px;
+        color: #9718e4;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
+    }
+    .bnt-white:hover {
+        width: 100%;
+        background-color: #9718e4;
+        height: 50px;
+        font-size: 16px;
+        color: #fff;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
+    }
+
+    .bnt-purple {
+        width: 100%;
+        background-color: #9718e4;
+        height: 50px;
+        font-size: 16px;
+        color: #fff;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+    }
+    .bnt-purple:hover {
+        width: 100%;
+        background-color: #fff;
+        height: 50px;
+        font-size: 16px;
+        color: #9718e4;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
+    }
 
      .profile-form{
         border: 2px solid #b308ea;
@@ -7085,8 +7853,8 @@ figure.zoom img {
         height: 64px;
     }
     /*-------------------------------
-    ----------------article  END 320------
-    ------------------------------------*/  
+    ----------article  END 320--------
+    ----------------------------------*/  
 
 
      /*--------------------------
@@ -7257,15 +8025,133 @@ figure.zoom img {
     --------------------------------*/
 
 
-  /*---------------------------
-    ---------content-us---------
-    ----------------------------*/
-    .content-us-123 {
-        margin-left: 111px;
-        margin-bottom: 4px;
+    /*---------------------------
+     --------- PAY 320 ----------
+     ----------------------------*/
+    .bnt-purple{
+        width: 100%;
+        background-color: #9718e4;
+        height: 40px;
+        font-size: 18px;
+        color: #fff;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        }
+    .bnt-purple:hover {
+        width: 100%;
+        background-color: #fff;
+        height: 40px;
+        font-size: 18px;
+        color: #9718e4;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
+    }
+
+    .bnt-purple2{
+        width: 100%;
+        background-color: #9718e4;
+        height: 50px;
+        font-size: 18px;
+        color: #fff;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+    }
+
+    .bnt-purple2:hover {
+        width: 100%;
+        background-color: #fff;
+        height: 50px;
+        font-size: 18px;
+        color: #9718e4;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
+    }
+
+    .bnt-white {
+         width: 100%;
+         background-color: #fff;
+        height: 50px;
+        font-size: 18px;
+        color: #9718e4;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
+    }
+
+    .bnt-white:hover {
+        width: 100%;
+        background-color: #9718e4;
+        height: 50px;
+        font-size: 18px;
+        color: #fff;
+        border-radius: 0px;
+        border: 3px solid #9718e4;
+        padding: 0px;
+        transition: all 0.5s;
+    }
+
+    .pay-btn2{
+        width: 200px;
+        height: 40px;
+        background-color:#7b63f5;
+        color: white;
+        font-size: 16px;
+        margin-top: 16px;
+    }
+
+    .pay-btn2:hover{
+        width: 100%;
+        height: 40px;
+        background-color: #b308ea;
+        color: white;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .pay-btn3{
+        width: 170px;
+        height: 50px;
+        background-color: #b308ea;
+        color: white;
+        font-size: 16px;
+        margin-top:20px;
+    }
+
+    .pay-btn3:hover{
+        width: 170px;
+        height: 50px;
+        background-color: #7b63f5;
+        color: white;
+        font-size: 16px;
+    }
+
+    .pay-btn4{
+        width: 170px;
+        height: 50px;
+        background-color: #fff;
+        color:  #7b63f5;
+        border :2px solid #b308ea;
+        font-size: 16px;
+    }
+
+    .pay-btn4:hover{
+        width: 170px;
+        height: 50px;
+        background-color: #fff;
+        color: #b308ea;
+        border :2px solid #7b63f5;
+        font-size: 16px;
     }
      /*---------------------------
-    ---------content-us end---------
-    ----------------------------*/
+     -------- END PAY 320 --------
+     -----------------------------*/
+
 }
 

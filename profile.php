@@ -177,11 +177,13 @@
                           </div>
                         </div>
                 </div>
-                <div class="row  mb-5">
-                  <div class="col-xl-12  col-lg-12 text-center">
-                     <button type="button" class="profile-btn1 mt-4">ยกเลิก</button>
-                      <button type="button" class="profile-btn2 mt-4">ยืนยันข้อมูล</button>
-                  </div>
+                <div class="row  mb-5 justify-content-center">
+                       <div class="col-xl-2 col-lg-3 col-md-4">
+                          <button type="button" class="bnt-white mt-4">ยกเลิก</button>
+                       </div>
+                       <div class="col-xl-2 col-lg-3  col-md-4">
+                          <button type="button" class="bnt-purple mt-4">ยืนยันข้อมูล</button>
+                       </div>
                 </div>
           </div>
 

@@ -100,31 +100,30 @@
                                      <span class="checkmark"></span>
                                      <img class = "pay-img ml-5" src="https://www.iclickstore.com/wp-content/uploads/2017/03/PayPal-1.png" class="vc_single_image-img attachment-full" alt="" srcset="https://www.iclickstore.com/wp-content/uploads/2017/03/PayPal-1.png 300w, https://www.iclickstore.com/wp-content/uploads/2017/03/PayPal-1-114x30.png 114w, https://www.iclickstore.com/wp-content/uploads/2017/03/PayPal-1-228x60.png 228w">
                                </label>
-                                
                            </div>
-                           <div class="row">
+                           <div class="row mt-2">
                                  <div class="pay-font7 w-100">Login with Paypal</div>
                            </div>
                            <div class="row mt-4">
-                                 <div class="col-xl-3 col-lg-12 pay-font8">email</div>
+                                 <div class="col-xl-4 col-lg-12 pay-font8">email</div>
                                  <div class="col-xl-6">
                                     <input type="text" class = "pay-form" name="">
                                  </div>
-                                 <div class="col-xl-3"></div>
+                                 <div class="col-xl-2"></div>
                            </div>
                            <div class="row mt-3">
-                                 <div class="col-xl-3 pay-font8">password</div>
+                                 <div class="col-xl-4 pay-font8">password</div>
                                  <div class="col-xl-6">
                                     <input type="password" class = "pay-form" name="">
                                  </div>
-                                 <div class="col-xl-3"></div>
+                                 <div class="col-xl-2"></div>
                            </div>
                            <div class="row mt-3">
-                                 <div class="col-xl-3"></div>
+                                 <div class="col-xl-4"></div>
                                  <div class="col-xl-6">
-                                      <button type="button" class="pay-btn">LOGIN</button>
+                                       <button type="button" class="bnt-purple">LOGIN</button>
                                  </div>
-                                 <div class="col-xl-3"></div>
+                                 <div class="col-xl-2"></div>
                            </div>
                            <div class="row mt-4">
                                  <div class="col-xl-3"></div>
@@ -232,15 +231,14 @@
                 <div class="col-xl-2 col-lg-2 col-md-2"></div>
           </div>
 
-          <div class="row text-center mb-5">
-                <div class="col-xl-3"></div>
-                <div class="col-xl-6 col-12">
-                    <button type="button" class="pay-btn4">กลับไปที่ตะกร้าสินค้า</button>
-                    <button type="button" class="pay-btn3">ยืนยันการชำระเงิน</button>
-
-                </div>
-                <div class="col-xl-3"></div>
-          </div>
+          <div class="row  mb-5 justify-content-center">
+                 <div class="col-xl-2 col-lg-3 col-md-4">
+                     <button type="button" class="bnt-white mt-4">ยกเลิก</button>
+                 </div>
+                 <div class="col-xl-2 col-lg-3  col-md-4">
+                     <button type="button" class="bnt-purple2 mt-4">ยืนยันข้อมูล</button>
+                 </div>
+           </div>
      </div>
 
     
