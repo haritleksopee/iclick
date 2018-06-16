@@ -106,7 +106,7 @@
                       <div class="form-group">
                         <label class="prodetail-mr-40">จำนวน : </label>
                         <button type="button" class="btn prodetail-minus"><i class="fa fa-minus" aria-hidden="true"></i></button>
-                        <input type="text" class="profile-form prodetail-number" name="name">
+                        <input type="text" class="profile-form prodetail-number" name="name" style="width: 20%;">
                         <button type="button" class="btn prodetail-plus"><i class="fa fa-plus" aria-hidden="true"></i></button>
                       </div>
                     </form>

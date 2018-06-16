@@ -24,7 +24,7 @@
           <h1 class="text-center text-xl-left con_text_haed">บทความ</h1>
         </div>
         <div class="col-lg-6 ">
-          <h1 class="text-center text-xl-right  con_text_haed_1">2018-05-20</h1>
+          <h3 class="text-center text-xl-right  con_text_haed_1 com_h3">2018-05-20</h3>
         </div>
       </div>
    
@@ -36,7 +36,7 @@
         <div class="row">
           <div class="col-lg-4  mt-xl-4">
             <div class="con_fram_img ">
-              <img class="con_img_1" src="http://via.placeholder.com/850x900">
+              <img class="con_img_1" src="assets/images/slide/tumblr_n9hyqfJavs1st5lhmo1_1280-900x502.jpg">
             </div>   
           </div>
 
@@ -81,13 +81,13 @@
       </div>
     </div>
 
-       <div class="row text-center text-xl-left">
-          <div class="col-lg-4 mt-lg-5">
+       <div class="row ">
+          <div class="col-lg-4 mt-lg-5 col-md-6">
             <div class="con_c_a con_top_mer" >
               <div class="con_fram_img-l">
-                <a href="#"><img class="card-img-top con_img-card-l" src="http://via.placeholder.com/350x150" alt="Card image cap"></a>
+                <a href="#"><img class="card-img-top con_img-card-l" src="assets/images/slide/tumblr_n9hyqfJavs1st5lhmo1_1280-900x502.jpg" alt="Card image cap"></a>
               </div>
-              <div class="card-body text-xl-left">
+              <div class="card-body ">
                 <a href="#"><h5 class="card-title con_text_h">What is Lorem Ipsum?</h5>
                 <p class="card-text con_color">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's</p></a>
                 <a href="#" class="con_color-1">2015-05-20</a>
@@ -95,12 +95,12 @@
             </div>
           </div>  
 
-           <div class="col-lg-4 mt-lg-5">
+           <div class="col-lg-4 mt-lg-5 col-md-6">
             <div class="con_c_a con_top_mer" >
               <div class="con_fram_img-l">
-                <a href="#"><img class="card-img-top con_img-card-l" src="http://via.placeholder.com/350x150" alt="Card image cap"></a>
+                <a href="#"><img class="card-img-top con_img-card-l" src="assets/images/slide/tumblr_n9hyqfJavs1st5lhmo1_1280-900x502.jpg" alt="Card image cap"></a>
               </div>
-              <div class="card-body text-xl-left">
+              <div class="card-body ">
                 <a href="#"><h5 class="card-title con_text_h">What is Lorem Ipsum?</h5>
                 <p class="card-text con_color">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's</p></a>
                 <a href="#" class="con_color-1">2015-05-20</a>
@@ -108,10 +108,10 @@
             </div>
           </div>  
 
-         <div class="col-lg-4 mt-lg-5">
+         <div class="col-lg-4 mt-lg-5 col-md-6>
             <div class="con_c_a con_top_mer" >
               <div class="con_fram_img-l">
-                <a href="#"><img class="card-img-top con_img-card-l" src="http://via.placeholder.com/350x150" alt="Card image cap"></a>
+                <a href="#"><img class="card-img-top con_img-card-l" src="assets/images/slide/tumblr_n9hyqfJavs1st5lhmo1_1280-900x502.jpg" alt="Card image cap"></a>
               </div>
               <div class="card-body">
                 <a href="#"><h5 class="card-title con_text_h">What is Lorem Ipsum?</h5>

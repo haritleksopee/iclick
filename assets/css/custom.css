@@ -487,6 +487,7 @@ a:hover{
     background-color: #365899;
     color: white;
     border-radius: 0px;
+    margin-bottom: 13px;
 }
 
 .login-goog-whit{
@@ -502,6 +503,9 @@ a:hover{
 .login-top-1{
    margin-top: -8px;
 }
+
+
+
 /*-------------------------------------
 -----------------login-----------------
 ---------------------------------------*/
@@ -638,9 +642,11 @@ a:hover{
    width: 100%; 
      
 } 
-.art_text_h{
+ .art_text_h {
     color: #6d5af3;
     font-size: 25px;
+    overflow: hidden;
+    height: 64px;
 }
 .art_color{
    color: #b4b4b4;
@@ -660,12 +666,12 @@ a:hover{
     overflow: hidden;
     height: 330px;
     width: 100%;
-    border: 4px solid #9718e4;
+    border: 1px solid #9718e4;
     border-radius: 6px;
 }
 
 .art_fram_img:hover{
-    border: 4px solid #ddd;
+    border: 1px solid #ddd;
 }
 
 .art_img_1{
@@ -768,11 +774,11 @@ a:hover{
     overflow: hidden;
     height: 330px;
     width: 100%;
-    border: 4px solid #9718e4;
+    border: 1px solid #9718e4;
     border-radius: 6px;
 }
 .con_fram_img:hover{
-    border: 4px solid #ddd;
+    border: 1px solid #ddd;
 }
 .con_img_1{
     position: absolute;
@@ -845,17 +851,19 @@ a:hover{
     overflow: hidden;
     height: 330px;
     width: 100%;
-    border: 4px solid #9718e4;
+    border: 1px solid #9718e4;
     border-radius: 6px;
 }
 .com_fram_img-l:hover{
-    border: 4px solid #ddd;
+    border: 1px solid #ddd;
 }
 
 
 .con_text_h{
     color: #9718e4;
     font-size: 25px;
+    overflow: hidden;
+    height: 64px;
 }
 .con_color{
    color: #b4b4b4;
@@ -903,6 +911,9 @@ a:hover{
 .con-my-5{
     margin-bottom: 30px;
     margin-top: 30px;
+}
+.com_h3{
+    margin-top: 14px;
 }
 
 /*----------------------------------------
@@ -956,7 +967,134 @@ a:hover{
 /*-----------------------------------------
 ---------------about END---------------------
 -----------------------------------------*/
+/*--------------------------------------
+---------------content-us------------------
+------------------------------------------*/
+.content-us-size-web {
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 50px;
+}
+.content-us_h2_top {
+   color: #695ff4;
+    font-weight: 600;
+}
+.content-us_hr_width{
+   border: 2px solid #d6d6d6; 
+   width: 100%;   
+}
+.content-us_text_h{
+    color: #9718e4;
+    font-weight: bold;
+} 
+.content-us_i_con{
+    background-color: #9718e4;
+    padding: 5px 11px 5px 20px;
+    border-radius: 20px;
+    color: #fff;
+}
+.content-us_i_con-1{
+    background-color: #9718e4;
+    padding: 5px 7px 5px 20px;
+    border-radius: 20px;
+    color: #fff;
+}
+.content-us_i_con-2{
+    background-color: #9718e4;
+    padding: 5px 5px 5px 7px;
+    border-radius: 20px;
+    color: #fff;
+}
+.content-us_i_con-3{
+    background-color: #9718e4;
+    padding: 7px 6px 6px 6px;
+    border-radius: 20px;
+    color: #fff;
+}
+.content-us_ul{
+    list-style: none;
+}
+.content-us-pan-icon{
+    padding-left: 9px;
+}
+.content-us-pan-icon-1{
+    padding-left: 5px;
+}
+.content-us-line{
+    font-size: 5px;
+}
+.content-us-dis{
+    display: -webkit-inline-box;
+}
 
+.content-us-color{
+    color: #b4b4b4;
+}
+.content-us-map{
+    margin-bottom: 260px;
+    margin-top: 62px;
+
+}
+
+  .content-us-bnt {
+    width: 100%;
+    height: 46px;
+    border: 2px solid;
+    border-color: #9718e4;
+    border-radius: 0px;
+}
+.content-us_top_but {
+     margin-top: 24px;
+     margin-bottom: 60px;
+ }
+.content-us_bb_2 {
+    width: 190px;
+    background-color: #ffffff;
+    border-radius: 0px;
+    height: 50px;
+    font-size: 20px;
+    color: #6d5af3;
+    border-color: #9718e4;
+    border-width:3px;
+    
+}
+
+.content-us_bb_3{
+    width: 190px;
+    background-color: #9718e4;
+    border-radius: 0px;
+    height: 50px;
+     font-size: 20px;
+    color: #f9f9f9;
+    border-color: #9718e4;
+    border-width: 3px;
+}
+.content-us-form-control:focus {
+    color: #fff;
+    outline: 0;
+    box-shadow: none;
+}
+
+.content-us-form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    outline: 0;
+    box-shadow: 
+}
+.content-us-form-control {
+    display: block;
+    width: 100%;
+    height: 46px;
+    border: 2px solid;
+    border-color: #9718e4;
+    border-radius: 0px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+/*--------------------------------------
+---------------content-us END------------------
+------------------------------------------*/
 
 
 
@@ -2667,6 +2805,21 @@ figure.zoom img {
      --- END PROFILE (3) 1366 ---
      ----------------------------*/
 
+ /*------------------------------
+    -------------content-us 1366-----
+    ------------------------------*/
+
+   
+    .content-us-bnt {
+    width: 100%;
+    height: 46px;
+    border: 2px solid;
+    border-color: #9718e4;
+    border-radius: 0px;
+}
+    /*------------------------------
+    -------------content-us 1366-----
+    ------------------------------*/
 
 
 
@@ -3457,13 +3610,17 @@ figure.zoom img {
     .con_c_a{
      width: 100%;
     }
+    .com_h3 {
+    margin-top: 6px;
+}
+
 /*----------------------------------------
  -----------content END 1024 -------------
  ------------------------------------------*/
    
 
 /*--------------------------------
---------------about--------------
+--------------about 1024--------------
 ---------------------------------*/
 
 .about-size-web {
@@ -3473,7 +3630,7 @@ figure.zoom img {
 }
 
 /*--------------------------------
---------------about END--------------
+--------------about END 1024--------------
 ---------------------------------*/
 
     /*--------------------------
@@ -3777,6 +3934,29 @@ figure.zoom img {
     /*-----------------------------
     ------ END CART 1024 ----------
     -------------------------------*/
+    /*------------------------------
+    -------------content-us 1024-----
+    ------------------------------*/
+
+    .content-us-size-web {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 40px;
+    }
+    .content-us-map {
+    margin-bottom: 215px;
+    margin-top: 62px;
+    }
+    .content-us-bnt {
+    width: 100%;
+    height: 46px;
+    border: 2px solid;
+    border-color: #9718e4;
+    border-radius: 0px;
+}
+    /*------------------------------
+    -------------content-us 1024-----
+    ------------------------------*/
 }
 
 @media(max-width: 768px){
@@ -4093,6 +4273,42 @@ figure.zoom img {
      ----------------------------*/
 
 
+    /*---------------------------
+    -------------Login 768-----------
+    -----------------------------*/
+
+        .login-lo {
+        width: 100%;
+        height: 45px;
+        background-color: #9718e4;
+        color: #fff;
+        border-radius: 0px;
+        margin-top: 10px;
+        margin-bottom: -6px;
+    }
+
+
+
+
+    /*---------------------------
+    -------------Login END 768-----
+    -----------------------------*/
+
+    /*------------------------------
+    ------------content-us 768----------
+    -------------------------------*/
+
+    .content-us-bnt {
+    width: 120%;
+    height: 46px;
+    border: 2px solid;
+    border-color: #9718e4;
+    border-radius: 0px;
+}
+   /*------------------------------
+    ------------content-us END 768----------
+    -------------------------------*/
+
 
     /*---------------------------------
     -----------conTENT 768-------------
@@ -4116,6 +4332,21 @@ figure.zoom img {
     /*--------------------------------
     --------conTENT 768 END----------
     ---------------------------------*/
+
+
+    /*--------------------------------
+    -----------about 768--------------
+    ---------------------------------*/
+
+    .about-mer-top{
+        margin-bottom: -40px;
+        margin-top: -66px;
+    }
+    /*--------------------------------
+    -----------about 768 END--------------
+    ---------------------------------*/
+
+
 
     /*---------------------------
      ------ PROFILE(1) 768 ------
@@ -4345,17 +4576,7 @@ figure.zoom img {
 
  
 
-    /*--------------------------------
-    ------------conTENT 768---- d-------
-    ---------------------------------*/
-    .flex-carousel-img {
-        position: relative;
-        overflow: hidden;
-        height: 360px;
-    }
-    /*--------------------------------
-    --------conTENT END 768----------
-    ---------------------------------*/
+    
 
 
 
@@ -5114,7 +5335,7 @@ figure.zoom img {
         background-color: #F44336;
         color: white;
         border-radius: 0px;
-        margin-top: -32px;
+        margin-top: -43px;
         margin-bottom: 70px;     
     }
 
@@ -5130,11 +5351,45 @@ figure.zoom img {
         margin-top: 30px;
         margin-bottom: -30px;
     }
+    .login-mar-bottom {
+    margin-bottom: 0px;
+    }
+
+    .login-face-whit {
+    width: 100%;
+    height: 45px;
+    background-color: #365899;
+    color: white;
+    border-radius: 0px;
+    margin-bottom: 13px;
+    margin-top: 7px;
+    }
     /*---------------------------
      ------ LOGIN 414 END -------
      -----------------------------*/
 
+ /*--------------------------------
+    -----------content-us 414------------
+    ---------------------------------*/
 
+    .content-us_bb_2{
+        width: 100%;
+    }
+
+    .content-us_bb_3{
+        width: 100%;
+    }
+    .content-us-bnt {
+    width: 100%;
+    height: 46px;
+    border: 2px solid;
+    border-color: #9718e4;
+    border-radius: 0px;
+    margin-bottom: -11px;
+    }
+    /*--------------------------------
+    -----------content-us 414 end------------
+    ---------------------------------*/
 
      /*--------------------------------
      --------Pay confirm 414----------
@@ -5171,9 +5426,9 @@ figure.zoom img {
         margin-top: 24px;
         margin-bottom: 60px;
    }
-   .pay-confirm_con_mar{
-        margin: 20px 0px 0px 25px;
-   }
+   .pay-confirm_con_mar {
+    margin: 20px 0px -19px 23px;
+    }
     /*--------------------------------
      ----------Pay confirm END 414-----
     ----------------------------------*/
@@ -5848,6 +6103,17 @@ figure.zoom img {
     /*----------------------------
     ------- END CART 414 ---------
     ------------------------------*/
+    /*----------------------------
+    ------------ ABOUT 414 -------
+    ------------------------------*/
+    .about_hay {
+        color: #b4b4b4;
+        margin-bottom: 100px;
+        font-size: 16px;
+    }
+    /*----------------------------
+    ------- END ABOUT 414 --------
+    ------------------------------*/
 }
 
 
@@ -6016,6 +6282,20 @@ figure.zoom img {
      ----------------------------*/
 
 
+
+ /*--------------------------
+    ---------content us 375-----
+    -----------------------------*/
+
+      .content-us-123{
+        margin-left: 138px;
+        margin-bottom: 8px;
+      }
+      /*--------------------------
+    ---------content us 375-----
+    -----------------------------*/
+
+
     /*--------------------------------
     ----------Pay confirm 375----------
     ----------------------------------*/
@@ -6027,8 +6307,8 @@ figure.zoom img {
         width: 100%;
         margin-left: 15px;
     }
-    .pay-confirm_con_mar {
-        margin: 20px 0px 0px 10px;
+   .pay-confirm_con_mar {
+    margin: 20px 0px -18px 10px;
     }
 
     
@@ -6291,6 +6571,44 @@ figure.zoom img {
     /*-----------------------------
     --- END PRODUCT DETAIL 375 ------
     -------------------------------*/
+    /*-----------------------------
+    ------- PRODUCT LIST 375 ------
+    -------------------------------*/
+    .product-collum {
+        max-width: 100%!important;
+        width: 100%!important;
+        -webkit-box-flex: 0!important;
+        -ms-flex: 0 0 100%!important;
+        flex: 0 0 100%!important;
+        padding-right: 25px!important;
+        padding-left: 25px!important;
+        padding-top: 20px!important;
+        padding-bottom: 20px!important;
+    }
+    .product-list-img-circle {
+        width: 45px;
+    }
+    .product-list-circle {
+        text-align: center;
+        width: 90px;
+        height: 90px;
+        padding-top: 0px;
+        border-radius: 96px;
+        border: none;
+        box-shadow: 2px 2px 13px 0px #cecece;
+        margin: auto;
+    }
+    .productlist-img-footer {
+        position: relative;
+        overflow: hidden;
+        height: 235px;
+    }
+    /*-----------------------------
+    ---- END PRODUCT LIST 375 -----
+    -------------------------------*/
+
+
+
 
     /*------------------------------
     ------ ORDER SUBMIT 375 --------
@@ -6727,6 +7045,18 @@ figure.zoom img {
     /*----------------------------
      ---- END PROFILE (3) 375 ----
      ----------------------------*/
+    /*--------------------------
+
+    ---------pay confirm 320----------
+    ---------------------------*/
+    .pay-confirm_con_mar {
+        margin: 20px 0px -20px -7px;
+    }
+    /*--------------------------
+    ---------pay confirm 320 END----------
+    ---------------------------*/
+
+
 
 
 
@@ -6744,9 +7074,15 @@ figure.zoom img {
     -------------article 320-----------
     ------------------------------------*/
     .art_h2_top {
-        margin: 35px 0px 0px 122px;
+        margin: 0px 0px 0px 0px;
         color: #6d5bf3;
         font-weight: 700;
+    }
+    .art_text_h {
+        color: #6d5af3;
+        font-size: 25px;
+        overflow: hidden;
+        height: 64px;
     }
     /*-------------------------------
     ----------------article  END 320------
@@ -6794,41 +7130,82 @@ figure.zoom img {
 
 
 
-  /*-----------------------------
-    ------- PRODUCT LIST 375 ------
-    -------------------------------*/
-    .product-collum {
-        max-width: 100%!important;
-        width: 100%!important;
-        -webkit-box-flex: 0!important;
-        -ms-flex: 0 0 100%!important;
-        flex: 0 0 100%!important;
-        padding-right: 25px!important;
-        padding-left: 25px!important;
-        padding-top: 20px!important;
-        padding-bottom: 20px!important;
-    }
+ /*-------------------------------
+    ---- PRODUCT LIST 320 -----------
+    ---------------------------------*/
     .product-list-img-circle {
-        width: 45px;
+        width: 30px;
     }
     .product-list-circle {
         text-align: center;
-        width: 90px;
-        height: 90px;
+        width: 70px;
+        height: 70px;
         padding-top: 0px;
         border-radius: 96px;
         border: none;
         box-shadow: 2px 2px 13px 0px #cecece;
         margin: auto;
     }
+    .product-collum {
+        max-width: 100%!important;
+        width: 100%!important;
+        -webkit-box-flex: 0!important;
+        -ms-flex: 0 0 100%!important;
+        flex: 0 0 100%!important;
+        padding-right: 10px!important;
+        padding-left: 10px!important;
+        padding-top: 20px!important;
+        padding-bottom: 20px!important;
+    }
     .productlist-img-footer {
         position: relative;
         overflow: hidden;
-        height: 235px;
+        height: 200px;
     }
-    /*-----------------------------
-    ---- END PRODUCT LIST 375 -----
-    -------------------------------*/
+    .prodetail-inline-text {
+        display: -webkit-inline-box;
+        margin: 35px 25px;
+    }
+    /*----------------------------------
+    ------ END PRODUCT LIST 320 --------
+    ------------------------------------*/
+
+    /*---------------------------------
+    --------- PRODUCT DETAIL 320 ------
+    -----------------------------------*/
+    .prodetail-number {
+        width: 70px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .prodetail-menu {
+        background-color: #cecece;
+        font-size: 20px!important;
+        color: #695ff4!important;
+        border-radius: 0px!important;
+        width: 290px;
+        text-align: center;
+    }
+    .prodetail-menu:hover {
+        background-color: #cecece;
+        font-size: 20px!important;
+        color: #695ff4!important;
+        border-radius: 0px!important;
+        width: 290px;
+        text-align: center;
+    }
+    .prodetail-inline-text {
+        display: -webkit-inline-box;
+        margin: 35px 24px;
+    }
+    .prodetail-img-bands {
+        position: relative;
+        overflow: hidden;
+        height: 225px;
+    }
+    /*---------------------------------
+    ------ END PRODUCT DETAIL 320 ------
+    -----------------------------------*/
     /*------------------------------
     ------ ORDER SUBMIT 375 --------
     --------------------------------*/
@@ -6879,5 +7256,16 @@ figure.zoom img {
     ---------- END CART 375 --------
     --------------------------------*/
 
+
+  /*---------------------------
+    ---------content-us---------
+    ----------------------------*/
+    .content-us-123 {
+        margin-left: 111px;
+        margin-bottom: 4px;
+    }
+     /*---------------------------
+    ---------content-us end---------
+    ----------------------------*/
 }
 

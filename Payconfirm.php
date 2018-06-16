@@ -23,7 +23,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12 pay-confirm_l">
-               <div class="form-group row pt-5">
+               <div class="form-group row pt-xl-5 pt-2">
                   <div class="col-lg-4 col-md-3 col-12 text-md-right text-sm-center text-center">
                      <label class="pay-confirm-form-label ">เลขที่คำสั่งซื้อ</label>
                   </div>
