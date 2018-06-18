@@ -594,9 +594,12 @@ a:hover{
     font-size: 20px;
     color: #6d5af3;
     border-color: #9718e4;
-    border-width:3px;
-   
-    
+    border-width:3px;   
+}
+.pay-confirm_bb_2:hover {
+    background-color:#9718e4;
+    color: #fff;
+    border-color: #9718e4;
 }
 
 .pay-confirm_bb_3 {
@@ -610,7 +613,12 @@ a:hover{
     border-width: 3px;
     
 }
-
+.pay-confirm_bb_3:hover {
+    background-color: #fff;
+    color: #6d5af3;
+    border-color: #9718e4;
+    
+}
 .pay-confirm_top_but{
     margin-top: 60px;
     margin-bottom: 60px;
