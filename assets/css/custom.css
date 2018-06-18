@@ -268,8 +268,8 @@ a:hover{
 .text-dark-purple {
     color: #9717e4;    
 }
-.font-weight400 {
-    font-weight: 400!important;
+.font-weightbold {
+    font-weight: bold!important;
 }
 .pt-7px {
     padding-top: 7px;
@@ -412,12 +412,14 @@ a:hover{
     transition: all 0.5s;
 }
 .bnt-adjunct {
-    width: 220px;
+    width: 220px!important;
     margin-top: 25px;
+    height: 50px!important;
 }
 .bnt-adjunct:hover {
     width: 220px!important;
     margin-top: 25px;
+    height: 50px!important;
 }
 .col-2-half {
     max-width: 100%!important;
@@ -1320,6 +1322,17 @@ a:hover{
     padding-left: 40px;
     padding-right: 40px;
 }
+.home-fix-head-article {
+    overflow: hidden;
+    height: 73px;
+}
+.home-fix-footer-article {
+    color: #695ff4;
+    overflow: hidden;
+    height: 35px;
+    line-height: 1.6;
+    padding-top: 3px;
+}
 /*---------------- END HOME ------------------*/
 
 
@@ -1442,6 +1455,29 @@ a:hover{
 
 .brand-border-bottom{
     border-bottom: 4px solid #bcbcbb;
+}
+
+.bnt-purple2{
+    width: 100%;
+    background-color: #9718e4;
+    height: 50px;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 0px;
+    border: 3px solid #9718e4;
+    padding: 0px;
+}
+
+.bnt-purple2:hover {
+    width: 100%;
+    background-color: #fff;
+    height: 50px;
+    font-size: 24px;
+    color: #9718e4;
+    border-radius: 0px;
+    border: 3px solid #9718e4;
+    padding: 0px;
+    transition: all 0.5s;
 }
  /*--------------------------
  -------- END BRANDS -------
@@ -1608,27 +1644,6 @@ a:hover{
     transition: all 0.5s;
 }
 
-.bnt-purple {
-    width: 100%;
-    background-color: #9718e4;
-    height: 50px;
-    font-size: 24px;
-    color: #fff;
-    border-radius: 0px;
-    border: 3px solid #9718e4;
-    padding: 0px;
-    }
-.bnt-purple:hover {
-    width: 100%;
-    background-color: #fff;
-    height: 50px;
-    font-size: 24px;
-    color: #9718e4;
-    border-radius: 0px;
-    border: 3px solid #9718e4;
-    padding: 0px;
-    transition: all 0.5s;
-}
 /*--------------------------
  ------ END PROFILE 1 ------
  ----------------------------*/
@@ -1716,7 +1731,7 @@ a:hover{
     border:none;
     width: 35px;
     height: 40px;
-    margin-top: 35px;
+    margin-top: 36px;
  }
 
  .profile2-border-bottom{
@@ -1765,7 +1780,9 @@ a:hover{
     font-size: 26px;
     color:#ad3ff3;
 }
-
+.profile3-bnt-purple {
+    border: 3px solid #9718e4;
+}
 .profile3-font6{
     font-size: 20px;
     color:#666;
@@ -1841,7 +1858,7 @@ a:hover{
     margin: 30px;
 }
  /*---------------------------
- ------- END HOW TO QA -------
+ ------- END HOW TO QA -----ด--
  -----------------------------*/
 
 
@@ -1867,10 +1884,14 @@ a:hover{
     width: 90%!important;
 }
 .productlist-search {
-    font-size: 37px;
-    position: absolute;
-    top: 69px;
-    left: 270px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    background-color: #9718e4;
+    border-radius: 0px;
+    color: #fff;
+    margin-top: 14px;
 }
 .productlist-img-bands {
     position:relative;
@@ -1883,13 +1904,78 @@ a:hover{
 }
 
 .productlist-img-footer {
-    position:relative;
-    overflow:hidden;
-    height: 250px;
+    position: relative;
+    overflow: hidden;
+    height: 800px;
+    margin-bottom: 40px;
 }
 .productlist-my-5 {
     margin-bottom: 30px;
     margin-top: 30px;
+}
+.productlist-page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin: 0px 10px;
+    font-size: 27px;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #fff;
+    background-color: #9718e4;
+    border: none;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.productlist-page-link:hover {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin: 0px 10px;
+    font-size: 27px;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #9718e4;
+    background-color: #fff;
+    border: 2px solid #9718e4;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    transition: all 0.5s;
+}
+.prodetail-nav-link {
+    display: block;
+    width: 100px;
+    text-align: center;
+    height: 50px;
+    font-size: 22px;
+    color: #e2dfdf!important;
+    padding-top: 15px!important;
+}
+.prodetail-nav-link:hover {
+    display: block;
+    width: 100px;
+    text-align: center;
+    height: 50px;
+    font-size: 22px;
+    color: #e2dfdf!important;
+    padding-top: 15px!important;
+}
+
+.prodetai-fix-img-nav {
+    position: relative;
+    overflow: hidden;
+    width: 80px;
+    height: 60px;
+    margin-bottom: 40px;
+}
+.prodetail-img-fix-center {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
 }
 /*--------------------------
 ------- PRODUCT-LIST -------
@@ -1973,6 +2059,7 @@ figure.zoom img {
     width: 60px;
     margin-left: 20px;
     margin-right: 20px;
+    text-align: right;
 }
 .prodetail-mr-40 {
     margin-right: 40px;
@@ -2139,27 +2226,6 @@ figure.zoom img {
   display: block;
 }
 
-.bnt-purple{
-    width: 100%;
-    background-color: #9718e4;
-    height: 40px;
-    font-size: 18px;
-    color: #fff;
-    border-radius: 0px;
-    border: 3px solid #9718e4;
-    padding: 0px;
-    }
-.bnt-purple:hover {
-    width: 100%;
-    background-color: #fff;
-    height: 40px;
-    font-size: 18px;
-    color: #9718e4;
-    border-radius: 0px;
-    border: 3px solid #9718e4;
-    padding: 0px;
-    transition: all 0.5s;
-}
 
 .bnt-purple2{
     width: 100%;
@@ -2184,28 +2250,6 @@ figure.zoom img {
     transition: all 0.5s;
 }
 
-.bnt-white {
-     width: 100%;
-     background-color: #fff;
-    height: 50px;
-    font-size: 24px;
-    color: #9718e4;
-    border-radius: 0px;
-    border: 3px solid #9718e4;
-    padding: 0px;
-    transition: all 0.5s;
-}
-.bnt-white:hover {
-    width: 100%;
-    background-color: #9718e4;
-    height: 50px;
-    font-size: 24px;
-    color: #fff;
-    border-radius: 0px;
-    border: 3px solid #9718e4;
-    padding: 0px;
-    transition: all 0.5s;
-}
 
 .pay-btn2{
     width: 100%;
@@ -2496,6 +2540,10 @@ figure.zoom img {
     margin-top: 40px;
     margin-bottom: 40px;
 }
+.cart-head-hidden {
+    overflow: hidden;
+    height: 140px;
+}
 /*-----------------------------
 --------- END CART ------------
 -------------------------------*/
@@ -2617,6 +2665,14 @@ figure.zoom img {
         position: relative;
         overflow: hidden;
         height: 240px;
+    }
+    .home-background-article {
+        background-position-x: 50%;
+        background-position-y: 50%;
+        height: 900px;
+        background-repeat: no-repeat;
+        background-size: 2000px;
+        margin-top: 60px;
     }
     /*----------------------------
     -------- END HOME 1366 -------
@@ -2776,27 +2832,8 @@ figure.zoom img {
         padding: 0px;
         transition: all 0.5s;
     }
-
-    .bnt-purple {
-        width: 100%;
-        background-color: #9718e4;
-        height: 50px;
-        font-size: 18px;
-        color: #fff;
-        border-radius: 0px;
+    .profile3-bnt-purple {
         border: 3px solid #9718e4;
-        padding: 0px;
-    }
-    .bnt-purple:hover {
-        width: 100%;
-        background-color: #fff;
-        height: 50px;
-        font-size: 18px;
-        color: #9718e4;
-        border-radius: 0px;
-        border: 3px solid #9718e4;
-        padding: 0px;
-        transition: all 0.5s;
     }
     /*---------------------------
      --- END PROFILE (1) 1366 ---
@@ -3060,28 +3097,6 @@ figure.zoom img {
       display: block;
     }
 
-    .bnt-purple{
-        width: 100%;
-        background-color: #9718e4;
-        height: 40px;
-        font-size: 18px;
-        color: #fff;
-        border-radius: 0px;
-        border: 3px solid #9718e4;
-        padding: 0px;
-        }
-    .bnt-purple:hover {
-        width: 100%;
-        background-color: #fff;
-        height: 40px;
-        font-size: 18px;
-        color: #9718e4;
-        border-radius: 0px;
-        border: 3px solid #9718e4;
-        padding: 0px;
-        transition: all 0.5s;
-    }
-
     .bnt-purple2{
         width: 100%;
         background-color: #9718e4;
@@ -3276,12 +3291,6 @@ figure.zoom img {
    /*------------------------------------
     --------- PRODUCT LIST 1336 ----------
     --------------------------------------*/
-  .productlist-search {
-        font-size: 37px;
-        position: absolute;
-        top: 52px;
-        left: 210px;
-    }
     .product-list-img-circle {
         width: 80px;
     }
@@ -3330,6 +3339,40 @@ figure.zoom img {
         text-shadow:none;
         width: 320px;
         padding: .5rem 1rem!important;
+    }
+
+
+
+    .prodetail-nav-link {
+        display: block;
+        width: 100px;
+        text-align: center;
+        height: 50px;
+        font-size: 22px;
+        color: #e2dfdf!important;
+        padding-top: 15px!important;
+    }
+    .prodetail-nav-link:hover {
+        display: block;
+        width: 100px;
+        text-align: center;
+        height: 50px;
+        font-size: 22px;
+        color: #e2dfdf!important;
+        padding-top: 15px!important;
+    }
+
+    .prodetai-fix-img-nav {
+        position: relative;
+        overflow: hidden;
+        width: 80px;
+        height: 60px;
+        margin-bottom: 40px;
+    }
+    .prodetail-img-bands {
+        position: relative;
+        overflow: hidden;
+        height: 415px;
     }
      /*------------------------------------
      ------- END PRODUCT LIST 1336 --------
@@ -3559,10 +3602,10 @@ figure.zoom img {
     .home-background-article {
         background-position-x: 50%;
         background-position-y: 50%;
-        height: 610px;
+        height: 650px;
         background-repeat: no-repeat;
-        background-size: 100%;
-        margin-top: 60px;
+        background-size: 1370px;
+        margin-top: 45px;
     }
     .home-px-40px-article {
         padding-left: 10px;
@@ -3599,9 +3642,9 @@ figure.zoom img {
         transition: all 0.5s;
     }
     .home-background-category {
-        height: 740px;
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: 1200px;
+        height: 790px;
         background-position-x: 50%;
         background-position-y: 50%;
     }
@@ -3614,6 +3657,17 @@ figure.zoom img {
     .home-card-footer-article {
         border: none;
         background: none;
+        height: 70px;
+    }
+    .home-fix-footer-article {
+        color: #695ff4;
+        overflow: hidden;
+        height: 35px;
+        line-height: 1.6;
+        padding-top: 15px;
+    }
+    .home-fix-head-article {
+        overflow: hidden;
         height: 50px;
     }
     /*--------------------------
@@ -3802,7 +3856,9 @@ figure.zoom img {
         height: 40px;
         margin-left: 1px;
      }
-
+    .profile3-bnt-purple {
+        border: 3px solid #9718e4;
+    }
     .profile-add:hover{
         background-color: #866df6;
         color: #fff;
@@ -3830,28 +3886,6 @@ figure.zoom img {
         height: 50px;
         font-size: 20px;
         color: #fff;
-        border-radius: 0px;
-        border: 3px solid #9718e4;
-        padding: 0px;
-        transition: all 0.5s;
-    }
-
-    .bnt-purple {
-        width: 100%;
-        background-color: #9718e4;
-        height: 50px;
-        font-size: 20px;
-        color: #fff;
-        border-radius: 0px;
-        border: 3px solid #9718e4;
-        padding: 0px;
-    }
-    .bnt-purple:hover {
-        width: 100%;
-        background-color: #fff;
-        height: 50px;
-        font-size: 20px;
-        color: #9718e4;
         border-radius: 0px;
         border: 3px solid #9718e4;
         padding: 0px;
@@ -4142,28 +4176,6 @@ figure.zoom img {
         border:2px solid #b308ea;
     }
 
-    .bnt-purple{
-        width: 100%;
-        background-color: #9718e4;
-        height: 40px;
-        font-size: 18px;
-        color: #fff;
-        border-radius: 0px;
-        border: 3px solid #9718e4;
-        padding: 0px;
-        }
-    .bnt-purple:hover {
-        width: 100%;
-        background-color: #fff;
-        height: 40px;
-        font-size: 18px;
-        color: #9718e4;
-        border-radius: 0px;
-        border: 3px solid #9718e4;
-        padding: 0px;
-        transition: all 0.5s;
-    }
-
     .bnt-purple2{
         width: 100%;
         background-color: #9718e4;
@@ -4321,6 +4333,39 @@ figure.zoom img {
         width: 240px;
         padding: .5rem 1rem!important;
     }
+
+
+
+    .prodetail-img-bands {
+        position: relative;
+        overflow: hidden;
+        height: 310px;
+    }
+    .prodetail-nav-link {
+        display: block;
+        width: 75px;
+        text-align: center;
+        height: 50px;
+        font-size: 22px;
+        color: #e2dfdf!important;
+        padding-top: 15px!important;
+    }
+    .prodetail-nav-link:hover {
+        display: block;
+        width: 75px;
+        text-align: center;
+        height: 50px;
+        font-size: 22px;
+        color: #e2dfdf!important;
+        padding-top: 15px!important;
+    }
+    .prodetai-fix-img-nav {
+        position: relative;
+        overflow: hidden;
+        width: 60px;
+        height: 60px;
+        margin-bottom: 40px;
+    }
     /*-----------------------------
     --- END PRODUCT DETAIL 1024----
     -------------------------------*/
@@ -4344,16 +4389,10 @@ figure.zoom img {
         width: 85%!important;
         border-radius: 0px!important;
     }
-    .productlist-search {
-        font-size: 37px;
-        position: absolute;
-        top: 52px;
-        left: 285px;
-    }
     .productlist-img-footer {
         position: relative;
         overflow: hidden;
-        height: 425px;
+        height: 600px;
     }
     .product-collum {
         max-width: 100%!important;
@@ -4374,6 +4413,17 @@ figure.zoom img {
     .productlist-mt-auto {
         margin: 15px 19px;
         text-align: left;
+    }
+    .productlist-search {
+        border: none;
+        width: 50px;
+        height: 50px;
+        font-size: 18px;
+        background-color: #9718e4;
+        border-radius: 0px;
+        color: #fff;
+        margin-top: 14px;
+        margin-left: -10px;
     }
     /*-----------------------------
     ----- END PRODUCT LIST 1024 ---
@@ -4412,6 +4462,10 @@ figure.zoom img {
         overflow: hidden;
         height: 150px;
         margin-top: 45px;
+    }
+    .cart-head-hidden {
+        overflow: hidden;
+        height: 95px;
     }
     /*-----------------------------
     ------ END CART 1024 ----------
@@ -4526,7 +4580,7 @@ figure.zoom img {
         height: 550px;
         background-repeat: no-repeat;
         margin-top: 30px;
-        margin-bottom: 190px;
+        margin-bottom: 30px;
     }
     .home-px-40px-article {
         padding-left: 0px;
@@ -4578,6 +4632,17 @@ figure.zoom img {
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         text-align: center;
+    }
+    .home-fix-head-article {
+        overflow: hidden;
+        height: 45px;
+    }
+    .home-fix-footer-article {
+        color: #695ff4;
+        overflow: hidden;
+        height: 40px;
+        line-height: 1.6;
+        padding-top: 20px;
     }
     /*--------------------------
     ----- END HOME 768 ---------
@@ -4871,7 +4936,9 @@ figure.zoom img {
         width: 40px;
         height: 40px;
      }
-
+        .profile3-bnt-purple {
+            border: 3px solid #9718e4;
+        }
      .profile-selected {
         border: 2px solid #b308ea;
         border-radius: 0px;
@@ -4905,27 +4972,6 @@ figure.zoom img {
         transition: all 0.5s;
     }
 
-    .bnt-purple {
-        width: 100%;
-        background-color: #9718e4;
-        height: 50px;
-        font-size: 18px;
-        color: #fff;
-        border-radius: 0px;
-        border: 3px solid #9718e4;
-        padding: 0px;
-    }
-    .bnt-purple:hover {
-        width: 100%;
-        background-color: #fff;
-        height: 50px;
-        font-size: 18px;
-        color: #9718e4;
-        border-radius: 0px;
-        border: 3px solid #9718e4;
-        padding: 0px;
-        transition: all 0.5s;
-    }
     /*---------------------------
      --- END PROFILE (1) 768 ----
      ----------------------------*/
@@ -5208,28 +5254,6 @@ figure.zoom img {
         border:2px solid #b308ea;
     }
 
-  .bnt-purple{
-        width: 100%;
-        background-color: #9718e4;
-        height: 40px;
-        font-size: 18px;
-        color: #fff;
-        border-radius: 0px;
-        border: 3px solid #9718e4;
-        padding: 0px;
-    }
-
-    .bnt-purple:hover {
-        width: 100%;
-        background-color: #fff;
-        height: 40px;
-        font-size: 18px;
-        color: #9718e4;
-        border-radius: 0px;
-        border: 3px solid #9718e4;
-        padding: 0px;
-        transition: all 0.5s;
-    }
 
     .bnt-purple2{
         width: 100%;
@@ -5377,6 +5401,44 @@ figure.zoom img {
         margin-left: 20px;
         margin-right: 20px;
     }
+    .prodetail-img-bands {
+        position: relative;
+        overflow: hidden;
+        height: 505px;
+    }
+    .prodetai-fix-img-nav {
+        position: relative;
+        overflow: hidden;
+        width: 70px;
+        height: 60px;
+        margin-bottom: 40px;
+    }
+    .prodetail-nav-link {
+        display: block;
+        width: 90px;
+        text-align: center;
+        height: 50px;
+        font-size: 22px;
+        color: #e2dfdf!important;
+        padding-top: 15px!important;
+        margin-bottom: 25px;
+    }
+    .prodetail-nav-link:hover {
+        display: block;
+        width: 90px;
+        text-align: center;
+        height: 50px;
+        font-size: 22px;
+        color: #e2dfdf!important;
+        padding-top: 15px!important;
+        margin-bottom: 25px;
+
+    }
+    .productlist-img-footer {
+        position: relative;
+        overflow: hidden;
+        height: 500px;
+    }
      /*---------------------------
      --- END PRODUCT DETAIL 768 ---
      -----------------------------*/
@@ -5399,14 +5461,6 @@ figure.zoom img {
         box-shadow: 2px 2px 13px 0px #cecece;
         margin: auto;
     }
-    .productlist-search {
-        font-size: 37px;
-        position: inherit;
-        margin: 30px auto 0px auto;
-        top: 0px;
-        left: unset;
-        right: 0px;
-    }
     .product-collum {
         max-width: 100%!important;
         width: 33.333%!important;
@@ -5426,7 +5480,7 @@ figure.zoom img {
     .productlist-img-footer {
         position: relative;
         overflow: hidden;
-        height: 270px;
+        height: 500px;
     }
     .productlist-mt-auto {
         margin: 15px 0px;
@@ -5434,6 +5488,17 @@ figure.zoom img {
     }
     .productlist-w-90 {
         width: 100%!important;
+    }
+    .productlist-search {
+        border: none;
+        width: 50px;
+        height: 50px;
+        font-size: 18px;
+        background-color: #9718e4;
+        border-radius: 0px;
+        color: #fff;
+        margin-top: 14px;
+        margin-left: -35px;
     }
      /*--------------------------
      --- END PRODUCT LIST 768 ---
@@ -5570,7 +5635,7 @@ figure.zoom img {
         letter-spacing: 0.5px;
     }
     .footer-bottom {
-        margin-bottom: 50px;
+        margin-bottom: 15px;
     }
       .footer-frame {
         overflow: hidden;
@@ -5583,6 +5648,10 @@ figure.zoom img {
         padding-top: 50px;
         padding-bottom: 30px;
         text-align: center;
+    }
+    .footer-facebook-position {
+        padding-left: 16px;
+        padding-right: 16px;
     }
     /*--------------------------
     ------- END FOOTER 414 -----
@@ -5689,23 +5758,25 @@ figure.zoom img {
         height: 100%;
         background-repeat: no-repeat;
         margin-top: 30px;
-        margin-bottom: 190px;
+        margin-bottom: 30px;
         padding-left: 15px;
         padding-right: 15px;
     }
     .home-card-footer-article {
         border: none;
         background: none;
-        height: 50px;
+        height: 60px;
         text-align: center;
     }
     .bnt-adjunct {
-        width: 100%;
-        margin-top: -50px;
+        width: 100%!important;
+        margin-top: -25px;
+        margin-bottom: 30px;
     }
     .bnt-adjunct:hover {
         width: 100%!important;
-        margin-top: -50px;
+        margin-top: -25px;
+        margin-bottom: 30px;
     }
     .flex-img-category {
         position: relative;
@@ -5730,6 +5801,13 @@ figure.zoom img {
         position: relative;
         overflow: hidden;
         height: 220px;
+    }
+    .home-fix-footer-article {
+        color: #695ff4;
+        overflow: hidden;
+        height: 40px;
+        line-height: 1.6;
+        padding-top: 10px;
     }
     /*--------------------------
     ------ END HOME 414 --------
@@ -5989,7 +6067,9 @@ figure.zoom img {
         color: gray;
         text-align: center;
      }
-
+    .profile3-bnt-purple {
+        border: 3px solid #9718e4;
+    }
     .nav-pills .nav-item .active{
         background-color: white;
         font-size: 17px;
@@ -6092,51 +6172,6 @@ figure.zoom img {
         height: 50px;
      }
 
-
-    .bnt-white {
-        width: 100%;
-        background-color: #fff;
-        height: 50px;
-        font-size: 18px;
-        color: #9718e4;
-        border-radius: 0px;
-        border: 3px solid #9718e4;
-        padding: 0px;
-        transition: all 0.5s;
-    }
-    .bnt-white:hover {
-        width: 100%;
-        background-color: #9718e4;
-        height: 50px;
-        font-size: 18px;
-        color: #fff;
-        border-radius: 0px;
-        border: 3px solid #9718e4;
-        padding: 0px;
-        transition: all 0.5s;
-    }
-
-    .bnt-purple {
-        width: 100%;
-        background-color: #9718e4;
-        height: 50px;
-        font-size: 18px;
-        color: #fff;
-        border-radius: 0px;
-        border: 3px solid #9718e4;
-        padding: 0px;
-    }
-    .bnt-purple:hover {
-        width: 100%;
-        background-color: #fff;
-        height: 50px;
-        font-size: 18px;
-        color: #9718e4;
-        border-radius: 0px;
-        border: 3px solid #9718e4;
-        padding: 0px;
-        transition: all 0.5s;
-    }
     /*---------------------------
      --- END PROFILE (1) 414 ----
      ----------------------------*/
@@ -6431,28 +6466,6 @@ figure.zoom img {
         border:2px solid #b308ea;
     }
 
-  .bnt-purple{
-        width: 100%;
-        background-color: #9718e4;
-        height: 40px;
-        font-size: 18px;
-        color: #fff;
-        border-radius: 0px;
-        border: 3px solid #9718e4;
-        padding: 0px;
-        }
-    .bnt-purple:hover {
-        width: 100%;
-        background-color: #fff;
-        height: 40px;
-        font-size: 18px;
-        color: #9718e4;
-        border-radius: 0px;
-        border: 3px solid #9718e4;
-        padding: 0px;
-        transition: all 0.5s;
-    }
-
     .bnt-purple2{
         width: 100%;
         background-color: #9718e4;
@@ -6476,29 +6489,6 @@ figure.zoom img {
         transition: all 0.5s;
     }
 
-    .bnt-white {
-         width: 100%;
-         background-color: #fff;
-        height: 50px;
-        font-size: 22px;
-        color: #9718e4;
-        border-radius: 0px;
-        border: 3px solid #9718e4;
-        padding: 0px;
-        transition: all 0.5s;
-    }
-
-    .bnt-white:hover {
-        width: 100%;
-        background-color: #9718e4;
-        height: 50px;
-        font-size: 22px;
-        color: #fff;
-        border-radius: 0px;
-        border: 3px solid #9718e4;
-        padding: 0px;
-        transition: all 0.5s;
-    }
 
     .pay-btn2{
         width: 200px;
@@ -6636,6 +6626,33 @@ figure.zoom img {
         display: -webkit-inline-box;
         margin: 35px 70px;
     }
+    .prodetail-nav-link {
+        display: block;
+        width: 70px;
+        text-align: center;
+        height: 50px;
+        font-size: 22px;
+        color: #e2dfdf!important;
+        padding-top: 15px!important;
+        margin-bottom: 25px;
+    }
+    .prodetail-nav-link:hover {
+        display: block;
+        width: 70px;
+        text-align: center;
+        height: 50px;
+        font-size: 22px;
+        color: #e2dfdf!important;
+        padding-top: 15px!important;
+        margin-bottom: 25px;
+    }
+    .prodetai-fix-img-nav {
+        position: relative;
+        overflow: hidden;
+        width: 60px;
+        height: 60px;
+        margin-bottom: 40px;
+    }
     /*----------------------------
     --- END PRODUCT DETAIL 414 ----
     ------------------------------*/
@@ -6654,14 +6671,6 @@ figure.zoom img {
         border: none;
         box-shadow: 2px 2px 13px 0px #cecece;
         margin: auto;
-    }
-    .productlist-search {
-        font-size: 37px;
-        position: inherit;
-        margin: 30px auto 0px auto;
-        top: 0px;
-        left: unset;
-        right: 0px;
     }
     .product-collum {
         max-width: 100%!important;
@@ -6687,6 +6696,32 @@ figure.zoom img {
     .productlist-mt-auto {
         margin: 15px 0px;
         text-align: left;
+    }
+    .productlist-search {
+        border: none;
+        width: 135px;
+        height: 50px;
+        font-size: 18px;
+        background-color: #9718e4;
+        border-radius: 0px;
+        color: #fff;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .productlist-page-link {
+        position: relative;
+        display: block;
+        padding: .5rem .75rem;
+        margin: 0px 10px;
+        font-size: 24px;
+        margin-left: -1px;
+        line-height: 1.25;
+        color: #fff;
+        background-color: #9718e4;
+        border: none;
+        width: 45px;
+        height: 45px;
+        text-align: center;
     }
      /*--------------------------
      --- END PRODUCT LIST 414 ---
@@ -6775,6 +6810,10 @@ figure.zoom img {
     .cart-ml-45 {
         margin-right: 10px;
     }
+    .cart-head-hidden {
+        overflow: hidden;
+        height: 80px;
+    }
     /*----------------------------
     ------- END CART 414 ---------
     ------------------------------*/
@@ -6829,6 +6868,15 @@ figure.zoom img {
         line-height: 30px;
         letter-spacing: 0.5px;
         font-size: 15px;
+    }
+    .footer-facebook-position {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .footer-font-social {
+        font-size: 35px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     /*--------------------------
     ------ END FOOTER 375 ------
@@ -6908,7 +6956,12 @@ figure.zoom img {
     .bnt-adjunct {
         width: 100%;
         height: 50px;
-        margin-top: -50px;
+        margin-top: -25px;
+    }
+    .bnt-adjunct:hover {
+        width: 100%;
+        height: 50px;
+        margin-top: -25px;
     }
     /*--------------------------
     ------ END HOME 375 --------
@@ -6991,51 +7044,6 @@ figure.zoom img {
     }
 
 
-     .bnt-white {
-        width: 100%;
-        background-color: #fff;
-        height: 50px;
-        font-size: 16px;
-        color: #9718e4;
-        border-radius: 0px;
-        border: 3px solid #9718e4;
-        padding: 0px;
-        transition: all 0.5s;
-    }
-    .bnt-white:hover {
-        width: 100%;
-        background-color: #9718e4;
-        height: 50px;
-        font-size: 16px;
-        color: #fff;
-        border-radius: 0px;
-        border: 3px solid #9718e4;
-        padding: 0px;
-        transition: all 0.5s;
-    }
-
-    .bnt-purple {
-        width: 100%;
-        background-color: #9718e4;
-        height: 50px;
-        font-size: 16px;
-        color: #fff;
-        border-radius: 0px;
-        border: 3px solid #9718e4;
-        padding: 0px;
-    }
-    .bnt-purple:hover {
-        width: 100%;
-        background-color: #fff;
-        height: 50px;
-        font-size: 16px;
-        color: #9718e4;
-        border-radius: 0px;
-        border: 3px solid #9718e4;
-        padding: 0px;
-        transition: all 0.5s;
-    }
-
     .profile-nav-link {
         text-align: center;
         font-size: 17px;
@@ -7066,7 +7074,9 @@ figure.zoom img {
         height: 40px;
         margin-left: 270px;
      }
-
+    .profile3-bnt-purple {
+        border: 3px solid #9718e4;
+    }
     .profile-add:hover{
         background-color: #866df6;
         color: #fff;
@@ -7237,7 +7247,7 @@ figure.zoom img {
     -------------------------------*/
     .prodetail-inline-text {
         display: -webkit-inline-box;
-        margin: 35px 50px;
+        margin: 0px 50px;
     }
     .prodetail-menu {
         background-color: #cecece;
@@ -7265,6 +7275,38 @@ figure.zoom img {
         letter-spacing: 0px;
         text-align: center;
         line-height: 2;
+    }
+    .prodetail-img-bands {
+        position: relative;
+        overflow: hidden;
+        height: 270px;
+    }
+    .prodetail-nav-link {
+        display: block;
+        width: 50px;
+        text-align: center;
+        height: 50px;
+        font-size: 22px;
+        color: #e2dfdf!important;
+        padding-top: 15px!important;
+        margin-bottom: 25px;
+    }
+    .prodetail-nav-link:hover {
+        display: block;
+        width: 50px;
+        text-align: center;
+        height: 50px;
+        font-size: 22px;
+        color: #e2dfdf!important;
+        padding-top: 15px!important;
+        margin-bottom: 25px;
+    }
+    .prodetai-fix-img-nav {
+        position: relative;
+        overflow: hidden;
+        width: 48px;
+        height: 60px;
+        margin-bottom: 10px;
     }
     /*-----------------------------
     --- END PRODUCT DETAIL 375 ------
@@ -7311,14 +7353,18 @@ figure.zoom img {
     /*------------------------------
     ------ ORDER SUBMIT 375 --------
     --------------------------------*/
-    .order-text-set-h {
-        font-size: 18px;
-        font-weight: 600;
-        word-spacing: 5px;
-    }
     .order-text-set-b {
         font-size: 16px;
         font-weight: 500;
+    }
+    .cart-head-hidden {
+        overflow: hidden;
+        height: 75px;
+    }
+    .cart-icon-color {
+        font-size: 50px;
+        color: #9718e4;
+        margin-left: 30px;
     }
     /*------------------------------
     --- END ORDER SUBMIT 375 --------
@@ -7366,27 +7412,6 @@ figure.zoom img {
     /*--------------------------
      --------- PAY 375 ---------
      ----------------------------*/
-    .bnt-purple{
-        width: 100%;
-        background-color: #9718e4;
-        height: 40px;
-        font-size: 18px;
-        color: #fff;
-        border-radius: 0px;
-        border: 3px solid #9718e4;
-        padding: 0px;
-        }
-    .bnt-purple:hover {
-        width: 100%;
-        background-color: #fff;
-        height: 40px;
-        font-size: 18px;
-        color: #9718e4;
-        border-radius: 0px;
-        border: 3px solid #9718e4;
-        padding: 0px;
-        transition: all 0.5s;
-    }
 
     .bnt-purple2{
         width: 100%;
@@ -7517,6 +7542,54 @@ figure.zoom img {
      ----- END BRANDS 320 -------
      ----------------------------*/
 
+      /*--------------------------
+      ------------ HOME 320 -------
+      -----------------------------*/
+        .flex-img-article {
+            position: relative;
+            overflow: hidden;
+            height: 160px;
+        }
+        .font-respon {
+            font-size: 20px;
+        }
+
+
+        .home-text-article {
+            color: #636363;
+            overflow: hidden;
+            height: 105px;
+            letter-spacing: 0px;
+            font-size: 14px;
+        }
+        .home-text-article {
+            color: #636363;
+            overflow: hidden;
+            height: 105px;
+            letter-spacing: 0px;
+            font-size: 14px;
+        }
+        .home-card-footer-article {
+            border: none;
+            background: none;
+            height: 80px;
+            text-align: center;
+            padding-top: 35px;
+        }
+        .overlay-img {
+            position: relative;
+            overflow: hidden;
+            height: 280px;
+            width: 100%;
+        }
+        .flex-carousel-img {
+            position: relative;
+            overflow: hidden;
+            height: 117px;
+        }
+      /*--------------------------
+      -------- END HOME 320 -------
+      -----------------------------*/
 
     /*--------------------------
      ------ PROFILE(1) 320 ------
@@ -7579,51 +7652,6 @@ figure.zoom img {
         width: 30px;
         height: 30px;
      }
-
-     .bnt-white {
-        width: 100%;
-        background-color: #fff;
-        height: 50px;
-        font-size: 16px;
-        color: #9718e4;
-        border-radius: 0px;
-        border: 3px solid #9718e4;
-        padding: 0px;
-        transition: all 0.5s;
-    }
-    .bnt-white:hover {
-        width: 100%;
-        background-color: #9718e4;
-        height: 50px;
-        font-size: 16px;
-        color: #fff;
-        border-radius: 0px;
-        border: 3px solid #9718e4;
-        padding: 0px;
-        transition: all 0.5s;
-    }
-
-    .bnt-purple {
-        width: 100%;
-        background-color: #9718e4;
-        height: 50px;
-        font-size: 16px;
-        color: #fff;
-        border-radius: 0px;
-        border: 3px solid #9718e4;
-        padding: 0px;
-    }
-    .bnt-purple:hover {
-        width: 100%;
-        background-color: #fff;
-        height: 50px;
-        font-size: 16px;
-        color: #9718e4;
-        border-radius: 0px;
-        border: 3px solid #9718e4;
-        padding: 0px;
-        transition: all 0.5s;
-    }
 
      .profile-form{
         border: 2px solid #b308ea;
@@ -7791,7 +7819,9 @@ figure.zoom img {
         color :#AEB6BF;
         margin-left: 60px;
      }
-
+    .profile3-bnt-purple {
+        border: 3px solid #9718e4;
+    }
     .profile3-dec{
         background-color: #fff;
         color:gray;
@@ -7934,6 +7964,21 @@ figure.zoom img {
         display: -webkit-inline-box;
         margin: 35px 25px;
     }
+    .productlist-page-link {
+        position: relative;
+        display: block;
+        padding: .5rem .75rem;
+        margin: 0px 5px;
+        font-size: 18px;
+        margin-left: -1px;
+        line-height: 1.25;
+        color: #fff;
+        background-color: #9718e4;
+        border: none;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+    }
     /*----------------------------------
     ------ END PRODUCT LIST 320 --------
     ------------------------------------*/
@@ -7975,7 +8020,7 @@ figure.zoom img {
     ------ END PRODUCT DETAIL 320 ------
     -----------------------------------*/
     /*------------------------------
-    ------ ORDER SUBMIT 375 --------
+    ------ ORDER SUBMIT 320 --------
     --------------------------------*/
     .order-text-set-h {
         font-size: 16px;
@@ -7992,10 +8037,10 @@ figure.zoom img {
     }
 
     /*------------------------------
-    --- END ORDER SUBMIT 375 --------
+    --- END ORDER SUBMIT 320 --------
     --------------------------------*/  
     /*------------------------------
-    ------------ CART 375 ----------
+    ------------ CART 320 ----------
     --------------------------------*/
     .flex-img-cart {
         position: relative;
@@ -8006,7 +8051,7 @@ figure.zoom img {
     }
     .cart-inline-text414 {
         display: -webkit-box;
-        margin: 0px 70px;
+        margin: 0px 38px;
     }
     .cart-ml-50 {
         margin-left: 50px;
@@ -8020,6 +8065,17 @@ figure.zoom img {
     .cart-ml-50 {
         margin-left: 30px;
     }
+    .cart-icon-color {
+        font-size: 50px;
+        color: #9718e4;
+        margin-left: 15px;
+    }
+    .cart-shipping {
+        font-size: 18px;
+        margin-top: 23px;
+        margin-left: 5px;
+        font-weight: 500;
+    }
     /*------------------------------
     ---------- END CART 375 --------
     --------------------------------*/
@@ -8028,28 +8084,6 @@ figure.zoom img {
     /*---------------------------
      --------- PAY 320 ----------
      ----------------------------*/
-    .bnt-purple{
-        width: 100%;
-        background-color: #9718e4;
-        height: 40px;
-        font-size: 18px;
-        color: #fff;
-        border-radius: 0px;
-        border: 3px solid #9718e4;
-        padding: 0px;
-        }
-    .bnt-purple:hover {
-        width: 100%;
-        background-color: #fff;
-        height: 40px;
-        font-size: 18px;
-        color: #9718e4;
-        border-radius: 0px;
-        border: 3px solid #9718e4;
-        padding: 0px;
-        transition: all 0.5s;
-    }
-
     .bnt-purple2{
         width: 100%;
         background-color: #9718e4;

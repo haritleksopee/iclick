@@ -31,9 +31,6 @@
       <li>
         <a href="#" class="mt-3"><img src="assets/images/Nationnal/england.png" class="logo-frame-national"></a>
       </li>
-      <li>
-        <a href="#" class="mt-3"><img src="assets/images/Nationnal/chai.jpg" class="logo-frame-national"></a>
-      </li>
     </ul>
   </div>
 

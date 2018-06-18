@@ -121,7 +121,7 @@
                            <div class="row mt-3">
                                  <div class="col-xl-4"></div>
                                  <div class="col-xl-6">
-                                       <button type="button" class="bnt-purple">LOGIN</button>
+                                       <button type="button" class="bnt-purple2">LOGIN</button>
                                  </div>
                                  <div class="col-xl-2"></div>
                            </div>

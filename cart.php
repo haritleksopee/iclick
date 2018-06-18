@@ -39,7 +39,7 @@
               </div>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-7 col-12 cart-set-line ">
-              <div class="order-text-set-h text-md-left text-center order-mt-1024">
+              <div class="order-text-set-h text-md-left text-center order-mt-1024 cart-head-hidden">
                 <label class="text-dark-purple">พาวเวอร์แบงค์ ชาร์จเร็ว M2 12000mAh หลากสี</label>
               </div>
               <div class="order-text-set-b text-md-left text-center">
@@ -113,7 +113,7 @@
               </div>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-7 col-12 cart-set-line ">
-              <div class="order-text-set-h text-md-left text-center order-mt-1024">
+              <div class="order-text-set-h text-md-left text-center order-mt-1024 cart-head-hidden">
                 <label class="text-dark-purple">พาวเวอร์แบงค์ ชาร์จเร็ว M2 12000mAh หลากสี</label>
               </div>
               <div class="order-text-set-b text-md-left text-center">

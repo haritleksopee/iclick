@@ -28,7 +28,7 @@
                          </a>
                      </div>
                      <div class="mt-4">
-                         <button class="bnt-purple">เลือก</button>
+                         <button class="bnt-purple2">เลือก</button>
                      </div>
                 </div>           
                 <div class="col-xl-3 col-lg-4 col-md-6 mt-4">
@@ -38,7 +38,7 @@
                          </a>
                      </div>
                      <div class="mt-4">
-                         <button class="bnt-purple">เลือก</button>
+                         <button class="bnt-purple2">เลือก</button>
                      </div>
                 </div>       
                 <div class="col-xl-3 col-lg-4 col-md-6 mt-4">
@@ -48,7 +48,7 @@
                          </a>
                      </div>
                      <div class="mt-4">
-                         <button class="bnt-purple">เลือก</button>
+                         <button class="bnt-purple2">เลือก</button>
                      </div>
                 </div>          
                 <div class="col-xl-3 col-lg-4 col-md-6 mt-4">
@@ -58,7 +58,7 @@
                          </a>
                      </div>
                      <div class="mt-4">
-                         <button class="bnt-purple">เลือก</button>
+                         <button class="bnt-purple2">เลือก</button>
                      </div>
                 </div>
             </div>

@@ -44,84 +44,65 @@
           <div class="row mb-5">
             
               
-              <div class="col-xl-5 col-12">
-                <div class="row">
-                  <div class="col-4">
-                    <div class="card product-list-circle">
-                      <div class="card-body">
-                        <img src="assets/images/slide/lace.png" class="product-list-img-circle">
-                      </div>
-                    </div>
+              <div class="col-md col-12">
+                <div class="form-group row">
+                  <div class="col-12 text-lg-left text-center">
+                    <label class="col-form-label">หมวดหลักสินค้า</label>
                   </div>
-                  <div class="col-4">
-                    <div class="card product-list-circle">
-                      <div class="card-body">
-                        <img src="assets/images/slide/crown.png" class="product-list-img-circle">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-4">
-                    <div class="card product-list-circle">
-                      <div class="card-body">
-                        <img src="assets/images/slide/photos-naja.png" class="product-list-img-circle">
-                      </div>
-                    </div>
+                  <div class="col-12">
+                    <select class="profile-form signup-select">
+                    <option></option>
+                    <option>หูฟัง</option>
+                    <option>ลำโพง</option>
+                    </select>
                   </div>
                 </div>
               </div>
 
-
-
-              <div class="col-xl-7 col-12">
-                <div class="row">
-                  <div class="col-lg-4 col-12">
-                    <div class="form-group row productlist-mt-auto">
-                      <div class="col-12 text-lg-left text-center">
-                        <label class="col-form-label">หมวดหลักสินค้า</label>
-                      </div>
-                      <div class="col-12">
-                        <select class="profile-form signup-from-select signup-select productlist-w-90">
-                            <option></option>
-                            <option>หูฟัง</option>
-                            <option>ลำโพง</option>
-                        </select>
-                      </div>
-                    </div>
+              <div class="col-md col-12">
+                <div class="form-group row">
+                  <div class="col-12 text-lg-left text-center">
+                    <label class="col-form-label">หมวดย่อยสินค้า</label>
                   </div>
-                  <div class="col-lg-4 col-12">
-                    <div class="form-group row productlist-mt-auto">
-                      <div class="col-12 text-lg-left text-center">
-                        <label class="col-form-label">หมวดย่อยสินค้า</label>
-                      </div>
-                      <div class="col-12">
-                        <select class="profile-form signup-from-select signup-select productlist-w-90">
-                            <option></option>
-                            <option>หูฟัง</option>
-                            <option>ลำโพง</option>
-                        </select>
-                      </div>
-                    </div>
+                  <div class="col-12">
+                    <select class="profile-form signup-select">
+                    <option></option>
+                    <option>หูฟัง</option>
+                    <option>ลำโพง</option>
+                    </select>
                   </div>
-                  <div class="col-lg-4 col-12">
-                    <div class="form-group row productlist-mt-auto">
-                      <div class="col-12 text-lg-left text-center">
-                        <label class="col-form-label">แบรนด์</label>
-                      </div>
-                      <div class="col-12">
-                        <select class="profile-form signup-from-select signup-select productlist-w-90">
-                            <option></option>
-                            <option>หูฟัง</option>
-                            <option>ลำโพง</option>
-                        </select>
-                      </div>
-
-                      <a href="#" class="productlist-search" style="color: #b307ea;"><i class="fa fa-search" aria-hidden="true"></i></a>
-
-                    </div>
-                  </div>
-
-
                 </div>
+              </div>
+
+              <div class="col-md col-12">
+                <div class="form-group row">
+                  <div class="col-12 text-lg-left text-center">
+                    <label class="col-form-label">แบรนด์</label>
+                  </div>
+                  <div class="col-12">
+                    <select class="profile-form signup-select">
+                    <option></option>
+                    <option>หูฟัง</option>
+                    <option>ลำโพง</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-1 col-12 px-0">
+                <div class="form-group row">
+                  <div class="col-12 text-lg-left text-center">
+                    <label class="col-form-label"></label>
+                  </div>
+                  <div class="col-12">
+                    <div class="text-md-right text-center px-3">
+                      <button type="button" class="btn productlist-search">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
               </div>
           </div>
 
@@ -722,12 +703,31 @@
                   </div>
                 </div>
               </div>
-              <div class="col-12">
-                  <div class="text-center mt-3">
-                    <button type="button" class="btn bnt-purple bnt-adjunct">แสดงเพิ่มเติม</button>
-                  </div>
-              </div>
             </div> 
+
+            <div class="row">
+              <div class="col-12">
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination justify-content-center">
+                    <li class="page-item">
+                      <a class="productlist-page-link" href="#" tabindex="-1">
+                        <i class="fa fa-caret-left" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li class="page-item"><a class="productlist-page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="productlist-page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="productlist-page-link" href="#">3</a></li>
+                    <li class="page-item">
+                      <a class="productlist-page-link" href="#">
+                        <i class="fa fa-caret-right" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>                
+              </div>
+            </div>
+
+
 
 
             <div class="row productlist-my-5 ">

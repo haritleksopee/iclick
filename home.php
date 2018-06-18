@@ -282,14 +282,16 @@
                 <div class="text-center flex-line-home home-top-45px">
                   <img src="assets/images/home/2-iclick_home.png" class="home-img-bands" style="width: 320px;">
                 </div>
-                <div class="text-center mt-45px">
+                <div class="text-center text-white mt-45px">
                   <h1>หมวดหมู่สินค้า</h1>
                 </div>
               </div>
               <div class="row home-category-top-respon" style="margin-top: 40px;">
                 <div class="col-2-half">
                   <div class="flex-img-category">
-                    <img src="assets/images/product/case-400x400.png" class="home-img-bands">
+                    <a href="#">
+                      <img src="assets/images/product/case-400x400.png" class="home-img-bands">
+                    </a>
                   </div>
                   <div class="mt-3">
                     <button type="button" class="btn bnt-purple" style="width: 100%;">เคสไอโฟน</button>
@@ -297,7 +299,9 @@
                 </div>
                 <div class="col-2-half">
                   <div class="flex-img-category">
-                    <img src="assets/images/product/powerbank-400x400.png" class="home-img-bands">
+                    <a href="#">
+                      <img src="assets/images/product/powerbank-400x400.png" class="home-img-bands">
+                    </a>
                   </div>
                   <div class="mt-3">
                     <button type="button" class="btn bnt-purple" style="width: 100%;">พาวเวอร์แบงค์</button>
@@ -305,7 +309,9 @@
                 </div>
                 <div class="col-2-half">
                   <div class="flex-img-category">
-                    <img src="assets/images/product/cable-400x400.png" class="home-img-bands">
+                    <a href="#">
+                      <img src="assets/images/product/cable-400x400.png" class="home-img-bands">
+                    </a>
                   </div>
                   <div class="mt-3">
                     <button type="button" class="btn bnt-purple" style="width: 100%;">สายชาร์จ</button>
@@ -313,7 +319,9 @@
                 </div>
                 <div class="col-2-half">
                   <div class="flex-img-category">
-                    <img src="assets/images/product/card-reader-background-400x400.jpg" class="home-img-bands">
+                    <a href="#">
+                      <img src="assets/images/product/card-reader-background-400x400.jpg" class="home-img-bands">
+                    </a>
                   </div>
                   <div class="mt-3">
                     <button type="button" class="btn bnt-purple" style="width: 100%;">เมมโมรี การ์ด</button>
@@ -321,7 +329,9 @@
                 </div>
                 <div class="col-2-half">
                   <div class="flex-img-category">
-                    <img src="assets/images/product/adayer-400x400.png" class="home-img-bands">
+                    <a href="#">
+                      <img src="assets/images/product/adayer-400x400.png" class="home-img-bands">
+                    </a>
                   </div>
                   <div class="mt-3">
                     <button type="button" class="btn bnt-purple" style="width: 100%;">อแดปเตอร์</button>
@@ -778,7 +788,7 @@
             </div>
             <div class="col-12">
               <div class="text-center ">
-                <button type="button" class="btn bnt-purple bnt-adjunct">เพิ่มเติม</button>
+                <button type="button" class="btn bnt-purple bnt-adjunct">ดูทั้งหมด</button>
               </div>
             </div>
           </div> 
@@ -811,13 +821,15 @@
                         </div>
                       </div>
                       <div class="card-body home-card-body-article">
-                        <h3 class="text-dark-purple font-respon">What is Lorem Ipsum?</h3>
+                        <div class="home-fix-head-article">
+                          <h3 class="text-dark-purple font-respon">What is Lorem Ipsum?</h3>
+                        </div>
                         <div class="home-text-article">
                           <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                         </div>
                       </div>
                       <div class="card-footer home-card-footer-article">
-                        <div style="color: #695ff4;">
+                        <div class="home-fix-footer-article">
                           <p>2018-05-20</p>
                         </div>
                       </div>
@@ -834,13 +846,15 @@
                         </div>
                       </div>
                       <div class="card-body home-card-body-article">
-                        <h3 class="text-dark-purple font-respon">What is Lorem Ipsum?</h3>
+                        <div class="home-fix-head-article">
+                          <h3 class="text-dark-purple font-respon">What is Lorem Ipsum?</h3>
+                        </div>
                         <div class="home-text-article">
                           <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                         </div>
                       </div>
                       <div class="card-footer home-card-footer-article">
-                        <div style="color: #695ff4;">
+                        <div class="home-fix-footer-article">
                           <p>2018-05-20</p>
                         </div>
                       </div>
@@ -857,13 +871,15 @@
                         </div>
                       </div>
                       <div class="card-body home-card-body-article">
-                        <h3 class="text-dark-purple font-respon">What is Lorem Ipsum?</h3>
+                        <div class="home-fix-head-article">
+                          <h3 class="text-dark-purple font-respon">What is Lorem Ipsum?</h3>
+                        </div>
                         <div class="home-text-article">
                           <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                         </div>
                       </div>
                       <div class="card-footer home-card-footer-article">
-                        <div style="color: #695ff4;">
+                        <div class="home-fix-footer-article">
                           <p>2018-05-20</p>
                         </div>
                       </div>
@@ -872,7 +888,7 @@
                 </div>                
                 <div class="col-12">
                   <div class="text-center mt-3">
-                    <button type="button" class="btn bnt-purple bnt-adjunct" style="border: none;">แสดงเพิ่มเติม</button>
+                    <button type="button" class="btn bnt-purple bnt-adjunct" style="border: none;">ดูทั้งหมด</button>
                   </div>
                 </div>
               </div>

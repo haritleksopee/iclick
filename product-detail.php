@@ -33,13 +33,74 @@
 
         <!-- PRODUCT SHOW -->
         <div class="row">
+
+
+
+
           <div class="col-lg-5 col-12 mb-4">
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-img1" role="tabpanel" aria-labelledby="pills-img1-tab">
+                <div class="prodetail-img-bands">
+                  <figure class="zoom" onmousemove="zoom(event)" style="background-image: url(assets/images/slide/Slider-02.png)">
+                    <img src="assets/images/slide/Slider-02.png" />
+                  </figure>
+                </div>  
+              </div>
+              <div class="tab-pane fade" id="pills-img2" role="tabpanel" aria-labelledby="pills-img2-tab">
+                <div class="prodetail-img-bands">
+                  <figure class="zoom" onmousemove="zoom(event)" style="background-image: url(assets/images/slide/Slider-02.png)">
+                    <img src="assets/images/slide/Slider-02.png" />
+                  </figure>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-img3" role="tabpanel" aria-labelledby="pills-img3-tab">
+                <div class="prodetail-img-bands">
+                  <figure class="zoom" onmousemove="zoom(event)" style="background-image: url(assets/images/slide/Slider-02.png)">
+                    <img src="assets/images/slide/Slider-02.png" />
+                  </figure>
+                </div>
+              </div>
+            </div>
+
+<!-- 
             <div class="prodetail-img-bands">
               <figure class="zoom" onmousemove="zoom(event)" style="background-image: url(assets/images/slide/Slider-02.png)">
                 <img src="assets/images/slide/Slider-02.png" />
               </figure>
             </div>
+ -->
+
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link prodetail-nav-link active" id="pills-img1-tab" data-toggle="pill" href="#pills-img1" role="tab" aria-controls="pills-img1" aria-selected="true">
+                  <div class="prodetai-fix-img-nav">
+                    <img src="assets/images/slide/Slider-02.png" class="prodetail-img-fix-center" />
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link prodetail-nav-link" id="pills-img2-tab" data-toggle="pill" href="#pills-img2" role="tab" aria-controls="pills-img2" aria-selected="false">
+                  <div class="prodetai-fix-img-nav">
+                   <img src="assets/images/slide/Slider-02.png" class="prodetail-img-fix-center" />
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link prodetail-nav-link" id="pills-img3-tab" data-toggle="pill" href="#pills-img3" role="tab" aria-controls="pills-img3" aria-selected="false">
+                  <div class="prodetai-fix-img-nav">
+                   <img src="assets/images/slide/Slider-02.png" class="prodetail-img-fix-center" />
+                  </div>
+                </a>
+              </li>
+            </ul>
+
           </div>
+
+
+
+
+
+
           <div class="col-lg-7 col-12 mb-4">
               
               <div class="row">
@@ -152,12 +213,12 @@
                 </li>
               </ul>
               <div class="tab-content" id="pills-tabContent">
-                <div class="tab-pane fade show active prodetail-menu-contentfix" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
+                <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
                   <div class="text-secondary prodetail-font20">
                       <p>เพื่อเพิ่มขุมพลังงานการรีชาร์จพลังให้กับอุปกรณ์พกพาต่างๆของคุณ ให้พร้อมใช้งานอยู่เสมอแม้จะอยู่นอกบ้านก็สามารถชาร์จได้สะดวก ทุกสถานที่ ด้วยแบตเตอรี่สำรอง รุ่น GEO METRIC ของ Energy Premium ที่มีความจุ 8,000mAh ปล่อยกระแสไฟออกสูงสุด 1A มีพอร์ตชาร์จ USB 1 พอร์ต สามารถใช้งานได้เฉพาะสมาร์ทโฟน iPhone หรือเครื่องเล่นเพลงพกพา ที่ใช้กำลังไฟในการชาร์จเข้า 1A เหมาะสำหรับพกพาติดตัวไปในสถานที่ต่างๆได้อย่างสะดวกสบาย ด้วยขนาดที่เล็กกระทัดรัด พร้อมมีไฟบอกระดับแบตเตอรี่กับไฟ LED ที่เป็นไฟฉายในตัว มีให้เลือกด้วยกัน 3 สี ได้แก่ สีดำ, สีขาว และสีฟ้า</p>
                   </div>
                 </div>
-                <div class="tab-pane fade prodetail-menu-contentfix" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
+                <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
                   <div class="text-secondary prodetail-font20">
                     <p class="prodetail-mb-0">- ชนิดแบตเตอรี่ : Lithium Polymer</p>
                     <p class="prodetail-mb-0">- กระแสไฟชาร์จเข้า : DC 5V-2.1A</p>
@@ -168,7 +229,7 @@
                     <p class="prodetail-mb-0">- Port สำหรับชาร์จไฟเข้า แบบ Micro USB (Android) สะดวกสำหรับคนที่มีสายชาร์จแบบ Micro USB (Android)</p>
                   </div>
                 </div>
-                <div class="tab-pane fade prodetail-menu-contentfix" id="pills-3" role="tabpanel" aria-labelledby="pills-3-tab">
+                <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="pills-3-tab">
                   <div class="text-secondary prodetail-font20">
                     <p>6 เดือน</p>
                   </div>

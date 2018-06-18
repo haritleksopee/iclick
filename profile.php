@@ -182,7 +182,7 @@
                           <button type="button" class="bnt-white mt-4">ยกเลิก</button>
                        </div>
                        <div class="col-xl-2 col-lg-3  col-md-4">
-                          <button type="button" class="bnt-purple mt-4">ยืนยันข้อมูล</button>
+                          <button type="button" class="bnt-purple profile3-bnt-purple mt-4">ยืนยันข้อมูล</button>
                        </div>
                 </div>
           </div>
