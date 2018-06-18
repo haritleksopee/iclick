@@ -101,9 +101,23 @@ a:hover{
     text-shadow: 13px 7px 17px #0000008c;
     font-size: 27px;
     font-weight: 500;
-    transition: all 0.8s;
+    transition: all 0.2s;
     padding-top: 2px;
 }
+
+.nav-link-active {
+    display: block;
+    width: 190px!important;
+    text-align: center!important;
+    height: 50px!important;
+    color: #e2dfdf!important;
+    text-shadow: 13px 7px 17px #0000008c!important;
+    font-size: 27px!important;
+    font-weight: 500!important;
+    padding-top: 2px!important;
+}
+
+
 
 .nav-border-right {
     border-right: 1px solid #e2dfdf;
@@ -242,7 +256,9 @@ a:hover{
     line-height: 35px;
     letter-spacing: 0.5px;
 }
-
+.footer-icon-size {
+    font-size: 30px;
+}
 /*----------- END FOOTER --------------------*/
 
 
@@ -356,7 +372,7 @@ a:hover{
   width: 100%;
   opacity: 0;
   transition: 1s ease;
-  background-color: #76767794;
+  background-color: #767677e0;
   cursor: pointer;
 }
 
@@ -392,6 +408,7 @@ a:hover{
 }
 .bnt-purple {
     width: 100%;
+    overflow: hidden;
     background-color: #9718e4;
     height: 50px;
     font-size: 24px;
@@ -402,6 +419,7 @@ a:hover{
 }
 .bnt-purple:hover {
     width: 100%;
+    overflow: hidden;
     background-color: #fff;
     height: 50px;
     font-size: 24px;
@@ -505,9 +523,22 @@ a:hover{
 .login-top-1{
    margin-top: -8px;
 }
-
-
-
+.login-facebook-text {
+    margin-right: 0px;
+    font-size: 20px;
+}
+.login-facebook-icon {
+    margin-right: 15px;
+    font-size: 20px;
+}
+.login-gmail-text {
+    margin-right: 25px;
+    font-size: 20px;
+}
+.login-gmail-icon {
+    margin-right: 15px;
+    font-size: 20px;
+}
 /*-------------------------------------
 -----------------login-----------------
 ---------------------------------------*/
@@ -644,11 +675,11 @@ a:hover{
    width: 100%; 
      
 } 
- .art_text_h {
+.art_text_h {
     color: #6d5af3;
     font-size: 25px;
     overflow: hidden;
-    height: 64px;
+    height: 30px;
 }
 .art_color{
    color: #b4b4b4;
@@ -1171,6 +1202,7 @@ a:hover{
     top: 325px;
     left: 140px;
 }
+
 .baner-photos {
     top: 325px;
     left: 360px;
@@ -1382,10 +1414,10 @@ a:hover{
      font-size: 17px;
 }
 .signup-btn-size-300 {
-    width: 300px;
+    width: 300px!important;
 }
 .signup-btn-size-300:hover {
-    width: 300px;
+    width: 300px!important;
 }
 .signup-btn-border-none {
    border: none;
@@ -1918,29 +1950,30 @@ a:hover{
     display: block;
     padding: .5rem .75rem;
     margin: 0px 10px;
-    font-size: 27px;
+    font-size: 24px;
     margin-left: -1px;
     line-height: 1.25;
     color: #fff;
     background-color: #9718e4;
     border: none;
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     text-align: center;
 }
+
 .productlist-page-link:hover {
     position: relative;
     display: block;
     padding: .5rem .75rem;
     margin: 0px 10px;
-    font-size: 27px;
+    font-size: 24px;
     margin-left: -1px;
     line-height: 1.25;
     color: #9718e4;
     background-color: #fff;
     border: 2px solid #9718e4;
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     text-align: center;
     transition: all 0.5s;
 }
@@ -5636,22 +5669,27 @@ figure.zoom img {
     }
     .footer-bottom {
         margin-bottom: 15px;
+        padding: 5px 5px;
     }
-      .footer-frame {
+    .footer-frame {
         overflow: hidden;
-        height: 35px;
+        height: 40px;
     }
     .footer-menu {
         background-color: #b3b3b3;
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-top: 50px;
-        padding-bottom: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         text-align: center;
     }
     .footer-facebook-position {
-        padding-left: 16px;
+        padding-left: 30px;
         padding-right: 16px;
+    }
+    .footer-icon-size {
+        font-size: 20px;
+        margin-top: -5px;
     }
     /*--------------------------
     ------- END FOOTER 414 -----
@@ -6768,8 +6806,8 @@ figure.zoom img {
     }
     .order-con-float-right {
         float: unset;
-        margin: 25px 70px;
-    }   
+        margin: 25px 107px;
+    } 
     /*----------------------------
     ---- END ORDER SUBMIT 414 ----
     ------------------------------*/
@@ -6870,11 +6908,11 @@ figure.zoom img {
         font-size: 15px;
     }
     .footer-facebook-position {
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .footer-font-social {
-        font-size: 35px;
+        font-size: 50px;
         padding-left: 0px;
         padding-right: 0px;
     }
@@ -7248,6 +7286,7 @@ figure.zoom img {
     .prodetail-inline-text {
         display: -webkit-inline-box;
         margin: 0px 50px;
+        padding-left: 50px;
     }
     .prodetail-menu {
         background-color: #cecece;
@@ -7586,6 +7625,11 @@ figure.zoom img {
             position: relative;
             overflow: hidden;
             height: 117px;
+        }
+        .footer-font-social {
+            font-size: 40px;
+            padding-left: 0px;
+            padding-right: 0px;
         }
       /*--------------------------
       -------- END HOME 320 -------
@@ -8010,6 +8054,7 @@ figure.zoom img {
     .prodetail-inline-text {
         display: -webkit-inline-box;
         margin: 35px 24px;
+        padding-left: 55px;
     }
     .prodetail-img-bands {
         position: relative;

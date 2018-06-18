@@ -39,130 +39,144 @@
         </div> 
 
 
-<div class="art-size-web">
+        <div class="art-size-web">
 
 
-    <div class="container-fluid">
-      <div class="row">
-          <div class="col-lg-12 ">
-            <h1 class="text-center text-md-left art_h2_top ">บทความ</h1>
-          </div>
-        <hr class="art_hr_width">
-      </div>
-
-            <center>
+            <div class="container-fluid">
               <div class="row">
-                <div class="col-lg-4 col-md-6 mt-md-5">
-                  <div class="art_c_a art_top_mer" >
-                    <div class="art_fram_img">
-                      <a href="#"><img class="card-img-top art_img-card" src="assets/images/slide/tumblr_n9hyqfJavs1st5lhmo1_1280-900x502.jpg" alt="Card image cap"></a>
+                  <div class="col-lg-12 ">
+                    <h1 class="text-center text-md-left art_h2_top ">บทความ</h1>
+                  </div>
+                <hr class="art_hr_width">
+              </div>
+
+                    <center>
+                      <div class="row">
+                        <div class="col-lg-4 col-md-6 mt-md-5">
+                          <div class="art_c_a art_top_mer" >
+                            <div class="art_fram_img">
+                              <a href="#"><img class="card-img-top art_img-card" src="assets/images/slide/tumblr_n9hyqfJavs1st5lhmo1_1280-900x502.jpg" alt="Card image cap"></a>
+                            </div>
+                            <div class="card-body  text-left">
+                              <a href="#"><h5 class="card-title art_text_h">What is Lorem Ipsum?</h5>
+                              <p class="card-text art_color">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's</p></a>
+                              <a href="#" class="art_color-1">2015-05-20</a>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 mt-md-5">
+                          <div class="art_c_a art_top_mer" >
+                            <div class="art_fram_img">
+                              <a href="#"><img class="card-img-top art_img-card" src="assets/images/slide/tumblr_n9hyqfJavs1st5lhmo1_1280-900x502.jpg" alt="Card image cap"></a>
+                            </div>
+                            <div class="card-body  text-left">
+                              <a href="#"><h5 class="card-title art_text_h ">What is Lorem Ipsum?</h5>
+                              <p class="card-text art_color">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's</p></a>
+                              <a href="#" class="art_color-1">2015-05-20</a>
+                            </div>
+                          </div>
+                        </div>
+
+                         <div class="col-lg-4 col-md-6 mt-md-5">
+                          <div class="art_c_a art_top_mer" >
+                            <div class="art_fram_img">
+                              <a href="#"><img class="card-img-top art_img-card" src="assets/images/slide/tumblr_n9hyqfJavs1st5lhmo1_1280-900x502.jpg" alt="Card image cap"></a>
+                            </div>
+                            <div class="card-body  text-left">
+                              <a href="#"><h5 class="card-title art_text_h">What is Lorem Ipsum?</h5>
+                              <p class="card-text art_color">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's</p></a>
+                              <a href="#" class="art_color-1 ">2015-05-20</a>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 mt-md-5">
+                          <div class="art_c_a art_top_mer" >
+                            <div class="art_fram_img">
+                              <a href="#"><img class="card-img-top art_img-card" src="assets/images/slide/tumblr_n9hyqfJavs1st5lhmo1_1280-900x502.jpg" alt="Card image cap"></a>
+                            </div>
+                            <div class="card-body  text-left">
+                              <a href="#"><h5 class="card-title art_text_h ">What is Lorem Ipsum?</h5>
+                              <p class="card-text art_color">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's</p></a>
+                              <a href="#" class="art_color-1">2015-05-20</a>
+                            </div>
+                          </div>
+                        </div>
+
+                       <div class="col-lg-4 col-md-6 mt-md-5">
+                          <div class="art_c_a art_top_mer" >
+                            <div class="art_fram_img">
+                              <a href="#"><img class="card-img-top art_img-card" src="assets/images/slide/tumblr_n9hyqfJavs1st5lhmo1_1280-900x502.jpg" alt="Card image cap"></a>
+                            </div>
+                            <div class="card-body  text-left">
+                              <a href="#"><h5 class="card-title art_text_h ">What is Lorem Ipsum?</h5>
+                              <p class="card-text art_color ">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's</p></a>
+                              <a href="#" class="art_color-1">2015-05-20</a>
+                            </div>
+                          </div>
+                        </div>
+
+                       <div class="col-lg-4 col-md-6 mt-md-5">
+                          <div class="art_c_a art_top_mer" >
+                            <div class="art_fram_img">
+                              <a href="#"><img class="card-img-top art_img-card" src="assets/images/slide/tumblr_n9hyqfJavs1st5lhmo1_1280-900x502.jpg" alt="Card image cap"></a>
+                            </div>
+                            <div class="card-body  text-left">
+                              <a href="#"><h5 class="card-title art_text_h ">What is Lorem Ipsum?</h5>
+                              <p class="card-text art_color ">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's</p></a>
+                              <a href="#" class="art_color-1">2015-05-20</a>
+                            </div>
+                          </div>
+                        </div>
                     </div>
-                    <div class="card-body  text-left">
-                      <a href="#"><h5 class="card-title art_text_h">What is Lorem Ipsum?</h5>
-                      <p class="card-text art_color">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's</p></a>
-                      <a href="#" class="art_color-1">2015-05-20</a>
+                </center>
+              </div>
+
+                <div class="container">
+                  <div class="row py-lg-5 py-2">
+                    <div class="col-12">
+                      <nav aria-label="Page navigation example">
+                        <ul class="pagination justify-content-center">
+                          <li class="page-item">
+                            <a class="productlist-page-link" href="#" tabindex="-1">
+                              <i class="fa fa-caret-left" aria-hidden="true"></i>
+                            </a>
+                          </li>
+                          <li class="page-item"><a class="productlist-page-link" href="#">1</a></li>
+                          <li class="page-item"><a class="productlist-page-link" href="#">2</a></li>
+                          <li class="page-item"><a class="productlist-page-link" href="#">3</a></li>
+                          <li class="page-item">
+                            <a class="productlist-page-link" href="#">
+                              <i class="fa fa-caret-right" aria-hidden="true"></i>
+                            </a>
+                          </li>
+                        </ul>
+                      </nav>                
                     </div>
                   </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 mt-md-5">
-                  <div class="art_c_a art_top_mer" >
-                    <div class="art_fram_img">
-                      <a href="#"><img class="card-img-top art_img-card" src="assets/images/slide/tumblr_n9hyqfJavs1st5lhmo1_1280-900x502.jpg" alt="Card image cap"></a>
-                    </div>
-                    <div class="card-body  text-left">
-                      <a href="#"><h5 class="card-title art_text_h ">What is Lorem Ipsum?</h5>
-                      <p class="card-text art_color">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's</p></a>
-                      <a href="#" class="art_color-1">2015-05-20</a>
-                    </div>
-                  </div>
-                </div>
 
-                 <div class="col-lg-4 col-md-6 mt-md-5">
-                  <div class="art_c_a art_top_mer" >
-                    <div class="art_fram_img">
-                      <a href="#"><img class="card-img-top art_img-card" src="assets/images/slide/tumblr_n9hyqfJavs1st5lhmo1_1280-900x502.jpg" alt="Card image cap"></a>
+                    <div class="row art-my-5 ">
+                      <div class="col-md-6 col-12 mb-3">
+                        <div class="art_fram_1">
+                          <img src="assets/images/product/HTB1.jpg" class="art_img_1">
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-12 mb-3">
+                        <div class="art_fram_1">
+                          <img src="assets/images/product/HTB1.jpg" class="art_img_1">
+                        </div>
+                      </div>
                     </div>
-                    <div class="card-body  text-left">
-                      <a href="#"><h5 class="card-title art_text_h">What is Lorem Ipsum?</h5>
-                      <p class="card-text art_color">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's</p></a>
-                      <a href="#" class="art_color-1 ">2015-05-20</a>
-                    </div>
-                  </div>
-                </div>
 
-                <div class="col-lg-4 col-md-6 mt-md-5">
-                  <div class="art_c_a art_top_mer" >
-                    <div class="art_fram_img">
-                      <a href="#"><img class="card-img-top art_img-card" src="assets/images/slide/tumblr_n9hyqfJavs1st5lhmo1_1280-900x502.jpg" alt="Card image cap"></a>
-                    </div>
-                    <div class="card-body  text-left">
-                      <a href="#"><h5 class="card-title art_text_h ">What is Lorem Ipsum?</h5>
-                      <p class="card-text art_color">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's</p></a>
-                      <a href="#" class="art_color-1">2015-05-20</a>
-                    </div>
-                  </div>
-                </div>
 
-               <div class="col-lg-4 col-md-6 mt-md-5">
-                  <div class="art_c_a art_top_mer" >
-                    <div class="art_fram_img">
-                      <a href="#"><img class="card-img-top art_img-card" src="assets/images/slide/tumblr_n9hyqfJavs1st5lhmo1_1280-900x502.jpg" alt="Card image cap"></a>
-                    </div>
-                    <div class="card-body  text-left">
-                      <a href="#"><h5 class="card-title art_text_h ">What is Lorem Ipsum?</h5>
-                      <p class="card-text art_color ">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's</p></a>
-                      <a href="#" class="art_color-1">2015-05-20</a>
-                    </div>
-                  </div>
-                </div>
 
-               <div class="col-lg-4 col-md-6 mt-md-5">
-                  <div class="art_c_a art_top_mer" >
-                    <div class="art_fram_img">
-                      <a href="#"><img class="card-img-top art_img-card" src="assets/images/slide/tumblr_n9hyqfJavs1st5lhmo1_1280-900x502.jpg" alt="Card image cap"></a>
-                    </div>
-                    <div class="card-body  text-left">
-                      <a href="#"><h5 class="card-title art_text_h ">What is Lorem Ipsum?</h5>
-                      <p class="card-text art_color ">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's</p></a>
-                      <a href="#" class="art_color-1">2015-05-20</a>
-                    </div>
-                  </div>
-                </div>
-            </div>
-        </center>
+        </div> 
+      <div class="productlist-img-footer">
+        <img src="assets/images/slide/Slider-02.png" class="home-img-bands">
       </div>
-
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12 col-12 ">
-               <div class="text-center">
-                <button type="button" class="btn btn-blue art-lo">แสดงเพิ่มเติม</button>
-               </div>
-            </div> 
-          </div> 
-        </div>
-
-
-            <div class="row art-my-5 ">
-              <div class="col-md-6 col-12 mb-3">
-                <div class="art_fram_1">
-                  <img src="assets/images/product/HTB1.jpg" class="art_img_1">
-                </div>
-              </div>
-              <div class="col-md-6 col-12 mb-3">
-                <div class="art_fram_1">
-                  <img src="assets/images/product/HTB1.jpg" class="art_img_1">
-                </div>
-              </div>
-            </div>
-
-
-
-</div> 
-          <div class="art_img_last-9">
-            <img  src="assets/images/slide/Slider-02.png" class="art-img-last">
-          </div>
       
 
  

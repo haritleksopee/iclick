@@ -147,7 +147,7 @@
         <div class="row brand-mt px-3 mb-5">
           <div class="col-12">
             <div class="text-center order-mt-30-414">
-              <button type="button" class="btn bnt-purple bnt-adjunct">เลือกสินค้าต่อ</button>
+              <button type="button" class="btn bnt-purple bnt-adjunct" onclick="window.location.href='product-list.php';">เลือกสินค้าต่อ</button>
             </div>
           </div>
         </div>

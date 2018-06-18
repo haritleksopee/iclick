@@ -175,7 +175,7 @@
 
               <div class="prodetail-mx-55 prodetail-mt-20 text-secondary">
                    <div>
-                     <button type="button" class="btn bnt-purple prodetail-add">เพิ่มสินค้าลงในตะกร้า</button>
+                     <button type="button" class="btn bnt-purple prodetail-add" onclick="window.location.href='cart.php';">เพิ่มสินค้าลงในตะกร้า</button>
                    </div>
               </div>
 
@@ -277,14 +277,9 @@
           </div>
 
           <div class="col-12">
-            <div class="prodetail-mt-50 text-secondary prodetail-inline-text">
-              <div>
+            <div class="text-secondary">
+              <div class="text-md-left text-center pt-md-5 pt-4">
                 <button type="button" class="btn prodetail-btn-size"><i class="fa fa-print" aria-hidden="true"></i></button>
-              </div>
-              <div>
-                <button type="button" class="btn prodetail-btn-size"><i class="fa fa-clone" aria-hidden="true"></i></button>
-              </div>
-              <div>
                 <button type="button" class="btn prodetail-btn-size"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
               </div>
             </div>

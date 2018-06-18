@@ -48,7 +48,7 @@
                       </div>
                       <div class="col-lg-4 col-md-6 col-12 ">
                         <div class="text-center">
-                           <button type="button" class="btn btn-blue login-lo ">LOGIN</button>
+                           <button type="button" class="btn btn-blue bnt-purple">LOGIN</button>
                         </div>
                       </div>
                     </div>
@@ -61,27 +61,27 @@
                       </div>
                     <div class="col-lg-4 col-md-6 col-12 mt-lg-4">
                     <div class="text-center re-top ">
-                      <button type="button" class="btn regidter-btn-facebook login-face-whit ">
-                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                        <font class="re-tap ">Sing Up with Facebook</font>
-                      </button> 
+                      <button type="button" class="btn signup-btn-facebook width100" style="height: 50px;">
+                        <span class="login-facebook-icon"><i class="fa fa-facebook-official" aria-hidden="true"></i></span>
+                        <span class="login-facebook-text">Sign Up with Facebook</span>
+                      </button>
                     </div>
                   </div>
                </div>
 
 
-                    <div class="form-group row ">
-                      <div class="col-lg-4 col-md-3 col-12 text-md-right text-sm-center text-center ">
-                        <label class="col-form-label text-lightblue login-text-cen"></label>
-                        </div>
-                    <div class="col-lg-4 col-md-6 col-12 ">
-                    <div class="text-center re-top ">
-                      <button type="button" class="btn login-goog-whit ">
-                        <i class="fa fa-google-plus" aria-hidden="true"></i>
-                        <font class="re-tap ">Sing Up with google</font>
-                      </button>
+                <div class="form-group row ">
+                    <div class="col-lg-4 col-md-3 col-12 text-md-right text-sm-center text-center ">
+                      <label class="col-form-label text-lightblue login-text-cen"></label>
                     </div>
-                  </div>
+                    <div class="col-lg-4 col-md-6 col-12 ">
+                      <div class="text-center re-top ">
+                        <button type="button" class="btn signup-btn-gmail width100" style="height: 50px;">
+                          <span class="login-gmail-icon"><i class="fa fa-google" aria-hidden="true"></i></span>
+                          <span class="login-gmail-text">Sign Up with Google</span>
+                        </button>
+                      </div>
+                    </div>
                 </div>
              </form>
           </div>

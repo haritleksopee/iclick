@@ -125,7 +125,7 @@
                   <div class="mb-3 overlay-img">
                     <img class="card-img-top image-full" src="assets/images/product/1.jpg" alt="Card image cap">
                     <div class="overlay">
-                      <a href="#" class="text-overlay">
+                      <a href="product-detail.php" class="text-overlay">
                           <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
                           <p>ใส่ตะกร้า</p>
                       </a>
@@ -166,7 +166,7 @@
                   <div class="mb-3 overlay-img">
                     <img class="card-img-top image-full" src="assets/images/product/2.jpg" alt="Card image cap">
                     <div class="overlay">
-                      <a href="#" class="text-overlay">
+                      <a href="product-detail.php" class="text-overlay">
                           <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
                           <p>ใส่ตะกร้า</p>
                       </a>
@@ -199,7 +199,7 @@
                   <div class="mb-3 overlay-img">
                     <img class="card-img-top image-full" src="assets/images/product/3.jpg" alt="Card image cap">
                     <div class="overlay">
-                      <a href="#" class="text-overlay">
+                      <a href="product-detail.php" class="text-overlay">
                           <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
                           <p>ใส่ตะกร้า</p>
                       </a>
@@ -232,7 +232,7 @@
                   <div class="mb-3 overlay-img">
                     <img class="card-img-top image-full" src="assets/images/product/4.jpg" alt="Card image cap">
                     <div class="overlay">
-                      <a href="#" class="text-overlay">
+                      <a href="product-detail.php" class="text-overlay">
                           <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
                           <p>ใส่ตะกร้า</p>
                       </a>
@@ -279,7 +279,7 @@
                   <div class="mb-3 overlay-img">
                     <img class="card-img-top image-full" src="assets/images/product/5.jpg" alt="Card image cap">
                     <div class="overlay">
-                      <a href="#" class="text-overlay">
+                      <a href="product-detail.php" class="text-overlay">
                           <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
                           <p>ใส่ตะกร้า</p>
                       </a>
@@ -312,7 +312,7 @@
                   <div class="mb-3 overlay-img">
                     <img class="card-img-top image-full" src="assets/images/product/1.jpg" alt="Card image cap">
                     <div class="overlay">
-                      <a href="#" class="text-overlay">
+                      <a href="product-detail.php" class="text-overlay">
                           <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
                           <p>ใส่ตะกร้า</p>
                       </a>
@@ -353,7 +353,7 @@
                   <div class="mb-3 overlay-img">
                     <img class="card-img-top image-full" src="assets/images/product/2.jpg" alt="Card image cap">
                     <div class="overlay">
-                      <a href="#" class="text-overlay">
+                      <a href="product-detail.php" class="text-overlay">
                           <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
                           <p>ใส่ตะกร้า</p>
                       </a>
@@ -386,7 +386,7 @@
                   <div class="mb-3 overlay-img">
                     <img class="card-img-top image-full" src="assets/images/product/3.jpg" alt="Card image cap">
                     <div class="overlay">
-                      <a href="#" class="text-overlay">
+                      <a href="product-detail.php" class="text-overlay">
                           <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
                           <p>ใส่ตะกร้า</p>
                       </a>
@@ -433,7 +433,7 @@
                   <div class="mb-3 overlay-img">
                     <img class="card-img-top image-full" src="assets/images/product/4.jpg" alt="Card image cap">
                     <div class="overlay">
-                      <a href="#" class="text-overlay">
+                      <a href="product-detail.php" class="text-overlay">
                           <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
                           <p>ใส่ตะกร้า</p>
                       </a>
@@ -480,7 +480,7 @@
                   <div class="mb-3 overlay-img">
                     <img class="card-img-top image-full" src="assets/images/product/5.jpg" alt="Card image cap">
                     <div class="overlay">
-                      <a href="#" class="text-overlay">
+                      <a href="product-detail.php" class="text-overlay">
                           <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
                           <p>ใส่ตะกร้า</p>
                       </a>
@@ -521,7 +521,7 @@
                   <div class="mb-3 overlay-img">
                     <img class="card-img-top image-full" src="assets/images/product/1.jpg" alt="Card image cap">
                     <div class="overlay">
-                      <a href="#" class="text-overlay">
+                      <a href="product-detail.php" class="text-overlay">
                           <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
                           <p>ใส่ตะกร้า</p>
                       </a>
@@ -562,7 +562,7 @@
                   <div class="mb-3 overlay-img">
                     <img class="card-img-top image-full" src="assets/images/product/2.jpg" alt="Card image cap">
                     <div class="overlay">
-                      <a href="#" class="text-overlay">
+                      <a href="product-detail.php" class="text-overlay">
                           <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
                           <p>ใส่ตะกร้า</p>
                       </a>
@@ -595,7 +595,7 @@
                   <div class="mb-3 overlay-img">
                     <img class="card-img-top image-full" src="assets/images/product/3.jpg" alt="Card image cap">
                     <div class="overlay">
-                      <a href="#" class="text-overlay">
+                      <a href="product-detail.php" class="text-overlay">
                           <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
                           <p>ใส่ตะกร้า</p>
                       </a>
@@ -628,7 +628,7 @@
                   <div class="mb-3 overlay-img">
                     <img class="card-img-top image-full" src="assets/images/product/4.jpg" alt="Card image cap">
                     <div class="overlay">
-                      <a href="#" class="text-overlay">
+                      <a href="product-detail.php" class="text-overlay">
                           <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
                           <p>ใส่ตะกร้า</p>
                       </a>
@@ -675,7 +675,7 @@
                   <div class="mb-3 overlay-img">
                     <img class="card-img-top image-full" src="assets/images/product/5.jpg" alt="Card image cap">
                     <div class="overlay">
-                      <a href="#" class="text-overlay">
+                      <a href="product-detail.php" class="text-overlay">
                           <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
                           <p>ใส่ตะกร้า</p>
                       </a>

@@ -43,30 +43,34 @@
     <!-- TEXT LEFT -->
     <ul class="navbar-nav">
 
-      <li class="nav-item nav-border-right">
-        <a class="nav-link" href="home.php">หน้าแรก</a>
+      <?php $link = $_SERVER['HTTP_HOST'] .$_SERVER['REQUEST_URI'];
+
+      ?>
+
+      <li class="nav-item">
+        <a class="nav-link <?php if($link == 'localhost/iclick/home.php'){echo 'nav-link-active';} ?> nav-border-right" href="home.php">หน้าแรก</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link <?php if($link == 'localhost/iclick/product-list.php'){echo 'nav-link-active';} ?> nav-border-right" href="product-list.php">รายการสินค้า</a>
       </li>
       <li class="nav-item nav-border-right">
-        <a class="nav-link" href="product-list.php">รายการสินค้า</a>
-      </li>
-      <li class="nav-item nav-border-right">
-        <a class="nav-link" href="pay.php">แจ้งชำระเงิน</a>
+        <a class="nav-link <?php if($link == 'localhost/iclick/pay.php'){echo 'nav-link-active';} ?>" href="pay.php">แจ้งชำระเงิน</a>
       </li> 
       <li class="nav-item dropdown nav-border-right">
-        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        <a class="nav-link dropdown-toggle  <?php if($link == 'localhost/iclick/howto-qa.php'){echo 'nav-link-active';} ?>" href="#" id="navbardrop" data-toggle="dropdown">
           ช่วยเหลือ
         </a>
         <div class="dropdown-menu navbar-dropdown nav-dropdown-color">
-          <a class="dropdown-item text-white font-sizelg" href="howto-qa.php">ช่วยเหลือ 1</a>
-          <a class="dropdown-item text-white font-sizelg" href="howto-qa.php">ช่วยเหลือ 2</a>
-          <a class="dropdown-item text-white font-sizelg" href="howto-qa.php">ช่วยเหลือ 3</a>
+          <a class="dropdown-item text-white font-sizelg " href="howto-qa.php">ช่วยเหลือ 1</a>
+          <a class="dropdown-item text-white font-sizelg " href="howto-qa.php">ช่วยเหลือ 2</a>
+          <a class="dropdown-item text-white font-sizelg " href="howto-qa.php">ช่วยเหลือ 3</a>
         </div>
       </li>
       <li class="nav-item nav-border-right">
-        <a class="nav-link" href="article.php">บทความ</a>
+        <a class="nav-link <?php if($link == 'localhost/iclick/article.php'){echo 'nav-link-active';} ?>" href="article.php">บทความ</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        <a class="nav-link dropdown-toggle <?php if($link == 'localhost/iclick/about.php'){echo 'nav-link-active';} ?>" href="#" id="navbardrop" data-toggle="dropdown">
           เกี่ยวกับเรา
         </a>
         <div class="dropdown-menu navbar-dropdown nav-dropdown-color">
@@ -80,30 +84,33 @@
     <!-- TEXT RIGHT -->
     <ul class="navbar-nav nav-right-auto">
       <li class="nav-item">
-        <a class="nav-link nav-link-right" href="login.php">เข้าสู่ระบบ</a>
+        <a class="nav-link nav-link-right <?php if($link == 'localhost/iclick/login.php'){echo 'nav-link-active';} ?>" href="login.php">เข้าสู่ระบบ</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link nav-link-right" href="signup.php">สมัครสมาชิก</a>
+        <a class="nav-link nav-link-right <?php if($link == 'localhost/iclick/signup.php'){echo 'nav-link-active';} ?>" href="signup.php">สมัครสมาชิก</a>
       </li>     
     </ul>
     <!-- END TEXT RIGHT -->
 
 
     <ul class="navbar-nav nav-right-auto display-show-sm">
+      <?php $link = $_SERVER['HTTP_HOST'] .$_SERVER['REQUEST_URI'];
+
+      ?>
       <li class="nav-item">
-        <a class="nav-link nav-link-right" href="#">เคสไอโฟน</a>
+        <a class="nav-link nav-link-right" href="brands.php">เคสไอโฟน</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link nav-link-right" href="#">เพาเวอร์แบงค์</a>
+        <a class="nav-link nav-link-right" href="brands.php">เพาเวอร์แบงค์</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link nav-link-right" href="#">สายชาร์จ</a>
+        <a class="nav-link nav-link-right" href="brands.php">สายชาร์จ</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link nav-link-right" href="#">เมมโมรี่การ์ด</a>
+        <a class="nav-link nav-link-right" href="brands.php">เมมโมรี่การ์ด</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link nav-link-right" href="#">อแดปเตอร์</a>
+        <a class="nav-link nav-link-right" href="brands.php">อแดปเตอร์</a>
       </li>     
     </ul>
 
@@ -117,20 +124,23 @@
 <nav class="navbar navbar2-color-blue navbar-expand-sm bg-dark navbar-dark display-none-sm">
   <!-- TEXT LEFT -->
   <ul class="navbar-nav mx-5 navbar2-auto-responsive">
+    <?php $link = $_SERVER['HTTP_HOST'] .$_SERVER['REQUEST_URI'];
+
+    ?>
     <li class="nav-item">
-      <a class="nav-link2" href="#">เคสไอโฟน</a>
+      <a class="nav-link" href="brands.php">เคสไอโฟน</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link2" href="#">เพาเวอร์แบงค์</a>
+      <a class="nav-link" href="brands.php">เพาเวอร์แบงค์</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link2" href="#">สายชาร์จ</a>
+      <a class="nav-link" href="brands.php">สายชาร์จ</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link2" href="#">เมมโมรี่การ์ด</a>
+      <a class="nav-link" href="brands.php">เมมโมรี่การ์ด</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link2" href="#">อแดปเตอร์</a>
+      <a class="nav-link" href="brands.php">อแดปเตอร์</a>
     </li>
   </ul>
   <!-- END TEXT LEFT -->

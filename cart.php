@@ -247,7 +247,7 @@
             </div>
             <div class="col-sm-6 col-12 mb-3">
               <div class="text-center">
-                <button type="button" class="btn bnt-purple signup-btn-border-none">ยืนยันคำสั่งซื้อ</button>
+                <button type="button" class="btn bnt-purple signup-btn-border-none" onclick="window.location.href='order-confirm.php';">ยืนยันคำสั่งซื้อ</button>
               </div>
             </div>
           </div>

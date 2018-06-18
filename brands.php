@@ -23,42 +23,42 @@
             <div class="row brand-mt"> 
                 <div class="col-xl-3 col-lg-4 col-md-6 mt-4">
                      <div class="brand-blog-img">
-                         <a href="#">
+                         <a href="product-list.php">
                            <img src="https://www.iclickstore.com/wp-content/uploads/2017/04/energy-146x60.png" style="width: 100%; height: 100%;">
                          </a>
                      </div>
                      <div class="mt-4">
-                         <button class="bnt-purple2">เลือก</button>
+                         <button class="bnt-purple2" onclick="window.location.href='product-list.php';" style="cursor: pointer;">เลือก</button>
                      </div>
                 </div>           
                 <div class="col-xl-3 col-lg-4 col-md-6 mt-4">
                      <div class="brand-blog-img">
-                         <a href="#">
+                         <a href="product-list.php">
                            <img src="https://www.iclickstore.com/wp-content/uploads/2017/04/energy-146x60.png" style="width: 100%; height: 100%;">
                          </a>
                      </div>
                      <div class="mt-4">
-                         <button class="bnt-purple2">เลือก</button>
+                         <button class="bnt-purple2" onclick="window.location.href='product-list.php';" style="cursor: pointer;">เลือก</button>
                      </div>
                 </div>       
                 <div class="col-xl-3 col-lg-4 col-md-6 mt-4">
                      <div class="brand-blog-img">
-                         <a href="#">
+                         <a href="product-list.php">
                            <img src="https://www.iclickstore.com/wp-content/uploads/2017/04/energy-146x60.png" style="width: 100%; height: 100%;">
                          </a>
                      </div>
                      <div class="mt-4">
-                         <button class="bnt-purple2">เลือก</button>
+                         <button class="bnt-purple2" onclick="window.location.href='product-list.php';" style="cursor: pointer;">เลือก</button>
                      </div>
                 </div>          
                 <div class="col-xl-3 col-lg-4 col-md-6 mt-4">
                      <div class="brand-blog-img">
-                         <a href="#">
+                         <a href="product-list.php">
                             <img src="https://www.iclickstore.com/wp-content/uploads/2017/04/energy-146x60.png" style="width: 100%; height: 100%;">
                          </a>
                      </div>
                      <div class="mt-4">
-                         <button class="bnt-purple2">เลือก</button>
+                         <button class="bnt-purple2" onclick="window.location.href='product-list.php';" style="cursor: pointer;">เลือก</button>
                      </div>
                 </div>
             </div>

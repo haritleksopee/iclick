@@ -236,7 +236,7 @@
                      <button type="button" class="bnt-white mt-4">ยกเลิก</button>
                  </div>
                  <div class="col-xl-2 col-lg-3  col-md-4">
-                     <button type="button" class="bnt-purple2 mt-4">ยืนยันข้อมูล</button>
+                     <button type="button" class="bnt-purple2 mt-4" onclick="window.location.href='payconfirm.php';">ยืนยันข้อมูล</button>
                  </div>
            </div>
      </div>

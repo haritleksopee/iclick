@@ -68,7 +68,7 @@
         <div class="row">
           <div class="col-lg-12 col-12 ">
              <div class="text-center">
-                <button type="button" class="btn btn-blue con-lo">ย้อนกลับ</button>
+                <button type="button" class="btn btn-blue con-lo" onclick="window.location.href='article.php';">ย้อนกลับ</button>
              </div>
           </div>
         </div>
@@ -85,12 +85,12 @@
           <div class="col-lg-4 mt-lg-5 col-md-6">
             <div class="con_c_a con_top_mer" >
               <div class="con_fram_img-l">
-                <a href="#"><img class="card-img-top con_img-card-l" src="assets/images/slide/tumblr_n9hyqfJavs1st5lhmo1_1280-900x502.jpg" alt="Card image cap"></a>
+                <a href="content.php"><img class="card-img-top con_img-card-l" src="assets/images/slide/tumblr_n9hyqfJavs1st5lhmo1_1280-900x502.jpg" alt="Card image cap"></a>
               </div>
               <div class="card-body ">
-                <a href="#"><h5 class="card-title con_text_h">What is Lorem Ipsum?</h5>
+                <a href="content.php"><h5 class="card-title con_text_h">What is Lorem Ipsum?</h5>
                 <p class="card-text con_color">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's</p></a>
-                <a href="#" class="con_color-1">2015-05-20</a>
+                <a href="content.php" class="con_color-1">2015-05-20</a>
               </div>
             </div>
           </div>  
@@ -98,12 +98,12 @@
            <div class="col-lg-4 mt-lg-5 col-md-6">
             <div class="con_c_a con_top_mer" >
               <div class="con_fram_img-l">
-                <a href="#"><img class="card-img-top con_img-card-l" src="assets/images/slide/tumblr_n9hyqfJavs1st5lhmo1_1280-900x502.jpg" alt="Card image cap"></a>
+                <a href="content.php"><img class="card-img-top con_img-card-l" src="assets/images/slide/tumblr_n9hyqfJavs1st5lhmo1_1280-900x502.jpg" alt="Card image cap"></a>
               </div>
               <div class="card-body ">
-                <a href="#"><h5 class="card-title con_text_h">What is Lorem Ipsum?</h5>
+                <a href="content.php"><h5 class="card-title con_text_h">What is Lorem Ipsum?</h5>
                 <p class="card-text con_color">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's</p></a>
-                <a href="#" class="con_color-1">2015-05-20</a>
+                <a href="content.php" class="con_color-1">2015-05-20</a>
               </div>
             </div>
           </div>  
@@ -111,12 +111,12 @@
          <div class="col-lg-4 mt-lg-5 col-md-6>
             <div class="con_c_a con_top_mer" >
               <div class="con_fram_img-l">
-                <a href="#"><img class="card-img-top con_img-card-l" src="assets/images/slide/tumblr_n9hyqfJavs1st5lhmo1_1280-900x502.jpg" alt="Card image cap"></a>
+                <a href="content.php"><img class="card-img-top con_img-card-l" src="assets/images/slide/tumblr_n9hyqfJavs1st5lhmo1_1280-900x502.jpg" alt="Card image cap"></a>
               </div>
               <div class="card-body">
-                <a href="#"><h5 class="card-title con_text_h">What is Lorem Ipsum?</h5>
+                <a href="content.php"><h5 class="card-title con_text_h">What is Lorem Ipsum?</h5>
                 <p class="card-text con_color">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's</p></a>
-                <a href="#" class="con_color-1">2015-05-20</a>
+                <a href="content.php" class="con_color-1">2015-05-20</a>
               </div>
             </div>
           </div>  
@@ -139,9 +139,9 @@
 
 
 </div> 
-          <div class="con_img_last-9">
-            <img  src="assets/images/slide/Slider-02.png" class="con-img-last">
-          </div>
+      <div class="productlist-img-footer">
+        <img src="assets/images/slide/Slider-02.png" class="home-img-bands">
+      </div>
     
 
       

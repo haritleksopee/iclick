@@ -29,13 +29,13 @@
               <button type="button" class="btn bnt-blue">Subscribe!</button>
             </div>
             <div style="margin-top: 25px;">
-                <a href="#" class="footer-font-social footer-facebook">
+                <a href="https://www.facebook.com/iclickstore.th/" class="footer-font-social footer-facebook">
                   <i class="flaticon-facebook-logo-button"></i>
                 </a>
-                <a href="#" class="footer-font-social footer-youtube">
+                <a href="https://www.youtube.com/?gl=TH" class="footer-font-social footer-youtube">
                   <i class="flaticon-youtube-logotype"></i>
                 </a>
-                <a href="#" class="footer-font-social footer-instargram">
+                <a href="https://www.instagram.com/?hl=th" class="footer-font-social footer-instargram">
                   <i class="flaticon-instagram-logo"></i>
                 </a>    
             </div>
@@ -108,7 +108,7 @@
 
       <div class="row text-left prodetail-mb-0">
         <div class="col-2">
-          <div class="text-xl-center text-center"><i class="fa fa-map-marker" aria-hidden="true" style="font-size: 30px;"></i></div>
+          <div class="text-xl-center text-center footer-icon-size"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
         </div>
         <div class="col-10">
           <p>ที่อยู่: 26 ถนนเฉลิมพระเกียรติ ร.9 ซอย 7 แขวงหนองบอน เขตประเวศ กทม.</p>
@@ -116,7 +116,7 @@
       </div>
       <div class="row text-left prodetail-mb-0">
         <div class="col-2">
-          <div class="text-xl-center text-center"><i class="fa fa-phone" aria-hidden="true" style="font-size: 30px;"></i></div>
+          <div class="text-xl-center text-center footer-icon-size"><i class="fa fa-phone" aria-hidden="true"></i></div>
         </div>
         <div class="col-10">
           <p>เบอร์ติดต่อ:083-495-7959</p>
@@ -124,7 +124,7 @@
       </div>
       <div class="row text-left prodetail-mb-0">
         <div class="col-2">
-          <div class="text-xl-center text-center"><i class="fa fa-envelope" aria-hidden="true" style="font-size: 30px;"></i></div>
+          <div class="text-xl-center text-center footer-icon-size"><i class="fa fa-envelope" aria-hidden="true"></i></div>
         </div>
         <div class="col-10">
           <p>อีเมล:order@iclickstore.com</p>
@@ -136,8 +136,8 @@
     <!-- FOOTER FACEBOOK -->
     <div class="col-xl-3 col-lg-6 col-md-6 order-xl-4 order-lg-3  footer-bottom">
       <div class="text-black">
-        <h3 class="font-weightbold">
-          <img src="assets/images/facebook.png" class="d-md-inline d-none" width="10%"> Link Page
+        <h3 class="font-weightbold d-md-inline d-none ">
+          <img src="assets/images/facebook.png" class="pb-2" width="10%"> Link Page
         </h3>
       </div>
           <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ficlickstore.th%2F&tabs=timeline&width=340&height=250&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=true&appId" class="footer-facebook-respon footer-facebook-position" width="100%" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>

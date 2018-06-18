@@ -39,9 +39,6 @@
                   <button type="button" class="btn prodetail-btn-size"><i class="fa fa-print" aria-hidden="true"></i></button>
                 </div>
                 <div>
-                  <button type="button" class="btn prodetail-btn-size"><i class="fa fa-clone" aria-hidden="true"></i></button>
-                </div>
-                <div>
                   <button type="button" class="btn prodetail-btn-size"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
                 </div>
               </div>
@@ -247,7 +244,7 @@
             </div>
             <div class="col-sm-6 col-12 mb-3">
               <div class="text-center">
-                <button type="button" class="btn bnt-purple signup-btn-border-none">ยืนยันข้อมูล</button>
+                <button type="button" class="btn bnt-purple signup-btn-border-none" onclick="window.location.href='order-submit.php';">ยืนยันข้อมูล</button>
               </div>
             </div>
           </div>

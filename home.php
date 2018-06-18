@@ -72,7 +72,7 @@
                 <div class="mb-3 overlay-img">
                   <img class="card-img-top image-full" src="assets/images/product/1.jpg" alt="Card image cap">
                   <div class="overlay">
-                    <a href="#" class="text-overlay">
+                    <a href="product-detail.php" class="text-overlay">
                         <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
                         <p>ใส่ตะกร้า</p>
                     </a>
@@ -117,7 +117,7 @@
                 <div class="mb-3 overlay-img">
                   <img class="card-img-top image-full" src="assets/images/product/2.jpg" alt="Card image cap">
                   <div class="overlay">
-                    <a href="#" class="text-overlay">
+                    <a href="product-detail.php" class="text-overlay">
                         <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
                         <p>ใส่ตะกร้า</p>
                     </a>
@@ -155,7 +155,7 @@
                 <div class="mb-3 overlay-img">
                   <img class="card-img-top image-full" src="assets/images/product/3.jpg" alt="Card image cap">
                   <div class="overlay">
-                    <a href="#" class="text-overlay">
+                    <a href="product-detail.php" class="text-overlay">
                         <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
                         <p>ใส่ตะกร้า</p>
                     </a>
@@ -193,7 +193,7 @@
                 <div class="mb-3 overlay-img">
                   <img class="card-img-top image-full" src="assets/images/product/4.jpg" alt="Card image cap">
                   <div class="overlay">
-                    <a href="#" class="text-overlay">
+                    <a href="product-detail.php" class="text-overlay">
                         <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
                         <p>ใส่ตะกร้า</p>
                     </a>
@@ -243,7 +243,7 @@
                 <div class="mb-3 overlay-img">
                   <img class="card-img-top image-full" src="assets/images/product/5.jpg" alt="Card image cap">
                   <div class="overlay">
-                    <a href="#" class="text-overlay">
+                    <a href="product-detail.php" class="text-overlay">
                         <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
                         <p>ใส่ตะกร้า</p>
                     </a>
@@ -289,52 +289,52 @@
               <div class="row home-category-top-respon" style="margin-top: 40px;">
                 <div class="col-2-half">
                   <div class="flex-img-category">
-                    <a href="#">
+                    <a href="product-list.php">
                       <img src="assets/images/product/case-400x400.png" class="home-img-bands">
                     </a>
                   </div>
                   <div class="mt-3">
-                    <button type="button" class="btn bnt-purple" style="width: 100%;">เคสไอโฟน</button>
+                    <button type="button" class="btn bnt-purple" style="width: 100%;" onclick="window.location.href='product-list.php';">เคสไอโฟน</button>
                   </div>
                 </div>
                 <div class="col-2-half">
                   <div class="flex-img-category">
-                    <a href="#">
+                    <a href="product-list.php">
                       <img src="assets/images/product/powerbank-400x400.png" class="home-img-bands">
                     </a>
                   </div>
                   <div class="mt-3">
-                    <button type="button" class="btn bnt-purple" style="width: 100%;">พาวเวอร์แบงค์</button>
+                    <button type="button" class="btn bnt-purple" style="width: 100%;" onclick="window.location.href='product-list.php';">พาวเวอร์แบงค์</button>
                   </div>
                 </div>
                 <div class="col-2-half">
                   <div class="flex-img-category">
-                    <a href="#">
+                    <a href="product-list.php">
                       <img src="assets/images/product/cable-400x400.png" class="home-img-bands">
                     </a>
                   </div>
                   <div class="mt-3">
-                    <button type="button" class="btn bnt-purple" style="width: 100%;">สายชาร์จ</button>
+                    <button type="button" class="btn bnt-purple" style="width: 100%;" onclick="window.location.href='product-list.php';">สายชาร์จ</button>
                   </div>
                 </div>
                 <div class="col-2-half">
                   <div class="flex-img-category">
-                    <a href="#">
+                    <a href="product-list.php">
                       <img src="assets/images/product/card-reader-background-400x400.jpg" class="home-img-bands">
                     </a>
                   </div>
                   <div class="mt-3">
-                    <button type="button" class="btn bnt-purple" style="width: 100%;">เมมโมรี การ์ด</button>
+                    <button type="button" class="btn bnt-purple" style="width: 100%;" onclick="window.location.href='product-list.php';">เมมโมรี การ์ด</button>
                   </div>
                 </div>
                 <div class="col-2-half">
                   <div class="flex-img-category">
-                    <a href="#">
+                    <a href="product-list.php">
                       <img src="assets/images/product/adayer-400x400.png" class="home-img-bands">
                     </a>
                   </div>
                   <div class="mt-3">
-                    <button type="button" class="btn bnt-purple" style="width: 100%;">อแดปเตอร์</button>
+                    <button type="button" class="btn bnt-purple" style="width: 100%;" onclick="window.location.href='product-list.php';">อแดปเตอร์</button>
                   </div>
                 </div>
               </div>
@@ -350,7 +350,7 @@
             <img src="assets/images/home/3-iclick_home.png" class="home-img-bands" style="width: 320px;">
           </div>
           <div class="text-center text-blue mb-4">
-            <h1>สินค้ามาใหม่</h1>
+            <h1>สินค้าขายดี</h1>
           </div> 
 
           <div class="row">
@@ -359,7 +359,7 @@
                 <div class="mb-3 overlay-img">
                   <img class="card-img-top image-full" src="assets/images/product/1.jpg" alt="Card image cap">
                   <div class="overlay">
-                    <a href="#" class="text-overlay">
+                    <a href="product-detail.php" class="text-overlay">
                         <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
                         <p>ใส่ตะกร้า</p>
                     </a>
@@ -404,7 +404,7 @@
                 <div class="mb-3 overlay-img">
                   <img class="card-img-top image-full" src="assets/images/product/2.jpg" alt="Card image cap">
                   <div class="overlay">
-                    <a href="#" class="text-overlay">
+                    <a href="product-detail.php" class="text-overlay">
                         <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
                         <p>ใส่ตะกร้า</p>
                     </a>
@@ -442,7 +442,7 @@
                 <div class="mb-3 overlay-img">
                   <img class="card-img-top image-full" src="assets/images/product/3.jpg" alt="Card image cap">
                   <div class="overlay">
-                    <a href="#" class="text-overlay">
+                    <a href="product-detail.php" class="text-overlay">
                         <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
                         <p>ใส่ตะกร้า</p>
                     </a>
@@ -494,7 +494,7 @@
                 <div class="mb-3 overlay-img">
                   <img class="card-img-top image-full" src="assets/images/product/4.jpg" alt="Card image cap">
                   <div class="overlay">
-                    <a href="#" class="text-overlay">
+                    <a href="product-detail.php" class="text-overlay">
                         <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
                         <p>ใส่ตะกร้า</p>
                     </a>
@@ -544,7 +544,7 @@
                 <div class="mb-3 overlay-img">
                   <img class="card-img-top image-full" src="assets/images/product/5.jpg" alt="Card image cap">
                   <div class="overlay">
-                    <a href="#" class="text-overlay">
+                    <a href="product-detail.php" class="text-overlay">
                         <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
                         <p>ใส่ตะกร้า</p>
                     </a>
@@ -587,7 +587,7 @@
                 <div class="mb-3 overlay-img">
                   <img class="card-img-top image-full" src="assets/images/product/1.jpg" alt="Card image cap">
                   <div class="overlay">
-                    <a href="#" class="text-overlay">
+                    <a href="product-detail.php" class="text-overlay">
                         <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
                         <p>ใส่ตะกร้า</p>
                     </a>
@@ -632,7 +632,7 @@
                 <div class="mb-3 overlay-img">
                   <img class="card-img-top image-full" src="assets/images/product/2.jpg" alt="Card image cap">
                   <div class="overlay">
-                    <a href="#" class="text-overlay">
+                    <a href="product-detail.php" class="text-overlay">
                         <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
                         <p>ใส่ตะกร้า</p>
                     </a>
@@ -670,7 +670,7 @@
                 <div class="mb-3 overlay-img">
                   <img class="card-img-top image-full" src="assets/images/product/3.jpg" alt="Card image cap">
                   <div class="overlay">
-                    <a href="#" class="text-overlay">
+                    <a href="product-detail.php" class="text-overlay">
                         <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
                         <p>ใส่ตะกร้า</p>
                     </a>
@@ -708,7 +708,7 @@
                 <div class="mb-3 overlay-img">
                   <img class="card-img-top image-full" src="assets/images/product/4.jpg" alt="Card image cap">
                   <div class="overlay">
-                    <a href="#" class="text-overlay">
+                    <a href="product-detail.php" class="text-overlay">
                         <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
                         <p>ใส่ตะกร้า</p>
                     </a>
@@ -758,7 +758,7 @@
                 <div class="mb-3 overlay-img">
                   <img class="card-img-top image-full" src="assets/images/product/5.jpg" alt="Card image cap">
                   <div class="overlay">
-                    <a href="#" class="text-overlay">
+                    <a href="product-detail.php" class="text-overlay">
                         <i class="fa fa-plus overlay-icon-size" aria-hidden="true"></i>
                         <p>ใส่ตะกร้า</p>
                     </a>
@@ -788,7 +788,7 @@
             </div>
             <div class="col-12">
               <div class="text-center ">
-                <button type="button" class="btn bnt-purple bnt-adjunct">ดูทั้งหมด</button>
+                <button type="button" class="btn bnt-purple bnt-adjunct" onclick="window.location.href='product-list.php';">ดูทั้งหมด</button>
               </div>
             </div>
           </div> 
@@ -817,12 +817,14 @@
                     <div class="card home-card-article-all">
                       <div class="card-header home-card-article">
                         <div class="flex-img-article">
-                          <img class="card-img-top home-img-bands" src="assets/images/img01.jpg" alt="Card image cap">
+                          <a href="article.php">
+                            <img class="card-img-top home-img-bands" src="assets/images/img01.jpg" alt="Card image cap">
+                          </a>
                         </div>
                       </div>
                       <div class="card-body home-card-body-article">
                         <div class="home-fix-head-article">
-                          <h3 class="text-dark-purple font-respon">What is Lorem Ipsum?</h3>
+                          <a href="content.php"><h3 class="text-dark-purple font-respon">What is Lorem Ipsum?</h3></a>
                         </div>
                         <div class="home-text-article">
                           <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
@@ -842,12 +844,14 @@
                     <div class="card home-card-article-all">
                       <div class="card-header home-card-article">
                         <div class="flex-img-article">
-                          <img class="card-img-top home-img-bands" src="assets/images/img02.jpg" alt="Card image cap">
+                          <a href="article.php">
+                            <img class="card-img-top home-img-bands" src="assets/images/img02.jpg" alt="Card image cap">
+                          </a>
                         </div>
                       </div>
                       <div class="card-body home-card-body-article">
                         <div class="home-fix-head-article">
-                          <h3 class="text-dark-purple font-respon">What is Lorem Ipsum?</h3>
+                          <a href="content.php"><h3 class="text-dark-purple font-respon">What is Lorem Ipsum?</h3></a>
                         </div>
                         <div class="home-text-article">
                           <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
@@ -867,12 +871,14 @@
                     <div class="card home-card-article-all">
                       <div class="card-header home-card-article">
                         <div class="flex-img-article">
-                          <img class="card-img-top home-img-bands" src="assets/images/img03.jpg" alt="Card image cap">
+                          <a href="article.php">
+                            <img class="card-img-top home-img-bands" src="assets/images/img03.jpg" alt="Card image cap">
+                          </a>
                         </div>
                       </div>
                       <div class="card-body home-card-body-article">
                         <div class="home-fix-head-article">
-                          <h3 class="text-dark-purple font-respon">What is Lorem Ipsum?</h3>
+                          <a href="content.php"><h3 class="text-dark-purple font-respon">What is Lorem Ipsum?</h3></a>
                         </div>
                         <div class="home-text-article">
                           <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
@@ -888,7 +894,7 @@
                 </div>                
                 <div class="col-12">
                   <div class="text-center mt-3">
-                    <button type="button" class="btn bnt-purple bnt-adjunct" style="border: none;">ดูทั้งหมด</button>
+                    <button type="button" class="btn bnt-purple bnt-adjunct" style="border: none;" onclick="window.location.href='article.php';">ดูทั้งหมด</button>
                   </div>
                 </div>
               </div>
